@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/taxonomy/term/301/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Understanding Elections - Discussion</title>
+ <link>http://archive.p2pu.org/managing-election-campaigns-mar-2010/discussion/understanding-elections-discussion</link>
+ <description>&lt;p&gt;
+&lt;strong&gt;Understanding Elections &amp;ndash; Week 1&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/managing-election-campaigns-mar-2010&quot;&gt;Managing Election Campaigns - Mar 2010&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/managing-election-campaigns-mar-2010/discussion/understanding-elections-discussion&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/managing-election-campaigns-mar-2010/discussion/understanding-elections-discussion#comments</comments>
+ <category domain="http://archive.p2pu.org/taxonomy/term/301">General discussion</category>
+ <category domain="http://archive.p2pu.org/category/discussion-tags/campaign">campaign</category>
+ <category domain="http://archive.p2pu.org/category/discussion-tags/elections">elections</category>
+ <category domain="http://archive.p2pu.org/category/discussion-tags/local">local</category>
+ <category domain="http://archive.p2pu.org/category/discussion-tags/problems">problems</category>
+ <group domain="http://archive.p2pu.org/managing-election-campaigns-mar-2010" xmlns="http://drupal.org/project/og">Managing Election Campaigns - Mar 2010</group>
+ <pubDate>Tue, 02 Mar 2010 00:24:15 +0000</pubDate>
+ <dc:creator>Larry Cooperman</dc:creator>
+ <guid isPermaLink="false">2289 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

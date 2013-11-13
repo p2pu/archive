@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/general/taxonomy/term/629/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Sugerencias, críticas y aportes sobre la metodología y las herramientas del curso</title>
+ <link>http://archive.p2pu.org/general/libreoffice-basico/discussion/sugerencias-criticas-y-aportes-sobre-la-metodologia-y-las-herramientas-del-curso</link>
+ <description>&lt;p&gt;Adem&amp;aacute;s de necesitarse que los diversos espacios de p2pu est&amp;eacute;n en espa&amp;ntilde;ol &amp;iquest;qu&amp;eacute; otras sugerencias, cr&amp;iacute;ticas y aportes hay para este curso?&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/libreoffice-basico&quot;&gt;LibreOffice básico&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/libreoffice-basico/discussion/sugerencias-criticas-y-aportes-sobre-la-metodologia-y-las-herramientas-del-curso#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/629">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/libreoffice-basico" xmlns="http://drupal.org/project/og">LibreOffice básico</group>
+ <pubDate>Sat, 09 Apr 2011 12:01:17 +0000</pubDate>
+ <dc:creator>Vladimir Támara Patiño</dc:creator>
+ <guid isPermaLink="false">28778 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Preguntas y aportes relacionados con los ejercicios</title>
+ <link>http://archive.p2pu.org/general/libreoffice-basico/discussion/preguntas-y-aportes-relacionados-con-los-ejercicios</link>
+ <description>&lt;p&gt;¿Se entiende lo que hay que hacer?  ¿Es demasiado fácil o dificil? Comparta pistas para que otras personas pueda avanzar donde se demoró mucho.  Sugiera otros ejercicios que ayudarán a desarrollar los planteados.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/libreoffice-basico&quot;&gt;LibreOffice básico&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/libreoffice-basico/discussion/preguntas-y-aportes-relacionados-con-los-ejercicios#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/629">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/libreoffice-basico" xmlns="http://drupal.org/project/og">LibreOffice básico</group>
+ <pubDate>Sat, 02 Apr 2011 16:33:59 +0000</pubDate>
+ <dc:creator>Vladimir Támara Patiño</dc:creator>
+ <guid isPermaLink="false">28417 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Preguntas y aportes relacionados con las lecturas</title>
+ <link>http://archive.p2pu.org/general/libreoffice-basico/discussion/preguntas-y-aportes-relacionados-con-las-lecturas</link>
+ <description>&lt;p&gt;¿No se entiende algun termino? ¿Hay errores? (preferiblemente incluya sugerencia de mejora)&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/libreoffice-basico&quot;&gt;LibreOffice básico&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/libreoffice-basico/discussion/preguntas-y-aportes-relacionados-con-las-lecturas#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/629">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/libreoffice-basico" xmlns="http://drupal.org/project/og">LibreOffice básico</group>
+ <pubDate>Sat, 02 Apr 2011 16:32:33 +0000</pubDate>
+ <dc:creator>Vladimir Támara Patiño</dc:creator>
+ <guid isPermaLink="false">28416 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

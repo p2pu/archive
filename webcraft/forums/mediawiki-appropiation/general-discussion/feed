@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/webcraft/taxonomy/term/522/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>This (last) week (#6) Questions, feedback, next steps?</title>
+ <link>http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/last-week-6-questions-feedback-next-steps</link>
+ <description>&lt;p&gt;Hi!&lt;/p&gt;
+&lt;p&gt;We ended up only a few of us active in the course, but with 8 wikis installed correctly and I think many interesting questions from all of us here in this forum. What&amp;#39;s your opinion? Help to improve this for next scenarios, if you can...&lt;/p&gt;
+&lt;p&gt;If you&amp;#39;re still interested in the semantic part of all this, we&amp;#39;re probably going to be active in that conversation some more days, so just show up at the right thread :)&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/mediawiki-appropiation&quot;&gt;MediaWiki appropiation &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/last-week-6-questions-feedback-next-steps&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/last-week-6-questions-feedback-next-steps#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/522">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/mediawiki-appropiation" xmlns="http://drupal.org/project/og">MediaWiki appropiation </group>
+ <pubDate>Thu, 10 Mar 2011 13:07:37 +0000</pubDate>
+ <dc:creator>Enric Senabre Hidalgo</dc:creator>
+ <guid isPermaLink="false">27418 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>This week (#5) semantic MediaWiki</title>
+ <link>http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/week-5-semantic-mediawiki</link>
+ <description>&lt;p&gt;Well, for some reason we may have slowed down the course a little bit. Only 3 of you completed last (long) week activity, but I assume you&amp;#39;re watching and learning from the distance.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/mediawiki-appropiation&quot;&gt;MediaWiki appropiation &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/week-5-semantic-mediawiki&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/week-5-semantic-mediawiki#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/522">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/mediawiki-appropiation" xmlns="http://drupal.org/project/og">MediaWiki appropiation </group>
+ <pubDate>Wed, 02 Mar 2011 01:16:55 +0000</pubDate>
+ <dc:creator>Enric Senabre Hidalgo</dc:creator>
+ <guid isPermaLink="false">26973 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Pretty URLs</title>
+ <link>http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/pretty-urls</link>
+ <description>&lt;div&gt;
+	Like I said in the Week 3 forum, I don&amp;#39;t know how to shorten/prettify the URL. &amp;nbsp;Maybe I can get a little help?&lt;/div&gt;
+&lt;div&gt;
+	My host is iPage (quick and easy installation but low bandwidth).&lt;/div&gt;
+&lt;ul&gt;
+&lt;li&gt;
+		What is root access?&lt;/li&gt;
+&lt;li&gt;
+		How do &amp;quot;ensure I am using Apache and have root access&amp;quot;? - My control panel lists the server as Debian...&lt;/li&gt;
+&lt;li&gt;
+		I don&amp;#39;t see httpd.conf anywhere in my FileManager...&lt;/li&gt;
+&lt;li&gt;
+		What is .htaccess?&lt;/li&gt;
+&lt;li&gt;
+		Is .htaccess located within httpd.conf?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div&gt;
+&lt;/div&gt;&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/mediawiki-appropiation&quot;&gt;MediaWiki appropiation &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/pretty-urls&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/pretty-urls#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/522">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/mediawiki-appropiation" xmlns="http://drupal.org/project/og">MediaWiki appropiation </group>
+ <pubDate>Mon, 21 Feb 2011 08:22:14 +0000</pubDate>
+ <dc:creator>Jason Nyquist</dc:creator>
+ <guid isPermaLink="false">26612 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>This week (#4): e x t e n s i o n s</title>
+ <link>http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/week-4-e-x-t-e-n-s-i-o-n-s</link>
+ <description>&lt;div&gt;
+	Hi there course survivors :)&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	For academic purposes, some years ago I managed to install and customize one of my firsts MediaWiki installations, which I still use it as a personal wlog (wiki+blog), ToDo list manager and writing tool. You can find it here: &lt;a href=&quot;http://www.estigmergia.net/&quot; title=&quot;http://www.estigmergia.net/&quot; rel=&quot;nofollow&quot;&gt;http://www.estigmergia.net/&lt;/a&gt; And here the way I did it (skin but also extensions used): http://www.estigmergia.net/wiki/HowTo_wlog&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+&lt;/div&gt;&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/mediawiki-appropiation&quot;&gt;MediaWiki appropiation &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/week-4-e-x-t-e-n-s-i-o-n-s&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/week-4-e-x-t-e-n-s-i-o-n-s#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/522">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/mediawiki-appropiation" xmlns="http://drupal.org/project/og">MediaWiki appropiation </group>
+ <pubDate>Thu, 17 Feb 2011 06:35:10 +0000</pubDate>
+ <dc:creator>Enric Senabre Hidalgo</dc:creator>
+ <guid isPermaLink="false">26438 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>What do you want your wiki to have / do</title>
+ <link>http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/what-do-you-want-your-wiki-have-do</link>
+ <description>&lt;div&gt;
+	Let&amp;#39;s open a parallel thread here more connected to ideas, needs, doubts about how do you want or need your MediaWiki to be.&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	Jeff for example pointed to the need of a personal documentation tool (which I thing is a good use, I have one for the same), while others of you have already a group of people that may benefit from it.&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	Apart from being collaboratively edited, what else? Do you need to share visual stuff? Maybe having restricted pages? Tools for project management?&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+&lt;/div&gt;&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/mediawiki-appropiation&quot;&gt;MediaWiki appropiation &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/what-do-you-want-your-wiki-have-do&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/what-do-you-want-your-wiki-have-do#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/522">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/mediawiki-appropiation" xmlns="http://drupal.org/project/og">MediaWiki appropiation </group>
+ <pubDate>Sat, 12 Feb 2011 23:36:06 +0000</pubDate>
+ <dc:creator>Enric Senabre Hidalgo</dc:creator>
+ <guid isPermaLink="false">26275 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>This week (#3): installing MediaWiki and basic steps</title>
+ <link>http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/week-3-installing-mediawiki-and-basic-steps</link>
+ <description>&lt;div&gt;
+	Well, let&amp;#39;s see who opens fire here now! Jese and Jim have already installed their MediaWikis, anyone else? The first exercise here is simple: just add a comment in this thread with (a) your wiki URL (or configuration script *) and (b) stating any problem or doubt during the process.
+&lt;/div&gt;&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/mediawiki-appropiation&quot;&gt;MediaWiki appropiation &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/week-3-installing-mediawiki-and-basic-steps&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/week-3-installing-mediawiki-and-basic-steps#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/522">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/mediawiki-appropiation" xmlns="http://drupal.org/project/og">MediaWiki appropiation </group>
+ <pubDate>Thu, 10 Feb 2011 18:46:44 +0000</pubDate>
+ <dc:creator>Enric Senabre Hidalgo</dc:creator>
+ <guid isPermaLink="false">26186 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>This week (#2): MediaWiki core aspects for editing &amp; admin, and also some tricks</title>
+ <link>http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/week-2-mediawiki-core-aspects-editing-admin-and-also-some-tricks</link>
+ <description>&lt;p&gt;Hi again!&lt;/p&gt;
+&lt;p&gt;The plan for this second week, before we get our hands dirty installing and customizing MediaWiki, is focusing in the tool itself and its many powerful features.&lt;/p&gt;
+&lt;p&gt;So let&amp;#39;s now consider what are its most important parts and pages, related to editing (for the vast majority of users) and also for getting useful information as admins.&lt;/p&gt;
+&lt;p&gt;:: Materials&lt;/p&gt;
+&lt;p&gt;For those of you more needed of basics, there are some nice (detailed, sometimes quiet also) videos here:&amp;nbsp;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/mediawiki-appropiation&quot;&gt;MediaWiki appropiation &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/week-2-mediawiki-core-aspects-editing-admin-and-also-some-tricks&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/week-2-mediawiki-core-aspects-editing-admin-and-also-some-tricks#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/522">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/mediawiki-appropiation" xmlns="http://drupal.org/project/og">MediaWiki appropiation </group>
+ <pubDate>Wed, 02 Feb 2011 23:45:23 +0000</pubDate>
+ <dc:creator>Enric Senabre Hidalgo</dc:creator>
+ <guid isPermaLink="false">25751 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Interesting article on the gender gap in the wiki world</title>
+ <link>http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/interesting-article-gender-gap-wiki-world</link>
+ <description>&lt;p&gt;&lt;a href=&quot;http://www.nytimes.com/2011/01/31/business/media/31link.html?_r=1&amp;amp;scp=2&amp;amp;sq=wikipedia&amp;amp;st=cse&quot; title=&quot;http://www.nytimes.com/2011/01/31/business/media/31link.html?_r=1&amp;amp;scp=2&amp;amp;sq=wikipedia&amp;amp;st=cse&quot; rel=&quot;nofollow&quot;&gt;http://www.nytimes.com/2011/01/31/business/media/31link.html?_r=1&amp;amp;scp=2&amp;amp;...&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/mediawiki-appropiation&quot;&gt;MediaWiki appropiation &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/interesting-article-gender-gap-wiki-world#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/522">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/mediawiki-appropiation" xmlns="http://drupal.org/project/og">MediaWiki appropiation </group>
+ <pubDate>Mon, 31 Jan 2011 13:50:30 +0000</pubDate>
+ <dc:creator>Jim Roma</dc:creator>
+ <guid isPermaLink="false">25551 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Software Used</title>
+ <link>http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/software-used</link>
+ <description>&lt;p&gt;Discussion about the programs used to develop.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/mediawiki-appropiation&quot;&gt;MediaWiki appropiation &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/software-used#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/522">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/mediawiki-appropiation" xmlns="http://drupal.org/project/og">MediaWiki appropiation </group>
+ <pubDate>Fri, 28 Jan 2011 21:59:38 +0000</pubDate>
+ <dc:creator>Brenno Costa</dc:creator>
+ <guid isPermaLink="false">25365 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Extra Resources -Tools</title>
+ <link>http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/extra-resources-tools</link>
+ <description>&lt;p&gt;Hi,&lt;/p&gt;
+&lt;p&gt;Here is a good tool to set up localhost on your pc (make your computer as a server)&amp;nbsp;&amp;nbsp; &lt;a href=&quot;http://www.apachefriends.org/en/xampp.html&quot; rel=&quot;nofollow&quot;&gt;XAMPP&lt;/a&gt;&amp;nbsp; .&lt;/p&gt;
+&lt;p&gt;
+Thanks,&lt;br /&gt;
+Nada&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/mediawiki-appropiation&quot;&gt;MediaWiki appropiation &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/mediawiki-appropiation/discussion/extra-resources-tools#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/522">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/mediawiki-appropiation" xmlns="http://drupal.org/project/og">MediaWiki appropiation </group>
+ <pubDate>Fri, 28 Jan 2011 19:56:46 +0000</pubDate>
+ <dc:creator>nada A.S</dc:creator>
+ <guid isPermaLink="false">25360 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

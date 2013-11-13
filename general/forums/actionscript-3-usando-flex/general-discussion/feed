@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/general/taxonomy/term/469/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Obtener FlashBuilder 4.5</title>
+ <link>http://archive.p2pu.org/general/actionscript-3-usando-flex/discussion/obtener-flashbuilder-45</link>
+ <description>&lt;p&gt;&lt;iframe width=&quot;425&quot; height=&quot;349&quot; src=&quot;http://www.youtube.com/embed/EM3oZC9qUw4&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/actionscript-3-usando-flex&quot;&gt;ActionScript 3 usando Flex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/actionscript-3-usando-flex/discussion/obtener-flashbuilder-45#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/469">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/actionscript-3-usando-flex" xmlns="http://drupal.org/project/og">ActionScript 3 usando Flex</group>
+ <pubDate>Thu, 28 Apr 2011 13:57:46 +0000</pubDate>
+ <dc:creator>Carlos Zaragoza</dc:creator>
+ <guid isPermaLink="false">30062 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Encuesta de programación</title>
+ <link>http://archive.p2pu.org/general/actionscript-3-usando-flex/discussion/encuesta-de-programacion</link>
+ <description>&lt;p&gt;Esta lista de encuestas es para ver sobre sus habilidades, saludos...&lt;/p&gt;
+&lt;p&gt;
+#encuesta &amp;iquest;Que lenguaje de programaci&amp;oacute;n conoces? &lt;a href=&quot;http://twtpoll.com/c9vq2n&quot; title=&quot;http://twtpoll.com/c9vq2n&quot; rel=&quot;nofollow&quot;&gt;http://twtpoll.com/c9vq2n&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/actionscript-3-usando-flex&quot;&gt;ActionScript 3 usando Flex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/actionscript-3-usando-flex/discussion/encuesta-de-programacion#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/469">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/actionscript-3-usando-flex" xmlns="http://drupal.org/project/og">ActionScript 3 usando Flex</group>
+ <pubDate>Thu, 21 Apr 2011 03:09:58 +0000</pubDate>
+ <dc:creator>Carlos Zaragoza</dc:creator>
+ <guid isPermaLink="false">29668 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Primeros pasos</title>
+ <link>http://archive.p2pu.org/general/actionscript-3-usando-flex/discussion/primeros-pasos</link>
+ <description>&lt;p&gt;Lo primero a realizar es instalar Flash Builder 4, el detalle ahora es que estan haciendo un lanzamiento de la nueva version 4.5 y aun no esta disponible para descargar como trial, asi que puedes hacerlo desde &lt;a href=&quot;http://labs.adobe.com/technologies/flashbuilder_burrito/&quot; rel=&quot;nofollow&quot;&gt;LABS de adobe&lt;/a&gt;, les va a pedir un usuario y contrase&amp;ntilde;a de adobe, pueden registrarse de manera gratuita para descargar.&lt;/p&gt;
+&lt;p&gt;Por cuestiones de horario, necesito saber si ya todos tienen el libro del curso y el entorno para que en ese momento podamos iniciar.&lt;/p&gt;
+&lt;p&gt;Saludos&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/actionscript-3-usando-flex&quot;&gt;ActionScript 3 usando Flex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/actionscript-3-usando-flex/discussion/primeros-pasos#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/469">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/actionscript-3-usando-flex" xmlns="http://drupal.org/project/og">ActionScript 3 usando Flex</group>
+ <pubDate>Wed, 20 Apr 2011 18:46:14 +0000</pubDate>
+ <dc:creator>Carlos Zaragoza</dc:creator>
+ <guid isPermaLink="false">29638 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Iniciando AS3</title>
+ <link>http://archive.p2pu.org/general/actionscript-3-usando-flex/discussion/iniciando-as3</link>
+ <description>&lt;p&gt;Que tal, mi nombre es Carlos, y compartire el curso de AS3 viendo desde flex. Vivo en M&amp;eacute;xico, Hidalgo, Pachuca de Soto. Me gustaria que cada uno pudiera presentarse.&lt;br /&gt;
+Hoy iniciamos y terminamos el Viernes.&lt;br /&gt;
+El horarios es segun ustedes estes revisando el libro, he impartido curso por medio de connectPro, pero no se que tan bueno seria poder usarlo para este curso, dado los horarios.&lt;br /&gt;
+Lunes 2hr&lt;br /&gt;
+Martes 2hr&lt;br /&gt;
+Mi&amp;eacute;rcoles 2hr&lt;br /&gt;
+Jueves 1hr&lt;br /&gt;
+Viernes 1hr&lt;/p&gt;
+&lt;p&gt;Saludos.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/actionscript-3-usando-flex&quot;&gt;ActionScript 3 usando Flex&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/actionscript-3-usando-flex/discussion/iniciando-as3#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/469">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/actionscript-3-usando-flex" xmlns="http://drupal.org/project/og">ActionScript 3 usando Flex</group>
+ <pubDate>Mon, 18 Apr 2011 16:55:50 +0000</pubDate>
+ <dc:creator>Carlos Zaragoza</dc:creator>
+ <guid isPermaLink="false">29416 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

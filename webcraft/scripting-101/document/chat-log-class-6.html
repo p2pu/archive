@@ -1,0 +1,652 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="p2pu" xml:lang="p2pu">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Scripting 101 | P2PU Archive</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<link rel="shortcut icon" href="../../../sites/archive.p2pu.org/themes/p2pu10/favicon.ico" type="image/x-icon" />
+<link type="text/css" rel="stylesheet" media="all" href="../../../sites/archive.p2pu.org/modules/codefilter/codefilter.css@I.css" />
+<link type="text/css" rel="stylesheet" media="all" href="../../../sites/archive.p2pu.org/files/ctools/css/132cbcbd66da15052e9a590dbb4eca76.css@I.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../../../sites/archive.p2pu.org/modules/popup/popup.css@I.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../../../sites/archive.p2pu.org/modules/popup/styles/Soft&#32;grey&#32;frame/popup-style.css@I.css" />
+<link type="text/css" rel="stylesheet" media="all" href="../../../sites/archive.p2pu.org/files/css/css_53b6992323d5f617d777bef7b197cc5a.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../../../sites/archive.p2pu.org/files/css/css_23213a44f12b0d9125523bb3c342e2a6.css" />
+<script type="text/javascript" src="../../../sites/archive.p2pu.org/files/js/js_f9571e8f689e0561a88ad14078625551.js"></script>
+<script type="text/javascript" src="../../../sites/archive.p2pu.org/modules/popup/popup.js@1381714786"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "chartbeat": { "uid": 10678, "domain": "p2pu.org" }, "dhtmlMenu": { "slide": "slide", "doubleclick": "doubleclick", "siblings": 0, "relativity": 0, "children": 0, "clone": 0 }, "extlink": { "extTarget": 0, "extClass": "ext", "extSubdomains": 1, "extExclude": "", "extInclude": "", "extAlert": 0, "extAlertText": "This link will take you to an external web site. We are not responsible for their content.", "mailtoClass": "mailto" }, "popup": { "hoverLinger": "250" }, "views": { "ajax_path": [ "/webcraft/views/ajax", "/webcraft/views/ajax" ], "ajaxViews": [ { "view_name": "panel_comments", "view_display_id": "default", "view_args": "node/5686/document/10027", "view_path": "node/5686/document/10027", "view_base_path": null, "view_dom_id": 1, "pager_element": 0 }, { "view_name": "course_documents_arg", "view_display_id": "block_2", "view_args": "5686", "view_path": "node/5686/document/10027", "view_base_path": null, "view_dom_id": 2, "pager_element": 0 } ] }, "og": { "group_context": { "nid": "5686", "title": "Scripting 101", "type": "course" } } });
+//--><!]]>
+</script>
+</head>
+
+<body class="not-front not-logged-in page-node no-sidebars p2pu-context-course-section-webcraft og-context og-context-5686  ">
+
+  <div id="page">
+     <!--style = "display:none;"-->
+      <div id="top-notification" class="p2pu-notification">
+        <p>This is the P2PU Archive. If you want the current site, go to <a href="http://www.p2pu.org" rel="nofollow">www.p2pu.org!</a></p>
+      </div>     
+      <div id="page-header" class="float-container">
+
+        <div id="logo"><a title="webcraft Home" href="../../../webcraft.1.html"><img alt="P2PU Home" src="../../../sites/archive.p2pu.org/themes/p2pu10/images/logos/logo-section-webcraft.png"></a></div>
+        <div id="slogan"></div>
+        <div id="region-header"></div>
+
+              </div><!-- /page-header -->
+
+      <div id="navigation">
+        <div class="primary">  <div id="block-menu-menu-webcraft" class="block block-menu">
+<!-- wrappers -->
+
+
+  <div class="content"><ul class="menu"><li class="leaf first dhtml-menu "><a href="../../../index.html" title="P2PU home page" id="dhtml_menu-17129"><span>P2PU Home</span></a></li>
+<li class="leaf last dhtml-menu "><a href="../../course/list.html" title="Webcraft course listing." id="dhtml_menu-17128"><span>Courses</span></a></li>
+</ul></div>
+  
+<!-- /wrappers -->
+</div></div>        <form action="chat-log-class-6.html"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-2302deaafdabef06d153963881266cb8" value="form-2302deaafdabef06d153963881266cb8"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+      </div><!-- /Navigation -->
+
+      <div id="page-sub-header"></div>
+
+      <div id="page-body" class="float-container page-body-top">
+        <div id="page-sub-body">
+  
+          <div id="content-column">
+            <div class="inner">
+                            
+              <h1 class="title">Scripting 101</h1>                                                        <div class="tabs float-container"><ul class="tabs primary">
+<li ><a href="../../scripting-101.html"><span>Course Home</span></a></li>
+<li class="active" ><a href="../../node/5686/document.html"><span>Course Material</span></a></li>
+<li ><a href="../../node/5686/forums.html"><span>Forums</span></a></li>
+</ul>
+</div>                            <div class="panel-flexible panels-flexible-17 clear-block" >
+<div class="panel-flexible-inside panels-flexible-17-inside">
+<div class="panels-flexible-region panels-flexible-region-17-left panels-flexible-region-first">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-17-left-inside panels-flexible-region-inside-first">
+<div class="panel-pane pane-views pane-course-documents-arg grey-panel" >
+  <div class="pane-inner">
+      
+          <h2 class="pane-title">Course Material</h2>
+      
+      
+    <div class="pane-content">
+      <div class="view view-course-documents-arg view-id-course_documents_arg view-display-id-block_2 view-dom-id-2">
+    
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../document/syllabus-scripting-101.html">Syllabus for Scripting 101</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="chat-log-class-14.html">Chat log Class 14</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="class-log-class-13.html">Class log Class 13</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="class-log-class-12.html">Class log Class 12</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="chat-log-class-11.html">Chat log Class 11</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-6 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="chat-log-class-10.html">Chat log Class 10</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="chat-log-class-9.html">Chat log Class 9</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-8 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="chat-log-class-8.html">Chat log Class 8</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-9 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="chat-log-class-7.html">Chat log Class 7</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-10 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="chat-log-class-6.html">Chat log Class 6</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-11 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="chat-log-class-5.html">Chat log Class 5</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-12 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="chat-log-class-4.html">Chat log Class 4</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-13 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="chat-log-class-3.html">Chat log Class 3</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-14 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="chat-log-class-2.html">Chat log Class 2</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-15 views-row-odd views-row-last">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="chat-log-class-1.html">Chat log Class 1</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>     </div>
+  
+      
+      </div>  
+</div>
+  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-17-center panels-flexible-region-last ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-17-center-inside panels-flexible-region-inside-last">
+<div class="panel-pane pane-node" >
+  <div class="pane-inner">
+      
+          <h2 class="pane-title">Chat log Class 6</h2>
+      
+      
+    <div class="pane-content">
+      <div id="node-10027" class="node node-document clear-block">
+
+  <h2 class="title"><a href="chat-log-class-6.html" title=""></a></h2>
+
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/hemanth.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-723.jpg" alt="hemanth hm&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span class="created-date">Sun, 2010-10-03 18:48</span>
+  </div>
+
+  <div class="content">
+    <div class="field field-type-text field-field-document-body">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <p>
+* hemanth has changed the topic to: REDIRECTIONS<br />
+&lt;hemanth&gt; Input<br />
+&lt;hemanth&gt; Output<br />
+&lt;hemanth&gt; Error<br />
+&lt;hemanth&gt; Are the most common factors that we see in any computer languages<br />
+&lt;hemanth&gt; And we all try to improve on Input and Outputs and try to lessen the errors<br />
+&lt;hemanth&gt; there was a joke, &quot;A cigarette box read, Warning: Injurious to health&quot;<br />
+&lt;hemanth&gt; and a coder smoking it said<br />
+* vibha6bhat (75c0c342@gateway/web/freenode/ip.117.192.195.66) has joined #p2pu-webcraft/scripting-101<br />
+* lakshmi_ (516258e7@gateway/web/freenode/ip.81.98.88.231) has joined #p2pu-webcraft/scripting-101<br />
+&lt;hemanth&gt; we don&#39;t worry about warnings, its only the errors that matter<br />
+&lt;hemanth&gt; :)<br />
+* Lakshmi has quit (Quit: Page closed)<br />
+&lt;adamcollado&gt; lol<br />
+&lt;hemanth&gt; So with this, lets see what redirections are<br />
+&lt;hemanth&gt; redirection is a function common to most command-line interpreters, including the various Unix shells that can redirect standard streams to user-specified locations.<br />
+* SourRust (473b12d5@gateway/web/freenode/ip.71.59.18.213) has joined #p2pu-webcraft/scripting-101<br />
+* hemanth has changed the topic to: Redirections in BASH<br />
+&lt;SourRust&gt; little late but im here<br />
+&lt;hemanth&gt; Its ok, nothing much happened so far<br />
+&lt;SourRust&gt; kk<br />
+&lt;hemanth&gt; you are here in the right time<br />
+&lt;hemanth&gt; file descriptors 0, 1 and 2 are the things we need to remember here<br />
+&lt;hemanth&gt; stdin,stdout,stderr<br />
+&lt;hemanth&gt; respectively<br />
+&lt;hemanth&gt; input stream<br />
+&lt;hemanth&gt; output stream<br />
+&lt;hemanth&gt; error output stream<br />
+&lt;hemanth&gt; So, we all know the I/O devices right<br />
+&lt;SourRust&gt; yea pretty much<br />
+&lt;adamcollado&gt; yeah<br />
+&lt;hemanth&gt; When hemanth was asked by his teacher name an Input device<br />
+&lt;adamcollado&gt; either that or i&#39;ve been wrong for many years D:<br />
+&lt;hemanth&gt; he said monitor<br />
+&lt;adamcollado&gt; i&#39;ve been guilty of that as well xD<br />
+&lt;hemanth&gt; the teacher said, i asked from input device, hero!<br />
+&lt;vibha6bhat&gt; :D<br />
+&lt;hemanth&gt; I said, yes its a touch screen :P<br />
+&lt;adamcollado&gt; oh snap<br />
+&lt;hemanth&gt; so, the game is play with these streams<br />
+&lt;hemanth&gt; few symbols that we need to know<br />
+&lt;hemanth&gt; and we would have used it so far<br />
+&lt;hemanth&gt; &gt;<br />
+&lt;hemanth&gt; &lt;<br />
+&lt;hemanth&gt; &gt;&gt;<br />
+&lt;hemanth&gt; &lt;&lt;&lt;<br />
+&lt;hemanth&gt; &gt; is redirecting o/p<br />
+&lt;hemanth&gt; &lt; is redirecting i/p<br />
+&lt;hemanth&gt; &gt;&gt; appending redirections<br />
+&lt;hemanth&gt; &gt;&gt;&gt; ; &lt;&lt;&lt; are called here strings in BASH<br />
+&lt;hemanth&gt; we will see how it all works<br />
+&lt;hemanth&gt; i don&#39;t want to hurry yup with this today, unlike if else and loops; this is much more hard nut<br />
+&lt;hemanth&gt; and requires clear understanding<br />
+&lt;adamcollado&gt; yep<br />
+&lt;hemanth&gt; one of the most import things to know is about /dev/null<br />
+&lt;hemanth&gt; i call it the black hole<br />
+&lt;hemanth&gt; any guesses why i called it so?<br />
+&lt;adamcollado&gt; because everything that gets redirected to it<br />
+&lt;adamcollado&gt; disappears<br />
+&lt;adamcollado&gt; forever<br />
+&lt;adamcollado&gt; and ever?<br />
+&lt;hemanth&gt; yup :)<br />
+&lt;hemanth&gt; its a special file that discards all data written to it<br />
+&lt;hemanth&gt; so assuming that you have a file called test file<br />
+&lt;hemanth&gt; which has some data in it<br />
+&lt;hemanth&gt; cat test.txt 2&gt;/dev/null<br />
+&lt;hemanth&gt; can anyone translate that to human language ?<br />
+&lt;hemanth&gt; what is it doing?<br />
+&lt;adamcollado&gt; um<br />
+&lt;adamcollado&gt; redirecting the output of test.txt to /dev/null?<br />
+&lt;vibha6bhat&gt; copy<br />
+&lt;hemanth&gt; it redirects its error messages (stderr) to /dev/null<br />
+&lt;hemanth&gt;&nbsp; 2&gt;/dev/null<br />
+&lt;adamcollado&gt; ahh, hence the 2&gt;<br />
+&lt;adamcollado&gt; okay<br />
+&lt;hemanth&gt; the *2* must be noted there<br />
+&lt;hemanth&gt; vibha6bhat, no it does not copy, /dev/null discards every thing<br />
+&lt;hemanth&gt; even cp test.txt /dev/null<br />
+&lt;hemanth&gt; but are u getting the doubt, why at all we need such a black hole?<br />
+&lt;hemanth&gt; no?<br />
+&lt;adamcollado&gt; it&#39;s an easy way to get rid of messages?<br />
+&lt;hemanth&gt; yup one of the main uses<br />
+&lt;adamcollado&gt; i just thought that because of the previous example you used<br />
+&lt;adamcollado&gt; with the error messages being tossed into /dev/null<br />
+&lt;hemanth&gt; like say echo &quot;An Error&quot; 1&gt;&amp;2<br />
+&lt;hemanth&gt; what does this do?<br />
+&lt;adamcollado&gt; it redirects &quot;An Error&quot; from stdin to stderr?<br />
+&lt;hemanth&gt; redirects its normal output (stdout) to the standard error target<br />
+&lt;adamcollado&gt; ah<br />
+&lt;hemanth&gt; 1&gt;&amp;2<br />
+&lt;hemanth&gt; noted the syntax<br />
+&lt;hemanth&gt; fd&gt;&amp;fd<br />
+&lt;hemanth&gt; where fd is the file descriptor<br />
+&lt;hemanth&gt; one of the examples i can quote is<br />
+&lt;hemanth&gt; checking if the current user has sudo privileges or not?<br />
+&lt;hemanth&gt; we could do sudo -v<br />
+&lt;hemanth&gt; that would bang, if the user doesn&#39;t have the perms<br />
+&lt;hemanth&gt; so we redirect the err to /dev/null and then check the exist status<br />
+&lt;hemanth&gt; this a small experiment, that you must all try as you push your codes<br />
+&lt;hemanth&gt; any doubts?<br />
+&lt;SourRust&gt; nope<br />
+&lt;hemanth&gt; okies<br />
+&lt;hemanth&gt; now lets see more redirections<br />
+&lt;hemanth&gt; touch 1.txt 2.txt 3.txt<br />
+* PaBLoX (c8686260@gateway/web/freenode/ip.200.104.98.96) has joined #p2pu-webcraft/scripting-101<br />
+&lt;PaBLoX&gt; hi =)<br />
+&lt;hemanth&gt; hi<br />
+* hemanth sends the chat logs to PaBLoX<br />
+&lt;hemanth&gt; cat 1.txt 2.txt 3.txt &gt; 4.txt<br />
+&lt;hemanth&gt; puts all the data in 1,2,3 to 4<br />
+&lt;hemanth&gt; now, cat 5.txt &gt; 4.txt<br />
+&lt;hemanth&gt; what is the current content of 4.txt??<br />
+* lakshmi_ has quit (Quit: Page closed)<br />
+* Lakshmi (516258e7@gateway/web/freenode/ip.81.98.88.231) has joined #p2pu-webcraft/scripting-101<br />
+&lt;hemanth&gt; getting it?<br />
+* hemanth echo echo<br />
+&lt;adamcollado&gt; what was in 5<br />
+&lt;adamcollado&gt; replaced everything in 4?<br />
+&lt;hemanth&gt; 5.txt is some file with contents<br />
+&lt;adamcollado&gt; wait, my sentence is messed up xD<br />
+&lt;adamcollado&gt; I mean to say &quot;whatever was in 5, replaced everything in 4&quot;<br />
+&lt;hemanth&gt; exactly<br />
+&lt;hemanth&gt; :)<br />
+&lt;hemanth&gt; now if we want to append 4.txt ( i.e the file which has the contents of {1,2,3}.txt) with contents of 5.txt<br />
+&lt;hemanth&gt; we do<br />
+&lt;hemanth&gt; cat 5.txt &gt;&gt; 4.txt<br />
+&lt;hemanth&gt; mv 4.txt all.txt ;)<br />
+&lt;hemanth&gt; cat all.txt<br />
+&lt;hemanth&gt; will now show the contents of {1,2,3,4,5}.txt<br />
+&lt;hemanth&gt; get it :)?<br />
+&lt;SourRust&gt; yup<br />
+&lt;Lakshmi&gt; yes<br />
+&lt;hemanth&gt; To append the cumulative redirection of stdout and stderr to a file<br />
+&lt;hemanth&gt; &gt;&gt; FILE 2&gt;&amp;1<br />
+&lt;hemanth&gt; is the way we do it<br />
+&lt;hemanth&gt; &amp;&gt;&gt; FILE can also be done, provided you are on bash version 4<br />
+&lt;hemanth&gt; cat &lt;&lt;EOF<br />
+&lt;hemanth&gt; i&#39;m test how to print a huge<br />
+&lt;hemanth&gt; chunk<br />
+&lt;hemanth&gt; of test<br />
+&lt;hemanth&gt; without putting it a file<br />
+&lt;hemanth&gt; and then cating it<br />
+&lt;hemanth&gt; EOF<br />
+&lt;hemanth&gt; try that :)<br />
+&lt;hemanth&gt; done?<br />
+&lt;hemanth&gt; The redirection-operator &lt;&lt; is used together with a tag, here its EOF<br />
+&lt;hemanth&gt; it can be anything<br />
+&lt;hemanth&gt; try something like<br />
+&lt;hemanth&gt; cat &lt;&lt;EOF<br />
+&lt;hemanth&gt; My home is $HOME<br />
+&lt;hemanth&gt; EOF<br />
+&lt;adamcollado&gt; it gives me a warning when i put in cat &lt;&lt;EOF<br />
+&lt;hemanth&gt; as?<br />
+&lt;adamcollado&gt; bash: warning: here-document at line 45 delimited by end-of-file (wanted `EO&#39;)<br />
+&lt;PaBLoX&gt; Weird, I&#39;m not getting any error/warning<br />
+&lt;adamcollado&gt; well<br />
+&lt;adamcollado&gt; it gave me a &gt; prompt<br />
+&lt;adamcollado&gt; first<br />
+&lt;adamcollado&gt; maybe i&#39;m doing it wrong xD<br />
+&lt;hemanth&gt; cat &lt;&lt;EOF<br />
+&lt;hemanth&gt; My home is $HOME<br />
+&lt;hemanth&gt; EOF<br />
+&lt;hemanth&gt; try that :)<br />
+&lt;adamcollado&gt; okay<br />
+&lt;adamcollado&gt; that worked :D<br />
+&lt;adamcollado&gt; it printed out all the text i was typing until I typed EOF<br />
+&lt;hemanth&gt; adamcollado, what was that you tried first<br />
+&lt;hemanth&gt; exactly!<br />
+&lt;adamcollado&gt; i just tried the command first<br />
+&lt;adamcollado&gt; then hit ctrl-D<br />
+&lt;hemanth&gt; thats what the here document does<br />
+&lt;hemanth&gt; :)<br />
+&lt;hemanth&gt; its not ctrl-D, but the tag, EOF here<br />
+&lt;adamcollado&gt; i see<br />
+&lt;hemanth&gt; can be anything<br />
+&lt;adamcollado&gt; interesting, i didn&#39;t know about that<br />
+&lt;hemanth&gt; cat &lt;&lt;adam<br />
+&lt;hemanth&gt; hello<br />
+&lt;hemanth&gt; hi<br />
+&lt;hemanth&gt; how are you?<br />
+&lt;hemanth&gt; adam<br />
+&lt;hemanth&gt; try that ;)<br />
+&lt;PaBLoX&gt; Hm, I can&#39;t imagine how that could be useful...<br />
+&lt;hemanth&gt; PaBLoX, good you asked it<br />
+&lt;PaBLoX&gt; Can you think an example?<br />
+&lt;hemanth&gt; its very useful<br />
+&lt;hemanth&gt; when giving help about a method to a user<br />
+&lt;hemanth&gt; say you need to tell the user something like<br />
+&lt;hemanth&gt; use the script as so and so<br />
+&lt;hemanth&gt; with such a syntax<br />
+&lt;hemanth&gt; and these are the options<br />
+&lt;hemanth&gt; with tabbed spaces and indentations<br />
+&lt;hemanth&gt; inline<br />
+&lt;hemanth&gt; in a code, then you can use this to make thinges better, simpler and easier<br />
+&lt;hemanth&gt; or else you must end up making a help file and then cating it<br />
+&lt;Lakshmi&gt; thats a very good example<br />
+&lt;hemanth&gt; hmm, its one of the main uses<br />
+&lt;hemanth&gt; lets make it more clear<br />
+&lt;hemanth&gt; cat &lt;&lt; EOM<br />
+&lt;hemanth&gt; $HOME is the variable where the path to ur home is stored<br />
+&lt;hemanth&gt; EOM<br />
+&lt;hemanth&gt; cat &lt;&lt; &quot;EOM&quot;<br />
+&lt;hemanth&gt; $HOME is the variable where the path to ur home is stored<br />
+&lt;hemanth&gt; EOM<br />
+&lt;hemanth&gt; PaBLoX, try that and tell me the outputs :)<br />
+&lt;hemanth&gt; all of must try that<br />
+&lt;vibha6bhat&gt; done<br />
+&lt;hemanth&gt; PaBLoX, has raised a very valid question<br />
+&lt;hemanth&gt; vibha6bhat, see the diff in the o/p<br />
+&lt;vibha6bhat&gt; yes<br />
+&lt;hemanth&gt; can you explain and bit on what you say<br />
+&lt;hemanth&gt; * on what you saw<br />
+&lt;vibha6bhat&gt; in the first case $HOMe &#39;s value was printed<br />
+&lt;vibha6bhat&gt; in the second case it is printed as $HOME. Its value is not printed<br />
+&lt;hemanth&gt; indeed, that must make things clear why and how to use the here document :)<br />
+&lt;hemanth&gt; queries?<br />
+&lt;hemanth&gt; o/ if any<br />
+&lt;hemanth&gt; so all clear?<br />
+&lt;Lakshmi&gt; yes<br />
+&lt;nmort_&gt; o/<br />
+&lt;hemanth&gt; nmort_, yes please<br />
+&lt;nmort_&gt; does EOM stand for something?<br />
+&lt;hemanth&gt; its just a tag, EOM here meant End Of Message<br />
+&lt;nmort_&gt; ah ok<br />
+&lt;hemanth&gt; you can use any tag which you want<br />
+&lt;hemanth&gt; like the here document we have something called the Here strings<br />
+&lt;hemanth&gt; &lt;&lt;&lt;<br />
+&lt;hemanth&gt; bc &lt;&lt;&lt; 3+4<br />
+&lt;hemanth&gt; try that :)<br />
+&lt;hemanth&gt; BTW bc is an arbitrary precision calculator language<br />
+&lt;hemanth&gt; bc &lt;&lt;&lt; 3*4<br />
+&lt;hemanth&gt; What do you notice?<br />
+&lt;nmort_&gt; 12<br />
+&lt;SourRust&gt; prints out the answer for each<br />
+&lt;nmort_&gt; but I do not understand the difference between &lt; and &lt;&lt;&lt;<br />
+&lt;nmort_&gt; from what I can see in this case &lt;&lt;&lt; is giving input to the&nbsp; program bc<br />
+&lt;hemanth&gt; here string, is used to feed in line data<br />
+&lt;hemanth&gt; &lt; is also<br />
+&lt;hemanth&gt; but the difference is cleared with an example<br />
+&lt;hemanth&gt; lets see<br />
+&lt;hemanth&gt; tr -d &quot;\r&quot; &lt; my.txt<br />
+&lt;hemanth&gt; will deleted all the \r from the file my.txt<br />
+&lt;hemanth&gt; where as bc &lt;&lt;&lt; 3+4, will take the inputs as 3,+ and 4 and evaluate<br />
+&lt;hemanth&gt; bc &lt; 3+4<br />
+&lt;hemanth&gt; will bang<br />
+&lt;hemanth&gt; bc<br />
+&lt;hemanth&gt; 3<br />
+&lt;hemanth&gt; will print 3<br />
+&lt;hemanth&gt; bc &lt;enter&gt;<br />
+&lt;hemanth&gt; 3+4<br />
+&lt;hemanth&gt; will print 7<br />
+&lt;hemanth&gt; that can be made easy with here document as bc &lt;&lt;&lt; 3+4<br />
+&lt;hemanth&gt; even with cat &lt;&lt;&lt; hi<br />
+&lt;hemanth&gt; get it?<br />
+&lt;nmort_&gt; I think so yes<br />
+&lt;hemanth&gt; redirections are hard to get, until we try few<br />
+&lt;PaBLoX&gt; yeah, quite hard D:<br />
+&lt;hemanth&gt; PaBLoX, even though, hard is a relative term ;)<br />
+&lt;adamcollado&gt; so wait, what&#39;s actually happening with &lt;&lt;&lt;? is it sending it as a command from stdin?<br />
+&lt;PaBLoX&gt; haha, that&#39;s true<br />
+&lt;hemanth&gt; adamcollado, yes, you got it right<br />
+&lt;PaBLoX&gt; btw, here are two very good resources about bash:<br />
+&lt;PaBLoX&gt; <a href="http://tldp.org/LDP/Bash-Beginners-Guide/html/" title="http://tldp.org/LDP/Bash-Beginners-Guide/html/" rel="nofollow">http://tldp.org/LDP/Bash-Beginners-Guide/html/</a><br />
+&lt;PaBLoX&gt; <a href="http://tldp.org/LDP/abs/html/" title="http://tldp.org/LDP/abs/html/" rel="nofollow">http://tldp.org/LDP/abs/html/</a><br />
+&lt;PaBLoX&gt; I specially like the second<br />
+&lt;hemanth&gt; stdin reads its information straight from the string you put after the &lt;&lt;&lt; operator<br />
+&lt;hemanth&gt; with this, i come to an end of redirections in BASH<br />
+&lt;hemanth&gt; will see the same in other languages next week<br />
+&lt;hemanth&gt; till then try everything<br />
+&lt;adamcollado&gt; sweet<br />
+&lt;hemanth&gt; and do push the code<br />
+&lt;hemanth&gt; i must appreciate SourRust and adamcollado for pushing there codes in time<br />
+&lt;SourRust&gt; mkay<br />
+&lt;adamcollado&gt; will do<br />
+&lt;hemanth&gt; +1 to you both :)<br />
+&lt;adamcollado&gt; cool ^^<br />
+&lt;hemanth&gt; PaBLoX, thanks for sharing the links with the class, i&#39;m starting a thread to share only the links<br />
+&lt;PaBLoX&gt; thx to you for this class :)<br />
+&lt;PaBLoX&gt; I&#39;ll start pushing code today<br />
+&lt;PaBLoX&gt; I&#39;m too late to push all the code that I haven&#39;t push today, but I&#39;ll try to catch up.<br />
+&lt;hemanth&gt; nice<br />
+&lt;hemanth&gt; So, if there are no q&#39;s i would ETC<br />
+&lt;hemanth&gt; ETC =&gt; End The Class ;)<br />
+&lt;adamcollado&gt; kk<br />
+&lt;adamcollado&gt; later guys!<br />
+&lt;SourRust&gt; cya<br />
+&lt;hemanth&gt; thanks you all<br />
+&lt;nmort_&gt; thanks hemanth<br />
+* adamcollado has quit (Quit: Page closed)<br />
+&lt;PaBLoX&gt; haha<br />
+&lt;nmort_&gt; goodbye<br />
+&lt;hemanth&gt; cay next week hacker<br />
+* SourRust has quit (Quit: Page closed)<br />
+&lt;vibha6bhat&gt; Thanks an<br />
+&lt;PaBLoX&gt; cyad cya :)</p>
+        </div>
+        </div>
+</div>
+  </div>
+  
+
+
+</div>
+    </div>
+  
+      
+      </div>  
+</div>
+  </div>
+</div>
+</div>
+</div>
+                                        </div>
+          </div><!-- /content-column -->
+  
+                  </div>
+        
+                  
+      </div><!-- /page-body -->
+  
+              <div id="page-footer">
+          <div class="inner">
+            <div class="message">
+                            <div id='creative-commons'>
+                <div class='p2pu-cc-text'>
+                  <a href="../../../license.html">License Information</a> - <a href="../../../privacy.html">Privacy Guidelines</a> - <a href="../../../terms-of-use.html">Terms of Use</a>
+                </div><br>
+<div id='cc-logo'>
+
+<a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license" target="_blank"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
+               <div class="p2pu-cc-text">Except where otherwise noted, all content on <span dct="http://purl.org/dc/terms/" property="title">p2pu.org</span> is
+licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license" target="_blank">Creative Commons Attribution-ShareAlike 3.0 Unported
+License</a>.</div>
+
+                </div>
+              </div>             </div>
+              <div id="block-user_voice-0" class="block block-user_voice">
+<!-- wrappers -->
+
+  <h2 class="title"><none></h2>
+  <div class="content"><script type="text/javascript">
+var uservoiceJsHost = ("https:" == document.location.protocol) ? "https://uservoice.com" : "http://cdn.uservoice.com";
+document.write(unescape("%3Cscript src='" + uservoiceJsHost + "/javascripts/widgets/tab.js' type='text/javascript'%3E%3C/script%3E"))
+</script>
+<script type="text/javascript">
+UserVoice.Tab.show({ 
+  key: 'p2pu',
+  host: 'p2pu.uservoice.com', 
+  forum: '47491', 
+  alignment: 'left',
+  background_color:'#F00', 
+  text_color: 'white',
+  hover_color: '#06C',
+  lang: 'en'
+})
+</script></div>
+  
+<!-- /wrappers -->
+</div>          </div>
+        </div>
+      
+  </div><!-- /page -->
+  
+  <script type="text/javascript">
+  var _sf_async_config=Drupal.settings.chartbeat;
+  (function(){
+    function loadChartbeat() {
+      window._sf_endpt=(new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src',
+         (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+         "static.chartbeat.com/js/chartbeat.js");
+      document.body.appendChild(e);
+    }
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+       loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+</script>
+<!--[if lt IE 8]><style type="text/css">div.popup-element{ display: inline;}</style><![endif]-->
+</body>
+</html>

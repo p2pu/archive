@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/general/taxonomy/term/475/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Module 1</title>
+ <link>http://archive.p2pu.org/general/introduction-programming-c/discussion/module-1</link>
+ <description>&lt;p&gt;Hi all,&lt;/p&gt;
+&lt;p&gt;Please post here any problems you&amp;#39;re having with module 1.&lt;/p&gt;
+&lt;p&gt;Anish&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/introduction-programming-c&quot;&gt;Introduction to programming C#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/introduction-programming-c/discussion/module-1#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/475">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/introduction-programming-c" xmlns="http://drupal.org/project/og">Introduction to programming C#</group>
+ <pubDate>Thu, 27 Jan 2011 23:00:01 +0000</pubDate>
+ <dc:creator>Anish Patel</dc:creator>
+ <guid isPermaLink="false">25276 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Schedules/ Meeting Times</title>
+ <link>http://archive.p2pu.org/general/introduction-programming-c/discussion/schedules-meeting-times</link>
+ <description>&lt;p&gt;Hello all,&lt;br /&gt;
+I was just wondering if there was a set schedule in which we would all meet up in a chat session on a certain day of the week to discuss assignments and such. &amp;nbsp;Will we be mainly meeting on Google Groups or on P2PU via chat? &amp;nbsp;Just want to make sure I&amp;#39;m on the same page as everyone else.&lt;/p&gt;
+&lt;p&gt;Thanks!&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/introduction-programming-c&quot;&gt;Introduction to programming C#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/introduction-programming-c/discussion/schedules-meeting-times#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/475">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/introduction-programming-c" xmlns="http://drupal.org/project/og">Introduction to programming C#</group>
+ <pubDate>Wed, 26 Jan 2011 19:40:37 +0000</pubDate>
+ <dc:creator>Ms.Receptionitis</dc:creator>
+ <guid isPermaLink="false">25064 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Where does everyone hail from?</title>
+ <link>http://archive.p2pu.org/general/introduction-programming-c/discussion/where-does-everyone-hail</link>
+ <description>&lt;p&gt;Hey all,&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Just curious how far reaching this course is.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/introduction-programming-c&quot;&gt;Introduction to programming C#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/introduction-programming-c/discussion/where-does-everyone-hail#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/475">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/introduction-programming-c" xmlns="http://drupal.org/project/og">Introduction to programming C#</group>
+ <pubDate>Tue, 18 Jan 2011 14:36:27 +0000</pubDate>
+ <dc:creator>Gordon Davenport</dc:creator>
+ <guid isPermaLink="false">22087 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Installing the course prerequisites</title>
+ <link>http://archive.p2pu.org/general/introduction-programming-c/discussion/installing-course-prerequisites</link>
+ <description>&lt;p&gt;Hey guys, if you have any problems with the course prerequisites, please post here, and hopefully someone will post a solution to it.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/introduction-programming-c&quot;&gt;Introduction to programming C#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/introduction-programming-c/discussion/installing-course-prerequisites#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/475">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/introduction-programming-c" xmlns="http://drupal.org/project/og">Introduction to programming C#</group>
+ <pubDate>Tue, 18 Jan 2011 09:02:49 +0000</pubDate>
+ <dc:creator>Anish Patel</dc:creator>
+ <guid isPermaLink="false">22010 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

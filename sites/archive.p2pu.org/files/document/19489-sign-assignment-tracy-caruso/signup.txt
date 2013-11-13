@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Untitled Document</title>
+<style type="text/css">
+body{
+	font-size:20px;
+}
+.script_tags {
+	font-weight: bold;
+	color: #930;
+}
+.declare {
+	color: #03F;
+}
+.alert {
+	color: #90F;
+}
+.number {
+	color: #F00;
+}
+.comment {
+	color: #999;
+}
+.string {
+	color: #03F;
+}
+.method {
+	color: #0CC;
+}
+._object {
+	color: #939;
+}
+.variable {
+	color: #0C0;
+}
+</style></head>
+
+<body>
+<!-- PROGRAM ONE-->
+<br />
+<p><span class="script_tags">&lt;script language=&quot;JavaScript&quot;&gt;</span><br />
+<span class="comment">//program one</span></p>
+<p><span class="_object">document</span>.<span class="method">writeln </span>(<span class="string">&quot;2 + 2 = 4&quot;</span>);<br />
+  <span class="alert">alert</span> (<span class="number">2</span> + <span class="number">2</span>);<br />
+<span class="script_tags">&lt;/script&gt;</span></p>
+
+
+<script language="JavaScript">
+//program one
+
+document.writeln("2 + 2 = 4");
+alert(2 + 2);
+</script>
+
+
+
+
+<!-- PROGRAM TWO-->
+<br />
+<br />
+<p><span class="script_tags">&lt;script language=&quot;JavaScript&quot;&gt;</span><br />
+<span class="comment">//program two</span></p>
+<p><span class="declare">var</span> <span class="variable">number1</span> = <span class="number">2</span>;<br />
+  <span class="declare">var</span> <span class="variable">number2</span> = <span class="number">2</span>;<br />
+  <span class="_object">document</span>.<span class="method">writeln</span>(<span class="variable">number1</span> + &quot; <span class="string">+</span> &quot; + <span class="variable">number2</span> + &quot; <span class="string">=</span> &quot; + <span class="variable">number1</span> + <span class="variable">number2</span>); <br />
+  <span class="alert">alert</span>(<span class="variable">number1</span> +<span class="variable"> number2</span>);<br />
+<span class="script_tags">&lt;/script&gt;</span></p>
+
+
+
+<script language="JavaScript">
+//program two
+
+var number1 = 2;
+var number2 = 2;
+document.writeln(number1 + " + " + number2 + " = " + " 4 ");	 
+alert(number1 + number2);
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<!-- PROGRAM THREE-->
+<br/>
+<br />
+<p><span class="script_tags">&lt;script language=&quot;JavaScript&quot;&gt; </span><br />
+  <span class="comment">//program three</span></p>
+<p><span class="declare">var</span> <span class="variable">number1</span> = <span class="number">2</span>;<br />
+  <span class="declare">var</span><span class="variable"> number2 </span>= <span class="number">2</span>;<br />
+  <span class="declare">var</span> <span class="variable">answer</span> = <span class="variable">number1 </span>+ <span class="variable">number2</span>;<br />
+  <span class="_object">document</span>.<span class="method">writeln</span>(<span class="variable">number1 </span>+ &quot; <span class="string">+ </span>&quot; +<span class="variable"> number2</span> + &quot; <span class="string">=</span> &quot; + <span class="variable">answer</span>); <br />
+  <span class="alert">alert</span>(<span class="variable">answer</span>);<br />
+  <span class="script_tags">&lt;/script&gt;</span></p>
+
+
+<script language="JavaScript">	
+//program three
+
+var number1 = 2;
+var number2 = 2;
+var answer = number1 + number2;
+document.writeln(number1 + " + " + number2 + " = " + answer);	 
+alert(answer);
+</script>
+</body>
+</html>

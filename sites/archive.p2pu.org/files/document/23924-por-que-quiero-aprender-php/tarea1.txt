@@ -1,0 +1,41 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html><head>
+  <b><title>tarea1.html</title>  
+  <style type="text/css"></style>
+  </b></head><body>
+<h1 style="color: rgb(51, 0, 51); text-align: left;"><b>
+<div align="left">Programando con PHP</div>
+</b></h1>
+
+<h2 style="color: rgb(102, 51, 102); text-align: left;"><b>Primera
+Tarea:</b> <i>Por qué quiero aprender PHP</i></h2>
+
+<br>
+
+<table style="text-align: left; width: 711px; height: 95px; background-color: rgb(255, 204, 255);" border="1" cellpadding="2" cellspacing="2">
+
+  <tbody>
+    <tr>
+      <td style="vertical-align: middle; background-color: transparent; text-align: center;"><span style="font-style: italic;">Me
+gustaría aprender a programar en PHP por la importancia de éste
+lenguaje en el desarrollo web, me gusta mucho aprender cosas nuevas y
+más si se trata de un lenguaje con el cual voy a estar trabajando
+durante el desarrollo de mi tesis que deseo presentar este año.
+Contando un poco sobre mi soy graduada de la carrera de ingeniería en
+informática y estoy en proceso de titulación, si bien no dimos PHP
+durante mis estudios en la universidad, me gustaria aprender de lleno
+de hecho me interesa bastante.</span><br>
+      <br>
+      <span style="font-style: italic;">Un cordial saludo,</span><br>
+Lourdes Castillo<br>
+IRC: lourcastillo<br>
+Twitter: @lourcastle<br>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+<br>
+
+<br>
+</body></html>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/general/taxonomy/term/655/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Data Types</title>
+ <link>http://archive.p2pu.org/general/python-programming-101/discussion/data-types</link>
+ <description>&lt;p&gt;Please read the &lt;a href=&quot;http://p2pu.org/general/node/27947/document/30854&quot; rel=&quot;nofollow&quot;&gt;Data Types&lt;/a&gt; course document and complete the excercises. Post your answers to &lt;a href=&quot;http://www.pastie.org/&quot; rel=&quot;nofollow&quot;&gt;Pastie&lt;/a&gt; or Github and then add a link to them below. If you have questions about a specific topic or excercise, post it here as well.&lt;/p&gt;
+&lt;h2&gt;
+	Extra Credit&lt;/h2&gt;
+&lt;p&gt;You are designing an inventory and point-of-sale system for a local producers&amp;#39; market. Aspects of the system include:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+		farmer name and booth number&lt;/li&gt;
+&lt;li&gt;
+		market slogan&lt;/li&gt;
+&lt;li&gt;
+		produce name and price&lt;/li&gt;
+&lt;/ol&gt;&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/python-programming-101&quot;&gt;Python Programming 101&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/general/python-programming-101/discussion/data-types&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/general/python-programming-101/discussion/data-types#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/655">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/python-programming-101" xmlns="http://drupal.org/project/og">Python Programming 101</group>
+ <pubDate>Mon, 09 May 2011 23:16:02 +0000</pubDate>
+ <dc:creator>Brylie Oxley</dc:creator>
+ <guid isPermaLink="false">30855 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Flow Control</title>
+ <link>http://archive.p2pu.org/general/python-programming-101/discussion/flow-control</link>
+ <description>&lt;p&gt;Please review the &lt;a href=&quot;http://p2pu.org/general/node/27947/document/30218&quot; rel=&quot;nofollow&quot;&gt;Flow Control&lt;/a&gt; learning resources. Post answers to the practice exercises below.&lt;/p&gt;
+&lt;p&gt;Q: What are some everyday systems that exhibit flow control?&lt;/p&gt;
+&lt;p&gt;Q: Can you think of some examples where True/False logic may be too constraining?&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/python-programming-101&quot;&gt;Python Programming 101&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/python-programming-101/discussion/flow-control#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/655">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/python-programming-101" xmlns="http://drupal.org/project/og">Python Programming 101</group>
+ <pubDate>Mon, 02 May 2011 06:17:47 +0000</pubDate>
+ <dc:creator>Brylie Oxley</dc:creator>
+ <guid isPermaLink="false">30219 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Question About Course Itself</title>
+ <link>http://archive.p2pu.org/general/python-programming-101/discussion/question-about-course-itself</link>
+ <description>&lt;p&gt;Are we going to have formal assignments?Or chapter readings we must do in a given amount of time?&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/python-programming-101&quot;&gt;Python Programming 101&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/python-programming-101/discussion/question-about-course-itself#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/655">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/python-programming-101" xmlns="http://drupal.org/project/og">Python Programming 101</group>
+ <pubDate>Sun, 24 Apr 2011 03:32:44 +0000</pubDate>
+ <dc:creator>Wesley Pennock</dc:creator>
+ <guid isPermaLink="false">29827 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Expressions, Statements, and Names Q&amp;A</title>
+ <link>http://archive.p2pu.org/general/python-programming-101/discussion/expressions-statements-and-names-qa</link>
+ <description>&lt;p&gt;Please review &lt;a href=&quot;http://p2pu.org/general/node/27947/document/29763&quot; rel=&quot;nofollow&quot;&gt;Expressions, Statements, and Names&lt;/a&gt; and the learning resources section. Be sure to complete the assigned reading and any applicable excercises as we are here to practice. If you have any questions or difficulties post them here and we will work together to make sure that everyone has a positive learning experience.&lt;/p&gt;
+&lt;p&gt;Please also post ideas and insights into these concepts. We can learn a lot from each others&amp;#39; perspectives and experience :-)&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/python-programming-101&quot;&gt;Python Programming 101&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/python-programming-101/discussion/expressions-statements-and-names-qa#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/655">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/python-programming-101" xmlns="http://drupal.org/project/og">Python Programming 101</group>
+ <pubDate>Sat, 23 Apr 2011 03:23:31 +0000</pubDate>
+ <dc:creator>Brylie Oxley</dc:creator>
+ <guid isPermaLink="false">29768 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Installing Python (Q&amp;A)</title>
+ <link>http://archive.p2pu.org/general/python-programming-101/discussion/installing-python-qa</link>
+ <description>&lt;p&gt;If you are having difficulty installing Python on your computer, we can help. Feel free to post your questions here. There are no dumb questions, we want everybody here to have a successful and positive experience :)&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/python-programming-101&quot;&gt;Python Programming 101&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/python-programming-101/discussion/installing-python-qa#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/655">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/python-programming-101" xmlns="http://drupal.org/project/og">Python Programming 101</group>
+ <pubDate>Wed, 20 Apr 2011 05:14:12 +0000</pubDate>
+ <dc:creator>Brylie Oxley</dc:creator>
+ <guid isPermaLink="false">29602 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Introductions</title>
+ <link>http://archive.p2pu.org/general/python-programming-101/discussion/introductions</link>
+ <description>&lt;p&gt;Lets get a feel for the diversity of people gathered here to learn Python.&lt;/p&gt;
+&lt;p&gt;Please inform us, briefly, of your interest in learning Python.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+		What drew you to the language?&lt;/li&gt;
+&lt;li&gt;
+		What do you plan to use it for?&lt;/li&gt;
+&lt;li&gt;
+		Do you use any software that is built with Python or that supports it?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/python-programming-101&quot;&gt;Python Programming 101&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/python-programming-101/discussion/introductions#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/655">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/python-programming-101" xmlns="http://drupal.org/project/og">Python Programming 101</group>
+ <pubDate>Wed, 20 Apr 2011 05:06:54 +0000</pubDate>
+ <dc:creator>Brylie Oxley</dc:creator>
+ <guid isPermaLink="false">29601 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

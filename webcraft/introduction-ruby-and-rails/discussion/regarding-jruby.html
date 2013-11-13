@@ -1,0 +1,482 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="p2pu" xml:lang="p2pu">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Introduction to Ruby and Rails | P2PU Archive</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<link rel="shortcut icon" href="../../../sites/archive.p2pu.org/themes/p2pu10/favicon.ico" type="image/x-icon" />
+<link type="text/css" rel="stylesheet" media="all" href="../../../sites/archive.p2pu.org/modules/codefilter/codefilter.css@I.css" />
+<link type="text/css" rel="stylesheet" media="all" href="../../../sites/archive.p2pu.org/files/ctools/css/f9c0525ea96024cc465a6c7e4de5095d.css@I.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../../../sites/archive.p2pu.org/modules/popup/popup.css@I.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../../../sites/archive.p2pu.org/modules/popup/styles/Soft&#32;grey&#32;frame/popup-style.css@I.css" />
+<link type="text/css" rel="stylesheet" media="all" href="../../../sites/archive.p2pu.org/files/css/css_017e23d6be4eafdc5e3ce1c28c87f43c.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../../../sites/archive.p2pu.org/files/css/css_23213a44f12b0d9125523bb3c342e2a6.css" />
+<script type="text/javascript" src="../../../sites/archive.p2pu.org/files/js/js_f9571e8f689e0561a88ad14078625551.js"></script>
+<script type="text/javascript" src="../../../sites/archive.p2pu.org/modules/popup/popup.js@1383545771"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "chartbeat": { "uid": 10678, "domain": "p2pu.org" }, "dhtmlMenu": { "slide": "slide", "doubleclick": "doubleclick", "siblings": 0, "relativity": 0, "children": 0, "clone": 0 }, "extlink": { "extTarget": 0, "extClass": "ext", "extSubdomains": 1, "extExclude": "", "extInclude": "", "extAlert": 0, "extAlertText": "This link will take you to an external web site. We are not responsible for their content.", "mailtoClass": "mailto" }, "views": { "ajax_path": [ "/webcraft/views/ajax", "/webcraft/views/ajax" ], "ajaxViews": [ { "view_name": "course_forum_posts", "view_display_id": "panel_pane_2", "view_args": "13622", "view_path": "node/13622/forums/22528", "view_base_path": null, "view_dom_id": 1, "pager_element": 0 }, { "view_name": "course_forum_posts", "view_display_id": "panel_pane_1", "view_args": "13622", "view_path": "node/13622/forums/22528", "view_base_path": null, "view_dom_id": 2, "pager_element": 0 } ] }, "popup": { "hoverLinger": "250" }, "og": { "group_context": { "nid": "13622", "title": "Introduction to Ruby and Rails", "type": "course" } } });
+//--><!]]>
+</script>
+</head>
+
+<body class="not-front not-logged-in page-node no-sidebars p2pu-context-course-section-webcraft og-context og-context-13622  ">
+
+  <div id="page">
+     <!--style = "display:none;"-->
+      <div id="top-notification" class="p2pu-notification">
+        <p>This is the P2PU Archive. If you want the current site, go to <a href="http://www.p2pu.org" rel="nofollow">www.p2pu.org!</a></p>
+      </div>     
+      <div id="page-header" class="float-container">
+
+        <div id="logo"><a title="webcraft Home" href="../../../webcraft.1.html"><img alt="P2PU Home" src="../../../sites/archive.p2pu.org/themes/p2pu10/images/logos/logo-section-webcraft.png"></a></div>
+        <div id="slogan"></div>
+        <div id="region-header"></div>
+
+              </div><!-- /page-header -->
+
+      <div id="navigation">
+        <div class="primary">  <div id="block-menu-menu-webcraft" class="block block-menu">
+<!-- wrappers -->
+
+
+  <div class="content"><ul class="menu"><li class="leaf first dhtml-menu "><a href="../../../index.html" title="P2PU home page" id="dhtml_menu-17129"><span>P2PU Home</span></a></li>
+<li class="leaf last dhtml-menu "><a href="../../course/list.html" title="Webcraft course listing." id="dhtml_menu-17128"><span>Courses</span></a></li>
+</ul></div>
+  
+<!-- /wrappers -->
+</div></div>        <form action="regarding-jruby.html"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-ae71da3307d762aad8654c1588d4b4ab" value="form-ae71da3307d762aad8654c1588d4b4ab"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+      </div><!-- /Navigation -->
+
+      <div id="page-sub-header"></div>
+
+      <div id="page-body" class="float-container page-body-top">
+        <div id="page-sub-body">
+  
+          <div id="content-column">
+            <div class="inner">
+                            
+              <h1 class="title">Introduction to Ruby and Rails</h1>                                                        <div class="tabs float-container"><ul class="tabs primary">
+<li ><a href="../../introduction-ruby-and-rails.html"><span>Course Home</span></a></li>
+<li ><a href="../../node/13622/document.html"><span>Course Material</span></a></li>
+<li class="active" ><a href="../../node/13622/forums.html"><span>Forums</span></a></li>
+</ul>
+</div>                            <div class="panel-flexible panels-flexible-40 clear-block" >
+<div class="panel-flexible-inside panels-flexible-40-inside">
+<div class="panels-flexible-region panels-flexible-region-40-left_ panels-flexible-region-first">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-40-left_-inside panels-flexible-region-inside-first">
+<div class="panel-pane pane-views-panes pane-course-forum-posts-panel-pane-2 grey-panel" >
+  <div class="pane-inner">
+      
+          <h2 class="pane-title">My recent threads</h2>
+      
+      
+    <div class="pane-content">
+      <div class="view view-course-forum-posts view-id-course_forum_posts view-display-id-panel_pane_2 view-dom-id-1">
+    
+  
+  
+      <div class="view-empty">
+      <p>You haven't posted any discussions yet.</p>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>     </div>
+  
+      
+      </div>  
+</div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-views-panes pane-course-forum-posts-panel-pane-1 grey-panel" >
+  <div class="pane-inner">
+      
+          <h2 class="pane-title">Recently updated threads</h2>
+      
+      
+    <div class="pane-content">
+      <div class="view view-course-forum-posts view-id-course_forum_posts view-display-id-panel_pane_1 view-dom-id-2">
+    
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="introductions.html">Introductions</a></span>
+  </span>
+  
+  <span class="views-field-last-updated">
+                <span class="field-content">Thu, 2011-02-03 13:39</span>
+  </span>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="intro-git.html">Intro to Git</a></span>
+  </span>
+  
+  <span class="views-field-last-updated">
+                <span class="field-content">Thu, 2011-01-20 06:34</span>
+  </span>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="fonts.html">Fonts.</a></span>
+  </span>
+  
+  <span class="views-field-last-updated">
+                <span class="field-content">Thu, 2011-01-20 06:33</span>
+  </span>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="regarding-jruby.html">Regarding JRuby</a></span>
+  </span>
+  
+  <span class="views-field-last-updated">
+                <span class="field-content">Wed, 2011-01-19 16:28</span>
+  </span>
+</li>
+          <li class="views-row views-row-5 views-row-odd views-row-last">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="changes-sign-task.html">Changes to Sign Up Task</a></span>
+  </span>
+  
+  <span class="views-field-last-updated">
+                <span class="field-content">Wed, 2011-01-19 02:17</span>
+  </span>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>     </div>
+  
+      
+      </div>  
+</div>
+  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-40-right panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-40-right-inside panels-flexible-region-inside-last">
+<div class="panel-pane pane-panels-mini pane-forum-post-and-comments orange-panel"  id="forum-post-and-comments-mini-panel">
+  <div class="pane-inner">
+      
+      
+      
+    <div class="pane-content">
+      <div class="panel-display panel-1col clear-block" id="mini-panel-forum_post_and_comments">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-block pane-p2pu-2 white-on-orange-panel" >
+  <div class="pane-inner">
+      
+          <h2 class="pane-title">Regarding JRuby</h2>
+      
+      
+    <div class="pane-content">
+      <div id="node-22528" class="node node-forum clear-block">
+
+
+  <div class="meta">
+          <span class="submitted"><div class="picture">
+  <a href="../../../users/adamcollado.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-2709.jpg" alt="Adam Collado&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+ <a href="../../users/adamcollado.html" title="View user profile.">Adam Collado</a> on Wed, 2011-01-19 02:17</span>
+    </div>
+
+  <div class="content">
+    <!-- Removed the terms - just display the link to the forum -->
+    <span class="terms"><a href="../../node/13622/forums.html">Go back to: General discussion</a></span>
+
+    <p>Just curious, as I&#39;m new to Ruby in general, but what is the difference between JRuby and the standard Ruby interpreter? I know the primary difference is that JRuby runs inside the Java Virtual Machinem while standard Ruby is written in C. I&#39;m just wondering whether there&#39;s a specific difference that made it required for the course over the standard Ruby distribution.</p>
+  <div class="forum-topic-navigation clear-block">
+          <a href="fonts.html" class="topic-previous" title="Go to previous forum topic">‹ Fonts.</a>
+              <a href="changes-sign-task.html" class="topic-next" title="Go to next forum topic">Changes to Sign Up Task ›</a>
+      </div>
+  </div>
+  <div class="node-flags">
+        <span class="flagged-by-indication">1 person liked this</span>
+  </div>
+
+</div>
+
+
+</div>
+
+<div id="comments">
+  <a id="comment-6759"></a>
+<div class="comment comment-6759 comment-published odd first clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/liuhenry.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-8802.jpg" alt="Henry Liu&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/liuhenry.html" title="View user profile.">Henry Liu</a><div id='comment-submitted-date'>
+Wed, 2011-01-19 03:39</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>You're absolutely right as far as the primary differences.<br />
+1. jRuby has the ability to import and call Java code from Ruby. Otherwise (ex. pure ruby program), the code is identical.</p>
+<p>You run into problems with implementation, however:<br />
+1. jRuby must run java-compiled gems. Although the majority of gems are both in C and Java, you may run into  availability issues or lagging versions. Rails originally had this problem.<br />
+2. Setting up Java server-side. A lot of consumer server providers have ruby set up out of the box. </p>
+<p>For the purposes of this class, it's my understanding that we're deploying apps to Heroku, which doesn't currently support jRuby. Otherwise, it's up to you based on your specific project needs.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="regarding-jruby.html#comment-6759" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6767"></a>
+<div class="comment comment-6767 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/cloneofsnake.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-426.jpg" alt="Nicholas Wang&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/cloneofsnake.html" title="View user profile.">Nicholas Wang</a><div id='comment-submitted-date'>
+Wed, 2011-01-19 04:17</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Good question!</p>
+<p>So, is it safe to say that JRuby is mainly for Java programmers moving to Ruby?</p>
+<p>If we're not currently working with any Java programs, and we're learning Ruby now as noobs, is there any merit to run JRuby?</p>
+<p>I have a follow up question. (Though may not be that related...)</p>
+<p>MacRuby?  Is that also like JRuby?  Running Ruby instead of Objective-C?</p>
+<p>In this course, we'll learn Ruby and RoR, which will allow us to build web apps.  How much of that knowledge can we apply to writing other programs?  Like for Macs or iOS?</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="regarding-jruby.html#comment-6767" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-6779"></a>
+<div class="comment comment-6779 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/liuhenry.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-8802.jpg" alt="Henry Liu&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/liuhenry.html" title="View user profile.">Henry Liu</a><div id='comment-submitted-date'>
+Wed, 2011-01-19 05:28</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Apologies for answering your questions out of order, but I think it will make more sense this way:</p>
+<p>When you write a program, that source code is not readable by your computer. It must be compiled into a lower-level machine code to be executed. </p>
+<ul>
+<li>C, Objective-C, and Java are all compiled languages. (Java is slightly different, but in practice, is still compiled). In a compiled language, after the source code is compiled, the program is executed directly on the machine. </li>
+<li>On the other hand, with an interpreted language, every machine must have the interpreter to execute the code. The interpreter runs every time the code is run, and translates the code on the fly.</li>
+</ul>
+<p>Why do one over the other? When you run Ruby code, you don't have to wait for the code to compile or recompile the code every time you make a change to the program. However, all the code has to be translated through the interpreter, and thus interpreted code is slower than compiled code. </p>
+<p>The main differences with Ruby MRI (the default, or C Ruby), jRuby, or MacRuby is the language in which the interpreter is written.</p>
+<p>To answer your question:<br />
+Yes, MacRuby is Ruby on Obj-C, just like jRuby is Ruby on Java. </p>
+<p>As far as reasons to use the others: jRuby's main advantage is the ability to run Java code. With the 1.9 release of Ruby 1.9, jRuby is generally slower than cRuby (a.k.a Ruby). Unless you're running Java code or your hardware/server is set up for Java, there really isn't any advantage to running jRuby. </p>
+<p>Programming for web apps is much different than programming for desktop or mobile. There's a much different set of constraints; generally you start to have to worry about low-level problems (hardware limitations, screen size/resolution, etc.) </p>
+<p>Programming languages are like any other language. You can express the same idea in any language, but the way it is expressed is different. Mac/iOS is written in Objective-C, which is very different from Ruby. Every programming language has specific syntax and paradigms that may be incompatible. However, programming theory is transferable - learning algorithms, logic, loops, etc., can be implemented in any language. Additionally, you'll be more familiar with the look and feel of code.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication">1 person liked this</span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="regarding-jruby.html#comment-6779" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-6817"></a>
+<div class="comment comment-6817 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/lotia.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Ali Asad Lotia&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/lotia.html" title="View user profile.">Ali Asad Lotia</a><div id='comment-submitted-date'>
+Wed, 2011-01-19 11:31</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Thanks for your detailed response to the OP. I wanted to add a couple of points to your excellent reply.</p>
+<ol>
+<li>JRuby supports tooling to package up Rails apps into Java WARs so they can be deployed anywhere that a Java servlet can be deployed. The environment where it is deployed need not know anything about Ruby as long as it can deploy a WAR file, which is how many Java webapps are deployed. See: <a href="http://kenai.com/projects/warbler/pages/Home" title="http://kenai.com/projects/warbler/pages/Home" rel="nofollow">http://kenai.com/projects/warbler/pages/Home</a>
+</li><li>The JRuby team is extremely focused on performance. However, since Java does have a certain amount of startup cost (starting up the JVM etc.) it lags behind MRI (the most commonly deployed Ruby implementation) when running short one-time scripts. With the release of JRuby 1.6RC1, they are apparently catching up with Ruby 1.9.x on some benchmarks. See: <a href="http://www.ruby-forum.com/topic/177699" title="http://www.ruby-forum.com/topic/177699" rel="nofollow">http://www.ruby-forum.com/topic/177699</a> and <a href="http://www.ruby-forum.com/topic/205088" title="http://www.ruby-forum.com/topic/205088" rel="nofollow">http://www.ruby-forum.com/topic/205088</a><br />
+Before Ruby 1.9 was release JRuby was supposed to be faster than MRI for deploying Rails. The release of JRuby 1.6 may make that true again.
+</li></ol>
+<p>Most of this shouldn't matter for the purposes of this class. I think the eyu VM image and vagrant have everything nicely standardized so you won't need to sweat such details.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="regarding-jruby.html#comment-6817" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-6867"></a>
+<div class="comment comment-6867 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/alindeman.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-6964.jpg" alt="Andy Lindeman&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/alindeman.html" title="View user profile.">Andy Lindeman</a><div id='comment-submitted-date'>
+Wed, 2011-01-19 16:28</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>The first point is definitely good to keep in mind!  If you are ever wanting to use Ruby and/or Rails with a business that's solidly a Java shop, know that you can run JRuby through a traditional Java application server.</p>
+<p>More info about this via the <a href="https://github.com/nicksieger/warbler" rel="nofollow">warbler gem</a> homepage.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="regarding-jruby.html#comment-6867" class="active">link to this comment</a></li>
+</ul></div></div></div></div><a id="comment-6777"></a>
+<div class="comment comment-6777 comment-published even last clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/osmose.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Michael Kelly&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/osmose.html" title="View user profile.">Michael Kelly</a><div id='comment-submitted-date'>
+Wed, 2011-01-19 05:04</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I think you misunderstand: JRuby is Java implementation of Ruby. What this means is that JRuby is a runtime/compiler that runs your Ruby code. But JRuby itself is coded in Java.</p>
+<p>There are some Java links; primarily, that there are ways to call Ruby code from Java or vice versa, but it isn't a special version of Ruby for Java programmers or anything.</p>
+<p>One merit to running JRuby is that it runs on multiple types of operating systems; I may be wrong about this, but it seems that JRuby is the best choice for people on Windows.</p>
+<p>MacRuby is like JRuby, but instead of being coded in Java, MacRuby runs on Objective-C. Again, the language you program in is not different; It's the same Ruby. But the programs that run or compile your code are made using Objective-C rather than C or Java.</p>
+<p>As for your last question, learning any programming language will teach you about writing programs in another language, especially if you've never programmed before. Learning Ruby will help you start to think about how programs are structured, and many of the constructs (like conditionals, looping, methods, classes, etc) are common among many languages; conditionals, for example, are pretty much required for any language to be useful at all.</p>
+<p>Learning Rails in particular isn't quite as directly helpful, but is still useful. Rails is an MVC framework (Model-View-Control). MVC is a pattern of organizing a program that is very common in making web applications, although it is also used elsewhere.</p>
+<p>The biggest thing you'll get from learning Rails is learning how to use a library to create an application. Whenever you make a program elsewhere, you will probably have to learn some other framework or library to help you create your program quickly and effectively. Learning Rails will give you experience in learning how something someone else made can help you program.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication">1 person liked this</span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="regarding-jruby.html#comment-6777" class="active">link to this comment</a></li>
+</ul></div></div>
+    </div>
+  
+      
+      </div>  
+</div>
+</div>
+  </div>
+</div>
+    </div>
+  
+      
+      </div>  
+</div>
+  </div>
+</div>
+</div>
+</div>
+                                        </div>
+          </div><!-- /content-column -->
+  
+                  </div>
+        
+                  
+      </div><!-- /page-body -->
+  
+              <div id="page-footer">
+          <div class="inner">
+            <div class="message">
+                            <div id='creative-commons'>
+                <div class='p2pu-cc-text'>
+                  <a href="../../../license.html">License Information</a> - <a href="../../../privacy.html">Privacy Guidelines</a> - <a href="../../../terms-of-use.html">Terms of Use</a>
+                </div><br>
+<div id='cc-logo'>
+
+<a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license" target="_blank"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
+               <div class="p2pu-cc-text">Except where otherwise noted, all content on <span dct="http://purl.org/dc/terms/" property="title">p2pu.org</span> is
+licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license" target="_blank">Creative Commons Attribution-ShareAlike 3.0 Unported
+License</a>.</div>
+
+                </div>
+              </div>             </div>
+              <div id="block-user_voice-0" class="block block-user_voice">
+<!-- wrappers -->
+
+  <h2 class="title"><none></h2>
+  <div class="content"><script type="text/javascript">
+var uservoiceJsHost = ("https:" == document.location.protocol) ? "https://uservoice.com" : "http://cdn.uservoice.com";
+document.write(unescape("%3Cscript src='" + uservoiceJsHost + "/javascripts/widgets/tab.js' type='text/javascript'%3E%3C/script%3E"))
+</script>
+<script type="text/javascript">
+UserVoice.Tab.show({ 
+  key: 'p2pu',
+  host: 'p2pu.uservoice.com', 
+  forum: '47491', 
+  alignment: 'left',
+  background_color:'#F00', 
+  text_color: 'white',
+  hover_color: '#06C',
+  lang: 'en'
+})
+</script></div>
+  
+<!-- /wrappers -->
+</div>          </div>
+        </div>
+      
+  </div><!-- /page -->
+  
+  <script type="text/javascript">
+  var _sf_async_config=Drupal.settings.chartbeat;
+  (function(){
+    function loadChartbeat() {
+      window._sf_endpt=(new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src',
+         (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+         "static.chartbeat.com/js/chartbeat.js");
+      document.body.appendChild(e);
+    }
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+       loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+</script>
+<!--[if lt IE 8]><style type="text/css">div.popup-element{ display: inline;}</style><![endif]-->
+</body>
+</html>

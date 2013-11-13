@@ -1,0 +1,1412 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="p2pu" xml:lang="p2pu">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Learn Python the Hard Way | P2PU Archive</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<link rel="shortcut icon" href="../sites/archive.p2pu.org/themes/p2pu10/favicon.ico" type="image/x-icon" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/archive.p2pu.org/modules/codefilter/codefilter.css@I.css" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/archive.p2pu.org/files/ctools/css/285c428a76ec8572518f378d6e75c7c3.css@I.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../sites/archive.p2pu.org/modules/popup/popup.css@I.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../sites/archive.p2pu.org/modules/popup/styles/Soft&#32;grey&#32;frame/popup-style.css@I.css" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/archive.p2pu.org/files/css/css_95f2f0b0d88c9c33dd38d79be896576b.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../sites/archive.p2pu.org/files/css/css_23213a44f12b0d9125523bb3c342e2a6.css" />
+<script type="text/javascript" src="../sites/archive.p2pu.org/files/js/js_f9571e8f689e0561a88ad14078625551.js"></script>
+<script type="text/javascript" src="../sites/archive.p2pu.org/modules/popup/popup.js@1381358017"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "chartbeat": { "uid": 10678, "domain": "p2pu.org" }, "dhtmlMenu": { "slide": "slide", "doubleclick": "doubleclick", "siblings": 0, "relativity": 0, "children": 0, "clone": 0 }, "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|avi|csv|doc|exe|flv|gif|gz|jpe?g|js|mp(3|4|e?g)|mov|pdf|phps|png|ppt|rar|sit|tar|torrent|txt|wma|wmv|xls|xml|zip" }, "extlink": { "extTarget": 0, "extClass": "ext", "extSubdomains": 1, "extExclude": "", "extInclude": "", "extAlert": 0, "extAlertText": "This link will take you to an external web site. We are not responsible for their content.", "mailtoClass": "mailto" }, "popup": { "hoverLinger": "250" }, "views": { "ajax_path": [ "/webcraft/views/ajax", "/webcraft/views/ajax", "/webcraft/views/ajax", "/webcraft/views/ajax" ], "ajaxViews": [ { "view_name": "dashboard_mytracker", "view_display_id": "panel_pane_2", "view_args": "16646", "view_path": "node/16646", "view_base_path": "user/%/dashboard/tracker", "view_dom_id": 1, "pager_element": 4 }, { "view_name": "og_members_faces", "view_display_id": "default", "view_args": "16646", "view_path": "node/16646", "view_base_path": "group-member-faces", "view_dom_id": 2, "pager_element": 0 }, { "view_name": "activity_atrium", "view_display_id": "panel_pane_1", "view_args": "16646", "view_path": "node/16646", "view_base_path": null, "view_dom_id": 3, "pager_element": 0 }, { "view_name": "broadcast_messages", "view_display_id": "block_2", "view_args": "16646", "view_path": "node/16646", "view_base_path": null, "view_dom_id": 4, "pager_element": 0 } ] }, "og": { "group_context": { "nid": "16646", "title": "Learn Python the Hard Way", "type": "course" } } });
+//--><!]]>
+</script>
+</head>
+
+<body class="not-front not-logged-in page-node node-type-course no-sidebars p2pu-context-course-section-webcraft og-context og-context-16646  ">
+
+  <div id="page">
+     <!--style = "display:none;"-->
+      <div id="top-notification" class="p2pu-notification">
+        <p>This is the P2PU Archive. If you want the current site, go to <a href="http://www.p2pu.org" rel="nofollow">www.p2pu.org!</a></p>
+      </div>     
+      <div id="page-header" class="float-container">
+
+        <div id="logo"><a title="webcraft Home" href="../webcraft.1.html"><img alt="P2PU Home" src="../sites/archive.p2pu.org/themes/p2pu10/images/logos/logo-section-webcraft.png"></a></div>
+        <div id="slogan"></div>
+        <div id="region-header"></div>
+
+              </div><!-- /page-header -->
+
+      <div id="navigation">
+        <div class="primary">  <div id="block-menu-menu-webcraft" class="block block-menu">
+<!-- wrappers -->
+
+
+  <div class="content"><ul class="menu"><li class="leaf first dhtml-menu "><a href="../index.html" title="P2PU home page" id="dhtml_menu-17129"><span>P2PU Home</span></a></li>
+<li class="leaf last dhtml-menu "><a href="course/list.html" title="Webcraft course listing." id="dhtml_menu-17128"><span>Courses</span></a></li>
+</ul></div>
+  
+<!-- /wrappers -->
+</div></div>        <form action="learn-python-hard-way@page=1.html"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-b4d64fb97d26a0c285ccfaded0b7ecdc" value="form-b4d64fb97d26a0c285ccfaded0b7ecdc"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+      </div><!-- /Navigation -->
+
+      <div id="page-sub-header"></div>
+
+      <div id="page-body" class="float-container page-body-top">
+        <div id="page-sub-body">
+  
+          <div id="content-column">
+            <div class="inner">
+                            
+              <h1 class="title">Learn Python the Hard Way</h1>                                                        <div class="tabs float-container"><ul class="tabs primary">
+<li class="active" ><a href="learn-python-hard-way.html" class="active"><span>Course Home</span></a></li>
+<li ><a href="node/16646/document.html"><span>Course Material</span></a></li>
+<li ><a href="node/16646/forums.html"><span>Forums</span></a></li>
+</ul>
+</div>                            <div class="panel-flexible panels-flexible-43 clear-block" >
+<div class="panel-flexible-inside panels-flexible-43-inside">
+<div class="panels-flexible-column panels-flexible-column-43-main panels-flexible-column-first">
+  <div class="inside panels-flexible-column-inside panels-flexible-column-43-main-inside panels-flexible-column-inside-first">
+<div class="panels-flexible-region panels-flexible-region-43-center panels-flexible-region-first panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-43-center-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panel-pane pane-block pane-p2pu-7 yellow-panel" >
+  <div class="pane-inner">
+      
+      
+      
+    <div class="pane-content">
+      <div id='course-dates-block'>
+This course is complete. <a href="../get-involved.html">Subscribe to the announcement list</a> for updates.</div>
+    </div>
+  
+      
+      </div>  
+</div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-content-field pane-field-course-photo" >
+  <div class="pane-inner">
+      
+      
+      
+    <div class="pane-content">
+      <div class="field field-type-filefield field-field-course-photo">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <img src="../sites/archive.p2pu.org/files/imagecache/course_photo/lpthw_0.png" alt="Learn Python the Hard Way course photo" title=""  class="imagecache imagecache-course_photo imagecache-default imagecache-course_photo_default" width="292" height="235" />        </div>
+        </div>
+</div>
+    </div>
+  
+      
+      </div>  
+</div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-panels-mini pane-course-general-info grey-panel" >
+  <div class="pane-inner">
+      
+          <h2 class="pane-title">Learn Python the Hard Way</h2>
+      
+      
+    <div class="pane-content">
+      <div class="panel-display panel-1col clear-block" id="mini-panel-course_general_info">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-custom pane-1" >
+  <div class="pane-inner">
+      
+      
+      
+    <div class="pane-content">
+      <div class='meta'>
+<div class="picture">
+  <a href="http://archive.p2pu.org/users/mvolz" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9901.jpg" alt="M. Volz&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+<span class='created-date'>Course organiser: <a href="users/mvolz.html" title="View user profile.">M. Volz</a></span>
+</div>
+    </div>
+  
+      
+      </div>  
+</div>
+<div class="panel-region-separator"></div><div class="field field-type-text field-field-course-facilitator-about">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              About the Course Organiser:&nbsp;</div>
+                    <p>Hi! &nbsp;My name is Marielle. &nbsp;I&#39;m actually a biologist by training, but I initially took programming classes in school for fun. &nbsp;Then as I started working in my field,&nbsp;I could do a lot of things my colleagues could not. &nbsp;</p>
+<p>I realized how&nbsp;<em>useful</em>&nbsp;programming was, and today I firmly believe that programming should be taught right alongside English and math in early education. &nbsp;Programming is only going to become more and more essential even in traditionally non-technical fields. &nbsp;I&#39;ve taught programming to 7th graders and biology to college undergraduates, so I&#39;m looking forward to &quot;teaching&quot; to my peers!</p>
+        </div>
+        </div>
+</div>
+<div class="panel-region-separator"></div><div class="field field-type-number-integer field-field-course-no-of-seats">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              No of Seats:&nbsp;</div>
+                    100        </div>
+        </div>
+</div>
+<div class="panel-region-separator"></div><div class="field field-type-text field-field-course-status">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Course Status:&nbsp;</div>
+                    Completed        </div>
+        </div>
+</div>
+</div>
+  </div>
+</div>
+    </div>
+  
+      
+      </div>  
+</div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-views pane-og-members-faces yellow-panel" >
+  <div class="pane-inner">
+      
+          <h2 class="pane-title">Members</h2>
+      
+      
+    <div class="pane-content">
+      <div class="view view-og-members-faces view-id-og_members_faces view-display-id-default view-dom-id-2">
+    
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid">
+  <tbody>
+                <tr class="row-1 row-first">
+                  <td class="col-1">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/corsampson.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="Cory Sampson&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Cory</span>
+  </div>
+          </td>
+                  <td class="col-2">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/cpixie.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="Sandra M&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Sandr</span>
+  </div>
+          </td>
+                  <td class="col-3">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/dbeaton.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/picture-10756.jpg" alt="Donald Beaton&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Donal</span>
+  </div>
+          </td>
+                  <td class="col-4">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/dafinga.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/picture-10342.jpg" alt="Chris Maenner&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Chris</span>
+  </div>
+          </td>
+                  <td class="col-5">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/daskalow.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="Alexander Daskalow&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Alexa</span>
+  </div>
+          </td>
+              </tr>
+                <tr class="row-2">
+                  <td class="col-1">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/diegocardoso.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="Diego Cardoso&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Diego</span>
+  </div>
+          </td>
+                  <td class="col-2">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/dscarlatella.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="Dave Scarlatella&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Dave</span>
+  </div>
+          </td>
+                  <td class="col-3">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/esperantist.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="Brandon Sowers&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Brand</span>
+  </div>
+          </td>
+                  <td class="col-4">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/evolvedevolve.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/picture-12176.jpg" alt="Patrick Crosman&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Patri</span>
+  </div>
+          </td>
+                  <td class="col-5">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/ewokskick.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="Cory Copeland&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Cory</span>
+  </div>
+          </td>
+              </tr>
+                <tr class="row-3">
+                  <td class="col-1">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/farspark.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="paul byrd&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">paul</span>
+  </div>
+          </td>
+                  <td class="col-2">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/flowerkowski.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="Dejan Cvetkovski&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Dejan</span>
+  </div>
+          </td>
+                  <td class="col-3">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/georges023.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="Georges Duplessy&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Georg</span>
+  </div>
+          </td>
+                  <td class="col-4">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/gnycl.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="Mohomed Abdullahi&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Mohom</span>
+  </div>
+          </td>
+                  <td class="col-5">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/gomesp.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="Pablo Gomes Ludermir&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Pablo</span>
+  </div>
+          </td>
+              </tr>
+                <tr class="row-4">
+                  <td class="col-1">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/gouki.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="Fidel  Guico&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Fidel</span>
+  </div>
+          </td>
+                  <td class="col-2">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/guillemtanya.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="Guillem Tanyà Palacios&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Guill</span>
+  </div>
+          </td>
+                  <td class="col-3">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/havelst.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="Steve Havelock&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Steve</span>
+  </div>
+          </td>
+                  <td class="col-4">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/heatherw.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/picture-11277.jpg" alt="Heather Williams&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Heath</span>
+  </div>
+          </td>
+                  <td class="col-5">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/hkorantenggmailcom.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="Hemmings Koranteng&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Hemmi</span>
+  </div>
+          </td>
+              </tr>
+                <tr class="row-5 row-last">
+                  <td class="col-1">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/ikatanda.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="Amene Katanda&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Amene</span>
+  </div>
+          </td>
+                  <td class="col-2">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/imants.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/picture-11999.png" alt="Guntis L&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Gunti</span>
+  </div>
+          </td>
+                  <td class="col-3">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/ipats.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="John Patsiotis&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">John</span>
+  </div>
+          </td>
+                  <td class="col-4">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/javiere.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/picture-9980.jpg" alt="Javier Evans&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Javie</span>
+  </div>
+          </td>
+                  <td class="col-5">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/jcapelo.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/picture-9481.jpg" alt="Jaime Capelo&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Jaime</span>
+  </div>
+          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+      <div class="item-list"><ul class="pager"><li class="pager-first first"><a href="learn-python-hard-way.html" title="Go to first page" class="active">« first</a></li>
+<li class="pager-previous"><a href="learn-python-hard-way.html" title="Go to previous page" class="active">‹ previous</a></li>
+<li class="pager-item"><a href="learn-python-hard-way.html" title="Go to page 1" class="active">1</a></li>
+<li class="pager-current">2</li>
+<li class="pager-item"><a href="learn-python-hard-way@page=2.html" title="Go to page 3" class="active">3</a></li>
+<li class="pager-item"><a href="learn-python-hard-way@page=3.html" title="Go to page 4" class="active">4</a></li>
+<li class="pager-item"><a href="learn-python-hard-way@page=4.html" title="Go to page 5" class="active">5</a></li>
+<li class="pager-item"><a href="learn-python-hard-way@page=5.html" title="Go to page 6" class="active">6</a></li>
+<li class="pager-next"><a href="learn-python-hard-way@page=2.html" title="Go to next page" class="active">next ›</a></li>
+<li class="pager-last last"><a href="learn-python-hard-way@page=5.html" title="Go to last page" class="active">last »</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>     </div>
+  
+      
+      </div>  
+</div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-column panels-flexible-column-43-1 panels-flexible-column-last">
+  <div class="inside panels-flexible-column-inside panels-flexible-column-43-1-inside panels-flexible-column-inside-last">
+<div class="panels-flexible-row panels-flexible-row-43-4 panels-flexible-row-first clear-block">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-43-4-inside panels-flexible-row-inside-first clear-block">
+<div class="panels-flexible-region panels-flexible-region-43-top_region panels-flexible-region-first panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-43-top_region-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panel-pane pane-block pane-p2pu-6 orange-panel" >
+  <div class="pane-inner">
+      
+      
+      
+    <div class="pane-content">
+      <div id='tweet-text-and-button'>
+<div class='field-field-course-short-desc'>This course closely follows Zed Shaw&#039;s &quot;Learn Python the Hard Way&quot; book, and is designed for new or inexperienced programmers.  </div>
+<div id="tweet-button"><a href="http://twitter.com/share" class="twitter-share-button" data-related="p2pu:P2P University, learning for everyone, by everyone, about almost anything." data-text="This course closely follows Zed Shaw&#039;s &quot;Learn Python the Hard Way&quot; book, and is designed for new or inexperienced programmers.  " data-count="none">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div></div>
+    </div>
+  
+      
+      </div>  
+</div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-panels-mini pane-course-summary-and-syllabus yellow-panel" >
+  <div class="pane-inner">
+      
+      
+      
+    <div class="pane-content">
+      <div class="panel-display panel-1col clear-block" id="mini-panel-course_summary_and_syllabus">
+  <div class="panel-panel panel-col">
+    <div><h2 class="pane-title">Summary</h2><div class="field field-type-text field-field-course-summary">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <p>This course is an introduction to programming for the complete beginner. &nbsp;If you already can code in another language, this course will probably drive you insane, because it is extremely basic. &nbsp;The text for the course is <a href="http://learnpythonthehardway.org/" rel="nofollow">Learn Python the Hard Way</a> by Zed Shaw and is available <a href="http://p2pu.org/sites/p2pu.org/files/document/16654-learn-python-hard-way-textbook/learnpythonthehardway.pdf" rel="nofollow">for download</a> for free.</p>
+<p>This course will be primarily meeting on the forums. &nbsp;After joining the course you will be added to the group. &nbsp;Then you will be able to post messages to the group either by going to the group link and posting to the forums, or by e-mail.</p>
+        </div>
+        </div>
+</div>
+<div class="panel-region-separator"></div><h2 class="pane-title">Learning objectives</h2><div class="field field-type-text field-field-course-learning-objectives">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <p>The objective of this course is to empower you to be lazy! &nbsp;Seems crazy, right? &nbsp;But programming allows you to delegate monotonous tasks to computers. All you need to do is learn their language to get them to do all your work for you. &nbsp;In this course, that language is python. &nbsp;</p>
+        </div>
+        </div>
+</div>
+<div class="panel-region-separator"></div><h2 class="pane-title">Schedule/Syllabus</h2><div class="field field-type-nodereference field-field-refers-to-syllabus">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <a href="document/syllabus-learn-python-hard-way.html">Syllabus for Learn Python the Hard Way</a>        </div>
+        </div>
+</div>
+</div>
+  </div>
+</div>
+    </div>
+  
+      
+      </div>  
+</div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-node-comments" >
+  <div class="pane-inner">
+      
+          <h2 class="pane-title">Comments</h2>
+      
+      
+    <div class="pane-content">
+      <a id="comment-6932"></a>
+<div class="comment comment-6932 comment-published odd first clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-6932" class="active">Looking forward to it!</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/vhanudux.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-12820.jpg" alt="Tyler Brown&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/vhanudux.html" title="View user profile.">Tyler Brown</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 00:14</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Looking forward to it!</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-6932" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6934"></a>
+<div class="comment comment-6934 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-6934" class="active">Im excited!
+anyone in the sf</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/sharkmerry.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Mark Sherry&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/sharkmerry.html" title="View user profile.">Mark Sherry</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 00:23</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Im excited!</p>
+<p>anyone in the sf bay area?</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-6934" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-6951"></a>
+<div class="comment comment-6951 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-6951" class="active">I&#039;m in SF and happy to be</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/vfxguru001.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-11388.jpg" alt="Tim Aldridge&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/vfxguru001.html" title="View user profile.">Tim Aldridge</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 01:49</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I'm in SF and happy to be attending LPTHW.</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-6951" class="active">link to this comment</a></li>
+</ul></div></div><a id="comment-6940"></a>
+<div class="comment comment-6940 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-6940" class="active">Looks good. I think it&#039;ll be</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/southern-wolf.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-12863.jpg" alt="Southern Wolf&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/southern-wolf.html" title="View user profile.">Southern Wolf</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 00:38</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Looks good. I think it'll be fun. :)</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-6940" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6941"></a>
+<div class="comment comment-6941 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-6941" class="active">Looking forward to learning</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/javiere.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9980.jpg" alt="Javier Evans&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/javiere.html" title="View user profile.">Javier Evans</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 00:47</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Looking forward to learning with everyone.  Please let me know if anyone is in the the Seattle, WA area.  I'd love to have a meetup here as well.</p>
+<p>Javier</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-6941" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6944"></a>
+<div class="comment comment-6944 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-6944" class="active">woohoo python!  anybody in</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/micyukcha.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="michael chang&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/micyukcha.html" title="View user profile.">michael chang</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 01:07</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>woohoo python!  anybody in london want to meet up?</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-6944" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-6946"></a>
+<div class="comment comment-6946 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-6946" class="active">I&#039;m in London, would def be</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/tobyshaw.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Toby Shaw&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/tobyshaw.html" title="View user profile.">Toby Shaw</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 01:21</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I'm in London, would def be up for something when we've got a bit into the course.</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-6946" class="active">link to this comment</a></li>
+</ul></div></div><a id="comment-6950"></a>
+<div class="comment comment-6950 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-6950" class="active">Looking forward to learning</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/stevephelps.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-12662.jpg" alt="Steve Phelps&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/stevephelps.html" title="View user profile.">Steve Phelps</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 01:48</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Looking forward to learning Python and getting started!</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-6950" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6953"></a>
+<div class="comment comment-6953 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-6953" class="active">Hi all, looking forward to</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/pompos.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Hasan Hasan&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/pompos.html" title="View user profile.">Hasan Hasan</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 02:05</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi all, looking forward to this experience.</p>
+<p>I'm in London also and def up for future meet ups.</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-6953" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6955"></a>
+<div class="comment comment-6955 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-6955" class="active">crumb! looks like any meetup</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/pborzel.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-11714.jpg" alt="pborzel&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/pborzel.html" title="View user profile.">pborzel</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 02:11</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>crumb!</p>
+<p>looks like any meetup events pertaining to p2pu are down.  sorry kids, we'll have to wait for the site to repair itself.</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-6955" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6956"></a>
+<div class="comment comment-6956 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-6956" class="active">Yesterday, my two year old</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/malawibpm.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Dave Saka-Müller&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/malawibpm.html" title="View user profile.">Dave Saka-Müller</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 02:16</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Yesterday, my two year old daughter woke me up with a hit to the face with a ping pong paddle. Damn near broke my nose. I'm so proud of her. :) Today I learn that I'm taking this really awesome Python class. Truly, life couldn't get any better. </p>
+<p>Big-ups from Montréal. Let me know if you wanna link up. J'suis complètement bilingue en plus.</p>
+<p>Peace</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-6956" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7017"></a>
+<div class="comment comment-7017 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-7017" class="active">Really psyched to be doing</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/sammy.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Sammy Dhaliwal&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/sammy.html" title="View user profile.">Sammy Dhaliwal</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 11:44</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Really psyched to be doing this course with everyone. Yuhoo !!<br />
+Anyone from Auckland, NZ ?</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-7017" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-7152"></a>
+<div class="comment comment-7152 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-7152" class="active">Me!</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/bubonicfred.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Ciaran Welch&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/bubonicfred.html" title="View user profile.">Ciaran Welch</a><div id='comment-submitted-date'>
+Fri, 2011-01-21 00:51</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>@Sammy Dhaliwal, I am also from Auckland</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-7152" class="active">link to this comment</a></li>
+</ul></div></div><a id="comment-7037"></a>
+<div class="comment comment-7037 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-7037" class="active">Hi all,I wanted to ask Who</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/nas.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-5164.jpg" alt="nada A.S&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/nas.html" title="View user profile.">nada A.S</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 16:01</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi all,<br />
+I wanted to ask;Who has an experience in programming specially with python?</p>
+<p>For me i have worked with some programing languages ,and i know few about python ,i want to learn more and to build some games using the power of python.</p>
+<p>Good luck!</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-7037" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-7045"></a>
+<div class="comment comment-7045 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-7045" class="active">I would characterize myself</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/stevephelps.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-12662.jpg" alt="Steve Phelps&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/stevephelps.html" title="View user profile.">Steve Phelps</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 16:59</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I would characterize myself as having very basic (not the language basic) programming experience. Beyond simple programs on the TI-84 or the TI-NspireCAS, I have done very little. I can probably follow code when written, and determine what a program does. I understand concepts such as loop, while, if-then-else.</p>
+<p>I had tried to learn python a last summer, but summer happened!</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-7045" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-7058"></a>
+<div class="comment comment-7058 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-7058" class="active">Thanks Steve,sounds good,i</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/nas.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-5164.jpg" alt="nada A.S&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/nas.html" title="View user profile.">nada A.S</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 18:00</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Thanks Steve,sounds good,i haven't used TI-NspireCAS or TI-84 .<br />
+Is this your first time with p2pu?</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-7058" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-7060"></a>
+<div class="comment comment-7060 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-7060" class="active">First time with p2pu. Some</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/stevephelps.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-12662.jpg" alt="Steve Phelps&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/stevephelps.html" title="View user profile.">Steve Phelps</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 18:06</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>First time with p2pu. Some friends of mine (who are running other p2pu courses) spoke highly of all the courses.</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-7060" class="active">link to this comment</a></li>
+</ul></div></div></div></div><a id="comment-7046"></a>
+<div class="comment comment-7046 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-7046" class="active">How can know about my</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/mahfooz.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-12918.jpg" alt="mahfooz ahmad&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/mahfooz.html" title="View user profile.">mahfooz ahmad</a><div id='comment-submitted-date'>
+Fri, 2011-01-21 07:12</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>How can i know about my registration any one tell me.</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-7046" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7063"></a>
+<div class="comment comment-7063 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-7063" class="active">heres the new link to the</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/pborzel.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-11714.jpg" alt="pborzel&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/pborzel.html" title="View user profile.">pborzel</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 18:37</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>heres the new link to the Edmonton, AB meetup group, so that suggestions can be made on when/where and such.</p>
+<p><a href="http://www.meetup.com/p2pu/Edmonton-CA/57284/" title="http://www.meetup.com/p2pu/Edmonton-CA/57284/" rel="nofollow">http://www.meetup.com/p2pu/Edmonton-CA/57284/</a></p>
+<p>Cheers!</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-7063" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7083"></a>
+<div class="comment comment-7083 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-7083" class="active">I&#039;m so looking forward to</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/reignvoltaire.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9414.jpg" alt="Reign Voltaire&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/reignvoltaire.html" title="View user profile.">Reign Voltaire</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 19:58</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I'm so looking forward to this experience!</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-7083" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7089"></a>
+<div class="comment comment-7089 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-7089" class="active">so this seem like a lot of</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/abalcom512.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-12306.jpg" alt="adam balcom&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/abalcom512.html" title="View user profile.">adam balcom</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 20:26</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>so this seem like a lot of fun p2pu.org if it works i will start to take as many courses i can next go around. so i finished week one to day the only thing that gave me trouble was spelling but i just have to sow down.<br />
+ps. my "L" is jannky so if it looks like one should be there it should</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-7089" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7128"></a>
+<div class="comment comment-7128 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-7128" class="active">Could people not post the</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/leemarrett.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="lee marrett&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/leemarrett.html" title="View user profile.">lee marrett</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 22:13</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Could people not post the answers in the forums? We get emailed these discussions and it would be nice to not already know the answers before we sit down to do them.</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-7128" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-7131"></a>
+<div class="comment comment-7131 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-7131" class="active">very good point, lee! I hope</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/trekr5.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9615.jpg" alt="chika ebirim&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/trekr5.html" title="View user profile.">chika ebirim</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 22:32</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>very good point, lee! I hope the administrators of this course will change the setup so that the only emails that you receive come from the instructor and other people's answers, comments are restricted to a forum that is not mailed to everyone else!</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-7131" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7132"></a>
+<div class="comment comment-7132 comment-published even comment-by-author clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-7132" class="active">You can turn off the e-mails.</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="http://archive.p2pu.org/users/mvolz" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9901.jpg" alt="M. Volz&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/mvolz.html" title="View user profile.">M. Volz</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 22:41</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>You can turn off the e-mails.  Just go to "My Account" then "Notifications" then "Subscriptions" and you'll see a list of all the e-mail lists you're subscribed to.  You'll want to "drop" the one called "Learn Python the Hard Way, Forum topic."  Hopefully that should fix things for you.  Unfortunately I'm unable to make this the default behavior; everyone who is in the course is subscribed automatically to these e-mails.</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-7132" class="active">link to this comment</a></li>
+</ul></div></div><a id="comment-7174"></a>
+<div class="comment comment-7174 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-7174" class="active">I know, I can turn the emails</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/leemarrett.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="lee marrett&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/leemarrett.html" title="View user profile.">lee marrett</a><div id='comment-submitted-date'>
+Fri, 2011-01-21 04:15</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I know, I can turn the emails off -- however I want to receive certain emails, just not ones with answers in them! :)</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-7174" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7257"></a>
+<div class="comment comment-7257 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-7257" class="active">anybody in or near columbus,</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/sdfawcett.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Shayne Fawcett&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/sdfawcett.html" title="View user profile.">Shayne Fawcett</a><div id='comment-submitted-date'>
+Fri, 2011-01-21 17:23</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>anybody in or near columbus, ohio? i'm down for a meetup if so...</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-7257" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7987"></a>
+<div class="comment comment-7987 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-7987" class="active">Hi
+Are there any class times</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/trekr5.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9615.jpg" alt="chika ebirim&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/trekr5.html" title="View user profile.">chika ebirim</a><div id='comment-submitted-date'>
+Tue, 2011-01-25 21:48</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi</p>
+<p>Are there any class times for this course yet seeing as it is meant to be starting tomorrow?</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-7987" class="active">link to this comment</a></li>
+</ul></div><a id="comment-8343"></a>
+<div class="comment comment-8343 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-8343" class="active">I dont understand how is this</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/arbidh.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Arbi Derhartunian&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/arbidh.html" title="View user profile.">Arbi Derhartunian</a><div id='comment-submitted-date'>
+Thu, 2011-01-27 00:57</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I dont understand how is this class structured. There are 5 week assignments. Looks like everyone did it already. I am confused. Do we have web meeting for lecture, or do we just read the book and then do examples.</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-8343" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-8400"></a>
+<div class="comment comment-8400 comment-published odd comment-by-author clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-8400" class="active">Yup, people were</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="http://archive.p2pu.org/users/mvolz" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9901.jpg" alt="M. Volz&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/mvolz.html" title="View user profile.">M. Volz</a><div id='comment-submitted-date'>
+Thu, 2011-01-27 03:37</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Yup, people were enthusiastic!  But the first 4 exercises are due 1/30.  There is no formal class meeting; the idea is to work through the exercises on your own and discuss them in the forums.</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-8400" class="active">link to this comment</a></li>
+</ul></div></div><a id="comment-8507"></a>
+<div class="comment comment-8507 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="learn-python-hard-way.html#comment-8507" class="active">ok where do we turn in the</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/arbidh.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Arbi Derhartunian&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/arbidh.html" title="View user profile.">Arbi Derhartunian</a><div id='comment-submitted-date'>
+Thu, 2011-01-27 13:23</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>ok where do we turn in the assignments</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="learn-python-hard-way.html#comment-8507" class="active">link to this comment</a></li>
+</ul></div><div class="item-list"><ul class="pager"><li class="pager-first first"><a href="learn-python-hard-way.html" title="Go to first page" class="active">« first</a></li>
+<li class="pager-previous"><a href="learn-python-hard-way.html" title="Go to previous page" class="active">‹ previous</a></li>
+<li class="pager-item"><a href="learn-python-hard-way.html" title="Go to page 1" class="active">1</a></li>
+<li class="pager-current">2</li>
+<li class="pager-item"><a href="learn-python-hard-way@page=2.html" title="Go to page 3" class="active">3</a></li>
+<li class="pager-next"><a href="learn-python-hard-way@page=2.html" title="Go to next page" class="active">next ›</a></li>
+<li class="pager-last last"><a href="learn-python-hard-way@page=2.html" title="Go to last page" class="active">last »</a></li>
+</ul></div>    </div>
+  
+      
+      </div>  
+</div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-row panels-flexible-row-43-3 clear-block">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-43-3-inside clear-block">
+<div class="panels-flexible-column panels-flexible-column-43-5 panels-flexible-column-first">
+  <div class="inside panels-flexible-column-inside panels-flexible-column-43-5-inside panels-flexible-column-inside-first">
+<div class="panels-flexible-region panels-flexible-region-43-middle_left panels-flexible-region-first panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-43-middle_left-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+&nbsp;  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-column panels-flexible-column-43-6 panels-flexible-column-last">
+  <div class="inside panels-flexible-column-inside panels-flexible-column-43-6-inside panels-flexible-column-inside-last">
+<div class="panels-flexible-region panels-flexible-region-43-middle_right panels-flexible-region-first panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-43-middle_right-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+&nbsp;  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-row panels-flexible-row-43-2 panels-flexible-row-last clear-block">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-43-2-inside panels-flexible-row-inside-last clear-block">
+<div class="panels-flexible-region panels-flexible-region-43-center_ panels-flexible-region-first panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-43-center_-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+&nbsp;  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+</div>
+                                        </div>
+          </div><!-- /content-column -->
+  
+                  </div>
+        
+                  
+      </div><!-- /page-body -->
+  
+              <div id="page-footer">
+          <div class="inner">
+            <div class="message">
+                            <div id='creative-commons'>
+                <div class='p2pu-cc-text'>
+                  <a href="../license.html">License Information</a> - <a href="../privacy.html">Privacy Guidelines</a> - <a href="../terms-of-use.html">Terms of Use</a>
+                </div><br>
+<div id='cc-logo'>
+
+<a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license" target="_blank"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
+               <div class="p2pu-cc-text">Except where otherwise noted, all content on <span dct="http://purl.org/dc/terms/" property="title">p2pu.org</span> is
+licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license" target="_blank">Creative Commons Attribution-ShareAlike 3.0 Unported
+License</a>.</div>
+
+                </div>
+              </div>             </div>
+              <div id="block-user_voice-0" class="block block-user_voice">
+<!-- wrappers -->
+
+  <h2 class="title"><none></h2>
+  <div class="content"><script type="text/javascript">
+var uservoiceJsHost = ("https:" == document.location.protocol) ? "https://uservoice.com" : "http://cdn.uservoice.com";
+document.write(unescape("%3Cscript src='" + uservoiceJsHost + "/javascripts/widgets/tab.js' type='text/javascript'%3E%3C/script%3E"))
+</script>
+<script type="text/javascript">
+UserVoice.Tab.show({ 
+  key: 'p2pu',
+  host: 'p2pu.uservoice.com', 
+  forum: '47491', 
+  alignment: 'left',
+  background_color:'#F00', 
+  text_color: 'white',
+  hover_color: '#06C',
+  lang: 'en'
+})
+</script></div>
+  
+<!-- /wrappers -->
+</div>          </div>
+        </div>
+      
+  </div><!-- /page -->
+  
+  <script type="text/javascript">
+  var _sf_async_config=Drupal.settings.chartbeat;
+  (function(){
+    function loadChartbeat() {
+      window._sf_endpt=(new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src',
+         (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+         "static.chartbeat.com/js/chartbeat.js");
+      document.body.appendChild(e);
+    }
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+       loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+</script>
+<!--[if lt IE 8]><style type="text/css">div.popup-element{ display: inline;}</style><![endif]--><script type="text/javascript" src="../sites/archive.p2pu.org/files/js/js_3db59602a76097ac56c4ab27fd2d9f24.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+try{var pageTracker = _gat._getTracker("UA-5757664-5");pageTracker._trackPageview();var benchmarkTracker = _gat._getTracker("UA-5033010-1");
+benchmarkTracker._trackPageview();} catch(err) {}
+//--><!]]>
+</script>
+
+</body>
+</html>

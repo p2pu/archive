@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/webcraft/taxonomy/term/327/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>ANNOUNCE: New site on Stack Exchange: Code Review</title>
+ <link>http://archive.p2pu.org/webcraft/reading-code/discussion/announce-new-site-stack-exchange-code-review</link>
+ <description>&lt;p&gt;An interested site has lauched recently:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Code Review&lt;/strong&gt;&lt;br /&gt;
+&lt;a href=&quot;http://codereview.stackexchange.com/&quot; title=&quot;http://codereview.stackexchange.com/&quot; rel=&quot;nofollow&quot;&gt;http://codereview.stackexchange.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&amp;quot;This is a free, community driven Q&amp;amp;A for peer programmer code reviews. It is a part of the &lt;a href=&quot;http://stackexchange.com/sites&quot; rel=&quot;nofollow&quot;&gt;Stack Exchange network of Q&amp;amp;A websites&lt;/a&gt;&amp;quot;&lt;/p&gt;
+&lt;p&gt;This is a place to post and read code, in line with the goals of the Reading Code course.&lt;/p&gt;
+&lt;p&gt;Eric&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/reading-code&quot;&gt;Reading Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/reading-code/discussion/announce-new-site-stack-exchange-code-review#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/327">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/reading-code" xmlns="http://drupal.org/project/og">Reading Code</group>
+ <pubDate>Fri, 28 Jan 2011 13:33:48 +0000</pubDate>
+ <dc:creator>Eric Bréchemier</dc:creator>
+ <guid isPermaLink="false">25325 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Course wrap up and output: Notes on Reading Code</title>
+ <link>http://archive.p2pu.org/webcraft/reading-code/discussion/course-wrap-and-output-notes-reading-code</link>
+ <description>&lt;p&gt;Hi all!&lt;/p&gt;
+&lt;p&gt;At the end of our previous sessions, we decided a good way to wrap up the course would be to document some best practices on reading code, and also recommendations to developers who want to write readable code. Looks like there&amp;#39;s some good stuff in the &lt;a href=&quot;http://pad.p2pu.org/notes-on-reading-code&quot; rel=&quot;nofollow&quot;&gt;etherpad document&lt;/a&gt;!&amp;nbsp;&amp;nbsp;I feel like we could flesh it out a bit more still, and have added a bit but feel free to&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Also at the P2PU community&amp;nbsp;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/reading-code&quot;&gt;Reading Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/reading-code/discussion/course-wrap-and-output-notes-reading-code&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/reading-code/discussion/course-wrap-and-output-notes-reading-code#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/327">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/reading-code" xmlns="http://drupal.org/project/og">Reading Code</group>
+ <pubDate>Tue, 02 Nov 2010 13:37:55 +0000</pubDate>
+ <dc:creator>Jessy Cowan-Sharp</dc:creator>
+ <guid isPermaLink="false">11519 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Week 7.</title>
+ <link>http://archive.p2pu.org/webcraft/reading-code/discussion/week-7</link>
+ <description>&lt;p&gt;
+Hi everyone,&lt;/p&gt;
+&lt;p&gt;I won&amp;#39;t be able to make it for today&amp;#39;s meeting but i left some annotations on the pad, which hopefully are still there after its sudden failure.&lt;br /&gt;
+Many Thanks to Jessy and everyone else in this course, it&amp;#39;s been great to have some feedback on learning; &amp;quot;Reading Code&amp;quot; is IMO a very cool idea for a course and hopefully will evolve and reach many more people.&lt;/p&gt;
+&lt;p&gt;I&amp;#39;ll stay tuned for your comments on this last &amp;quot;class&amp;quot;. Feel free to contact me at my twitter account.&lt;/p&gt;
+&lt;p&gt;Good luck and see you!&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/reading-code&quot;&gt;Reading Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/reading-code/discussion/week-7&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/reading-code/discussion/week-7#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/327">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/reading-code" xmlns="http://drupal.org/project/og">Reading Code</group>
+ <pubDate>Sun, 31 Oct 2010 17:32:23 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">11461 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Week 6: Storage! MongoDB and HTML5 Web Storage</title>
+ <link>http://archive.p2pu.org/webcraft/reading-code/discussion/week-6-storage-mongodb-and-html5-web-storage</link>
+ <description>&lt;p&gt;Hi everybody!&lt;/p&gt;
+&lt;p&gt;Information on our two libraries for this week are below. &amp;nbsp;&lt;/p&gt;
+&lt;p&gt;To summarize your assignment this week:&lt;br /&gt;
+1. choose a library and start reading!&lt;br /&gt;
+2. by weds, get an idea of a bug or issue you&amp;#39;d like to study further&lt;br /&gt;
+3. for sunday, we&amp;#39;ll be discussing your experience with the code and the specific issues you chose.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Lots of links and info below. Good luck!&lt;/p&gt;
+&lt;p&gt;-------------------------------&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/reading-code&quot;&gt;Reading Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/reading-code/discussion/week-6-storage-mongodb-and-html5-web-storage&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/reading-code/discussion/week-6-storage-mongodb-and-html5-web-storage#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/327">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/reading-code" xmlns="http://drupal.org/project/og">Reading Code</group>
+ <pubDate>Mon, 18 Oct 2010 14:18:54 +0000</pubDate>
+ <dc:creator>Jessy Cowan-Sharp</dc:creator>
+ <guid isPermaLink="false">10826 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Week 4: Node.js and Javascript frameworks</title>
+ <link>http://archive.p2pu.org/webcraft/reading-code/discussion/week-4-nodejs-and-javascript-frameworks</link>
+ <description>&lt;p&gt;Hola a todos:&lt;/p&gt;
+&lt;p&gt;I&amp;#39;ll begin by sharing this nice video about Jquery&amp;#39;s source, which proved very helpful to understand this library:&lt;br /&gt;
+&lt;a href=&quot;http://paulirish.com/2010/10-things-i-learned-from-the-jquery-source/&quot; title=&quot;http://paulirish.com/2010/10-things-i-learned-from-the-jquery-source/&quot; rel=&quot;nofollow&quot;&gt;http://paulirish.com/2010/10-things-i-learned-from-the-jquery-source/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This week we&amp;#39;re covering two different languages,C with node.js and&amp;nbsp; javascript with the Jquery library and other js frameworks; so even as every project is different on its own, I guess we would be studying different paradigms this time.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/reading-code&quot;&gt;Reading Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/reading-code/discussion/week-4-nodejs-and-javascript-frameworks&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/reading-code/discussion/week-4-nodejs-and-javascript-frameworks#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/327">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/reading-code" xmlns="http://drupal.org/project/og">Reading Code</group>
+ <pubDate>Wed, 06 Oct 2010 14:10:03 +0000</pubDate>
+ <dc:creator />
+ <guid isPermaLink="false">10145 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>The Introduction Thread</title>
+ <link>http://archive.p2pu.org/webcraft/reading-code/discussion/introduction-thread</link>
+ <description>&lt;p&gt;Hey everybody!&lt;/p&gt;
+&lt;p&gt;Better late than never:&lt;br /&gt;
+an intro thread for everybody who wants to share a little more than fits in the text fields of their profile.&lt;br /&gt;
+just to get to know each other better. - I&amp;#39;m curious!&amp;nbsp;&lt;img alt=&quot;:P&quot; src=&quot;http://p2pu.org/sites/p2pu.org/modules/ckeditor/ckeditor/plugins/smiley/images/tounge_smile.gif&quot; title=&quot;:P&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;Where you are from? What gets you excited?&lt;br /&gt;
+Professional background,&amp;nbsp;coding experience, weird hobbies, favorite beverage &amp;hellip;?&lt;/p&gt;
+&lt;p&gt;- Rin&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/reading-code&quot;&gt;Reading Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/reading-code/discussion/introduction-thread#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/327">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/reading-code" xmlns="http://drupal.org/project/og">Reading Code</group>
+ <pubDate>Sun, 26 Sep 2010 21:12:33 +0000</pubDate>
+ <dc:creator>Rin Raeuber</dc:creator>
+ <guid isPermaLink="false">9723 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Reading Code: Week 2: Ruby!</title>
+ <link>http://archive.p2pu.org/webcraft/reading-code/discussion/reading-code-week-2-ruby</link>
+ <description>&lt;p&gt;This week we&amp;#39;ll be doing covering Ruby frameworks. The two main ones we&amp;#39;ll look at are &lt;a href=&quot;http://rubyonrails.org/download&quot; rel=&quot;nofollow&quot;&gt;Ruby on Rails&lt;/a&gt; and&amp;nbsp;&lt;a href=&quot;http://www.sinatrarb.com/&quot; rel=&quot;nofollow&quot;&gt;Sinatra&lt;/a&gt;.&amp;nbsp;A third framework that came up in IRC that several people were interested in is &lt;a href=&quot;http://github.com/mojombo/jekyll&quot; rel=&quot;nofollow&quot;&gt;Jekyll&lt;/a&gt;.&amp;nbsp;&lt;/p&gt;
+&lt;div&gt;
+&lt;/div&gt;&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/reading-code&quot;&gt;Reading Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/reading-code/discussion/reading-code-week-2-ruby&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/reading-code/discussion/reading-code-week-2-ruby#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/327">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/reading-code" xmlns="http://drupal.org/project/og">Reading Code</group>
+ <pubDate>Mon, 20 Sep 2010 01:19:37 +0000</pubDate>
+ <dc:creator>Jessy Cowan-Sharp</dc:creator>
+ <guid isPermaLink="false">9422 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Tools for Reading Code</title>
+ <link>http://archive.p2pu.org/webcraft/reading-code/discussion/tools-reading-code</link>
+ <description>&lt;p&gt;A place to post tools you are using-- or wish existed-- for reading code.&lt;/p&gt;
+&lt;p&gt;From the chat today it sounds like people are using:&amp;nbsp;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+		&lt;strong&gt;grep&lt;/strong&gt; to find keywords and chase down function names and definitions&lt;/li&gt;
+&lt;li&gt;
+		&lt;strong&gt;eclipse&lt;/strong&gt; which generates links between a function call and where it is defined&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;
+		&lt;strong&gt;firebug&lt;/strong&gt; and/or &lt;strong&gt;chrome developer tools&lt;/strong&gt; for viewing generated page source, or setting breakpoints in javascript code.&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/reading-code&quot;&gt;Reading Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/reading-code/discussion/tools-reading-code&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/reading-code/discussion/tools-reading-code#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/327">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/reading-code" xmlns="http://drupal.org/project/og">Reading Code</group>
+ <pubDate>Mon, 20 Sep 2010 00:54:59 +0000</pubDate>
+ <dc:creator>Jessy Cowan-Sharp</dc:creator>
+ <guid isPermaLink="false">9420 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Reading Code: Your first Mission: PHP Frameworks Wordpress and Drupal</title>
+ <link>http://archive.p2pu.org/webcraft/reading-code/discussion/reading-code-your-first-mission-php-frameworks-wordpress-and-drupal</link>
+ <description>&lt;p&gt;Week one is focused on the PHP language. As mentioned in the intro email we&amp;#39;ll have two frameworks announced each week, and you can pick one or both, but this will give us more flexibility to your interests and the size of the class.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/reading-code&quot;&gt;Reading Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/reading-code/discussion/reading-code-your-first-mission-php-frameworks-wordpress-and-drupal&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/reading-code/discussion/reading-code-your-first-mission-php-frameworks-wordpress-and-drupal#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/327">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/reading-code" xmlns="http://drupal.org/project/og">Reading Code</group>
+ <pubDate>Thu, 16 Sep 2010 03:51:00 +0000</pubDate>
+ <dc:creator>Jessy Cowan-Sharp</dc:creator>
+ <guid isPermaLink="false">9197 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Course Logistics</title>
+ <link>http://archive.p2pu.org/webcraft/reading-code/discussion/course-logistics</link>
+ <description>&lt;p&gt;If you have any procedural or logistics questions, ask them here!&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/reading-code&quot;&gt;Reading Code&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/reading-code/discussion/course-logistics#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/327">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/reading-code" xmlns="http://drupal.org/project/og">Reading Code</group>
+ <pubDate>Sun, 12 Sep 2010 18:39:56 +0000</pubDate>
+ <dc:creator>Jessy Cowan-Sharp</dc:creator>
+ <guid isPermaLink="false">8526 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

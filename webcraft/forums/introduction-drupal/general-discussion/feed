@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/webcraft/taxonomy/term/399/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Week 7 - Finale discussion</title>
+ <link>http://archive.p2pu.org/webcraft/introduction-drupal/discussion/week-7-finale-discussion</link>
+ <description>&lt;p&gt;Link to a screenshot from your sandbox, show us something you learned.&lt;/p&gt;
+&lt;p&gt;Was there something about Drupal that surprised you?&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/introduction-drupal&quot;&gt;Introduction to Drupal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/introduction-drupal/discussion/week-7-finale-discussion#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/399">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/introduction-drupal" xmlns="http://drupal.org/project/og">Introduction to Drupal</group>
+ <pubDate>Wed, 10 Nov 2010 17:33:58 +0000</pubDate>
+ <dc:creator>Heather James</dc:creator>
+ <guid isPermaLink="false">11777 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Today&#039;s Session.</title>
+ <link>http://archive.p2pu.org/webcraft/introduction-drupal/discussion/todays-session</link>
+ <description>&lt;p&gt;NOTE: There was no official session today. Heather is experiencing some issue in Ireland that prohibited her from joining us today.&lt;/p&gt;
+&lt;p&gt;So here&amp;#39;s what we&amp;#39;ll do!&lt;br /&gt;
+Please check out this video from the Acquia Webinar series featuring Josh Brauer.&lt;br /&gt;
+&lt;a href=&quot;http://acquia.com/resources/webinars/client-advisor-webinar-drupal-staging-and-deployment-best-practices&quot; target=&quot;_blank&quot; rel=&quot;nofollow&quot;&gt;http://acquia.com/resources/webinars/client-advisor-webinar-drupal-staging-and-deployment-best-practices&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/introduction-drupal&quot;&gt;Introduction to Drupal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/introduction-drupal/discussion/todays-session&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/introduction-drupal/discussion/todays-session#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/399">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/introduction-drupal" xmlns="http://drupal.org/project/og">Introduction to Drupal</group>
+ <pubDate>Wed, 03 Nov 2010 16:54:24 +0000</pubDate>
+ <dc:creator>Doug Vann</dc:creator>
+ <guid isPermaLink="false">11551 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>p2pu Introduction to Drupal: Week 4 - discussion</title>
+ <link>http://archive.p2pu.org/webcraft/introduction-drupal/discussion/p2pu-introduction-drupal-week-4-discussion</link>
+ <description>&lt;p&gt;&lt;a href=&quot;http://p2pu.org/webcraft/node/8692/document/11269&quot; rel=&quot;nofollow&quot;&gt;Week 5 - Tasks: Theming in Drupal&lt;/a&gt; was another great learning experience for me.&amp;nbsp; I followed the video &lt;a href=&quot;http://Got Drupal gotdrupal.com/videos/drupal-theme-makeover&quot; rel=&quot;nofollow&quot;&gt;Drupal Theme Makeover&lt;/a&gt; with much interest but was pretty disappointed because the instructions were for Photoshop, which I don&amp;#39;t own.&amp;nbsp; I was able to take to reproduce the same effect in GIMP, &lt;em&gt;without having to resort to a script or plugin&lt;/em&gt;.&amp;nbsp; Here is a &lt;a href=&quot;http://www.flickr.com/photos/51296509@N06/5125047273/&quot; rel=&quot;nofollow&quot;&gt;Before GIMP&lt;/a&gt; a&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/introduction-drupal&quot;&gt;Introduction to Drupal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/introduction-drupal/discussion/p2pu-introduction-drupal-week-4-discussion&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/introduction-drupal/discussion/p2pu-introduction-drupal-week-4-discussion#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/399">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/introduction-drupal" xmlns="http://drupal.org/project/og">Introduction to Drupal</group>
+ <pubDate>Fri, 29 Oct 2010 09:46:05 +0000</pubDate>
+ <dc:creator>James R Stone</dc:creator>
+ <guid isPermaLink="false">11392 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Week 5:  Theming</title>
+ <link>http://archive.p2pu.org/webcraft/introduction-drupal/discussion/week-5-theming</link>
+ <description>&lt;p&gt;So far, there have been no tasks set for Week 5, which is supposed to cover theming. &amp;nbsp;The syllabus mentions the &amp;quot;Fusion/Skinr theme set.&amp;quot; &amp;nbsp;Does anyone have some link appropriate to that? &amp;nbsp;What can you do with Fusion/Skinr, how do you get started?&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/introduction-drupal&quot;&gt;Introduction to Drupal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/introduction-drupal/discussion/week-5-theming&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/introduction-drupal/discussion/week-5-theming#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/399">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/introduction-drupal" xmlns="http://drupal.org/project/og">Introduction to Drupal</group>
+ <pubDate>Thu, 21 Oct 2010 13:15:19 +0000</pubDate>
+ <dc:creator>Benji Fisher</dc:creator>
+ <guid isPermaLink="false">11035 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Week 4 - discussion</title>
+ <link>http://archive.p2pu.org/webcraft/introduction-drupal/discussion/week-4-discussion</link>
+ <description>&lt;p&gt;
+	&lt;a href=&quot;http://p2pu.org/webcraft/introduction-drupal/document/week-4-tasks-organizing-your-site&quot; rel=&quot;nofollow&quot;&gt;Week 4 - Tasks &lt;/a&gt;See the list of Site Organization tutorials. This isn&amp;#39;t an exhaustive list of all aspects of site organization, but it covers the essentials.&amp;nbsp;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/introduction-drupal&quot;&gt;Introduction to Drupal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/introduction-drupal/discussion/week-4-discussion&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/introduction-drupal/discussion/week-4-discussion#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/399">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/introduction-drupal" xmlns="http://drupal.org/project/og">Introduction to Drupal</group>
+ <pubDate>Tue, 12 Oct 2010 01:03:01 +0000</pubDate>
+ <dc:creator>Heather James</dc:creator>
+ <guid isPermaLink="false">10359 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Week Three Discussion</title>
+ <link>http://archive.p2pu.org/webcraft/introduction-drupal/discussion/week-three-discussion</link>
+ <description>&lt;p&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/introduction-drupal&quot;&gt;Introduction to Drupal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/introduction-drupal/discussion/week-three-discussion#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/399">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/introduction-drupal" xmlns="http://drupal.org/project/og">Introduction to Drupal</group>
+ <pubDate>Wed, 06 Oct 2010 15:21:15 +0000</pubDate>
+ <dc:creator>Kristen Milhollin</dc:creator>
+ <guid isPermaLink="false">10149 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Week 3 - Tasks</title>
+ <link>http://archive.p2pu.org/webcraft/introduction-drupal/discussion/week-3-tasks</link>
+ <description>&lt;p&gt;This week we&amp;#39;re trying out distributions: &lt;a href=&quot;http://p2pu.org/webcraft/node/8692/document/10107&quot; rel=&quot;nofollow&quot;&gt;See Week 3 Tasks&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To discuss:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+		Which distributions did you try?&lt;/li&gt;
+&lt;li&gt;
+		What the advantages of the ones you tried?&lt;/li&gt;
+&lt;li&gt;
+		Can you see any limitations of the distributions?&amp;nbsp;&lt;/li&gt;
+&lt;li&gt;
+		What do you want to do with your site, would an existing distribution help?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/introduction-drupal&quot;&gt;Introduction to Drupal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/introduction-drupal/discussion/week-3-tasks#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/399">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/introduction-drupal" xmlns="http://drupal.org/project/og">Introduction to Drupal</group>
+ <pubDate>Tue, 05 Oct 2010 15:15:12 +0000</pubDate>
+ <dc:creator>Heather James</dc:creator>
+ <guid isPermaLink="false">10108 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Week 2 - discussion</title>
+ <link>http://archive.p2pu.org/webcraft/introduction-drupal/discussion/week-2-discussion</link>
+ <description>&lt;p&gt;
+We&amp;#39;ve posted the tasks for this week on Site Building!&lt;/p&gt;
+&lt;p&gt;View the Week 2 tasks and tutorials here: &lt;a href=&quot;http://p2pu.org/webcraft/introduction-drupal/document/week-2-tasks&quot; title=&quot;http://p2pu.org/webcraft/introduction-drupal/document/week-2-tasks&quot; rel=&quot;nofollow&quot;&gt;http://p2pu.org/webcraft/introduction-drupal/document/week-2-tasks&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;This is an enormous topic, and I wanted to introduce it early because the bulk of all the work you will want to do is Site Building. There seem to be an infinite number of configuration possibilities, and potential pitfalls. This week, I only ask that you tackle these tutorials and grapple with these basics.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/introduction-drupal&quot;&gt;Introduction to Drupal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/introduction-drupal/discussion/week-2-discussion&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/introduction-drupal/discussion/week-2-discussion#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/399">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/introduction-drupal" xmlns="http://drupal.org/project/og">Introduction to Drupal</group>
+ <pubDate>Mon, 27 Sep 2010 14:55:45 +0000</pubDate>
+ <dc:creator>Heather James</dc:creator>
+ <guid isPermaLink="false">9772 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>SVN on Web Enabled</title>
+ <link>http://archive.p2pu.org/webcraft/introduction-drupal/discussion/svn-web-enabled</link>
+ <description>&lt;p&gt;Hi folks, I&#039;ve been working on my site, installed lots of modules using Drush, no problem. SVN alludes me though on Web Enabled. I installed the repository, go to the page, see what looks like an input line with: / &lt;/p&gt;
+&lt;p&gt;But I can&#039;t figure out where/how to input any commands. Am I supposed to use Terminal (Mac OS X)? I downloaded a pdf of the SVN book, have used command line, but don&#039;t understand how it works on Web Enabled. I&#039;m sure I&#039;m missing something simple...&lt;/p&gt;
+&lt;p&gt;Best, Marilyn&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/introduction-drupal&quot;&gt;Introduction to Drupal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/introduction-drupal/discussion/svn-web-enabled#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/399">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/introduction-drupal" xmlns="http://drupal.org/project/og">Introduction to Drupal</group>
+ <pubDate>Sat, 25 Sep 2010 21:44:45 +0000</pubDate>
+ <dc:creator>Marilyn Langfeld</dc:creator>
+ <guid isPermaLink="false">9694 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Important notices</title>
+ <link>http://archive.p2pu.org/webcraft/introduction-drupal/discussion/important-notices</link>
+ <description>&lt;p&gt;&lt;span&gt;I or other course organizers will post important notices &amp;amp; updates about the course in here.&lt;br /&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/introduction-drupal&quot;&gt;Introduction to Drupal&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/introduction-drupal/discussion/important-notices#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/399">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/introduction-drupal" xmlns="http://drupal.org/project/og">Introduction to Drupal</group>
+ <pubDate>Tue, 21 Sep 2010 03:49:50 +0000</pubDate>
+ <dc:creator>Heather James</dc:creator>
+ <guid isPermaLink="false">9499 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>Primer Tarea</title>	
+</head>
+<body>
+</br>
+<table border="1" width="700px" align="left">
+<caption><strong><em>Porque quiero aprender PHP</em></strong></caption>
+<tr>
+	<th align="left">
+	<p>El motivo principal por el que me inscribí a este curso es el incrementar mis conocimientos sobre este lenguaje.</p>
+	<p >He tratado de aprenderlo por mi cuenta pero me cuesta un poco y ahora que se presento esta oportunidad no quiero desaprovecharla.</p>
+	<p>Es un lenguaje muy popular dentro del desarrollo web y por lo que he investigado "no es dificil de aprender" y es muy potente.</p>
+	<p>De antemano agradezco la oportunidad que nos está brindando para compartir sus conocimientos y espero que al final de este curso podamos terminar satisfactoriamente y tener los conocimeintos necesarios para poder desarrollar algo interesante y que no haya sido una pérdida de tiempo. De mi parte pondré lo necesario para que este objetivo se logre.</p>
+	</th>
+</tr>
+</table>
+</body>
+</html>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/math-future/taxonomy/term/679/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Session 0: History, Features and Applications of Scilab</title>
+ <link>http://archive.p2pu.org/math-future/getting-started-scilab/discussion/session-0-history-features-and-applications-scilab</link>
+ <description>&lt;p&gt;This is the forum topic dedicated to &lt;strong&gt;Session 0: History, Features and Applications of Scilab&lt;/strong&gt;.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/math-future/getting-started-scilab&quot;&gt;Getting Started with Scilab&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/math-future/getting-started-scilab/discussion/session-0-history-features-and-applications-scilab#comments</comments>
+ <category domain="http://archive.p2pu.org/math-future/taxonomy/term/679">General discussion</category>
+ <group domain="http://archive.p2pu.org/math-future/getting-started-scilab" xmlns="http://drupal.org/project/og">Getting Started with Scilab</group>
+ <pubDate>Sun, 22 May 2011 06:19:15 +0000</pubDate>
+ <dc:creator>Satish Annigeri</dc:creator>
+ <guid isPermaLink="false">31391 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Session 4: Creating Matrices and Some Simple Matrix Operations</title>
+ <link>http://archive.p2pu.org/math-future/getting-started-scilab/discussion/session-4-creating-matrices-and-some-simple-matrix-operations</link>
+ <description>&lt;p&gt;This forum topic is dedicated to discussion related to the contents of &lt;strong&gt;Session 4: Creating matrices and some simple matrix operations&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/math-future/getting-started-scilab&quot;&gt;Getting Started with Scilab&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/math-future/getting-started-scilab/discussion/session-4-creating-matrices-and-some-simple-matrix-operations#comments</comments>
+ <category domain="http://archive.p2pu.org/math-future/taxonomy/term/679">General discussion</category>
+ <group domain="http://archive.p2pu.org/math-future/getting-started-scilab" xmlns="http://drupal.org/project/og">Getting Started with Scilab</group>
+ <pubDate>Sat, 21 May 2011 20:05:45 +0000</pubDate>
+ <dc:creator>Satish Annigeri</dc:creator>
+ <guid isPermaLink="false">31382 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Session 3: Workspace and Current Working Directory</title>
+ <link>http://archive.p2pu.org/math-future/getting-started-scilab/discussion/session-3-workspace-and-current-working-directory</link>
+ <description>&lt;p&gt;This forum topic is dedicated to discussion related to the contents of &lt;strong&gt;Session 3: Workspace and Current Working Directory&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/math-future/getting-started-scilab&quot;&gt;Getting Started with Scilab&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/math-future/getting-started-scilab/discussion/session-3-workspace-and-current-working-directory#comments</comments>
+ <category domain="http://archive.p2pu.org/math-future/taxonomy/term/679">General discussion</category>
+ <group domain="http://archive.p2pu.org/math-future/getting-started-scilab" xmlns="http://drupal.org/project/og">Getting Started with Scilab</group>
+ <pubDate>Sat, 21 May 2011 20:04:50 +0000</pubDate>
+ <dc:creator>Satish Annigeri</dc:creator>
+ <guid isPermaLink="false">31381 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Session 2: Scilab as an interactive calculator</title>
+ <link>http://archive.p2pu.org/math-future/getting-started-scilab/discussion/session-2-scilab-interactive-calculator</link>
+ <description>&lt;p&gt;This forum topic is dedicated to discussion related to the contents of &lt;strong&gt;Session 2:&amp;nbsp;Scilab as an interactive calculator&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/math-future/getting-started-scilab&quot;&gt;Getting Started with Scilab&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/math-future/getting-started-scilab/discussion/session-2-scilab-interactive-calculator#comments</comments>
+ <category domain="http://archive.p2pu.org/math-future/taxonomy/term/679">General discussion</category>
+ <group domain="http://archive.p2pu.org/math-future/getting-started-scilab" xmlns="http://drupal.org/project/og">Getting Started with Scilab</group>
+ <pubDate>Sat, 21 May 2011 20:02:46 +0000</pubDate>
+ <dc:creator>Satish Annigeri</dc:creator>
+ <guid isPermaLink="false">31380 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Session 1: Scilab Environment</title>
+ <link>http://archive.p2pu.org/math-future/getting-started-scilab/discussion/session-1-scilab-environment</link>
+ <description>&lt;p&gt;This forum topic is dedicated to discussion related to the contents of &lt;strong&gt;Session 1: Scilab Environment&lt;/strong&gt;. Please air your views, ask your questions, point out errors/typos/ambiguities/shortcomings in the course content. At the same time, reply to the queries of others or contribute your thoughts on points raised by others. This will become a repository of experiences over time, and when experiences are filtered through your logical brain, will lead to discovery and learning.&amp;nbsp;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/math-future/getting-started-scilab&quot;&gt;Getting Started with Scilab&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/math-future/getting-started-scilab/discussion/session-1-scilab-environment#comments</comments>
+ <category domain="http://archive.p2pu.org/math-future/taxonomy/term/679">General discussion</category>
+ <group domain="http://archive.p2pu.org/math-future/getting-started-scilab" xmlns="http://drupal.org/project/og">Getting Started with Scilab</group>
+ <pubDate>Sat, 21 May 2011 20:01:43 +0000</pubDate>
+ <dc:creator>Satish Annigeri</dc:creator>
+ <guid isPermaLink="false">31379 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Merits and demerits of a numerical computation tool like Scilab</title>
+ <link>http://archive.p2pu.org/math-future/getting-started-scilab/discussion/merits-and-demerits-numerical-computation-tool-scilab</link>
+ <description>&lt;p&gt;Problems that are solved using a numerical computation tool such as Scilab/GNU Octave/Matlab/Python and firends were traditionally solved using programming languages such as Fortran and later on C/C++. In fact, the motivation for developing Matlab was to serve as a wrapper over well established Fortran numerical computation libraries such BLAS, LAPACK. What is your view or experience on the merits and demerits of using such tools in place of traditional programming languages?&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/math-future/getting-started-scilab&quot;&gt;Getting Started with Scilab&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/math-future/getting-started-scilab/discussion/merits-and-demerits-numerical-computation-tool-scilab#comments</comments>
+ <category domain="http://archive.p2pu.org/math-future/taxonomy/term/679">General discussion</category>
+ <group domain="http://archive.p2pu.org/math-future/getting-started-scilab" xmlns="http://drupal.org/project/og">Getting Started with Scilab</group>
+ <pubDate>Tue, 10 May 2011 11:20:52 +0000</pubDate>
+ <dc:creator>Satish Annigeri</dc:creator>
+ <guid isPermaLink="false">30890 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>What do you use/intend to use Scilab for?</title>
+ <link>http://archive.p2pu.org/math-future/getting-started-scilab/discussion/what-do-you-useintend-use-scilab</link>
+ <description>&lt;p&gt;Scilab is a numerical tool primarily for matrix computations. A large number of problems from a variety of science and engineering fields use matrix numeric computations. It would be interesting to know what problem(s) you are solving/intend to solve using Scilab. This will help me understand your motivation for joining the course.&lt;/p&gt;
+&lt;p&gt;It would be great if you could answer the following questions:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+		What problems are you solving/intend to solve using Scilab?&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;&lt;/ol&gt;&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/math-future/getting-started-scilab&quot;&gt;Getting Started with Scilab&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/math-future/getting-started-scilab/discussion/what-do-you-useintend-use-scilab&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/math-future/getting-started-scilab/discussion/what-do-you-useintend-use-scilab#comments</comments>
+ <category domain="http://archive.p2pu.org/math-future/taxonomy/term/679">General discussion</category>
+ <group domain="http://archive.p2pu.org/math-future/getting-started-scilab" xmlns="http://drupal.org/project/og">Getting Started with Scilab</group>
+ <pubDate>Tue, 10 May 2011 11:08:06 +0000</pubDate>
+ <dc:creator>Satish Annigeri</dc:creator>
+ <guid isPermaLink="false">30889 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

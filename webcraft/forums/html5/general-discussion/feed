@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/webcraft/taxonomy/term/331/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Week 4 - Drag&amp;Drop</title>
+ <link>http://archive.p2pu.org/webcraft/html5/discussion/week-4-dragdrop</link>
+ <description>&lt;p&gt;We use the topic to exchange further reading materials and discussion of the HTML5 Drag&amp;amp;Drop support. As a starter I suggest the following reads:&lt;/p&gt;
+&lt;div&gt;
+&lt;/div&gt;&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/html5&quot;&gt;HTML5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/html5/discussion/week-4-dragdrop&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/html5/discussion/week-4-dragdrop#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/331">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/html5" xmlns="http://drupal.org/project/og">HTML5</group>
+ <pubDate>Tue, 12 Oct 2010 14:07:32 +0000</pubDate>
+ <dc:creator>Dennis Riedel</dc:creator>
+ <guid isPermaLink="false">10393 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Two Vids From Google IO 2010 On HTML5 and Chrome</title>
+ <link>http://archive.p2pu.org/webcraft/html5/discussion/two-vids-google-io-2010-html5-and-chrome</link>
+ <description>&lt;p&gt;Google I/O 2010 - Developing With HTML5&lt;br /&gt;
+&lt;a href=&quot;http://www.youtube.com/watch?v=BatqHLWy5NE&quot; title=&quot;http://www.youtube.com/watch?v=BatqHLWy5NE&quot; rel=&quot;nofollow&quot;&gt;http://www.youtube.com/watch?v=BatqHLWy5NE&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Google I/O 2010 - HTML5 status update&lt;br /&gt;
+&lt;a href=&quot;http://www.youtube.com/watch?v=tC3-NpIGx1U&quot; title=&quot;http://www.youtube.com/watch?v=tC3-NpIGx1U&quot; rel=&quot;nofollow&quot;&gt;http://www.youtube.com/watch?v=tC3-NpIGx1U&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/html5&quot;&gt;HTML5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/html5/discussion/two-vids-google-io-2010-html5-and-chrome#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/331">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/html5" xmlns="http://drupal.org/project/og">HTML5</group>
+ <pubDate>Tue, 12 Oct 2010 13:51:02 +0000</pubDate>
+ <dc:creator>Dan Diebolt</dc:creator>
+ <guid isPermaLink="false">10391 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Browser Support for HTML5?</title>
+ <link>http://archive.p2pu.org/webcraft/html5/discussion/browser-support-html5</link>
+ <description>&lt;p&gt;I would like to start a discussion about browser support for HTML5. This web page grades your current browser in various categories as to how well it supports various HTML5 features:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://html5test.com/&quot; rel=&quot;nofollow&quot;&gt;http://html5test.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It would probably be a good idea for everyone to run it on the various browser you have installed. I tested it on the latest Firefox, IE8, Chrome, Safari and Opera. The results are a very mixed bag.&lt;/p&gt;
+&lt;p&gt;In the area of forms support, this site also shows that support for HTML5 is a bit haphazard:&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/html5&quot;&gt;HTML5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/html5/discussion/browser-support-html5&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/html5/discussion/browser-support-html5#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/331">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/html5" xmlns="http://drupal.org/project/og">HTML5</group>
+ <pubDate>Fri, 01 Oct 2010 13:47:46 +0000</pubDate>
+ <dc:creator>Dan Diebolt</dc:creator>
+ <guid isPermaLink="false">9944 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Week 3 - Forms</title>
+ <link>http://archive.p2pu.org/webcraft/html5/discussion/week-3-forms</link>
+ <description>&lt;p&gt;Please use this topic to post specific resources and questions regarding HTML5 Forms.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/html5&quot;&gt;HTML5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/html5/discussion/week-3-forms#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/331">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/html5" xmlns="http://drupal.org/project/og">HTML5</group>
+ <pubDate>Mon, 27 Sep 2010 21:18:42 +0000</pubDate>
+ <dc:creator>Dennis Riedel</dc:creator>
+ <guid isPermaLink="false">9788 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>HTML5 Mobile Web Development</title>
+ <link>http://archive.p2pu.org/webcraft/html5/discussion/html5-mobile-web-development</link>
+ <description>&lt;p&gt;Some of you may be interested in this free online course which starts Oct 5:&lt;/p&gt;
+&lt;p&gt;HTML5 Mobile Web Development&lt;br /&gt;
+&lt;a href=&quot;http://training.oreilly.com/html5mobile/&quot; title=&quot;http://training.oreilly.com/html5mobile/&quot; rel=&quot;nofollow&quot;&gt;http://training.oreilly.com/html5mobile/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;On other matters, HTML5 is one of the hottest web hottest technologies on the horizon. We need to step up the activity in this course if you want to master HTML5. Let&#039;s get some discussion going on what you are learning and questions you might have. I am hear to learn all I can. Engage!&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/html5&quot;&gt;HTML5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/html5/discussion/html5-mobile-web-development#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/331">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/html5" xmlns="http://drupal.org/project/og">HTML5</group>
+ <pubDate>Mon, 27 Sep 2010 10:27:25 +0000</pubDate>
+ <dc:creator>Dan Diebolt</dc:creator>
+ <guid isPermaLink="false">9760 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Coffee Cup: Intro to HTML5 and CSS3</title>
+ <link>http://archive.p2pu.org/webcraft/html5/discussion/coffee-cup-intro-html5-and-css3</link>
+ <description>&lt;p&gt;This is a nice writeup of using some of the new structural tags in HTML5 (headers, footer, article, section etc). Works in all browsers (IE shim used). I found this and a lot of other resources by going to scribd.com and just searching for HTML5. A lot of nice videos if you Google Video Search for HTMl5.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/html5&quot;&gt;HTML5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/html5/discussion/coffee-cup-intro-html5-and-css3#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/331">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/html5" xmlns="http://drupal.org/project/og">HTML5</group>
+ <pubDate>Fri, 24 Sep 2010 19:41:57 +0000</pubDate>
+ <dc:creator>Dan Diebolt</dc:creator>
+ <guid isPermaLink="false">9646 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Skype Call</title>
+ <link>http://archive.p2pu.org/webcraft/html5/discussion/skype-call</link>
+ <description>&lt;p&gt;I am confused about the time of the skype call today and the instructions for joining it. I am in Michigan on Eastern Standard Time GMT-4. The message I received via email made reference to &lt;/p&gt;
+&lt;p&gt;&quot;These 3 all are available today at 9p.m. (GMT+2), so we will have this one&quot;&lt;/p&gt;
+&lt;p&gt;Is 9:p.m a typo - did you mean 9:00 am GMT+2. If so I will join at 11:00 am mytime but I don&#039;t ahve any instructions on joining Skype.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/html5&quot;&gt;HTML5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/html5/discussion/skype-call#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/331">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/html5" xmlns="http://drupal.org/project/og">HTML5</group>
+ <pubDate>Fri, 24 Sep 2010 13:00:58 +0000</pubDate>
+ <dc:creator>Dan Diebolt</dc:creator>
+ <guid isPermaLink="false">9640 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Week 2 - New elements and attributes</title>
+ <link>http://archive.p2pu.org/webcraft/html5/discussion/week-2-new-elements-and-attributes</link>
+ <description>&lt;p&gt;Week 2 topic on new elements and attributes in HTML5 and what is deprecated now. Feel free to post sources, questions and which of the elements are actually working or not in our latest browsers.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/html5&quot;&gt;HTML5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/html5/discussion/week-2-new-elements-and-attributes#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/331">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/html5" xmlns="http://drupal.org/project/og">HTML5</group>
+ <pubDate>Wed, 22 Sep 2010 18:57:07 +0000</pubDate>
+ <dc:creator>Dennis Riedel</dc:creator>
+ <guid isPermaLink="false">9577 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Week 1 - Introduction</title>
+ <link>http://archive.p2pu.org/webcraft/html5/discussion/week-1-introduction</link>
+ <description>&lt;p&gt;General topic regarding assignments, issues of week 1.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/html5&quot;&gt;HTML5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/html5/discussion/week-1-introduction#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/331">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/html5" xmlns="http://drupal.org/project/og">HTML5</group>
+ <pubDate>Sun, 19 Sep 2010 17:02:55 +0000</pubDate>
+ <dc:creator>Dennis Riedel</dc:creator>
+ <guid isPermaLink="false">9403 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>HTML5 Course Github Repository</title>
+ <link>http://archive.p2pu.org/webcraft/html5/discussion/html5-course-github-repository</link>
+ <description>&lt;p&gt;A central repository for our development files is located at Github:&amp;nbsp;http://github.com/dsriedel/p2pu-sow-html5&lt;/p&gt;
+&lt;p&gt;On Windows it runs using &lt;a href=&quot;http://code.google.com/p/msysgit/&quot; rel=&quot;nofollow&quot;&gt;msysgit&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We can use this topic for troubleshooting and support.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/html5&quot;&gt;HTML5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/html5/discussion/html5-course-github-repository#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/331">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/html5" xmlns="http://drupal.org/project/og">HTML5</group>
+ <pubDate>Sat, 18 Sep 2010 16:59:08 +0000</pubDate>
+ <dc:creator>Dennis Riedel</dc:creator>
+ <guid isPermaLink="false">9377 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

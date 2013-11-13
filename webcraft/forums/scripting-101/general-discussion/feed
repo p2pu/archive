@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/webcraft/taxonomy/term/359/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Share all your interesting links related to the course in here</title>
+ <link>http://archive.p2pu.org/webcraft/scripting-101/discussion/share-all-your-interesting-links-related-course-here</link>
+ <description>&lt;p&gt;Share all your interesting links related to the course in here&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/scripting-101&quot;&gt;Scripting 101&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/scripting-101/discussion/share-all-your-interesting-links-related-course-here#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/359">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/scripting-101" xmlns="http://drupal.org/project/og">Scripting 101</group>
+ <pubDate>Sun, 03 Oct 2010 16:48:31 +0000</pubDate>
+ <dc:creator>hemanth hm</dc:creator>
+ <guid isPermaLink="false">10028 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>[ vs. [[ in Bash</title>
+ <link>http://archive.p2pu.org/webcraft/scripting-101/discussion/vs-bash</link>
+ <description>&lt;p&gt;So I&amp;#39;m starting my assignment for the conditionals, and I noticed in the chat logs a discussion about using [ vs. [[ in bash. Being that we didn&amp;#39;t go too deep into it, I decided to do some research on the net, just out of&amp;nbsp;curiosity. In my explorations, I found a great site explaining the differences, and why [[ is&amp;nbsp;superior. You can go to it from here:&amp;nbsp;http://mywiki.wooledge.org/BashFAQ/031&lt;/p&gt;
+&lt;p&gt;Hope this helps some of you out! :D&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/scripting-101&quot;&gt;Scripting 101&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/scripting-101/discussion/vs-bash#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/359">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/scripting-101" xmlns="http://drupal.org/project/og">Scripting 101</group>
+ <pubDate>Wed, 29 Sep 2010 23:57:03 +0000</pubDate>
+ <dc:creator>Adam Collado</dc:creator>
+ <guid isPermaLink="false">9881 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Questions About: Bash</title>
+ <link>http://archive.p2pu.org/webcraft/scripting-101/discussion/questions-about-bash</link>
+ <description>&lt;p&gt;So as I was messing around with variables in Bash, a question popped into my head. As I was about to post it in the forum, I decided it would probably be best if we had separate topics on each of the languages were working on concerning specific questions we have about the language. It would also be a nice place to offer general tips and tricks on working with the languages as well. In any case, on to my question!&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/scripting-101&quot;&gt;Scripting 101&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/scripting-101/discussion/questions-about-bash&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/scripting-101/discussion/questions-about-bash#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/359">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/scripting-101" xmlns="http://drupal.org/project/og">Scripting 101</group>
+ <pubDate>Thu, 23 Sep 2010 01:15:43 +0000</pubDate>
+ <dc:creator>Adam Collado</dc:creator>
+ <guid isPermaLink="false">9585 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Queries, concerns and suggestions.</title>
+ <link>http://archive.p2pu.org/webcraft/scripting-101/discussion/queries-concerns-and-suggestions</link>
+ <description>&lt;p&gt;This thread is intented for all your queires, concerns and also if any suggestions.&lt;br /&gt;
+[As per the plan the course will begin on &lt;strong&gt;Web Sep 15 15:00 UTC&amp;nbsp; 2010&lt;/strong&gt;.]&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/scripting-101&quot;&gt;Scripting 101&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/scripting-101/discussion/queries-concerns-and-suggestions#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/359">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/scripting-101" xmlns="http://drupal.org/project/og">Scripting 101</group>
+ <pubDate>Tue, 14 Sep 2010 09:48:31 +0000</pubDate>
+ <dc:creator>hemanth hm</dc:creator>
+ <guid isPermaLink="false">8966 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

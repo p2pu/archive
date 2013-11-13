@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/webcraft/taxonomy/term/572/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Week 6: Ex 21-24, Due Mar 6</title>
+ <link>http://archive.p2pu.org/webcraft/learn-python-hard-way/discussion/week-6-ex-21-24-due-mar-6</link>
+ <description>&lt;div&gt;
+	Exercise 21: Functions Can Return Something 53&lt;/div&gt;
+&lt;div&gt;
+	Exercise 22: What Do You Know So Far? 55&lt;/div&gt;
+&lt;div&gt;
+	Exercise 23: Read Some Code 57&lt;/div&gt;
+&lt;div&gt;
+	Exercise 24: More Practice 59&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/learn-python-hard-way&quot;&gt;Learn Python the Hard Way&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/learn-python-hard-way/discussion/week-6-ex-21-24-due-mar-6#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/572">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/learn-python-hard-way" xmlns="http://drupal.org/project/og">Learn Python the Hard Way</group>
+ <pubDate>Sun, 27 Feb 2011 19:30:30 +0000</pubDate>
+ <dc:creator>M. Volz</dc:creator>
+ <guid isPermaLink="false">26879 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Exercise 17 Extra Credit</title>
+ <link>http://archive.p2pu.org/webcraft/learn-python-hard-way/discussion/exercise-17-extra-credit</link>
+ <description>&lt;p&gt;Just completed this week&amp;#39;s work, everything moving along well. One of the extra credits for exercise 17 has given me some trouble though, specifically #3:&lt;/p&gt;
+&lt;p&gt;&amp;quot;See how short you can make the script. I could make this 1 line long.&amp;quot;&lt;/p&gt;
+&lt;p&gt;I was able to shorten some of the lines, e.g.:&lt;/p&gt;
+&lt;p&gt;#input = open(from_file)&lt;br /&gt;
+#indata = input.read()&lt;br /&gt;
+#combine to...&lt;br /&gt;
+indata = open(from_file).read()&lt;/p&gt;
+&lt;p&gt;#output = open(to_file, &amp;#39;w&amp;#39;)&lt;br /&gt;
+#output.write(indata)&lt;br /&gt;
+#combine to...&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/learn-python-hard-way&quot;&gt;Learn Python the Hard Way&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/learn-python-hard-way/discussion/exercise-17-extra-credit&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/learn-python-hard-way/discussion/exercise-17-extra-credit#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/572">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/learn-python-hard-way" xmlns="http://drupal.org/project/og">Learn Python the Hard Way</group>
+ <pubDate>Sun, 27 Feb 2011 17:54:49 +0000</pubDate>
+ <dc:creator>Patrick Burns</dc:creator>
+ <guid isPermaLink="false">26877 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Week 5: Ex 17-20, Due Feb 27</title>
+ <link>http://archive.p2pu.org/webcraft/learn-python-hard-way/discussion/week-5-ex-17-20-due-feb-27</link>
+ <description>&lt;div&gt;
+	Exercise 17: More Files 43&lt;/div&gt;
+&lt;div&gt;
+	Exercise 18: Names, Variables, Code, Functions 45&lt;/div&gt;
+&lt;div&gt;
+	Exercise 19: Functions And Variables 49&lt;/div&gt;
+&lt;div&gt;
+	Exercise 20: Functions And Files 51&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/learn-python-hard-way&quot;&gt;Learn Python the Hard Way&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/learn-python-hard-way/discussion/week-5-ex-17-20-due-feb-27#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/572">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/learn-python-hard-way" xmlns="http://drupal.org/project/og">Learn Python the Hard Way</group>
+ <pubDate>Mon, 21 Feb 2011 00:20:07 +0000</pubDate>
+ <dc:creator>M. Volz</dc:creator>
+ <guid isPermaLink="false">26601 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Week 4: Ex 13-16, Due Feb 20</title>
+ <link>http://archive.p2pu.org/webcraft/learn-python-hard-way/discussion/week-4-ex-13-16-due-feb-20</link>
+ <description>&lt;div&gt;
+	Exercise 13: Parameters, Unpacking, Variables 35&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	Exercise 14: Prompting And Passing 37&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	Exercise 15: Reading Files 39&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	Exercise 16: Reading And Writing Files 41&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/learn-python-hard-way&quot;&gt;Learn Python the Hard Way&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/learn-python-hard-way/discussion/week-4-ex-13-16-due-feb-20#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/572">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/learn-python-hard-way" xmlns="http://drupal.org/project/og">Learn Python the Hard Way</group>
+ <pubDate>Tue, 15 Feb 2011 20:27:00 +0000</pubDate>
+ <dc:creator>M. Volz</dc:creator>
+ <guid isPermaLink="false">26382 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Week 3: Ex 9-12, Due Feb 13</title>
+ <link>http://archive.p2pu.org/webcraft/learn-python-hard-way/discussion/week-3-ex-9-12-due-feb-13</link>
+ <description>&lt;p&gt;Questions/comments about 9-12 here, A.K.A. The Boring Exercises. &amp;nbsp;Don&amp;#39;t worry, I read ahead and it gets more interesting!&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/learn-python-hard-way&quot;&gt;Learn Python the Hard Way&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/learn-python-hard-way/discussion/week-3-ex-9-12-due-feb-13#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/572">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/learn-python-hard-way" xmlns="http://drupal.org/project/og">Learn Python the Hard Way</group>
+ <pubDate>Fri, 11 Feb 2011 19:29:51 +0000</pubDate>
+ <dc:creator>M. Volz</dc:creator>
+ <guid isPermaLink="false">26220 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>exercise 13 argv?</title>
+ <link>http://archive.p2pu.org/webcraft/learn-python-hard-way/discussion/exercise-13-argv</link>
+ <description>&lt;p&gt;Anyone please tell me what argv is about?&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/learn-python-hard-way&quot;&gt;Learn Python the Hard Way&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/learn-python-hard-way/discussion/exercise-13-argv#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/572">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/learn-python-hard-way" xmlns="http://drupal.org/project/og">Learn Python the Hard Way</group>
+ <pubDate>Wed, 02 Feb 2011 19:54:58 +0000</pubDate>
+ <dc:creator>Amene Katanda</dc:creator>
+ <guid isPermaLink="false">25736 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Exercise 13...  </title>
+ <link>http://archive.p2pu.org/webcraft/learn-python-hard-way/discussion/exercise-13</link>
+ <description>&lt;p&gt;Well, I have been having some trouble with running my scripts from the Windows Command Line, I just used IDLE and ran the code. Exercise 13 doesn&amp;#39;t let you do this (you have to pass stuff in from other scripts). So I &amp;nbsp;I followed &lt;a href=&quot;http://showmedo.com/videotutorials/video?name=960000&amp;amp;fromSeriesID=96&quot; rel=&quot;nofollow&quot;&gt;THIS TUTORIAL&amp;nbsp;&lt;/a&gt;&amp;nbsp;about adding a path for the windows to be able to see where python is, cause everytime i tried to run python off the CMD it said it was unrecongized. So anyway. Can someone help me do this the right way???&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/learn-python-hard-way&quot;&gt;Learn Python the Hard Way&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/learn-python-hard-way/discussion/exercise-13#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/572">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/learn-python-hard-way" xmlns="http://drupal.org/project/og">Learn Python the Hard Way</group>
+ <pubDate>Mon, 31 Jan 2011 20:28:37 +0000</pubDate>
+ <dc:creator>Patrick Crosman</dc:creator>
+ <guid isPermaLink="false">25580 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Learn Python 3 the Hard Way</title>
+ <link>http://archive.p2pu.org/webcraft/learn-python-hard-way/discussion/learn-python-3-hard-way</link>
+ <description>&lt;p&gt;Well, since I&amp;#39;m going through this tutorial with Python 3 instead of Python 2.X. I thought it will be good to share my experience on the differences to take note of as we go through the exercises. I will be updating this post from time to time. Watch this space if you are using Python 3 too.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/learn-python-hard-way&quot;&gt;Learn Python the Hard Way&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/learn-python-hard-way/discussion/learn-python-3-hard-way#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/572">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/learn-python-hard-way" xmlns="http://drupal.org/project/og">Learn Python the Hard Way</group>
+ <pubDate>Thu, 27 Jan 2011 09:01:24 +0000</pubDate>
+ <dc:creator>ZM L</dc:creator>
+ <guid isPermaLink="false">25197 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Simple function with %f placeholder.</title>
+ <link>http://archive.p2pu.org/webcraft/learn-python-hard-way/discussion/simple-function-f-placeholder</link>
+ <description>&lt;p&gt;# This simple function will format a number into a dollar value with 2 decimals.&lt;/p&gt;
+&lt;p&gt;def convertDollar(number):&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; return &amp;quot;$.2%f&amp;quot;%number&lt;/p&gt;
+&lt;p&gt;
+&amp;gt;&amp;gt;&amp;gt; convertDollar(100)&lt;br /&gt;
+$100.00&lt;/p&gt;
+&lt;p&gt;&amp;gt;&amp;gt;&amp;gt;convertDollar(501.1555)&lt;br /&gt;
+$501.16&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/learn-python-hard-way&quot;&gt;Learn Python the Hard Way&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/learn-python-hard-way/discussion/simple-function-f-placeholder#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/572">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/learn-python-hard-way" xmlns="http://drupal.org/project/og">Learn Python the Hard Way</group>
+ <pubDate>Thu, 27 Jan 2011 07:31:30 +0000</pubDate>
+ <dc:creator>Amene Katanda</dc:creator>
+ <guid isPermaLink="false">25192 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Exercise 8</title>
+ <link>http://archive.p2pu.org/webcraft/learn-python-hard-way/discussion/exercise-8</link>
+ <description>&lt;p&gt;Here is my code with commentaries and output for exercise 8.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CODE&lt;/strong&gt;&lt;/p&gt;
+&lt;div&gt;
+	# formatter will be our variable with 4 places&lt;/div&gt;
+&lt;div&gt;
+	formatter = &amp;quot;%r %r %r %r&amp;quot;&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	# here we call formatter to print 4 numbers&lt;/div&gt;
+&lt;div&gt;
+	print formatter % (1, 2 , 3, 4)&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	# here we call formatter to print four words&lt;/div&gt;
+&lt;div&gt;
+	print formatter % (&amp;quot;one&amp;quot;, &amp;quot;two&amp;quot;, &amp;quot;three&amp;quot;, &amp;quot;four&amp;quot;)&lt;/div&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+&lt;/div&gt;&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/learn-python-hard-way&quot;&gt;Learn Python the Hard Way&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/learn-python-hard-way/discussion/exercise-8&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/learn-python-hard-way/discussion/exercise-8#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/572">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/learn-python-hard-way" xmlns="http://drupal.org/project/og">Learn Python the Hard Way</group>
+ <pubDate>Thu, 27 Jan 2011 00:06:36 +0000</pubDate>
+ <dc:creator>Rodrigo Zerbini</dc:creator>
+ <guid isPermaLink="false">25106 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

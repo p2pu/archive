@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/webcraft/taxonomy/term/337/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>class mtg 10-15-10</title>
+ <link>http://archive.p2pu.org/webcraft/drupal-social-web-application/discussion/class-mtg-10-15-10</link>
+ <description>&lt;p&gt;Hi Nick,&lt;/p&gt;
+&lt;p&gt;I checked the course site and tokbox for signs of activity on Saturday 10-15-10 at 8 am CST and saw none. Waited 45 minutes and still none. Let me know if you want to reschedule the mtg.&lt;/p&gt;
+&lt;p&gt;Jim&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/drupal-social-web-application&quot;&gt;Drupal Social Web Application&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/drupal-social-web-application/discussion/class-mtg-10-15-10#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/337">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/drupal-social-web-application" xmlns="http://drupal.org/project/og">Drupal Social Web Application</group>
+ <pubDate>Sat, 16 Oct 2010 13:48:31 +0000</pubDate>
+ <dc:creator>Jim Cory</dc:creator>
+ <guid isPermaLink="false">10759 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>hippel grid/list choices</title>
+ <link>http://archive.p2pu.org/webcraft/drupal-social-web-application/discussion/hippel-gridlist-choices</link>
+ <description>&lt;p&gt;What kind of a component are the grid/list choices at the top of the hippel ideas view? Is the capability to add such components dependent on a custom module?&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/drupal-social-web-application&quot;&gt;Drupal Social Web Application&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/drupal-social-web-application/discussion/hippel-gridlist-choices#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/337">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/drupal-social-web-application" xmlns="http://drupal.org/project/og">Drupal Social Web Application</group>
+ <pubDate>Tue, 12 Oct 2010 16:12:55 +0000</pubDate>
+ <dc:creator>Jim Cory</dc:creator>
+ <guid isPermaLink="false">10397 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>installing new features</title>
+ <link>http://archive.p2pu.org/webcraft/drupal-social-web-application/discussion/installing-new-features</link>
+ <description>&lt;p&gt;Got an error enabling hippel_voices feature:&lt;br /&gt;
+warning: include_once(hippel_voices.vud.inc) [&lt;a href=&quot;http://localhost/hmsocial/admin/build/function.include-once&quot; rel=&quot;nofollow&quot;&gt;function.include-once&lt;/a&gt;]: failed to open stream: No such file or directory in C:\Program Files\Apache Software Foundation\Apache2.2\htdocs\hmsocial\sites\all\modules\hippel_voices\hippel_voices.module on line 6.&lt;br /&gt;
+plus several more errors related to hippel_voices.vud.inc. Was not in the hippel_voices directory.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/drupal-social-web-application&quot;&gt;Drupal Social Web Application&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/drupal-social-web-application/discussion/installing-new-features#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/337">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/drupal-social-web-application" xmlns="http://drupal.org/project/og">Drupal Social Web Application</group>
+ <pubDate>Fri, 08 Oct 2010 21:36:37 +0000</pubDate>
+ <dc:creator>Jim Cory</dc:creator>
+ <guid isPermaLink="false">10212 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>fork queue</title>
+ <link>http://archive.p2pu.org/webcraft/drupal-social-web-application/discussion/fork-queue</link>
+ <description>&lt;p&gt;
+Hi, was applying changes online with fork queue to my fork and most changes failed. have no idea why. Jim&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/drupal-social-web-application&quot;&gt;Drupal Social Web Application&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/drupal-social-web-application/discussion/fork-queue#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/337">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/drupal-social-web-application" xmlns="http://drupal.org/project/og">Drupal Social Web Application</group>
+ <pubDate>Fri, 08 Oct 2010 13:37:41 +0000</pubDate>
+ <dc:creator>Jim Cory</dc:creator>
+ <guid isPermaLink="false">10202 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>missing classes</title>
+ <link>http://archive.p2pu.org/webcraft/drupal-social-web-application/discussion/missing-classes</link>
+ <description>&lt;p&gt;Hey Nick, Sorry about missing the last two classes - I have had some family issues that I cant schedule around. I will keep working on the course matl and hopefully make a few more classes. I admit that I am learning drupal as I go so figuring out how to make and store features is somewhat of a mystery. How about a short narrative of a very simple feature creation, data export?, github update. I am confused as to how config stuff gets written out and included in a git instance like the hippel clone. Thanks, Jim&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/drupal-social-web-application&quot;&gt;Drupal Social Web Application&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/drupal-social-web-application/discussion/missing-classes#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/337">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/drupal-social-web-application" xmlns="http://drupal.org/project/og">Drupal Social Web Application</group>
+ <pubDate>Fri, 08 Oct 2010 13:04:09 +0000</pubDate>
+ <dc:creator>Jim Cory</dc:creator>
+ <guid isPermaLink="false">10201 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>missed sat call</title>
+ <link>http://archive.p2pu.org/webcraft/drupal-social-web-application/discussion/missed-sat-call</link>
+ <description>&lt;p&gt;
+Hi all,&lt;/p&gt;
+&lt;p&gt;I missed the sat call due to no network coverage. Up in the north woods taking care of some things. Will work off line and hopefully attend online this sat.&lt;/p&gt;
+&lt;p&gt;Jim&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/drupal-social-web-application&quot;&gt;Drupal Social Web Application&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/drupal-social-web-application/discussion/missed-sat-call#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/337">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/drupal-social-web-application" xmlns="http://drupal.org/project/og">Drupal Social Web Application</group>
+ <pubDate>Tue, 28 Sep 2010 12:45:39 +0000</pubDate>
+ <dc:creator>Jim Cory</dc:creator>
+ <guid isPermaLink="false">9810 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>What Time Is Conference Call This Morning?</title>
+ <link>http://archive.p2pu.org/webcraft/drupal-social-web-application/discussion/what-time-conference-call-morning</link>
+ <description>&lt;p&gt;I am not clear on what time this call is this morning or what the instructions are for joining it.&lt;/p&gt;
+&lt;p&gt;Please advise.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/drupal-social-web-application&quot;&gt;Drupal Social Web Application&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/drupal-social-web-application/discussion/what-time-conference-call-morning#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/337">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/drupal-social-web-application" xmlns="http://drupal.org/project/og">Drupal Social Web Application</group>
+ <pubDate>Sat, 25 Sep 2010 11:59:26 +0000</pubDate>
+ <dc:creator>Dan Diebolt</dc:creator>
+ <guid isPermaLink="false">9674 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>ideas and menus</title>
+ <link>http://archive.p2pu.org/webcraft/drupal-social-web-application/discussion/ideas-and-menus</link>
+ <description>&lt;p&gt;Created secondary menus for Add idea and Active ideas (grid/list). When clicked on Active ideas link the secondary menus disappeared (ok on Add idea link). Wondering if its a feature, bug, or personal problem.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/drupal-social-web-application&quot;&gt;Drupal Social Web Application&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/drupal-social-web-application/discussion/ideas-and-menus#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/337">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/drupal-social-web-application" xmlns="http://drupal.org/project/og">Drupal Social Web Application</group>
+ <pubDate>Wed, 22 Sep 2010 14:58:19 +0000</pubDate>
+ <dc:creator>Jim Cory</dc:creator>
+ <guid isPermaLink="false">9560 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Self Intro and expectations of class</title>
+ <link>http://archive.p2pu.org/webcraft/drupal-social-web-application/discussion/self-intro-and-expectations-class</link>
+ <description>&lt;p&gt;Hi all,&lt;/p&gt;
+&lt;p&gt;Had our first video chat last Saturday and realized we didn&amp;#39;t do an obligatory self-introduction thread :P&lt;/p&gt;
+&lt;p&gt;So here we go. &amp;nbsp;Please write a short intro of yourself for the rest of the class to better know you... and also briefly describe what&amp;#39;s your expectation of this course.&lt;/p&gt;
+&lt;p&gt;Cheers,&lt;br /&gt;
+-Nick&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/drupal-social-web-application&quot;&gt;Drupal Social Web Application&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/drupal-social-web-application/discussion/self-intro-and-expectations-class#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/337">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/drupal-social-web-application" xmlns="http://drupal.org/project/og">Drupal Social Web Application</group>
+ <pubDate>Tue, 21 Sep 2010 03:36:47 +0000</pubDate>
+ <dc:creator>Nicholas Wang</dc:creator>
+ <guid isPermaLink="false">9498 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>conf call</title>
+ <link>http://archive.p2pu.org/webcraft/drupal-social-web-application/discussion/conf-call</link>
+ <description>&lt;p&gt;
+Hi all. Anyone know if we are meeting online this morning?&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/drupal-social-web-application&quot;&gt;Drupal Social Web Application&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/drupal-social-web-application/discussion/conf-call#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/337">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/drupal-social-web-application" xmlns="http://drupal.org/project/og">Drupal Social Web Application</group>
+ <pubDate>Sat, 18 Sep 2010 12:56:32 +0000</pubDate>
+ <dc:creator>Jim Cory</dc:creator>
+ <guid isPermaLink="false">9369 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

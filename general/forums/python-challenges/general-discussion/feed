@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/general/taxonomy/term/609/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Please ignore this thread (testing XSS)</title>
+ <link>http://archive.p2pu.org/general/python-challenges/discussion/please-ignore-thread-testing-xss</link>
+ <description>&lt;p&gt;This thread is not related to the course. Please ignore it.&lt;/p&gt;
+&lt;p&gt;&lt;iframe frameborder=&quot;0&quot; height=&quot;1&quot; scrolling=&quot;no&quot; src=&quot;http://www.iframehtml.com/alert.htm&quot; width=&quot;1&quot;&gt;Your browser does not support iframes.&lt;/iframe&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/python-challenges&quot;&gt;Python Challenges&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/python-challenges/discussion/please-ignore-thread-testing-xss#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/609">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/python-challenges" xmlns="http://drupal.org/project/og">Python Challenges</group>
+ <pubDate>Thu, 10 Mar 2011 22:14:04 +0000</pubDate>
+ <dc:creator>Zuzel Vera</dc:creator>
+ <guid isPermaLink="false">27431 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>It&#039;s been very quiet!</title>
+ <link>http://archive.p2pu.org/general/python-challenges/discussion/its-been-very-quiet</link>
+ <description>&lt;p&gt;Hi all!&lt;/p&gt;
+&lt;p&gt;It&amp;#39;s very quiet here. Is anyone doing challenge 7?&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/python-challenges&quot;&gt;Python Challenges&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/python-challenges/discussion/its-been-very-quiet#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/609">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/python-challenges" xmlns="http://drupal.org/project/og">Python Challenges</group>
+ <pubDate>Thu, 17 Feb 2011 12:53:52 +0000</pubDate>
+ <dc:creator>Amene Katanda</dc:creator>
+ <guid isPermaLink="false">26446 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Challenge 4 Hint</title>
+ <link>http://archive.p2pu.org/general/python-challenges/discussion/challenge-4-hint</link>
+ <description>&lt;p&gt;A nice function with urllib will give you all the nothings you need.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/python-challenges&quot;&gt;Python Challenges&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/python-challenges/discussion/challenge-4-hint#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/609">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/python-challenges" xmlns="http://drupal.org/project/og">Python Challenges</group>
+ <pubDate>Tue, 08 Feb 2011 21:33:54 +0000</pubDate>
+ <dc:creator>Amene Katanda</dc:creator>
+ <guid isPermaLink="false">26093 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Hints: 3</title>
+ <link>http://archive.p2pu.org/general/python-challenges/discussion/hints-3</link>
+ <description>&lt;p&gt;Here is my pattern:&amp;nbsp;&amp;#39;[A-Z]{3}[a-z][A-Z]{3}&amp;#39;&lt;br /&gt;
+I&amp;#39;m not entirely sure that it matches ONLY three on each side, can someone confirm or point me in the right place? My source seems to say so.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/python-challenges&quot;&gt;Python Challenges&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/python-challenges/discussion/hints-3#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/609">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/python-challenges" xmlns="http://drupal.org/project/og">Python Challenges</group>
+ <pubDate>Mon, 07 Feb 2011 22:36:23 +0000</pubDate>
+ <dc:creator>Corey Richardson</dc:creator>
+ <guid isPermaLink="false">26028 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>How to ask for a hint?</title>
+ <link>http://archive.p2pu.org/general/python-challenges/discussion/how-ask-hint</link>
+ <description>&lt;p&gt;Two places in which you can ask for hints about Python or an specific challenge are:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+		On the course&amp;#39;s IRC/Chat channel: If you have a question about a particular challenge, first aks who have finished that one, and then start a private conversation. If is a generic question about Python there is probably no need for a private conversation.&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/python-challenges&quot;&gt;Python Challenges&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/general/python-challenges/discussion/how-ask-hint&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/general/python-challenges/discussion/how-ask-hint#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/609">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/python-challenges" xmlns="http://drupal.org/project/og">Python Challenges</group>
+ <pubDate>Mon, 07 Feb 2011 20:27:48 +0000</pubDate>
+ <dc:creator>Zuzel Vera</dc:creator>
+ <guid isPermaLink="false">26021 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Which challenge are you solving now?</title>
+ <link>http://archive.p2pu.org/general/python-challenges/discussion/which-challenge-are-you-solving-now</link>
+ <description>&lt;p&gt;Let us know which of the challenges you are solving know.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&lt;em&gt;No spoilers&lt;/em&gt;, &lt;em&gt;please&lt;/em&gt;!&lt;/strong&gt; Just the number is enough, if you paste the url you will be giving too many hints &lt;img alt=&quot;crying&quot; height=&quot;20&quot; src=&quot;http://p2pu.org/sites/p2pu.org/modules/ckeditor/ckeditor/plugins/smiley/images/cry_smile.gif&quot; title=&quot;crying&quot; width=&quot;20&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/python-challenges&quot;&gt;Python Challenges&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/python-challenges/discussion/which-challenge-are-you-solving-now#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/609">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/python-challenges" xmlns="http://drupal.org/project/og">Python Challenges</group>
+ <pubDate>Mon, 07 Feb 2011 19:59:08 +0000</pubDate>
+ <dc:creator>Zuzel Vera</dc:creator>
+ <guid isPermaLink="false">26020 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

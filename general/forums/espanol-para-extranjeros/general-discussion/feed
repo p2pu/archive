@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/general/taxonomy/term/453/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Primer día de clase</title>
+ <link>http://archive.p2pu.org/general/espanol-para-extranjeros/discussion/primer-dia-de-clase</link>
+ <description>&lt;p&gt;
+	Apreciados alumnos:&lt;/p&gt;
+&lt;p&gt;	Hoy es nuestro primer d&amp;iacute;a de curso. Beinvenidos.&lt;br /&gt;
+	Si entrais en: &lt;a href=&quot;http://espanolparaextranjeros.pbworks.com/w/page/33667781/Página-principal&quot; rel=&quot;nofollow&quot;&gt;http://espanolparaextranjeros.pbworks.com/w/page/33667781/P&amp;aacute;gina-principal&lt;/a&gt;&amp;nbsp;podr&amp;eacute;is encontrar las primeras informaciones para iniciar el curso.&lt;br /&gt;
+	Usaremos este foro para nuestras comunicaciones.&lt;br /&gt;
+	Un saludo&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/espanol-para-extranjeros&quot;&gt;Español para extranjeros&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/espanol-para-extranjeros/discussion/primer-dia-de-clase#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/453">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/espanol-para-extranjeros" xmlns="http://drupal.org/project/og">Español para extranjeros</group>
+ <pubDate>Mon, 24 Jan 2011 08:39:41 +0000</pubDate>
+ <dc:creator>Miguel Angel Quintana</dc:creator>
+ <guid isPermaLink="false">24438 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Programa</title>
+ <link>http://archive.p2pu.org/general/espanol-para-extranjeros/discussion/programa</link>
+ <description>&lt;p&gt;Estar&amp;iacute;a encantado de recibir sugerencias sobre los diferentes temas que puden ser tratados en el curso: medioambiente, temas locales, etc.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/espanol-para-extranjeros&quot;&gt;Español para extranjeros&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/espanol-para-extranjeros/discussion/programa#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/453">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/espanol-para-extranjeros" xmlns="http://drupal.org/project/og">Español para extranjeros</group>
+ <pubDate>Sun, 19 Dec 2010 12:17:26 +0000</pubDate>
+ <dc:creator>Miguel Angel Quintana</dc:creator>
+ <guid isPermaLink="false">13115 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

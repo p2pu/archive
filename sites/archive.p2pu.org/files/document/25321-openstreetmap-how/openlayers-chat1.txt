@@ -1,0 +1,327 @@
+
+ONLINE MAPS WITH OPENLAYERS: FIRST CHAT  ( Thursday, 27 January, 2011 )
+Times are EDT (New York time)
+See the Chat Summary at http://p2pu.org/webcraft/node/12927/document
+
+[#p2pu-webcraft/online-maps-openlayers P2PU and How to start with OpenStreetMap]
+[20:47] == ndoiron [46143f5f@gateway/web/freenode/ip.70.20.63.95] has joined #p2pu-webcraft/online-maps-openlayers
+[20:53] <@jcapelo_> hello
+[20:56] <ndoiron> hi, it's good to see some people online early
+[20:57] <ndoiron> I just made a discussion to go along with the OpenStreetMap topic: http://p2pu.org/webcraft/node/12927/forums/25287
+[21:12] <alex_> Hi, I'a Alex Borrell from Mexico. Is it very early? Hope not
+[21:14] <Little> Hi everyone!
+[21:15] <Aravind_> Hi all. Looks like we are a bit early
+[21:16] <ndoiron> Hi !   yes, it's early but that's fine
+[21:21] <Aravind_> Hi Nick. So what will we be discussing today?
+[21:21] <ndoiron> I think we can answer any questions people have about P2PU then talk about OpenStreetMap
+[21:23] <trekr5> hello
+[21:26] <ndoiron> Hi !
+[21:28] == ndoiron changed the topic of #p2pu-webcraft/online-maps-openlayers to: #p2pu-webcraft/online-maps-openlayers P2PU and How to start with OpenStreetMap
+[21:29] <Sharonm> I finally added a restaurant near my office to OpenStreetMap but it took quite awhile
+[21:29] <Sharonm> The interface was confusing when it switched from the street layout I was viewing to the imagery that wasn't very clear
+[21:29] <ndoiron> did you use the website or another program like JOSM ?
+[21:29] <Sharonm> Web site
+[21:30] <wwilson> Potlatch 1 or 2?
+[21:30] <Sharonm> Maybe there's some way to keep it to streets? I'll have to read the documentation a little more carefully
+[21:30] <Sharonm> The default, 1
+[21:30] <wwilson> I found 2 to be much easier. YMMV.
+[21:30] <Sharonm> Hard to choose when I don't know what any of them are
+[21:30] <Sharonm> Thanks
+[21:32] <alex_> Just register to OSM, make a little edit. How do you label 2 way streets?
+[21:32] <Sharonm> Oh, thanks @wwilson. 2 does look a lot easier.
+[21:33] <ndoiron> alex_: I did some Googling, maybe you can do oneway=no ?
+[21:33] <ndoiron> http://wiki.openstreetmap.org/wiki/Talk:Key:oneway
+[21:34] <wwilson> I dunno why, but I find correcting TIGER alignments in residential neighborhoods to be really relaxing.
+[21:35] <alex_> Thanks Nick, it worked fine (once you know what to do)
+[21:35] <berniejconnors> Hello From Fredericotn NB, Canada.
+[21:35] <ndoiron> wwilson:  it's good to see that you're familiar with OSM.  I've only made a few edits before
+[21:36] <rrosso> Hello from Arlington, VA, USA
+[21:36] <berniejconnors> I have been editing OSM since 2007
+[21:36] <berniejconnors> I don't get to do a lot of GIS work any more so OSM is a good outlet
+[21:37] <Sharonm> Am finding OpenStreetMaps a little frustrating. I just tried to add a post office, and it's asking me for the post office reference number. No idea how to find that, USPS Web site doesn't have it that I can see.
+[21:37] <rrosso> I've heard about OSM but never used it until last week. Haven't tried to edit anything yet.
+[21:39] <wwilson> @Sharonm I don't think tags like that are mandatory. Though they are, of course, useful.
+[21:39] <Little> Just signed up for OSM.
+[21:40] <rrosso> @wwilson: what is the reference number? from where does it derive?
+[21:40] <wwilson> @rrosso Not sure it has meaning in the US. See: http://wiki.openstreetmap.org/wiki/Post_office
+[21:40] <wwilson> Remember that OSM is international, so not all tag are applicable in all countries.
+[21:40] <berniejconnors> Here in Canada post offices are related to their postal code (zip code) - could that be the reference number?
+[21:41] <berniejconnors> Yes OSM is international.  I had a hard time calling a soccer field a "pitch"
+[21:42] <wwilson> None of the post offices I've looked at in the US have ref= set, but I'm new to this, so who knows?
+[21:42] <rrosso> @wwilson - thanks.
+[21:42] <Sharonm> @berniejconnors beats me. We've got more than one post office in that postal code near my office. Oh well. I'll see if it ever shows up on the map without the reference number.
+[21:43] <ndoiron> for people who've used OSM longer :  do the tags and values have a good standard?  Or is it just important to put what you know
+[21:44] <berniejconnors> I find there is usually a core of OSM users in your community / country who try to suggest standards for tagging.
+[21:44] <alex_> I think your localiy knowledge is what counts
+[21:45] <berniejconnors> Personally I find adding the geometry is the most important.
+[21:45] <rrosso> @berniejconnors: do these core OSM users' tags generally agree with each other across communities/countries?
+[21:45] <wwilson> @ndoiron From what I know, most of them are optional. If you want to do some tagging, check the Wiki for the feature, then for your area. If neither of those have info, ask on your country mailing list.
+[21:46] <berniejconnors> Except for streets.  It is best to add the street name at the time you digitize the street.
+[21:46] <wwilson> @bernie I agree! Routing is still a mess, especially in the US, and it'd be great to get that working.
+[21:47] <berniejconnors> I have experience building road network topology in other GIS (not OSM) so I understand the importance of making connections at intersections.
+[21:47] <rrosso> @ndoiron: could we start at the beginning? (or are you waiting for more people to arrive?) I'm feeling a little lost...
+[21:47] <ndoiron> @rrosso agreed
+[21:47] <Sharonm> Not sure how to add geometry. I'm just adding points of interest, which is the knowledge I already have -- adding points to maps.
+[21:48] <trekr5> just signed up to OSM
+[21:48] <trekr5> should we have completed the assignment - adding point of interests to OSM map - before we come to this class?
+[21:49] <ndoiron> @trekr5   nope.  we're signing everyone up now.  had you used OSM before?
+[21:49] <trekr5> no
+[21:49] <trekr5> i'm reading the beginners guide to OSM at the moment or are we covering that in this class?
+[21:49] <ndoiron> can you post the link?
+[21:50] <alex_> Sharonm just click on the map without dragging any tag, then you should add more points, and double click to finish the line
+[21:50] <Sharonm> @alex_ thanks. Not sure what geometry I should start adding....
+[21:50] <Sharonm> What's easy to start with?
+[21:50] <trekr5> http://wiki.openstreetmap.org/wiki/Beginners'_Guide
+[21:50] <wwilson> Yup. And when you have a way (line) selected, shift clicking on it adds a node in the middle.
+[21:51] <alex_> good tip
+[21:51] <berniejconnors> @sharonm  A building footprint or a short residential street is a good easy place to start.
+[21:51] <wwilson> @Sharonm There are plenty of spots where if you compare the roads with the photos, it's clear that the OSM data is misaligned. Just dragging stuff into the right spot is an easy way to get started.
+[21:52] <wwilson> Don't know if that's a problem in your area, but it's really bad in, for instance, SoCal, Arizona, and New Mexico.
+[21:52] <ndoiron> @wwilson how do we know that the photos are aligned better than the roads?
+[21:52] <berniejconnors> @wwilson Is that because of the bulk data load of the Tiger street data?
+[21:53] <wwilson> Much of the road data in the US was batch uploaded from the TIGER files.
+[21:53] <wwilson> @berniejconnors Yeah.
+[21:53] <berniejconnors> Thats what I thought.
+[21:53] <OilAge> Hi
+[21:53] <ndoiron> hi !
+[21:53] <OilAge> My name is Julio
+[21:53] <OilAge> how are you?
+[21:53] <wwilson> http://wiki.openstreetmap.org/wiki/TIGER_fixup
+[21:54] <berniejconnors> I think I could do a short video of adding some simple ways or building footprints
+[21:54] <OilAge> so what are you talking about?
+[21:55] <berniejconnors> OSM
+[21:55] <ndoiron> we're on OSM details now, but let's try to start from square one, for people who are just starting with mapping
+[21:55] <OilAge> really? I am working with OSM data
+[21:55] <OilAge> and geoserver
+[21:55] <Sharonm> @ndoiron yes starting at square one would be good!
+[21:55] <trekr5> @ndoiron agreed!
+[21:55] <Sharonm> @berniejconnors the video would be useful
+[21:55] <alex_> When I add a street, added oneway=no, and ref=1, there are some directions arrows over the line. If I change ref=2 the arrows dissapear. Why so?
+[21:56] <alex_> You are right, forget the last line
+[21:57] <OilAge> so who would like to start?
+[21:57] <ndoiron> for square one, people should go to OpenStreetMap.org and see what their town looks like on it
+[21:57] <ndoiron> I know some experienced mapping people who never heard of OSM, so it's good to start there
+[21:58] <trekr5> @ndoiron when you go to bing and find a landmark point that you want to add to your OSM, do you take the lat and lon of the landmark?
+[21:58] <ndoiron> @trekr5 You can view Bing Satellite maps and edit OSM at the same time using the JOSM download
+[21:59] <rrosso> @trekr5, @ndoiron: is Bing better than google maps for that sort of thing?
+[22:00] <ndoiron> Google doesn't allow it
+[22:00] <ndoiron> this is actually a key point.  Bing only gave permission a couple of months ago
+[22:00] <rrosso> @ndoiron: I guess that makes Bing better for it, huh? :)
+[22:00] <ndoiron> lol yeah
+[22:00] <trekr5> @rrosso pass I'm afraid. very new to OSM!
+[22:01] <trekr5> @ndoiron should we download JOSM first?
+[22:01] <DoRight> But when you do the link to a google map, it gives lat/long.  Is this different?
+[22:01] <ndoiron> @trekr5 Sharonm was using the Edit tab on the website, and Potlatch 2, it was working well
+[22:02] <introvert> ndoiron: anything in particular I should be looking at in regard to my town?
+[22:02] <ndoiron> @DoRight you can't use info and lat/longs from Google on OSM, because it's copyrighted
+[22:03] <DoRight> Right
+[22:03] <ndoiron> @introvert  Is your location covered well on OpenStreetMap?
+[22:03] <berniejconnors> If your town is covered by Bing or Yahoo imagery you will see it when you switch to Edit mode at the OSM website
+[22:03] <Sharonm> OK I'm adding a bunch of points to the map in the neighborhood around my office (stores and such). Anything else we should be doing?
+[22:03] <trekr5> @ndoiron what's potlatch2?
+[22:04] <Sharonm> @trekr5 The default editor on the Web site is potlatch 1
+[22:04] <Sharonm> but you can change it to potlatch 2
+[22:04] <Sharonm> which does indeed seem easier, as @wwilson suggested
+[22:04] <berniejconnors> Potlatch is loaded when you click the "edit" tab on the OSM website
+[22:04] <trekr5> ok got it
+[22:04] <trekr5> thx:)
+[22:05] <alex_> Potlatch offers more options
+[22:05] <berniejconnors> Here is my community on OSM - http://awesomescreenshot.com/05a6l5h0d
+[22:05] <introvert> ndoiron: Yes, i think it is.
+[22:05] <berniejconnors> I was the first editor for all of the dat in my community back in 2007
+[22:06] <trekr5> @ndoiron can we save this chat transcript and mail it to ourselves at the end of this class?
+[22:06] <ndoiron> yup, the chat will be saved --- I'll try to categorize it too, especially the great editing tips
+[22:07] <ndoiron> @introvert & new mapmakers:  people are marking points of interest like restaurants and post offices.  It's a good way to get used to the editing
+[22:08] <Sharonm> @ndoiron OK I'll keep adding points of interest then.
+[22:08] <DoRight> Back to Bing.  Don't see how to get JSON info from it.
+[22:08] <ndoiron> OSM makes you register to edit, so make your account and come to us with questions
+[22:08] <ndoiron> then there are multiple ways to edit
+[22:08] <introvert> ndoiron: maybe it isn't so good, the key has blue squares as railroad stations but they are really bus stops
+[22:09] <wwilson> @introvert What do you mean?
+[22:10] <ndoiron> @introvert  I think you could change a tag from "railway" to "highway:bus stop" http://wiki.openstreetmap.org/wiki/Tag:highway%3Dbus_stop
+[22:11] <introvert> wwilson: I selected "map key" from left nav pane. It identifies a blue square as a railroad station. But the squares are on the bus stops on city streets.
+[22:12] <ndoiron> @DoRight  You can create an account and click the Edit tab, like on Wikipedia.  At a high zoom, you can see Bing or Yahoo satellite.
+[22:12] <ndoiron> @DoRight there's also a Java OpenStreetMap (JOSM) editor which comes in handy for different sources.
+[22:12] <wwilson> @introvert Where are you looking?
+[22:13] <introvert> wwilson: well I learned something, I zoomed in some more and the blue squares became blue buses.
+[22:14] <rrosso> @ndoiron: what's the link for the Java OpenStreetMap editor?
+[22:14] <introvert> wwilson: how do I tell you what I am looking at?
+[22:15] <ndoiron> @rrosso http://wiki.openstreetmap.org/wiki/JOSM  you can try it or use the editor on the main website
+[22:15] <alex_> There are cities with almost a complete street map, but others not. In this last case why not try to add a street, and fill all the data in the field on the left panel?
+[22:16] <ndoiron> @introvert on OpenStreetMap click Permalink to link to your view
+[22:17] <ndoiron> @alex_ that'd be really great, if you could add streets where they're needed
+[22:18] <ndoiron> In Pittsburgh, I was only able to update some buildings because the streets were complete
+[22:18] <introvert> wwilson: http://www.openstreetmap.org/?lat=-41.26873&lon=174.76324&zoom=17&layers=M
+[22:19] <rrosso> To get the precise location of a point, do we get lat/long from Bing? How/where?
+[22:19] <alex_> nick, with Postlatch2 the images are better (at least the zoom), and you can edit the vertices (moving) or adding more as wwilson said
+[22:20] <Sharonm> @ndoiron what's the advantage of JOSM over the Postlatch2 Web-based editor?
+[22:20] <wwilson> @Sharonm If you want to do something huge and complicated, but intermediate steps would be messy and destructive; you pull everything offline, edit there, then upload again.
+[22:20] <alex_> http://www.openstreetmap.org/?lat=20.6818&lon=-103.3944&zoom=14&layers=M
+[22:21] <Sharonm> @wwilson. Ah. I probably don't need that quite yet!
+[22:21] <introvert> ndoiron: what if I don't see anything to edit?
+[22:22] <ndoiron> you can look at more places that you know, and add building outlines or more obscure things
+[22:22] <berniejconnors> @rrosso No you don't collect coordinates from other online maps
+[22:23] <berniejconnors> @rrosso you either collect GPS tracks with a handheld GPS or you digitze streets from the air photos that are displayed in the OSM editor
+[22:23] <wwilson> @rrosso Yeah, that might be copyright infringement. Need to ask a lawyer. :)
+[22:23] <ndoiron> @rrosso you draw it in the Edit tab
+[22:23] <alex_> nickl, then maybe  use these maps with OpenLayers
+[22:24] <berniejconnors> @rrosso here is a quick vidoe I just made of digitizing a building: http://screencast.com/t/MDRtnaCHTbz
+[22:24] <berniejconnors> The video is only 4.6 MB.  I used Jing to make the video
+[22:25] <ndoiron> I'll un-recommend JOSM.  It's used when people share new satellite photos, but it looks like Potlatch is the way to go for now
+[22:27] <DoRight> Sorry it appears my internet is, ahh, having issues?
+[22:27] <ndoiron> @berniejconnors thanks for making this!
+[22:28] <trekr5> @doright same here! had to logoff and back on again
+[22:28] <DoRight> Have an an accnt on OSM and now realize that JSOM is an editor.  When you first mentioned it, I thought it was some sort of data stream.
+[22:29] <introvert> ndoiron: is it OK to identify (with what?) early childhood buildings for a particular service provider?
+[22:29] <ndoiron> @DoRight  okay.  I think we want everyone to use the editor on the main website now
+[22:30] <berniejconnors> @ndoiron Jing makes it really easy to make a quick video
+[22:30] <trekr5> @bernie just looked at your great screencast - volume is a bit low. is it the same on anyone else's?
+[22:30] <Sharonm> How do I add a street? There's a new street in the area, I see it on the image but it's not on the map yet.
+[22:31] <berniejconnors> The volume was low for me too.  I am working on a 2004 Dell with a 2004 microphone!!
+[22:31] <ndoiron> @introvert Tag the school as an "amenity" that's type "school", and you can add more tags like grade level
+[22:32] <alex_> sharon just click on one end of the street and keep adding points, finishing with a double click, then add data in the left panel
+[22:32] <introvert> ndoiron: what 'image' is Sharonm talking about?
+[22:32] <berniejconnors> Remember to click the "save" button in the top right corner
+[22:33] <trekr5> @bernie, @ndoiron so let me understand something...you select the object on a bing map using potlatch, tag it and then save and that object is them imported into OSM?
+[22:33] <wwilson> @introvert Satellite or aerial photography.
+[22:33] <alex_> In the backgound
+[22:33] <berniejconnors> It is best to save after just a few edits becuase it can be slow when you have made many edits
+[22:34] <introvert> wwilson: where do you find those?
+[22:34] <wwilson> If you're using the online editor, they'll automatically display the best they have in your region.
+[22:34] <wwilson> For instance, I think the US and Denmark have good quality images. Not sure about other countries.
+[22:35] <ndoiron> @trekr5 the editing should be done entirely on openstreetmap.org   If the photos can be used to label the free map, they will appear in the editor
+[22:36] <berniejconnors> @introvert  Can you tell me where you are editing so I can look at the same OSM map as you?
+[22:36] <introvert> wwilson: thx
+[22:36] <introvert> berniejconnors: I haven't found anything to edit.
+[22:37] <trekr5> @ndoiron but typically the only maps we can do that with at present are bing and yahoo?
+[22:37] <berniejconnors> @ introvert do you see the air photos now?
+[22:37] <introvert> berniejconnors: yes, I selected edit and saw it.
+[22:38] <berniejconnors> What city are you looking at?
+[22:38] <berniejconnors> @introvert What city are you looking at?
+[22:39] <introvert> berniejconnors: Wellington, NZ
+[22:40] <wwilson> @trekr5 There are other imagery providers outside of the US.
+[22:40] <wwilson> US is mostly Yahoo and Bing.
+[22:40] <berniejconnors> @introvert WOW - Wellington is a very complete map!  Isn't it incredible that it was created by voluteers?
+[22:41] <trekr5> @wwilson but are the others all free too?
+[22:41] <ndoiron> @trekr5 OpenStreetMap is open for others to reuse, sell, and download.  The references have to give permission or be open maps themselves
+[22:41] <rrosso> I'm confused about what we can/can't do with Bing/Yahoo maps. Using lat/long data from Bing is copyright infringement, someone said.
+[22:42] <ndoiron> @trekr5 a good example is LandSat and USGS maps.. because they are government work their imagery is free
+[22:42] <rrosso> So what did Bing just start allowing people to do a couple months ago that enables one to use it with OSM?
+[22:42] <ndoiron> @rrosso  They allow you to trace roads from their images into OpenStreetMap
+[22:42] <ndoiron> @rrosso  We don't take it directly, we trace
+[22:43] <ndoiron> @rrosso  the best tracing program to start with is Potlatch, which is on the OpenStreetMap.org site
+[22:44] <ndoiron> http://www.bing.com/community/site_blogs/b/maps/archive/2010/11/23/bing-engages-open-maps-community.aspx
+[22:44] <berniejconnors> introvert: There is a large building near Wilton road and Churchill drive that you could digitize:  http://screencast.com/t/z9vXDLZyx
+[22:45] <introvert> ndoiron: still can't find anything, tried two ece centres but can't figure out where they are based on the images
+[22:45] <wwilson> @ndoiron I have to run off for now.
+[22:45] <wwilson> @ndoiron In the future, how long will the chats usually be?
+[22:46] <trekr5> @ndoiron are you going to show us how to create a basic mashup using OSM data in this course?
+[22:46] <ndoiron> @wwilson okay, thank you so much.  In the future I'll try to limit it to around 1 hour
+[22:46] <ndoiron> @trekr5  yes, interactive maps are next after OSM
+[22:46] <introvert> berniejconnors: how do I do that?
+[22:46] <wwilson> Oh! No worries. It's just helpful to be able to plan.
+[22:46] <wwilson> Bye everyone.
+[22:47] <trekr5> bye
+[22:47] <ndoiron> thanks again!  bye
+[22:47] <berniejconnors> introvert:  Check this video:  http://screencast.com/t/MDRtnaCHTbz
+[22:47] <rrosso> Bye wwilson
+[22:47] <rrosso> @ndoiron: thanks! that's helpful.
+[22:47] <anteaya> ndoiron, will you be available on this channel during non-meeting times?
+[22:47] <ndoiron> @trekr5  you can see an example OSM map at jsfiddle.net/UAxun/2/
+[22:47] <DoRight> How do we get a copy of what went on?
+[22:48] <ndoiron> yes, I'll put all the tips, videos, and questions together
+[22:48] <ndoiron> @anteaya I'll be on the channel more often, and you can go to the Forums section as well
+[22:48] <berniejconnors> introvert: If you are viewing the edit screen and you can see the air photo then just do a single click on a building corner and a point will be created
+[22:48] <DoRight> or now http://jsfiddle.net/DoRight/pNYQH/2/
+[22:49] <berniejconnors> introvert: when you move the mouse away from that first point you will see a red dashed line trailing from yuor mouse pointer
+[22:49] <anteaya> ndoiron, thanks
+[22:49] <introvert> berniejconnors: yes, but I have to know what building on the street. I don't my city well enough for this.
+[22:49] <berniejconnors> introvert: now click on the next building corner and the next
+[22:50] <trekr5> @ndoiron so is jsfiddle another type of editor that you can use with OSM?
+[22:50] <Sharonm> OK I couldn't seem to make the road in one piece, so it has two sections each named the same thing. Sigh.
+[22:50] <ndoiron> @introvert can you click on the roads and find out their names?  then you'd know where you were
+[22:51] <berniejconnors> introvert: It is not important to know the name of the building right now.  Just digitize the outline.  You  or another user can add the tags later.
+[22:52] <Sharonm> http://www.openstreetmap.org/?minlon=-71.4208872&minlat=42.3270909&maxlon=-71.418943&maxlat=42.3294274&box=yes
+[22:52] <berniejconnors> introvert:  Mappers from all over the world digitized the streets of Haiti following last years earthquake.  Most of them did not know the street names. But eventually somebody added the street names.
+[22:52] <introvert> berniejconnors: the challenge is that I am not sure if I have the right building. And I don't know which one you sent me. My son and I can't figure out what it is.
+[22:53] <ndoiron> @trekr5 jsfiddle helps you make websites. Once we're done building the underlying map from OSM, we can add interactive things with OpenLayers
+[22:53] <DoRight> @trek5 no it is a code tester.  You add your html and js and it gives you a map.  See my link above and I would be glad to answer any questions on it.  I used the one mentioned in the forum as the basis for mine.
+[22:53] <trekr5> glad i'm taking this course. it's very interesting
+[22:53] <DoRight> Sí
+[22:53] <berniejconnors> introvert:  Don't sweat it - just give it a try.  What ever you do can be undone.
+[22:54] <introvert> berniejconnors: I am now confused. I don't know what you want me to try.
+[22:54] <ndoiron> @introvert  draw any building outline /  footprint
+[22:54] <trekr5> @Doright, just looking at your map now
+[22:54] <ndoiron> @introvert just as a starting point
+[22:54] <DoRight> @bernie How do you kill a point?  I clicked by mistake in the editor and couldn't get it to stop.
+[22:54] <berniejconnors> introvert: Did you watch the video I sent?
+[22:55] <berniejconnors> Doright: hit the ESC key
+[22:55] <rrosso> @DoRight: I did the same thing. I think you can select it again and hit the red X in the bottom-right toolbox to delete it.
+[22:56] <berniejconnors> Good night all.  It is approaching midnight here and my wife is calling me to join her in bed.
+[22:56] <DoRight> tanx
+[22:56] <ndoiron> good night !  you've been a great help
+[22:56] <trekr5> thx bernie
+[22:56] <introvert> berniejconnors: no, all I get is a black screen
+[22:57] <ndoiron> @introvert:  maybe it'll be fixed if you zoom out?
+[22:58] <DoRight> ciao
+[22:58] <introvert> ndoiron: zoom out on what?
+[22:58] <Sharonm> Wow there's also a road on here that needs to be removed
+[22:58] <Sharonm> No idea how to do that.
+[22:58] <Sharonm> But there's a road that goes farther on the map than it really does.
+[22:59] <Sharonm> (They've got a walking trail labelled as an actual road)
+[23:00] <Sharonm> How can I select a piece of an existing road and relabel it as a trail?
+[23:01] <ndoiron> @Sharonm I'm using Potlatch 2, I just click it and it tells me what type it is
+[23:01] <ndoiron> @Sharonm then there's a drop-down, under the name, to select different types
+[23:02] <rrosso> Ok, I've added 2 points to my neighborhood map - a yoga studio and a bike shop. I saved the changes, but when I go back to view I don't see my new points.
+[23:03] <rrosso> How do I get a permalink that shows my edits?
+[23:04] <ndoiron> http://www.openstreetmap.org/user/rrosso/edits
+[23:04] <ndoiron> @rrosso it takes a few minutes to stick, especially for new users
+[23:04] <Sharonm> @ndoiron But I only need to reclassify part of the way. How do I select just part of it?
+[23:05] <Sharonm> I'm trying to select just a piece of a way but can't.
+[23:05] <ndoiron> in the bottom right, do you have a scissors?  it can split the way and then you could rejoin the two halves
+[23:05] <introvert> oh joys, another try and there are clouds in the ways
+[23:06] <ndoiron> @introvert maybe you can change the background.  Do you have a Background option in the top left of the editor?
+[23:06] <rrosso> thanks.
+[23:07] <ndoiron> So, we went through this rather quickly
+[23:08] <ndoiron> I'm learning about OpenStreetMap but I thought it'd be important to start with where the maps come from, before making webpages
+[23:09] <raym> Nick did you say you would save a transcript of this chat or summary? I occasionally had to leave
+[23:09] <introvert> ndoiron: I don't see anything about background
+[23:09] <introvert> ndoiron: but I have a lot of we're sorry you have requested unavailable data ;-)
+[23:09] <ndoiron> @raym: yes, I'll post a summary and attach the transcript
+[23:10] <ndoiron> @introvert:  is it possible you zoomed in too much somewhere, and it's giving that error?
+[23:10] <Sharonm> @ndoiron Thanks for chat, work tomorrow I've got to get some sleep. Goodnight all!
+[23:11] <alex_> good night, and thanks
+[23:11] <ndoiron> good night
+[23:11] <rrosso> Thanks, Nick, this has been very informative and interesting. Looking forward to future sessions.
+[23:11] <rrosso> Do we have an assignment before the next session?
+[23:11] <introvert> ndoiron: yes and that is part of why I can't find any of the buildings I am looking for
+[23:12] <rrosso> Good night all!
+[23:12] <ndoiron> @rrosso if you're interested in adding more complex things, you can look up your country / local page on the OSM wiki, or helping others map
+[23:12] <ndoiron> good night!
+[23:13] <ndoiron> @introvert  would you lose a lot by reloading the page?  if you can't re-orient yourself that might be the best thing to do
+[23:14] <rrosso> @ndoiron I'll look into that.
+[23:15] <introvert> ndoiron: tried that
+[23:16] <ndoiron> introvert: what web browser are you using?  I'll try to look up some information when I post the chat tomorrow
+[23:17] <ndoiron> at this point, it's almost midnight for me, too, so I don't know whether I can solve the problem
+[23:18] <introvert> ndoiron: yes, you have been helping for a long while. I just checked where I grew up in the US and the ariel maps zoom in a lot (!) closer and I can find stuff easily. can't do that in NZ.
+[23:19] <ndoiron> that's great, glad that part of it is working better
+[23:20] <ndoiron> they've only been working with Bing for a couple of months, so there could be issues with different countries
+[23:21] <introvert> ndoiron: thx. pleasant dreams and have a good night
+[23:21] <introvert> Bye all
+[23:21] <ndoiron> introvert: good night
+[23:21] <ndoiron> before I go,  does anyone else have questions?
+[23:22] <anteaya> so if I understand the assignment, we go onto openmap and make some edits and save them?
+[23:22] <anteaya> is that correct?
+[23:22] <trekr5> nope
+[23:22] <trekr5> when r we meeting next?
+[23:23] <ndoiron> anteaya:  that would be great.  register, make some edits, and let us know in Forums if there are questions or problems
+[23:23] <trekr5> @ndoiron do we send you the links to our OSM maps?
+[23:23] <anteaya> can I let you know in IRC?
+[23:23] <ndoiron> @anteaya: yes
+[23:23] <anteaya> thanks
+[23:24] <ndoiron> @trekr5: like I showed rrosso, every account has a page that shows the edits, for example http://www.openstreetmap.org/user/rrosso/edits
+[23:25] <ndoiron> @trekr5 the next scheduled chats are Saturday... 6AM and 6PM NYC time
+[23:25] <ndoiron> this first week is to see what times people are available
+[23:27] <ndoiron> I'll be on IRC over the next couple of days and let people know that when I post this chat
+[23:27] <ndoiron> =)  okay great, I should get some sleep now
+[23:27] <ndoiron> good night!

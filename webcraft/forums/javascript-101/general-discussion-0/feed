@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/webcraft/taxonomy/term/645/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Week 1</title>
+ <link>http://archive.p2pu.org/webcraft/javascript-101/discussion/week-1</link>
+ <description>&lt;p&gt;&lt;a href=&quot;https://sites.google.com/a/p2pu.umust.be/jsportal/schedule/week-1&quot; rel=&quot;nofollow&quot;&gt;https://sites.google.com/a/p2pu.umust.be/jsportal/schedule/week-1&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://p2pu.phpbb3now.com/viewforum.php?f=2&amp;amp;sid=07ded18de50a1b3e39948149c4d4a6b7&quot; rel=&quot;nofollow&quot;&gt;http://p2pu.phpbb3now.com/viewforum.php?f=2&amp;amp;sid=07ded18de50a1b3e39948149c4d4a6b7&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/javascript-101-1&quot;&gt;Javascript 101&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/javascript-101/discussion/week-1#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/645">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/javascript-101-1" xmlns="http://drupal.org/project/og">Javascript 101</group>
+ <pubDate>Fri, 22 Apr 2011 18:38:35 +0000</pubDate>
+ <dc:creator>Maya Incaand</dc:creator>
+ <guid isPermaLink="false">29753 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

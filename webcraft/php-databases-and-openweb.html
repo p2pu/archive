@@ -1,0 +1,938 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="p2pu" xml:lang="p2pu">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>PHP, Databases and the OpenWeb | P2PU Archive</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<link rel="shortcut icon" href="../sites/archive.p2pu.org/themes/p2pu10/favicon.ico" type="image/x-icon" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/archive.p2pu.org/modules/codefilter/codefilter.css@I.css" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/archive.p2pu.org/files/ctools/css/285c428a76ec8572518f378d6e75c7c3.css@I.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../sites/archive.p2pu.org/modules/popup/popup.css@I.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../sites/archive.p2pu.org/modules/popup/styles/Soft&#32;grey&#32;frame/popup-style.css@I.css" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/archive.p2pu.org/files/css/css_95f2f0b0d88c9c33dd38d79be896576b.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../sites/archive.p2pu.org/files/css/css_23213a44f12b0d9125523bb3c342e2a6.css" />
+<script type="text/javascript" src="../sites/archive.p2pu.org/files/js/js_f9571e8f689e0561a88ad14078625551.js"></script>
+<script type="text/javascript" src="../sites/archive.p2pu.org/modules/popup/popup.js@1381251091"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "chartbeat": { "uid": 10678, "domain": "p2pu.org" }, "dhtmlMenu": { "slide": "slide", "doubleclick": "doubleclick", "siblings": 0, "relativity": 0, "children": 0, "clone": 0 }, "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|avi|csv|doc|exe|flv|gif|gz|jpe?g|js|mp(3|4|e?g)|mov|pdf|phps|png|ppt|rar|sit|tar|torrent|txt|wma|wmv|xls|xml|zip" }, "extlink": { "extTarget": 0, "extClass": "ext", "extSubdomains": 1, "extExclude": "", "extInclude": "", "extAlert": 0, "extAlertText": "This link will take you to an external web site. We are not responsible for their content.", "mailtoClass": "mailto" }, "popup": { "hoverLinger": "250" }, "views": { "ajax_path": [ "/webcraft/views/ajax", "/webcraft/views/ajax", "/webcraft/views/ajax", "/webcraft/views/ajax" ], "ajaxViews": [ { "view_name": "dashboard_mytracker", "view_display_id": "panel_pane_2", "view_args": "12745", "view_path": "node/12745", "view_base_path": "user/%/dashboard/tracker", "view_dom_id": 1, "pager_element": 4 }, { "view_name": "og_members_faces", "view_display_id": "default", "view_args": "12745", "view_path": "node/12745", "view_base_path": "group-member-faces", "view_dom_id": 2, "pager_element": 0 }, { "view_name": "activity_atrium", "view_display_id": "panel_pane_1", "view_args": "12745", "view_path": "node/12745", "view_base_path": null, "view_dom_id": 3, "pager_element": 0 }, { "view_name": "broadcast_messages", "view_display_id": "block_2", "view_args": "12745", "view_path": "node/12745", "view_base_path": null, "view_dom_id": 4, "pager_element": 0 } ] }, "og": { "group_context": { "nid": "12745", "title": "PHP, Databases and the OpenWeb", "type": "course" } } });
+//--><!]]>
+</script>
+</head>
+
+<body class="not-front not-logged-in page-node node-type-course no-sidebars p2pu-context-course-section-webcraft og-context og-context-12745  ">
+
+  <div id="page">
+     <!--style = "display:none;"-->
+      <div id="top-notification" class="p2pu-notification">
+        <p>This is the P2PU Archive. If you want the current site, go to <a href="http://www.p2pu.org" rel="nofollow">www.p2pu.org!</a></p>
+      </div>     
+      <div id="page-header" class="float-container">
+
+        <div id="logo"><a title="webcraft Home" href="../webcraft.1.html"><img alt="P2PU Home" src="../sites/archive.p2pu.org/themes/p2pu10/images/logos/logo-section-webcraft.png"></a></div>
+        <div id="slogan"></div>
+        <div id="region-header"></div>
+
+              </div><!-- /page-header -->
+
+      <div id="navigation">
+        <div class="primary">  <div id="block-menu-menu-webcraft" class="block block-menu">
+<!-- wrappers -->
+
+
+  <div class="content"><ul class="menu"><li class="leaf first dhtml-menu "><a href="../index.html" title="P2PU home page" id="dhtml_menu-17129"><span>P2PU Home</span></a></li>
+<li class="leaf last dhtml-menu "><a href="course/list.html" title="Webcraft course listing." id="dhtml_menu-17128"><span>Courses</span></a></li>
+</ul></div>
+  
+<!-- /wrappers -->
+</div></div>        <form action="php-databases-and-openweb.html"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-a0968909d71c0064f8500679086e392b" value="form-a0968909d71c0064f8500679086e392b"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+      </div><!-- /Navigation -->
+
+      <div id="page-sub-header"></div>
+
+      <div id="page-body" class="float-container page-body-top">
+        <div id="page-sub-body">
+  
+          <div id="content-column">
+            <div class="inner">
+                            
+              <h1 class="title">PHP, Databases and the OpenWeb</h1>                                                        <div class="tabs float-container"><ul class="tabs primary">
+<li class="active" ><a href="php-databases-and-openweb.html" class="active"><span>Course Home</span></a></li>
+<li ><a href="node/12745/document.html"><span>Course Material</span></a></li>
+<li ><a href="node/12745/forums.html"><span>Forums</span></a></li>
+</ul>
+</div>                            <div class="panel-flexible panels-flexible-43 clear-block" >
+<div class="panel-flexible-inside panels-flexible-43-inside">
+<div class="panels-flexible-column panels-flexible-column-43-main panels-flexible-column-first">
+  <div class="inside panels-flexible-column-inside panels-flexible-column-43-main-inside panels-flexible-column-inside-first">
+<div class="panels-flexible-region panels-flexible-region-43-center panels-flexible-region-first panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-43-center-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panel-pane pane-block pane-p2pu-7 yellow-panel" >
+  <div class="pane-inner">
+      
+      
+      
+    <div class="pane-content">
+      <div id='course-dates-block'>
+This course is currently in Draft status. If approved this course is scheduled to run from 26 January 2011 to 9 March 2011. Signup will open a few weeks prior to start date.</div>
+    </div>
+  
+      
+      </div>  
+</div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-panels-mini pane-course-general-info grey-panel" >
+  <div class="pane-inner">
+      
+          <h2 class="pane-title">PHP, Databases and the OpenWeb</h2>
+      
+      
+    <div class="pane-content">
+      <div class="panel-display panel-1col clear-block" id="mini-panel-course_general_info">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-custom pane-1" >
+  <div class="pane-inner">
+      
+      
+      
+    <div class="pane-content">
+      <div class='meta'>
+<div class="picture">
+  <a href="../users/bogomil.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-1586.jpg" alt="Bogomil Shopov&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+<span class='created-date'>Course organiser: <a href="users/bogomil.html" title="View user profile.">Bogomil Shopov</a></span>
+</div>
+    </div>
+  
+      
+      </div>  
+</div>
+<div class="panel-region-separator"></div><div class="field field-type-text field-field-course-facilitator-about">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              About the Course Organiser:&nbsp;</div>
+                    <p>My name is <a href="http://talkweb.eu" rel="nofollow">Bogo</a><br />
+I am a professional, working in the field of the Internet. I have wide experience in the development of products and with the new trends of the global network. I also know that 10 is equal to 2 and programming in different areas is another of my strong sides. I defend the open source and free software principles as well as the Internet users&rsquo; digital rights.</p>
+        </div>
+        </div>
+</div>
+<div class="panel-region-separator"></div><div class="field field-type-number-integer field-field-course-no-of-seats">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              No of Seats:&nbsp;</div>
+                    55        </div>
+        </div>
+</div>
+<div class="panel-region-separator"></div><div class="field field-type-text field-field-course-status">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Course Status:&nbsp;</div>
+                    Draft in progress        </div>
+        </div>
+</div>
+</div>
+  </div>
+</div>
+    </div>
+  
+      
+      </div>  
+</div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-views pane-og-members-faces yellow-panel" >
+  <div class="pane-inner">
+      
+          <h2 class="pane-title">Members</h2>
+      
+      
+    <div class="pane-content">
+      <div class="view view-og-members-faces view-id-og_members_faces view-display-id-default view-dom-id-2">
+    
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid">
+  <tbody>
+                <tr class="row-1 row-first row-last">
+                  <td class="col-1">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/bogomil.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/picture-1586.jpg" alt="Bogomil Shopov&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content">admin</span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Bogom</span>
+  </div>
+          </td>
+                  <td class="col-2">
+                      </td>
+                  <td class="col-3">
+                      </td>
+                  <td class="col-4">
+                      </td>
+                  <td class="col-5">
+                      </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>     </div>
+  
+      
+      </div>  
+</div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-column panels-flexible-column-43-1 panels-flexible-column-last">
+  <div class="inside panels-flexible-column-inside panels-flexible-column-43-1-inside panels-flexible-column-inside-last">
+<div class="panels-flexible-row panels-flexible-row-43-4 panels-flexible-row-first clear-block">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-43-4-inside panels-flexible-row-inside-first clear-block">
+<div class="panels-flexible-region panels-flexible-region-43-top_region panels-flexible-region-first panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-43-top_region-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panel-pane pane-block pane-p2pu-6 orange-panel" >
+  <div class="pane-inner">
+      
+      
+      
+    <div class="pane-content">
+      <div id='tweet-text-and-button'>
+<div class='field-field-course-short-desc'>How and why to create (Open)Web applications with PHP and Databases</div>
+<div id="tweet-button"><a href="http://twitter.com/share" class="twitter-share-button" data-related="p2pu:P2P University, learning for everyone, by everyone, about almost anything." data-text="How and why to create (Open)Web applications with PHP and Databases" data-count="none">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div></div>
+    </div>
+  
+      
+      </div>  
+</div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-panels-mini pane-course-summary-and-syllabus yellow-panel" >
+  <div class="pane-inner">
+      
+      
+      
+    <div class="pane-content">
+      <div class="panel-display panel-1col clear-block" id="mini-panel-course_summary_and_syllabus">
+  <div class="panel-panel panel-col">
+    <div><h2 class="pane-title">Summary</h2><div class="field field-type-text field-field-course-summary">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <p>
+	<em>PHP is Open Source and Cross Platform, running on Unix, GNU/Linux, MS Windows, Apple Mac, AS/400 and more, and is often used with an OS-CP database and web server such as MySql and Apache. Thus PHP will work on the operating system and hardware that currently suits your applications and organisation.</em></p>
+<p>	<strong>PHP and Databases</strong><br />
+	</p>
+<ul>
+<li>
+		Introduction to Programming Languages</li>
+<li>
+		PHP Language Basics: Syntax, Quotes, Comments, Data Types</li>
+<li>
+		PHP Variable Basics: Numbers, Constants, Variables, Strings, Arrays</li>
+<li>
+		PHP Control Flow Basics: Operators, Conditionals, Loops</li>
+<li>
+		PHP Functional Basics: Functions, Libraries, Advanced Arrays, File Handling</li>
+<li>
+		PHP Programming Basics: Best Practices, Debugging, Brief Introduction to HTML</li>
+<li>
+		PHP Web Basics: Brief Introduction to Server Communications, Sessions, Security</li>
+<li>
+		PHP Database Basics: Brief Introduction to MySQL/MariaDB/SQLite/NoSQL Database as it relates to Web Sites</li>
+<li>
+		PHP Applications Basics: Best Approaches to Creating Applications;</li>
+<li>
+		Course project</li>
+</ul>
+<p>
+	<strong>Publish</strong></p>
+<ul>
+<li>
+		Where to publish your PHP project.</li>
+<li>
+		How to find co-wokers for your great idea.</li>
+<li>
+		Choosing a (free) license of your code.</li>
+<li>
+		Learn more about opensource licenses and Creative Commons.</li>
+<li>
+		How to contribute to OpenWeb using your PHP skills</li>
+</ul>
+<p><strong>PHP 5</strong> is the current version of PHP and is what the course teaches.</p>
+<p>This course is designed for those who want to learn the basics of the PHP language, and assumes some familiarity with web sites &ndash; what they are and the very basics of how they work &ndash; but no (or limited) programming experience. Web designers who want to become PHP Developers would certainly benefit from this course.</p>
+<p><strong>Main objective:</strong><br />
+To learn the basics of the PHP programming language.</p>
+<p></p>
+        </div>
+        </div>
+</div>
+<div class="panel-region-separator"></div><h2 class="pane-title">Learning objectives</h2><div class="field field-type-text field-field-course-learning-objectives">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <p>This course is designed for those who want to learn the basics of the PHP language, and assumes some familiarity with web sites &ndash; what they are and the very basics of how they work &ndash; but no (or limited) programming experience. Web designers who want to become PHP Developers would certainly benefit from this course.</p>
+<p><strong>Main objective:</strong><br />
+To learn the basics of the PHP programming language.</p>
+        </div>
+        </div>
+</div>
+<div class="panel-region-separator"></div><h2 class="pane-title">Schedule/Syllabus</h2><div class="field field-type-nodereference field-field-refers-to-syllabus">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <a href="document/syllabus-php-databases-and-openweb.html">Syllabus for PHP, Databases and the OpenWeb</a>        </div>
+        </div>
+</div>
+</div>
+  </div>
+</div>
+    </div>
+  
+      
+      </div>  
+</div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-panels-mini pane-prereq-and-signup-task grey-panel" >
+  <div class="pane-inner">
+      
+      
+      
+    <div class="pane-content">
+      <div class="panel-display panel-1col clear-block" id="mini-panel-prereq_and_signup_task">
+  <div class="panel-panel panel-col">
+    <div><h2 class="pane-title">Prerequisites</h2><div class="field field-type-text field-field-course-prerequisites">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <ul>
+<li>
+		A basic working knowledge of HTML is presumed.</li>
+<li>
+		Some conceptual knowledge of how web servers and web browsers (clients) interact using HTTP.</li>
+<li>
+		A computer or a <em>hosting space</em> where you can test your work.</li>
+<li>
+		A free IDE like <a href="http://www.activestate.com/komodo-edit" rel="nofollow">Komodo Edit</a></li>
+<li>
+		Since this course will be in English, basic knowledge is required. (<em>If anyone wants to translate materials to other languages</em>, <em>we can add more languages</em>)</li>
+</ul>
+        </div>
+        </div>
+</div>
+<div class="panel-region-separator"></div><h2 class="pane-title">Sign-Up Task</h2><p><strong><em>Please note: The sign-up task is listed here as background information. Please only submit your answers via the sign-up form (not as comments or direct messages to the course organizer).</em></strong></p>
+<div class="panel-region-separator"></div><div class="field field-type-text field-field-course-sign-up-req">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <p></p>
+        </div>
+        </div>
+</div>
+</div>
+  </div>
+</div>
+    </div>
+  
+      
+      </div>  
+</div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-node-comments" >
+  <div class="pane-inner">
+      
+          <h2 class="pane-title">Comments</h2>
+      
+      
+    <div class="pane-content">
+      <a id="comment-5318"></a>
+<div class="comment comment-5318 comment-published odd first clear-block">
+  
+      <h3 class="title">
+      <a href="php-databases-and-openweb.html#comment-5318" class="active">Excited and Ready.</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/phastafrican.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Emmanuel Baako&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/phastafrican.html" title="View user profile.">Emmanuel Baako</a><div id='comment-submitted-date'>
+Wed, 2011-01-05 10:42</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Excited and Ready.</p>
+  </div>
+
+  <ul class="links"><li class="comment_forbidden first"></li>
+<li class="p2pu_comment_link last active"><a href="php-databases-and-openweb.html#comment-5318" class="active">link to this comment</a></li>
+</ul></div><a id="comment-5470"></a>
+<div class="comment comment-5470 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="php-databases-and-openweb.html#comment-5470" class="active">PHP is great, and OpenWeb is</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/jase.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9163.jpg" alt="Jason Nyquist&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/jase.html" title="View user profile.">Jason Nyquist</a><div id='comment-submitted-date'>
+Sun, 2011-01-09 09:07</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>PHP is great, and OpenWeb is even better!  I'm especially interested in the social/collaborative aspects of the coure.  Let's work together!</p>
+  </div>
+
+  <ul class="links"><li class="comment_forbidden first"></li>
+<li class="p2pu_comment_link last active"><a href="php-databases-and-openweb.html#comment-5470" class="active">link to this comment</a></li>
+</ul></div><a id="comment-5969"></a>
+<div class="comment comment-5969 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="php-databases-and-openweb.html#comment-5969" class="active">When will signup open for</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/robinmartin1986.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Robin Martin&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/robinmartin1986.html" title="View user profile.">Robin Martin</a><div id='comment-submitted-date'>
+Thu, 2011-01-13 13:39</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>When will signup open for this course?</p>
+  </div>
+
+  <ul class="links"><li class="comment_forbidden first"></li>
+<li class="p2pu_comment_link last active"><a href="php-databases-and-openweb.html#comment-5969" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6127"></a>
+<div class="comment comment-6127 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="php-databases-and-openweb.html#comment-6127" class="active">I&#039;d love to sign up for this</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/stevelack.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9977.jpg" alt="Steve Lack&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/stevelack.html" title="View user profile.">Steve Lack</a><div id='comment-submitted-date'>
+Fri, 2011-01-14 04:57</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I'd love to sign up for this course.  Will it be running during this first session?</p>
+  </div>
+
+  <ul class="links"><li class="comment_forbidden first"></li>
+<li class="p2pu_comment_link last active"><a href="php-databases-and-openweb.html#comment-6127" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6187"></a>
+<div class="comment comment-6187 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="php-databases-and-openweb.html#comment-6187" class="active">Also interested in this</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/micyukcha.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="michael chang&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/micyukcha.html" title="View user profile.">michael chang</a><div id='comment-submitted-date'>
+Fri, 2011-01-14 17:10</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Also interested in this course.  When will registration open?</p>
+  </div>
+
+  <ul class="links"><li class="comment_forbidden first"></li>
+<li class="p2pu_comment_link last active"><a href="php-databases-and-openweb.html#comment-6187" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6231"></a>
+<div class="comment comment-6231 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="php-databases-and-openweb.html#comment-6231" class="active">Hello. I&#039;m also interested in</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/layerphase.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9927.jpg" alt="Roger Davis&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/layerphase.html" title="View user profile.">Roger Davis</a><div id='comment-submitted-date'>
+Fri, 2011-01-14 23:59</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hello. I'm also interested in this course. When will registration begin?</p>
+  </div>
+
+  <ul class="links"><li class="comment_forbidden first"></li>
+<li class="p2pu_comment_link last active"><a href="php-databases-and-openweb.html#comment-6231" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6393"></a>
+<div class="comment comment-6393 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="php-databases-and-openweb.html#comment-6393" class="active">I am eagerly waiting to join</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/tarunno.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9736.png" alt="Shabab Mustafa&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/tarunno.html" title="View user profile.">Shabab Mustafa</a><div id='comment-submitted-date'>
+Sun, 2011-01-16 12:46</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I am eagerly waiting to join this course, too!</p>
+  </div>
+
+  <ul class="links"><li class="comment_forbidden first"></li>
+<li class="p2pu_comment_link last active"><a href="php-databases-and-openweb.html#comment-6393" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7278"></a>
+<div class="comment comment-7278 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="php-databases-and-openweb.html#comment-7278" class="active">I&#039;m interested! Will</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/andreg.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Andre Goncalves&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/andreg.html" title="View user profile.">Andre Goncalves</a><div id='comment-submitted-date'>
+Fri, 2011-01-21 18:51</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I'm interested! Will registration begin?</p>
+  </div>
+
+  <ul class="links"><li class="comment_forbidden first"></li>
+<li class="p2pu_comment_link last active"><a href="php-databases-and-openweb.html#comment-7278" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7361"></a>
+<div class="comment comment-7361 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="php-databases-and-openweb.html#comment-7361" class="active">Interested!</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/andrewb.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-13429.jpg" alt="Andrew Berg&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/andrewb.html" title="View user profile.">Andrew Berg</a><div id='comment-submitted-date'>
+Sat, 2011-01-22 08:05</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Interested!</p>
+  </div>
+
+  <ul class="links"><li class="comment_forbidden first"></li>
+<li class="p2pu_comment_link last active"><a href="php-databases-and-openweb.html#comment-7361" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7481"></a>
+<div class="comment comment-7481 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="php-databases-and-openweb.html#comment-7481" class="active">Would love to take this</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/swissrunner.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="roland wettstein&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/swissrunner.html" title="View user profile.">roland wettstein</a><div id='comment-submitted-date'>
+Sun, 2011-01-23 05:58</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Would love to take this course.</p>
+  </div>
+
+  <ul class="links"><li class="comment_forbidden first"></li>
+<li class="p2pu_comment_link last active"><a href="php-databases-and-openweb.html#comment-7481" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7535"></a>
+<div class="comment comment-7535 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="php-databases-and-openweb.html#comment-7535" class="active">When will this course be open</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/fozdoq.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Moe Farag&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/fozdoq.html" title="View user profile.">Moe Farag</a><div id='comment-submitted-date'>
+Sun, 2011-01-23 18:55</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>When will this course be open for registration. REALLY intrested :)</p>
+  </div>
+
+  <ul class="links"><li class="comment_forbidden first"></li>
+<li class="p2pu_comment_link last active"><a href="php-databases-and-openweb.html#comment-7535" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7803"></a>
+<div class="comment comment-7803 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="php-databases-and-openweb.html#comment-7803" class="active">Me too. I&#039;m in.</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/donald.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-13532.gif" alt="Donald Almeida&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/donald.html" title="View user profile.">Donald Almeida</a><div id='comment-submitted-date'>
+Tue, 2011-01-25 01:53</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Me too. I'm in.</p>
+  </div>
+
+  <ul class="links"><li class="comment_forbidden first"></li>
+<li class="p2pu_comment_link last active"><a href="php-databases-and-openweb.html#comment-7803" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7867"></a>
+<div class="comment comment-7867 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="php-databases-and-openweb.html#comment-7867" class="active">I&#039;m down, if you&#039;re down! :)</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/jeffrey-ryan.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Jeffrey Ryan&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/jeffrey-ryan.html" title="View user profile.">Jeffrey Ryan</a><div id='comment-submitted-date'>
+Tue, 2011-01-25 10:00</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I'm down, if you're down! :)</p>
+  </div>
+
+  <ul class="links"><li class="comment_forbidden first"></li>
+<li class="p2pu_comment_link last active"><a href="php-databases-and-openweb.html#comment-7867" class="active">link to this comment</a></li>
+</ul></div><a id="comment-8059"></a>
+<div class="comment comment-8059 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="php-databases-and-openweb.html#comment-8059" class="active">when signups will open?</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/dethos.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Gonçalo Valério&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/dethos.html" title="View user profile.">Gonçalo Valério</a><div id='comment-submitted-date'>
+Wed, 2011-01-26 03:01</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>when signups will open?</p>
+  </div>
+
+  <ul class="links"><li class="comment_forbidden first"></li>
+<li class="p2pu_comment_link last active"><a href="php-databases-and-openweb.html#comment-8059" class="active">link to this comment</a></li>
+</ul></div><a id="comment-8374"></a>
+<div class="comment comment-8374 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="php-databases-and-openweb.html#comment-8374" class="active">woohoo i want to join the</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/savio.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-4215.jpg" alt="Savio vH&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/savio.html" title="View user profile.">Savio vH</a><div id='comment-submitted-date'>
+Thu, 2011-01-27 02:12</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>woohoo i want to join the course :D</p>
+  </div>
+
+  <ul class="links"><li class="comment_forbidden first"></li>
+<li class="p2pu_comment_link last active"><a href="php-databases-and-openweb.html#comment-8374" class="active">link to this comment</a></li>
+</ul></div><a id="comment-8398"></a>
+<div class="comment comment-8398 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="php-databases-and-openweb.html#comment-8398" class="active">any updates on this course?</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/jweb.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9527.jpg" alt="Jeff Weber&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/jweb.html" title="View user profile.">Jeff Weber</a><div id='comment-submitted-date'>
+Thu, 2011-01-27 03:28</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>any updates on this course?</p>
+  </div>
+
+  <ul class="links"><li class="comment_forbidden first"></li>
+<li class="p2pu_comment_link last active"><a href="php-databases-and-openweb.html#comment-8398" class="active">link to this comment</a></li>
+</ul></div><a id="comment-8830"></a>
+<div class="comment comment-8830 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="php-databases-and-openweb.html#comment-8830" class="active">I want to enrol myself for</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/williamgurumayum.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Maheshwar Sharma Gurumayum&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/williamgurumayum.html" title="View user profile.">Maheshwar Sharma ...</a><div id='comment-submitted-date'>
+Fri, 2011-01-28 15:13</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I want to enrol myself for this course..I am interested..Please count me in</p>
+  </div>
+
+  <ul class="links"><li class="comment_forbidden first"></li>
+<li class="p2pu_comment_link last active"><a href="php-databases-and-openweb.html#comment-8830" class="active">link to this comment</a></li>
+</ul></div><a id="comment-10285"></a>
+<div class="comment comment-10285 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="php-databases-and-openweb.html#comment-10285" class="active">Hi i would love to enroll for</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/boss11.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Osagie Aghedo&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/boss11.html" title="View user profile.">Osagie Aghedo</a><div id='comment-submitted-date'>
+Sun, 2011-02-06 02:28</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi i would love to enroll for this course when does sign up start</p>
+  </div>
+
+  <ul class="links"><li class="comment_forbidden first"></li>
+<li class="p2pu_comment_link last active"><a href="php-databases-and-openweb.html#comment-10285" class="active">link to this comment</a></li>
+</ul></div><a id="comment-10705"></a>
+<div class="comment comment-10705 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="php-databases-and-openweb.html#comment-10705" class="active">Greetings,
+are there any news</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/pandadell.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-13867.jpg" alt="Elena Pan.&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/pandadell.html" title="View user profile.">Elena Pan.</a><div id='comment-submitted-date'>
+Thu, 2011-02-10 14:10</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Greetings,<br />
+are there any news on when the course will open?</p>
+<p>Kind regards,<br />
+Elena</p>
+<p>P.S. thank you for organising this!</p>
+  </div>
+
+  <ul class="links"><li class="comment_forbidden first"></li>
+<li class="p2pu_comment_link last active"><a href="php-databases-and-openweb.html#comment-10705" class="active">link to this comment</a></li>
+</ul></div><a id="comment-11122"></a>
+<div class="comment comment-11122 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="php-databases-and-openweb.html#comment-11122" class="active">Hi!
+I&#039;m interested!
+I need</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/evillafa.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-13881.jpg" alt="Edgar Omar Villafaña Manzanarez&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/evillafa.html" title="View user profile.">Edgar Omar Villaf...</a><div id='comment-submitted-date'>
+Thu, 2011-02-17 18:08</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi!<br />
+I'm interested!<br />
+I need more information about PHP programming!<br />
+Excellent course.</p>
+  </div>
+
+  <ul class="links"><li class="comment_forbidden first"></li>
+<li class="p2pu_comment_link last active"><a href="php-databases-and-openweb.html#comment-11122" class="active">link to this comment</a></li>
+</ul></div><a id="comment-13051"></a>
+<div class="comment comment-13051 comment-published odd last clear-block">
+  
+      <h3 class="title">
+      <a href="php-databases-and-openweb.html#comment-13051" class="active">Will wait for this course to</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/agatha6911.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-17038.jpg" alt="Agatha Uy&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/agatha6911.html" title="View user profile.">Agatha Uy</a><div id='comment-submitted-date'>
+Mon, 2011-05-02 09:01</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Will wait for this course to open :D</p>
+  </div>
+
+  <ul class="links"><li class="comment_forbidden first"></li>
+<li class="p2pu_comment_link last active"><a href="php-databases-and-openweb.html#comment-13051" class="active">link to this comment</a></li>
+</ul></div>    </div>
+  
+      
+      </div>  
+</div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-row panels-flexible-row-43-3 clear-block">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-43-3-inside clear-block">
+<div class="panels-flexible-column panels-flexible-column-43-5 panels-flexible-column-first">
+  <div class="inside panels-flexible-column-inside panels-flexible-column-43-5-inside panels-flexible-column-inside-first">
+<div class="panels-flexible-region panels-flexible-region-43-middle_left panels-flexible-region-first panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-43-middle_left-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+&nbsp;  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-column panels-flexible-column-43-6 panels-flexible-column-last">
+  <div class="inside panels-flexible-column-inside panels-flexible-column-43-6-inside panels-flexible-column-inside-last">
+<div class="panels-flexible-region panels-flexible-region-43-middle_right panels-flexible-region-first panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-43-middle_right-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+&nbsp;  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-row panels-flexible-row-43-2 panels-flexible-row-last clear-block">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-43-2-inside panels-flexible-row-inside-last clear-block">
+<div class="panels-flexible-region panels-flexible-region-43-center_ panels-flexible-region-first panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-43-center_-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+&nbsp;  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+</div>
+                                        </div>
+          </div><!-- /content-column -->
+  
+                  </div>
+        
+                  
+      </div><!-- /page-body -->
+  
+              <div id="page-footer">
+          <div class="inner">
+            <div class="message">
+                            <div id='creative-commons'>
+                <div class='p2pu-cc-text'>
+                  <a href="../license.html">License Information</a> - <a href="../privacy.html">Privacy Guidelines</a> - <a href="../terms-of-use.html">Terms of Use</a>
+                </div><br>
+<div id='cc-logo'>
+
+<a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license" target="_blank"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
+               <div class="p2pu-cc-text">Except where otherwise noted, all content on <span dct="http://purl.org/dc/terms/" property="title">p2pu.org</span> is
+licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license" target="_blank">Creative Commons Attribution-ShareAlike 3.0 Unported
+License</a>.</div>
+
+                </div>
+              </div>             </div>
+              <div id="block-user_voice-0" class="block block-user_voice">
+<!-- wrappers -->
+
+  <h2 class="title"><none></h2>
+  <div class="content"><script type="text/javascript">
+var uservoiceJsHost = ("https:" == document.location.protocol) ? "https://uservoice.com" : "http://cdn.uservoice.com";
+document.write(unescape("%3Cscript src='" + uservoiceJsHost + "/javascripts/widgets/tab.js' type='text/javascript'%3E%3C/script%3E"))
+</script>
+<script type="text/javascript">
+UserVoice.Tab.show({ 
+  key: 'p2pu',
+  host: 'p2pu.uservoice.com', 
+  forum: '47491', 
+  alignment: 'left',
+  background_color:'#F00', 
+  text_color: 'white',
+  hover_color: '#06C',
+  lang: 'en'
+})
+</script></div>
+  
+<!-- /wrappers -->
+</div>          </div>
+        </div>
+      
+  </div><!-- /page -->
+  
+  <script type="text/javascript">
+  var _sf_async_config=Drupal.settings.chartbeat;
+  (function(){
+    function loadChartbeat() {
+      window._sf_endpt=(new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src',
+         (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+         "static.chartbeat.com/js/chartbeat.js");
+      document.body.appendChild(e);
+    }
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+       loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+</script>
+<!--[if lt IE 8]><style type="text/css">div.popup-element{ display: inline;}</style><![endif]--><script type="text/javascript" src="../sites/archive.p2pu.org/files/js/js_3db59602a76097ac56c4ab27fd2d9f24.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+try{var pageTracker = _gat._getTracker("UA-5757664-5");pageTracker._trackPageview();var benchmarkTracker = _gat._getTracker("UA-5033010-1");
+benchmarkTracker._trackPageview();} catch(err) {}
+//--><!]]>
+</script>
+
+</body>
+</html>

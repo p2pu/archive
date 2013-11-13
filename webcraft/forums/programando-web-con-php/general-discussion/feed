@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/webcraft/taxonomy/term/501/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>¿Que pasó con el curso?</title>
+ <link>http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/que-paso-con-el-curso</link>
+ <description>&lt;p&gt;Hola Chicos, queria saber que paso con el Curso, nos quedamos pegados en la semana 4.5, o estan haciendo el curso en otro lado y no me di ni cuenta ? =/&lt;/p&gt;
+&lt;p&gt;Saludos.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/programando-web-con-php&quot;&gt;Programando web con PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/que-paso-con-el-curso#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/501">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/programando-web-con-php" xmlns="http://drupal.org/project/og">Programando web con PHP</group>
+ <pubDate>Sun, 20 Mar 2011 23:33:24 +0000</pubDate>
+ <dc:creator>Matías Merino</dc:creator>
+ <guid isPermaLink="false">27823 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Semana 4.5: ARRAYS</title>
+ <link>http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/semana-45-arrays</link>
+ <description>&lt;p&gt;Compa&amp;ntilde;eros,&lt;/p&gt;
+&lt;p&gt;en primer lugar me disculpo por la demora, tuve unas semanas muy atareadas, asi que no pude ni preparar ejemplos ni nada, vamos a ver si con el apoyo colaborativo de todos aqui, seguimos adelante con el curso&lt;/p&gt;
+&lt;p&gt;La idea de esta semana es aprender y fortalecer los conceptos de una de las formaciones mas interesantes de PHP (y de otros lenguajes con tipado dinamico como Python) que son los &lt;strong&gt;array&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/programando-web-con-php&quot;&gt;Programando web con PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/semana-45-arrays&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/semana-45-arrays#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/501">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/programando-web-con-php" xmlns="http://drupal.org/project/og">Programando web con PHP</group>
+ <pubDate>Sat, 19 Feb 2011 15:19:00 +0000</pubDate>
+ <dc:creator>Martin Olivera</dc:creator>
+ <guid isPermaLink="false">26539 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Semana 3</title>
+ <link>http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/semana-3</link>
+ <description>&lt;p&gt;Compa&amp;ntilde;eros,hoy estoy medio apurado asi que inicio la semana 3 con algo de datos y ejemplos, pero no planee la tarea (ni revise todas las de la semana pasada, es mucho trabajo denme unos dias!!)&lt;/p&gt;
+&lt;p&gt;Ya vimos que PHP tiene funciones, variables, operadores que se combinan para lograr lo que queremos&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/programando-web-con-php&quot;&gt;Programando web con PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/semana-3&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/semana-3#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/501">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/programando-web-con-php" xmlns="http://drupal.org/project/og">Programando web con PHP</group>
+ <pubDate>Wed, 09 Feb 2011 21:46:01 +0000</pubDate>
+ <dc:creator>Martin Olivera</dc:creator>
+ <guid isPermaLink="false">26142 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Semana 2</title>
+ <link>http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/semana-2</link>
+ <description>&lt;p&gt;De la semana pasada deberiamos haber probado ejemplos, mirado y tocado y probado como funciona un poco de codigo PHP, y entender que hace falta un servidor para que el PHP corra&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;RESUMEN&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/programando-web-con-php&quot;&gt;Programando web con PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/semana-2&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/semana-2#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/501">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/programando-web-con-php" xmlns="http://drupal.org/project/og">Programando web con PHP</group>
+ <pubDate>Wed, 02 Feb 2011 21:26:10 +0000</pubDate>
+ <dc:creator>Martin Olivera</dc:creator>
+ <guid isPermaLink="false">25742 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Temas varios y off-topic</title>
+ <link>http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/temas-varios-y-topic</link>
+ <description>&lt;p&gt;Este hilo es para poner anuncios, noticias y comentarios que NO sean sobre el propio lenguaje PHP (que va en otro hilo) NI TAMPOCO sobre la Infraestructura y Herramientas que usamos con PHP (que va en oootro hilo) ni sobre los avances, dudas y ejemplos de cada Semana (que van en oooootros hilos)&lt;/p&gt;
+&lt;p&gt;Aca vale poner cualquier cosa, a lo sumo si alguien se pasa de la raya, lo castigamos entre todos! ;)&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/programando-web-con-php&quot;&gt;Programando web con PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/temas-varios-y-topic#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/501">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/programando-web-con-php" xmlns="http://drupal.org/project/og">Programando web con PHP</group>
+ <pubDate>Wed, 02 Feb 2011 20:26:07 +0000</pubDate>
+ <dc:creator>Martin Olivera</dc:creator>
+ <guid isPermaLink="false">25738 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Semana 1</title>
+ <link>http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/semana-1</link>
+ <description>&lt;p&gt;En esta semana vamos a familiarizarnos con la idea de que PHP es un lenguaje que corre en un servidor, y que como resultado de esos programas se producen paginas web en HTML que son enviadas al usuario&lt;/p&gt;
+&lt;p&gt;para correr un programa hecho en PHP hace falta un servidor, donde se aloja el programa (archivo) en PHP y tambien hace falta un navegador que ejecute ese programa.&lt;br /&gt;
+Para ejecutar un programa PHP solo hay que &amp;quot;navegarlo&amp;quot;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/programando-web-con-php&quot;&gt;Programando web con PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/semana-1&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/semana-1#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/501">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/programando-web-con-php" xmlns="http://drupal.org/project/og">Programando web con PHP</group>
+ <pubDate>Tue, 25 Jan 2011 23:43:54 +0000</pubDate>
+ <dc:creator>Martin Olivera</dc:creator>
+ <guid isPermaLink="false">24920 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Inicio del curso</title>
+ <link>http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/inicio-del-curso</link>
+ <description>&lt;p&gt;Hola a todos&lt;/p&gt;
+&lt;p&gt;
+lean con atencion todo este mensaje, es la introduccion al curso &amp;quot;programando web con PHP&amp;quot;&lt;/p&gt;
+&lt;p&gt;-----------------------------------------------------&lt;br /&gt;
+COMUNICACION EN FOROS&lt;/p&gt;
+&lt;p&gt;Vamos a utilizar los foros, para organizarnos, cada semana voy a abrir una nueva conversacion con los temas a tratar, donde se pueden hacer las preguntas, observaciones y comentarios sobre temas de esa semana.&lt;/p&gt;
+&lt;p&gt;Ademas del hilo semanal en FORUM voy a abrir tres hilos mas, que vamos a usar durante todo el curso, a saber:&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/programando-web-con-php&quot;&gt;Programando web con PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/inicio-del-curso&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/inicio-del-curso#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/501">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/programando-web-con-php" xmlns="http://drupal.org/project/og">Programando web con PHP</group>
+ <pubDate>Tue, 25 Jan 2011 23:29:28 +0000</pubDate>
+ <dc:creator>Martin Olivera</dc:creator>
+ <guid isPermaLink="false">24913 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Lenguaje PHP</title>
+ <link>http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/lenguaje-php</link>
+ <description>&lt;p&gt;En este hilo iremos comentando y preguntando dudas sobre sintaxis y uso del lenguaje PHP&lt;/p&gt;
+&lt;p&gt;para empezar les comento que un script (programa) en php se inicia con el separador &lt;strong&gt;&amp;lt;?php&lt;/strong&gt; y finaliza con el separador &lt;strong&gt;?&amp;gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Es decir que todo lo que est&amp;eacute; entre estos separadores sera interpretado por el servidor como programa o script PHP&lt;br /&gt;
+por ejemplo&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;&amp;lt;?php&lt;br /&gt;
+&amp;nbsp;&amp;nbsp; phpinfo();&lt;br /&gt;
+?&amp;gt;&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/programando-web-con-php&quot;&gt;Programando web con PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/lenguaje-php&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/lenguaje-php#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/501">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/programando-web-con-php" xmlns="http://drupal.org/project/og">Programando web con PHP</group>
+ <pubDate>Tue, 25 Jan 2011 23:08:09 +0000</pubDate>
+ <dc:creator>Martin Olivera</dc:creator>
+ <guid isPermaLink="false">24899 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Infraestructura y herramientas</title>
+ <link>http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/infraestructura-y-herramientas</link>
+ <description>&lt;p&gt;Para poder trabajar con PHP en paginas web dinamicas es necesario disponer de un servidor con PHP.&lt;/p&gt;
+&lt;p&gt;Intenten instalarse uno en su computadora (hay recomendados en los datos del curso) y prueben si funciona&lt;/p&gt;
+&lt;p&gt;Para ver si su servidor funciona deben navegar &lt;a href=&quot;http://localhost&quot; title=&quot;http://localhost&quot; rel=&quot;nofollow&quot;&gt;http://localhost&lt;/a&gt; o &lt;a href=&quot;http://127.0.0.1&quot; title=&quot;http://127.0.0.1&quot; rel=&quot;nofollow&quot;&gt;http://127.0.0.1&lt;/a&gt; (es decir, navegar sobre su propia maquina) y si ven la pagina del servidor que esta instalado es que est&amp;aacute; funcionando correctamente&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/programando-web-con-php&quot;&gt;Programando web con PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/infraestructura-y-herramientas&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/infraestructura-y-herramientas#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/501">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/programando-web-con-php" xmlns="http://drupal.org/project/og">Programando web con PHP</group>
+ <pubDate>Tue, 25 Jan 2011 23:00:23 +0000</pubDate>
+ <dc:creator>Martin Olivera</dc:creator>
+ <guid isPermaLink="false">24897 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Entorno de desarrollo (usuarios Windows)</title>
+ <link>http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/entorno-de-desarrollo-usuarios-windows</link>
+ <description>&lt;p&gt;Tengo Instalado y recomiendo como herramienta LIBRE de desarrollo:&lt;/p&gt;
+&lt;p class=&quot;rteindent2&quot;&gt;
+	NetBeans IDE 6.9.1 con el plugin de PHP&lt;/p&gt;
+&lt;p&gt;...y como server de desarrollo:&lt;/p&gt;
+&lt;p class=&quot;rteindent2&quot;&gt;
+	Bitmami WAMPstack&lt;/p&gt;
+&lt;p class=&quot;rteindent1&quot;&gt;
+	que no necesita gran esfuerzo en configurar (si acaso se necesita)&amp;nbsp; y viene preconfigurado con versiones de Apache, MySQL &lt;span class=&quot;caps&quot;&gt;y &lt;/span&gt;phpMyAdmin&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/programando-web-con-php&quot;&gt;Programando web con PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/programando-web-con-php/discussion/entorno-de-desarrollo-usuarios-windows#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/501">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/programando-web-con-php" xmlns="http://drupal.org/project/og">Programando web con PHP</group>
+ <pubDate>Sat, 22 Jan 2011 08:03:32 +0000</pubDate>
+ <dc:creator>Eduard Moya</dc:creator>
+ <guid isPermaLink="false">24013 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/general/taxonomy/term/349/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Facebook Group</title>
+ <link>http://archive.p2pu.org/general/open-journalism-open-web/discussion/facebook-group</link>
+ <description>&lt;p&gt;
+Hey everyone. I just formed one of those new Facebook groups for our class. Here&amp;#39;s the link: &lt;a href=&quot;http://on.fb.me/openjournalismfb&quot; title=&quot;http://on.fb.me/openjournalismfb&quot; rel=&quot;nofollow&quot;&gt;http://on.fb.me/openjournalismfb&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I hope it will be another forum for everyone to chat. (I know some of you are hardcore IRC, but join anyway!)&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/open-journalism-open-web&quot;&gt;Open Journalism &amp;amp; the Open Web&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/open-journalism-open-web/discussion/facebook-group#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/349">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/open-journalism-open-web" xmlns="http://drupal.org/project/og">Open Journalism &amp;amp; the Open Web</group>
+ <pubDate>Thu, 07 Oct 2010 06:25:44 +0000</pubDate>
+ <dc:creator>Mai Hoang</dc:creator>
+ <guid isPermaLink="false">10166 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Week Two Assignment Suggestion: Develop Techniques to Evaluate Articles Along Political Spectrum</title>
+ <link>http://archive.p2pu.org/general/open-journalism-open-web/discussion/week-two-assignment-suggestion-develop-techniques-evaluate-articles-along-political-spectrum</link>
+ <description>&lt;p&gt;As a consumer of news, I frequently am not aware of the hidden biases of articles, tweets and other sources of information. Imagine a college student with little sense of history listening to Glenn Beck. Without passing judgement, it is fairly obvious that Glenn&amp;#39;s writing have&amp;nbsp; a particular slant.&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;- As a user, I can determine a left-independent-right value so that I can understand the political bias of information. This covers the basic concept.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/open-journalism-open-web&quot;&gt;Open Journalism &amp;amp; the Open Web&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/general/open-journalism-open-web/discussion/week-two-assignment-suggestion-develop-techniques-evaluate-articles-along-political-spectrum&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/general/open-journalism-open-web/discussion/week-two-assignment-suggestion-develop-techniques-evaluate-articles-along-political-spectrum#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/349">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/open-journalism-open-web" xmlns="http://drupal.org/project/og">Open Journalism &amp;amp; the Open Web</group>
+ <pubDate>Tue, 28 Sep 2010 13:18:35 +0000</pubDate>
+ <dc:creator>David Medinets</dc:creator>
+ <guid isPermaLink="false">9811 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Virtual Machine for Semantic MediaWiki (hacker)</title>
+ <link>http://archive.p2pu.org/general/open-journalism-open-web/discussion/virtual-machine-semantic-mediawiki-hacker</link>
+ <description>&lt;p&gt;
+I just ran a search and could not find any images for a virtual machine that runs Semantic MediaWiki. I would think that most organizations would want to have internal wikis instead of external ones to protect their information. I wonder if developing a SM image for VirtualBox would be worth spending the time? Do you think anyone needs such an image?&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/open-journalism-open-web&quot;&gt;Open Journalism &amp;amp; the Open Web&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/open-journalism-open-web/discussion/virtual-machine-semantic-mediawiki-hacker#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/349">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/open-journalism-open-web" xmlns="http://drupal.org/project/og">Open Journalism &amp;amp; the Open Web</group>
+ <pubDate>Sat, 25 Sep 2010 22:28:45 +0000</pubDate>
+ <dc:creator>David Medinets</dc:creator>
+ <guid isPermaLink="false">9695 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Assignment for week one. Ideas</title>
+ <link>http://archive.p2pu.org/general/open-journalism-open-web/discussion/assignment-week-one-ideas</link>
+ <description>&lt;p&gt;
+I&amp;acute;ve been thinking about how to solve the assignment for this week. Pulling data programmatically. My first thought was to parse the page finding all the &amp;lt;a &amp;gt; &amp;lt;/ a&amp;gt; tags, where the href would be the source and what&amp;acute;s inside the tags the fact related to that source.&lt;/p&gt;
+&lt;p&gt;First problem when doing that: some texts simply don&amp;acute;t have hiperlinks. Bad journalism, i know, &lt;a href=&quot;http://www.larazon.es/noticia/3091-el-senado-pide-dar-un-uso-democratico-al-valle-de-los-caidos&quot; rel=&quot;nofollow&quot;&gt;but you can find plenty of that out there&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/open-journalism-open-web&quot;&gt;Open Journalism &amp;amp; the Open Web&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/general/open-journalism-open-web/discussion/assignment-week-one-ideas&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/general/open-journalism-open-web/discussion/assignment-week-one-ideas#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/349">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/open-journalism-open-web" xmlns="http://drupal.org/project/og">Open Journalism &amp;amp; the Open Web</group>
+ <pubDate>Wed, 22 Sep 2010 17:45:48 +0000</pubDate>
+ <dc:creator>Fernando Alvarez</dc:creator>
+ <guid isPermaLink="false">9572 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Inspirational things</title>
+ <link>http://archive.p2pu.org/general/open-journalism-open-web/discussion/inspirational-things</link>
+ <description>&lt;p&gt;The Future of the Book&lt;br /&gt;
+&lt;a href=&quot;http://vimeo.com/15142335&quot; title=&quot;http://vimeo.com/15142335&quot; rel=&quot;nofollow&quot;&gt;http://vimeo.com/15142335&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;I like how they envision fact checking and relation with media (latest voices)&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/open-journalism-open-web&quot;&gt;Open Journalism &amp;amp; the Open Web&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/open-journalism-open-web/discussion/inspirational-things#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/349">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/open-journalism-open-web" xmlns="http://drupal.org/project/og">Open Journalism &amp;amp; the Open Web</group>
+ <pubDate>Tue, 21 Sep 2010 19:34:41 +0000</pubDate>
+ <dc:creator>Laurian Gridinoc</dc:creator>
+ <guid isPermaLink="false">9524 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>&#039;Letters from Haiti&#039; - should links to NGOs have been included?</title>
+ <link>http://archive.p2pu.org/general/open-journalism-open-web/discussion/letters-haiti-should-links-ngos-have-been-included</link>
+ <description>&lt;p&gt;
+&lt;a href=&quot;http://www.nytimes.com/2010/09/20/world/americas/20haiti.html&quot; title=&quot;http://www.nytimes.com/2010/09/20/world/americas/20haiti.html&quot; rel=&quot;nofollow&quot;&gt;http://www.nytimes.com/2010/09/20/world/americas/20haiti.html&lt;/a&gt; - Would it have been appropriate for this author to have included links to NGOs so that readers could immediately act on any feelings of sympathy or would that have been considered manipulative? I know that I would have donated had such links been available. At what point does the article change from journalism to shil?&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/open-journalism-open-web&quot;&gt;Open Journalism &amp;amp; the Open Web&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/open-journalism-open-web/discussion/letters-haiti-should-links-ngos-have-been-included#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/349">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/open-journalism-open-web" xmlns="http://drupal.org/project/og">Open Journalism &amp;amp; the Open Web</group>
+ <pubDate>Tue, 21 Sep 2010 01:27:04 +0000</pubDate>
+ <dc:creator>David Medinets</dc:creator>
+ <guid isPermaLink="false">9487 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Google&#039;s irony: supporting open source, monopolize the advertising marketing. Can journalism live in that model?</title>
+ <link>http://archive.p2pu.org/general/open-journalism-open-web/discussion/googles-irony-supporting-open-source-monopolize-advertising-marketing-can-journalism-live-mo</link>
+ <description>&lt;p&gt;Google&amp;#39;s irony: There is something that make noise in my head since a while... Let me put in this way: Since the beginning of the Internet, two forces appear to discuss the status quo at the net: on the one hand, large corporations and some states they seek to keep the Internet standard, and on the other, other corporations, organizations and users - and even some states - who claim that the standard should rest open and neutral.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/open-journalism-open-web&quot;&gt;Open Journalism &amp;amp; the Open Web&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/general/open-journalism-open-web/discussion/googles-irony-supporting-open-source-monopolize-advertising-marketing-can-journalism-live-mo&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/general/open-journalism-open-web/discussion/googles-irony-supporting-open-source-monopolize-advertising-marketing-can-journalism-live-mo#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/349">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/open-journalism-open-web" xmlns="http://drupal.org/project/og">Open Journalism &amp;amp; the Open Web</group>
+ <pubDate>Sat, 18 Sep 2010 03:21:27 +0000</pubDate>
+ <dc:creator>Mariano Blejman</dc:creator>
+ <guid isPermaLink="false">9359 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Github collaboration</title>
+ <link>http://archive.p2pu.org/general/open-journalism-open-web/discussion/github-collaboration</link>
+ <description>&lt;p&gt;Hi all. So I created a github account at &lt;a href=&quot;http://github.com/openjournalism&quot; title=&quot;http://github.com/openjournalism&quot; rel=&quot;nofollow&quot;&gt;http://github.com/openjournalism&lt;/a&gt;. Login as openjournalism/moonmadness - then feel free to start creating repositories (if you&amp;#39;re a developer) or proposing projects via this thread (if that sounds like a good idea). Collaboration is a great way to start and seems to be the guiding principle of this course!&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/open-journalism-open-web&quot;&gt;Open Journalism &amp;amp; the Open Web&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/open-journalism-open-web/discussion/github-collaboration#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/349">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/open-journalism-open-web" xmlns="http://drupal.org/project/og">Open Journalism &amp;amp; the Open Web</group>
+ <pubDate>Fri, 17 Sep 2010 18:32:25 +0000</pubDate>
+ <dc:creator>Dave Goodchild</dc:creator>
+ <guid isPermaLink="false">9330 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>The audio toolkit of the programmer journalist</title>
+ <link>http://archive.p2pu.org/general/open-journalism-open-web/discussion/audio-toolkit-programmer-journalist</link>
+ <description>&lt;p&gt;Hi all. As I mentioned in my introduction, I&amp;#39;m a developer (PHP/Ruby), blogger and digital media explorer and over the last year or so have been heavily involved with the UK-based startup Audioboo (audioboo.fm), who created an iPhone app that allows the user to upload high quality audio files to the web, recorded on the phone. They gained a fair amount of traction when journalists and bloggers (notably the Guardian) started using the app, famously during the G20 protests in London, and have started to make inroads in the States.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/open-journalism-open-web&quot;&gt;Open Journalism &amp;amp; the Open Web&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/general/open-journalism-open-web/discussion/audio-toolkit-programmer-journalist&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/general/open-journalism-open-web/discussion/audio-toolkit-programmer-journalist#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/349">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/open-journalism-open-web" xmlns="http://drupal.org/project/og">Open Journalism &amp;amp; the Open Web</group>
+ <pubDate>Wed, 15 Sep 2010 18:48:51 +0000</pubDate>
+ <dc:creator>Dave Goodchild</dc:creator>
+ <guid isPermaLink="false">9163 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Course implementation/technical issues</title>
+ <link>http://archive.p2pu.org/general/open-journalism-open-web/discussion/course-implementationtechnical-issues</link>
+ <description>&lt;p&gt;
+I noticed some people were having difficulty connecting to the audio stream of the conference, I wonder if people have thoughts on how the course can be more accessible.&amp;nbsp; Or if people want to tell what problems they&amp;#39;re having participating.&lt;/p&gt;
+&lt;p&gt;One thing that I think would be great in the spirit of open standards would be to have a standard SIP VoIP number to call in to rather than requiring a Skype account, because skype is not very cross-platform.&amp;nbsp; But maybe this is a limitation of the conference service.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/open-journalism-open-web&quot;&gt;Open Journalism &amp;amp; the Open Web&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/open-journalism-open-web/discussion/course-implementationtechnical-issues#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/349">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/open-journalism-open-web" xmlns="http://drupal.org/project/og">Open Journalism &amp;amp; the Open Web</group>
+ <pubDate>Wed, 15 Sep 2010 18:27:47 +0000</pubDate>
+ <dc:creator>Marlon x</dc:creator>
+ <guid isPermaLink="false">9160 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

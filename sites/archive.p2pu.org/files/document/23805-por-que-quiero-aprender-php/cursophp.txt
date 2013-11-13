@@ -1,0 +1,46 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<title>Solicitud a curso de PHP</title>
+<meta name="generator" content="Bluefish 2.0.1" >
+<meta name="author" content="malen" >
+<meta name="description" content="Solicitud para aplicar a curso de PHP.">
+<meta name="ROBOTS" content="NOINDEX, NOFOLLOW">
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8">
+<meta http-equiv="content-style-type" content="text/css">
+<meta http-equiv="expires" content="0">
+</head>
+<body>
+<h1>Solicitud para acceder a curso sobre PHP</h1>
+<h2>¿Quién soy?</h2>
+<p>Me llamo Manuel Moreno, y mi seudónimo en Internet es maLen.<br />
+Aunque mis estudios universitarios y mi trabajo no tienen nada que ver con la Informática y, en general, con la programación web, 
+ésta es una de mis pasiones.<br />
+Me inicié en el mundo del software libre hace unos siete años, instalando en mi viejo ordenador el navegador Firefox, la suite 
+ofimática Open Office, y más tarde empecé a instalar mis primeras distribuciones GNU/Linux como Debian, Ubuntu, OpenSuse, Archlinux, 
+y un largo etcétera, hasta decidirme por Ubuntu y Archlinux, en mi ordenador de sobremesa y portátil. De hecho, este archivo .html 
+lo estoy escribiendo en Ubuntu, con el editor Bluefish.<br />
+Me encanta el concepto de la comunidad que gira entorno al open source, la misma que me ha ayudado a aprender lo que se, y a la que 
+he ayudado con los conocimientos que he ido adquiriendo: ya sea mediante diversos blogs que creé, con videos realizados por mí y 
+subidos a youtube, entre otros.</p>
+<h2>¿Por qué quiero aprender PHP?</h2>
+<p>Empecé a estudiar HTML en la web de W3C hace algo más de tres años. Luego continué con las hojas de estilo CSS, para hacer webs más 
+llamativas estéticamente. Más tarde, empecé a instalar diversos CMS, entre ellos Wordpress, y descubrí el lenguaje PHP. Comprendí su 
+utilidad para crear páginas web dinámicas y, aunque era incapaz de escribir en PHP, tras trastear con él, comencé a entenderlo y pude 
+modificarlo algo.<br />
+Actualmente, necesito profundizar en la programación con el lenguaje PHP, no de manera intuitiva, sino con las indicaciones y experiencia 
+de un profesional en la materia. El haber jugado con el lenguaje modificando plantillas de Wordpress, véase una <a href="http://www.centroaverroes.es/" title="Academia Averroes">web que hice para una 
+academia</a>, me ha posibilitado entender, grosso modo, PHP. Pero mis necesidades han ido a más, y me encantaría poder escribir y leer 
+el lenguaje PHP con conocimiento para crear webs más profesionales.</p>
+<h2>¿Qué espero tras realizar el curso?</h2>
+<p>Me gustaría crear mis propias webs con el lenguaje PHP sin necesidad de recurrir a CMS. Es una empresa difícil pero, al menos, con los conocimientos 
+que aprenderé en el curso, seré capaz de sacarle el mayor partido posible a mis webs.</p>
+<br />
+<hr>
+<br />
+<p><strong>Manuel Moreno<br />
+aka maLen<br />
+soymanuel@gmail.com</strong></p>
+</body>
+</html>

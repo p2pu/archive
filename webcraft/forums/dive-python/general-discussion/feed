@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/webcraft/taxonomy/term/613/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Chapter 4: The Power Of Introspection- due 05/08/11</title>
+ <link>http://archive.p2pu.org/webcraft/dive-python/discussion/chapter-4-power-introspection-due-050811</link>
+ <description>&lt;p&gt;Comments/questions for chapter 4 here.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/dive-python&quot;&gt;Dive into Python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/dive-python/discussion/chapter-4-power-introspection-due-050811#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/613">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/dive-python" xmlns="http://drupal.org/project/og">Dive into Python</group>
+ <pubDate>Wed, 04 May 2011 11:04:30 +0000</pubDate>
+ <dc:creator>M. Volz</dc:creator>
+ <guid isPermaLink="false">30352 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Chapter 3: Native Datatypes. Due 05/01/11</title>
+ <link>http://archive.p2pu.org/webcraft/dive-python/discussion/chapter-3-native-datatypes-due-050111</link>
+ <description>&lt;p&gt;This thread is for comments/questions about Chapter 3,&amp;nbsp;Native Datatypes.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/dive-python&quot;&gt;Dive into Python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/dive-python/discussion/chapter-3-native-datatypes-due-050111#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/613">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/dive-python" xmlns="http://drupal.org/project/og">Dive into Python</group>
+ <pubDate>Mon, 25 Apr 2011 16:47:03 +0000</pubDate>
+ <dc:creator>M. Volz</dc:creator>
+ <guid isPermaLink="false">29909 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Chapter 2: Your First Python Program</title>
+ <link>http://archive.p2pu.org/webcraft/dive-python/discussion/chapter-2-your-first-python-program</link>
+ <description>&lt;p&gt;Chapter 2 was part of the sign-up task so hopefully you&amp;#39;ve all been through it. Just to let you know, don&amp;#39;t be freaked out if you didn&amp;#39;t understand the &amp;quot;first program&amp;quot;- it&amp;#39;s not really meant to be your first ever python program so much as a showcase for things we learn later on in the book. Mark goes through and explains each portion of that program in the following chapters. If you have any other questions/comments in chapter 2, you can comment in this thread.&amp;nbsp;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/dive-python&quot;&gt;Dive into Python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/dive-python/discussion/chapter-2-your-first-python-program#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/613">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/dive-python" xmlns="http://drupal.org/project/og">Dive into Python</group>
+ <pubDate>Mon, 25 Apr 2011 16:42:27 +0000</pubDate>
+ <dc:creator>M. Volz</dc:creator>
+ <guid isPermaLink="false">29908 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Syllabus creation</title>
+ <link>http://archive.p2pu.org/webcraft/dive-python/discussion/syllabus-creation</link>
+ <description>&lt;p&gt;Hi all,&lt;/p&gt;
+&lt;p&gt;You&amp;#39;ve all been approved for the Dive into Python course. This is going to be a fairly casual course but the first thing we should nail down is the syllabus. I was thinking we might want to just pick 9 chapters of the 18 we&amp;#39;re most interested in.&lt;/p&gt;
+&lt;div&gt;
+	&amp;nbsp;&lt;/div&gt;
+&lt;div&gt;
+	Chapter 3. Native Datatypes- due 05/01/11&lt;/div&gt;
+&lt;div&gt;
+	Chapter 4. The Power Of Introspection- due&amp;nbsp;05/08/11&lt;/div&gt;
+&lt;div&gt;
+	Chapter 5. Objects and Object&amp;minus;Orientation- due&amp;nbsp;05/15/11&lt;/div&gt;
+&lt;div&gt;
+	Chapter 6. Exceptions and File Handling- due 05/22/11
+&lt;/div&gt;&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/dive-python&quot;&gt;Dive into Python&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/dive-python/discussion/syllabus-creation&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/dive-python/discussion/syllabus-creation#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/613">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/dive-python" xmlns="http://drupal.org/project/og">Dive into Python</group>
+ <pubDate>Mon, 25 Apr 2011 16:31:23 +0000</pubDate>
+ <dc:creator>M. Volz</dc:creator>
+ <guid isPermaLink="false">29905 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

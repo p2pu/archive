@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/webcraft/taxonomy/term/633/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Status of the course?</title>
+ <link>http://archive.p2pu.org/webcraft/jquery-fundamentals/discussion/status-course</link>
+ <description>&lt;p&gt;Hi it ws nice to meet everyone in the introduction thread.&amp;nbsp; I know that Neil said he had to pull some things together before the course started (i.e. busy at work and stuff).&amp;nbsp; Are there any updates on the status of this course that I have missed?&amp;nbsp; I feel a little lost.&amp;nbsp; Is anything going on here yet?&amp;nbsp; I know that the model for how P2P works is shifting away from a strict time based schedule and now is moving towards more flexibility of completion of tasks. Will that impact here?&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/jquery-fundamentals&quot;&gt;jQuery - The fundamentals &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/jquery-fundamentals/discussion/status-course#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/633">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/jquery-fundamentals" xmlns="http://drupal.org/project/og">jQuery - The fundamentals </group>
+ <pubDate>Sun, 29 May 2011 19:36:56 +0000</pubDate>
+ <dc:creator>JM Nowak</dc:creator>
+ <guid isPermaLink="false">31515 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Introduction thread</title>
+ <link>http://archive.p2pu.org/webcraft/jquery-fundamentals/discussion/introduction-thread</link>
+ <description>&lt;p&gt;I figured since there&amp;#39;s only ten of us taking this class, we might be able to have an introductions thread!&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/jquery-fundamentals&quot;&gt;jQuery - The fundamentals &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/jquery-fundamentals/discussion/introduction-thread&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/jquery-fundamentals/discussion/introduction-thread#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/633">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/jquery-fundamentals" xmlns="http://drupal.org/project/og">jQuery - The fundamentals </group>
+ <pubDate>Mon, 23 May 2011 15:58:36 +0000</pubDate>
+ <dc:creator>Caden Howell</dc:creator>
+ <guid isPermaLink="false">31434 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

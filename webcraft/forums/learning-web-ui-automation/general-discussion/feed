@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/webcraft/taxonomy/term/534/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Sending in answers via the site</title>
+ <link>http://archive.p2pu.org/webcraft/learning-web-ui-automation/discussion/sending-answers-site</link>
+ <description>&lt;p&gt;First, thank you for an awesome Week 1 &amp;quot;lecture&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Where on the site should we send in our answers?&lt;br /&gt;
+Also, is there a particular format you would prefer (e.g., CSV, ODS, XLSX)?&lt;/p&gt;
+&lt;p&gt;Thank you.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/learning-web-ui-automation&quot;&gt;Learning Web UI Automation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/learning-web-ui-automation/discussion/sending-answers-site#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/534">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/learning-web-ui-automation" xmlns="http://drupal.org/project/og">Learning Web UI Automation</group>
+ <pubDate>Fri, 28 Jan 2011 07:24:13 +0000</pubDate>
+ <dc:creator>Soren Jones</dc:creator>
+ <guid isPermaLink="false">25310 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Where to find (and download) the Python Bindings for Selenium</title>
+ <link>http://archive.p2pu.org/webcraft/learning-web-ui-automation/discussion/where-find-and-download-python-bindings-selenium</link>
+ <description>&lt;p&gt;Doing an internet search I found you can download the Selenium Python Bindings 2.0a5 from Python.org (&lt;a href=&quot;http://pypi.python.org/pypi/selenium/2.0a5&quot; rel=&quot;nofollow&quot;&gt;direct link&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Selenium Python Client Driver&lt;/em&gt; is a Python language binding for Selenium Remote Control (version 1.0 and 2.0).&lt;br /&gt;
+Currently the remote protocol, Firefox and Chrome for Selenium 2.0 are supported, as well as the Selenium 1.0 bindings.&lt;br /&gt;
+As work will progresses we&amp;#39;ll add more &amp;quot;native&amp;quot; drivers.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/learning-web-ui-automation&quot;&gt;Learning Web UI Automation&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/learning-web-ui-automation/discussion/where-find-and-download-python-bindings-selenium#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/534">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/learning-web-ui-automation" xmlns="http://drupal.org/project/og">Learning Web UI Automation</group>
+ <pubDate>Tue, 11 Jan 2011 00:09:59 +0000</pubDate>
+ <dc:creator>Erik Anderson</dc:creator>
+ <guid isPermaLink="false">16084 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

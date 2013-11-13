@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/general/taxonomy/term/619/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>temas varios del curso</title>
+ <link>http://archive.p2pu.org/general/flashgames-i/discussion/temas-varios-del-curso</link>
+ <description>&lt;p&gt;aqui les invito a comentar dudas sobre el curso en general, horarios, herrramientas usadas, contenidos etc&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/flashgames-i&quot;&gt;Flashgames I&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/flashgames-i/discussion/temas-varios-del-curso#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/619">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/flashgames-i" xmlns="http://drupal.org/project/og">Flashgames I</group>
+ <pubDate>Tue, 08 Feb 2011 18:49:56 +0000</pubDate>
+ <dc:creator>yere maya</dc:creator>
+ <guid isPermaLink="false">26088 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>problemas con las  tareas de registro de curso</title>
+ <link>http://archive.p2pu.org/general/flashgames-i/discussion/problemas-con-las-tareas-de-registro-de-curso</link>
+ <description>&lt;p&gt;si tiene problemas con la elaboraci&amp;oacute;n de las tarea de registro del curso&lt;br /&gt;
+escribanla aqu&amp;iacute;...&lt;br /&gt;
+salu2&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/flashgames-i&quot;&gt;Flashgames I&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/general/flashgames-i/discussion/problemas-con-las-tareas-de-registro-de-curso#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/619">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/flashgames-i" xmlns="http://drupal.org/project/og">Flashgames I</group>
+ <pubDate>Tue, 08 Feb 2011 17:31:13 +0000</pubDate>
+ <dc:creator>yere maya</dc:creator>
+ <guid isPermaLink="false">26083 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

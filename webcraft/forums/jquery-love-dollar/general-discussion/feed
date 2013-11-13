@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/webcraft/taxonomy/term/447/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>why console.log()</title>
+ <link>http://archive.p2pu.org/webcraft/jquery-love-dollar/discussion/why-consolelog</link>
+ <description>&lt;p&gt;Hi all&lt;/p&gt;
+&lt;p&gt;I have been reading the JQuery html book. I notice there is a lot of console.log() in the examples. I know what it does and I&amp;nbsp;tried it with firebug.&amp;nbsp;But I am just wondering what the practical use of console.log is. Why do I need to write stuff to the console.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/jquery-love-dollar&quot;&gt;jQuery ~ For the Love of Dollar&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/jquery-love-dollar/discussion/why-consolelog#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/447">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/jquery-love-dollar" xmlns="http://drupal.org/project/og">jQuery ~ For the Love of Dollar</group>
+ <pubDate>Fri, 04 Feb 2011 07:47:25 +0000</pubDate>
+ <dc:creator>Amene Katanda</dc:creator>
+ <guid isPermaLink="false">25833 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Action Items for the Participants</title>
+ <link>http://archive.p2pu.org/webcraft/jquery-love-dollar/discussion/action-items-participants</link>
+ <description>&lt;p&gt;Hi Team&lt;/p&gt;
+&lt;p&gt;I would like to know what are we supposed/expected to do now that the course has started ,&lt;br /&gt;
+If we could have a post with the Meeting timings and study plan for the learners , it would be&lt;br /&gt;
+helpful.&lt;/p&gt;
+&lt;p&gt;Praveen&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/jquery-love-dollar&quot;&gt;jQuery ~ For the Love of Dollar&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/jquery-love-dollar/discussion/action-items-participants#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/447">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/jquery-love-dollar" xmlns="http://drupal.org/project/og">jQuery ~ For the Love of Dollar</group>
+ <pubDate>Wed, 26 Jan 2011 13:48:12 +0000</pubDate>
+ <dc:creator>praveen</dc:creator>
+ <guid isPermaLink="false">25004 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>What time will we be meeting on JAN 26th</title>
+ <link>http://archive.p2pu.org/webcraft/jquery-love-dollar/discussion/what-time-will-we-be-meeting-jan-26th</link>
+ <description>&lt;p&gt;Hello here,&lt;br /&gt;
+I am sure everyone is excited to get started with this great course next week. &amp;nbsp;I am just wondering when we will be meeting on Jan 26th.&lt;/p&gt;
+&lt;p&gt;Thanks for your information in advance.&lt;/p&gt;
+&lt;p&gt;David&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/jquery-love-dollar&quot;&gt;jQuery ~ For the Love of Dollar&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/jquery-love-dollar/discussion/what-time-will-we-be-meeting-jan-26th#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/447">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/jquery-love-dollar" xmlns="http://drupal.org/project/og">jQuery ~ For the Love of Dollar</group>
+ <pubDate>Sun, 23 Jan 2011 19:20:43 +0000</pubDate>
+ <dc:creator>David George</dc:creator>
+ <guid isPermaLink="false">24290 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

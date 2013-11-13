@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/webcraft/taxonomy/term/333/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Week 5</title>
+ <link>http://archive.p2pu.org/webcraft/web-design-101-study-group/discussion/week-5</link>
+ <description>&lt;p&gt;&lt;/p&gt;
+&lt;div class=&quot;content&quot;&gt;
+&lt;p&gt;
+		Here is the beginning of my week 5 project. It looks similar to week 4 now, but I stopped using % and used margins and not padding. With the help of Pippa, I cleaned up my document. I am building more on to it. &lt;a class=&quot;ext&quot; href=&quot;http://bit.ly/azrB3Y&quot; rel=&quot;nofollow&quot; title=&quot;http://bit.ly/azrB3Y&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/azrB3Y&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;
+		what I would like it to look like : &lt;a class=&quot;ext&quot; href=&quot;http://bit.ly/dvH8zS&quot; rel=&quot;nofollow&quot; title=&quot;http://bit.ly/dvH8zS&quot; rel=&quot;nofollow&quot;&gt;http://bit.ly/dvH8zS&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/web-design-101-study-group&quot;&gt;Web Design 101: Study Group&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/web-design-101-study-group/discussion/week-5#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/333">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/web-design-101-study-group" xmlns="http://drupal.org/project/og">Web Design 101: Study Group</group>
+ <pubDate>Thu, 21 Oct 2010 16:03:16 +0000</pubDate>
+ <dc:creator>gonediscin</dc:creator>
+ <guid isPermaLink="false">11044 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Week 4</title>
+ <link>http://archive.p2pu.org/webcraft/web-development-101-community/discussion/week-4</link>
+ <description>&lt;p&gt;Here is my week 4 project. &lt;a class=&quot;ext&quot; href=&quot;http://kylerowden.com/week_four/week_four.html&quot; title=&quot;http://kylerowden.com/week_four/week_four.html&quot; rel=&quot;nofollow&quot;&gt;http://kylerowden.com/week_four/week_four.html&lt;/a&gt; I couldn&amp;#39;t figure out how to make a gradient repeat-x background image in my #content id. I commented out my attempt in my CSS.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/web-design-101-study-group&quot;&gt;Web Design 101: Study Group&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/web-development-101-community/discussion/week-4#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/333">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/web-design-101-study-group" xmlns="http://drupal.org/project/og">Web Design 101: Study Group</group>
+ <pubDate>Sat, 09 Oct 2010 01:06:10 +0000</pubDate>
+ <dc:creator>gonediscin</dc:creator>
+ <guid isPermaLink="false">10214 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Week Three</title>
+ <link>http://archive.p2pu.org/webcraft/web-development-101-community/discussion/week-three</link>
+ <description>&lt;p&gt;Please use this forum space to share your posts about CSS and HTML, and to share links to the webpage files you worked on this week.&lt;/p&gt;
+&lt;p&gt;More information about this week&amp;#39;s tasks are &lt;a href=&quot;http://p2pu.org/node/5608/document/9851&quot; rel=&quot;nofollow&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/web-design-101-study-group&quot;&gt;Web Design 101: Study Group&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/web-development-101-community/discussion/week-three#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/333">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/web-design-101-study-group" xmlns="http://drupal.org/project/og">Web Design 101: Study Group</group>
+ <pubDate>Wed, 29 Sep 2010 12:14:25 +0000</pubDate>
+ <dc:creator>Pippa Buchanan</dc:creator>
+ <guid isPermaLink="false">9852 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Week Two Activity Forum</title>
+ <link>http://archive.p2pu.org/webcraft/web-development-101-community/discussion/week-two-activity-forum</link>
+ <description>&lt;p&gt;
+	Use this forum space to discuss the topics covered in &lt;a href=&quot;http://p2pu.org/node/5608/document/9666&quot; rel=&quot;nofollow&quot;&gt;Week Two&lt;/a&gt;&amp;#39;s readings and to share the activity work.&lt;/p&gt;
+&lt;p&gt;
+	&lt;img alt=&quot;Unknown Object&quot; src=&quot;../../../sites/p2pu.org/modules/ckeditor/ckeditor/images/spacer.gif?t=A06B&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;
+	Please be constructive with your criticism of each other&amp;#39;s work and don&amp;#39;t be afraid to ask questions either!&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/web-design-101-study-group&quot;&gt;Web Design 101: Study Group&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/web-development-101-community/discussion/week-two-activity-forum#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/333">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/web-design-101-study-group" xmlns="http://drupal.org/project/og">Web Design 101: Study Group</group>
+ <pubDate>Sat, 25 Sep 2010 09:34:25 +0000</pubDate>
+ <dc:creator>Pippa Buchanan</dc:creator>
+ <guid isPermaLink="false">9668 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Sunday 19 September- When is the class time?</title>
+ <link>http://archive.p2pu.org/webcraft/web-development-101-community/discussion/sunday-19-september-when-class-time</link>
+ <description>&lt;p&gt;
+Hi everyone -- Has Pippa announced&amp;nbsp; when on Sunday 19th September she will convene the second introductory class?&lt;/p&gt;
+&lt;p&gt;I filled out the WhenIsGood.com timeframes but seem not to have received notice.&lt;/p&gt;
+&lt;p&gt;Thanks so much, Pat&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/web-design-101-study-group&quot;&gt;Web Design 101: Study Group&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/web-development-101-community/discussion/sunday-19-september-when-class-time#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/333">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/web-design-101-study-group" xmlns="http://drupal.org/project/og">Web Design 101: Study Group</group>
+ <pubDate>Sun, 19 Sep 2010 11:04:53 +0000</pubDate>
+ <dc:creator>Pat</dc:creator>
+ <guid isPermaLink="false">9398 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Week One Activity Forum</title>
+ <link>http://archive.p2pu.org/webcraft/web-development-101-community/discussion/week-one-activity-forum</link>
+ <description>&lt;p&gt;How are you going with the week one tasks and readings?&lt;/p&gt;
+&lt;p&gt;Please share any questions or feedback in this forum space.&lt;/p&gt;
+&lt;p&gt;You can also post links to your Week One contact pages here.&lt;/p&gt;
+&lt;p&gt;If you haven&amp;#39;t yet found a place to host your files, please send your page as a text file eg: &amp;quot;PipBContact.txt&amp;quot; as we can&amp;#39;t host &amp;quot;.html&amp;quot; files within the forums.&amp;nbsp;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/web-design-101-study-group&quot;&gt;Web Design 101: Study Group&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/web-development-101-community/discussion/week-one-activity-forum#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/333">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/web-design-101-study-group" xmlns="http://drupal.org/project/og">Web Design 101: Study Group</group>
+ <pubDate>Wed, 15 Sep 2010 16:40:37 +0000</pubDate>
+ <dc:creator>Pippa Buchanan</dc:creator>
+ <guid isPermaLink="false">9151 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Which text editor?</title>
+ <link>http://archive.p2pu.org/webcraft/web-development-101-community/discussion/which-text-editor</link>
+ <description>&lt;p&gt;
+Hi People,&lt;/p&gt;
+&lt;p&gt;I&amp;#39;m looking to download a good text editor and have been recommended &lt;a href=&quot;http://www.barebones.com/products/textwrangler/&quot; rel=&quot;nofollow&quot;&gt;Text Wrangler&lt;/a&gt; (free) and also &lt;a href=&quot;http://macromates.com&quot; rel=&quot;nofollow&quot;&gt;Text Mate&lt;/a&gt; ($50). Does anyone know if Text Mate is really worth paying for?&lt;/p&gt;
+&lt;p&gt;Thanks,&lt;/p&gt;
+&lt;p&gt;Nick&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/web-design-101-study-group&quot;&gt;Web Design 101: Study Group&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/web-development-101-community/discussion/which-text-editor#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/333">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/web-design-101-study-group" xmlns="http://drupal.org/project/og">Web Design 101: Study Group</group>
+ <pubDate>Tue, 14 Sep 2010 10:01:33 +0000</pubDate>
+ <dc:creator>Nick Whitcomb</dc:creator>
+ <guid isPermaLink="false">8971 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>My website idea</title>
+ <link>http://archive.p2pu.org/webcraft/web-development-101-community/discussion/my-website-idea</link>
+ <description>&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/web-design-101-study-group&quot;&gt;Web Design 101: Study Group&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/web-development-101-community/discussion/my-website-idea&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/web-development-101-community/discussion/my-website-idea#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/333">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/web-design-101-study-group" xmlns="http://drupal.org/project/og">Web Design 101: Study Group</group>
+ <pubDate>Fri, 03 Sep 2010 17:34:06 +0000</pubDate>
+ <dc:creator>Mike Goldberg</dc:creator>
+ <guid isPermaLink="false">7022 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>If you&#039;re having a problem...</title>
+ <link>http://archive.p2pu.org/webcraft/web-development-101-community/discussion/if-youre-having-problem</link>
+ <description>&lt;p&gt;Then probably someone else is having difficulties too. The great thing is that someone else may already know the solution...&lt;/p&gt;
+&lt;p&gt;So please ask questions and see if there&amp;#39;s someone who can help you out.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/web-design-101-study-group&quot;&gt;Web Design 101: Study Group&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/web-development-101-community/discussion/if-youre-having-problem#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/333">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/web-design-101-study-group" xmlns="http://drupal.org/project/og">Web Design 101: Study Group</group>
+ <pubDate>Tue, 31 Aug 2010 18:13:58 +0000</pubDate>
+ <dc:creator>Pippa Buchanan</dc:creator>
+ <guid isPermaLink="false">6389 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>My Website Idea</title>
+ <link>http://archive.p2pu.org/webcraft/web-development-101/discussion/my-website-idea</link>
+ <description>&lt;p&gt;
+Hi Everyone,&lt;/p&gt;
+&lt;p&gt;please submit your website ideas here.&amp;nbsp;&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;You can add file attachments of up to 1MB in the formats of (&lt;em&gt;jpg jpeg gif png txt doc xls pdf ppt pps odt ods odp&lt;/em&gt;).&lt;/p&gt;
+&lt;p&gt;Please feel free to give constructive feedback, ideas and criticism to each other about your website concepts!&lt;/p&gt;
+&lt;p&gt;Best,&lt;/p&gt;
+&lt;p&gt;Pippa&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/web-design-101-study-group&quot;&gt;Web Design 101: Study Group&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/web-development-101/discussion/my-website-idea#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/333">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/web-design-101-study-group" xmlns="http://drupal.org/project/og">Web Design 101: Study Group</group>
+ <pubDate>Mon, 30 Aug 2010 08:36:58 +0000</pubDate>
+ <dc:creator>Pippa Buchanan</dc:creator>
+ <guid isPermaLink="false">6092 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

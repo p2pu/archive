@@ -1,0 +1,243 @@
+
+[19:01] <@karen> Hi, Manikk.
+[19:01] <manikk> hi Karen
+[19:01] <manikk> how r u ?
+[19:01] <manikk> I think I am a bit late here
+[19:02] <@karen> I am good. I think you are right on time, but you seem to be the only one so far.
+[19:02] <manikk> oops...
+[19:03] <@karen> How is your week going?
+[19:03] <manikk> I have  a little chat with Indira right now on skype and looked at her marketing plan
+[19:03] <@karen> Oh, should I jump on Skype instead?
+[19:04] <@karen> Or you could have her join us here?
+[19:04] <manikk> bit busy with projects to be delivered and I have'nt worked on the marketing plan yet
+[19:04] <@karen> I understand :)
+[19:05] <manikk> I have a product in mind that should be marketed...the product itself need to be developed
+[19:05] <manikk> first
+[19:06] <@karen> What is the product?
+[19:07] <@karen> Hola, Indira.
+[19:07] <manikk> its a like content management system which user can build websites from desktop offline and can connect and make it onlie
+[19:08] <indiracornelio> Hi!!!Karen
+[19:08] <@karen> How are you today?
+[19:08] <@karen> Manikk, that sounds interesting.
+[19:08] <@karen> I like the ability to build it offline.
+[19:08] <manikk> yes ,,,that the key point
+[19:09] <manikk> I need to sketch the product itself
+[19:09] <@karen> I lived in Africa for a while and I could have really used that product (limited connectivity)
+[19:09] <indiracornelio> Yes! that sounds great
+[19:10] <manikk> I haven't coded even a sigle line ...the product is just in my mind
+[19:10] <@karen> Indira, I was just pulling up your marketing plan. It is a very good start.
+[19:10] <@karen> Manikk, everything starts as just an idea!
+[19:11] <@karen> I think it's good to think about marketing before you start building the product
+[19:11] <indiracornelio> thaanks! it's really interesting doing this mkt plan thinking how to "sell" our project
+[19:11] <@karen> Indira, I especially like your chart for "How am I going to reach them?"
+[19:12] <@karen> How did you learn about FLOSS and Creative Commons? Do other people know about it where you live?
+[19:12] <manikk> yes...Indira that chart clearly explain
+[19:13] <indiracornelio> well here in Mexico there are some FLOSS group
+[19:13] <indiracornelio> s
+[19:14] <@karen> I am just looking at http://identi.ca/. I hadn't seen it before
+[19:14] <indiracornelio> but i think that there is not al lot of people that know about creative commnos, people can't see yet how wonderful is this sharing culture
+[19:14] <manikk> I have used it before ... identi.ca
+[19:14] <@karen> Even here in the U.S., Creative Commons is not well known. I just returned from a conference where I presented about CC
+[19:15] <@karen> identi.ca looks like Twitter.... but is it open source?
+[19:15] <manikk> yes
+[19:15] <indiracornelio> yes! is one of the social networks, we have also tryed Dolphin
+[19:16] <@karen> (By the way, where in Mexico do you live? I am about 50 miles north of Agua Prieta.)
+[19:16] <indiracornelio> i live in xalapa, veracruz
+[19:16] <manikk> identica posts can be made automatically published in twitter
+[19:16] <manikk> just through the indentica site
+[19:17] <@karen> The two of you are knowledgable about open source.
+[19:17] <indiracornelio> yes! we are also about to start testing civicrm it's a software that lets you have your data base
+[19:17] <manikk> ok
+[19:17] <indiracornelio> with all your contacts and you can have groups, send them newsletters, yoiu can also use it for events and donations
+[19:18] <@karen> That's great. For my company, we wrote our own web-based CRM with MySQL and PHP
+[19:18] <@karen> It's simple but it works well
+[19:18] <@karen> It generates email lists but doesn't send the emails out though
+[19:18] <manikk> Karen , do u have any resources about pricing the services ?
+[19:19] <@karen> Manikk, what kind of services?
+[19:19] <indiracornelio> i'm starting to think that the hard work comes from identifiying the publics
+[19:19] <manikk> web developmet ... I don't know how to price my services
+[19:19] <blackstar> hi
+[19:19] <@karen> Last week, someone on chat talked about looking at "customer avatars" -- they are examples of typical customers
+[19:20] <@karen> Manikk, I think it depends on where you are and how specialized your services are
+[19:20] <@karen> On pricing, I would start by looking at how successful competition is pricing
+[19:20] <@karen> Things I've learned about pricing services:
+[19:21] <indiracornelio> thanks I'll check
+[19:21] <@karen> #1 Most people are happier with a fixed bid rather than a $/hour price
+[19:21] <@karen> #2 Projects always take longer than you think :)
+[19:22] <@karen> #3 It is easier to come down on price than to increase it (So when in doubt, I try to start higher and then decrease if I need to)
+[19:22] <@karen> I see a couple more people have joined us. Greeetings! Where are you all from?
+[19:22] <@karen> blackstar, I've seen you on Twitter!
+[19:22] <sund1ata> hi karen, i am actually one person...
+[19:22] <@karen> Oh.... :)
+[19:23] <sund1ata> yes, it's me (ikem)...
+[19:23] <@karen> Welcome
+[19:23] <sund1ata> hi, i have no idea how to log-out my alter ego
+[19:23] <@karen> I don't know either.
+[19:23] <sund1ata> plus, it's waaay late in the uk
+[19:24] <@karen> We have been talking about how to price services (especially web development) and identifying potential customers
+[19:24] <sund1ata> okay, that's always a good question
+[19:24] <@karen> Your alter ego has gone :)
+[19:24] <sund1ata> haha, yes my twin
+[19:25] <sund1ata> i was worried in case he said something! spooky!
+[19:25] <@karen> Manikk is in India and Indira is in Mexico. We have a very nice international group!
+[19:25] <sund1ata> great
+[19:25] <manikk> :)
+[19:26] <@karen> So I think the market plan exercise for week 2 may have been too BIG. What do you think?
+[19:26] <sund1ata> i learned it's sometimes better to turn down a certain kind of client
+[19:26] <sund1ata> perhaps, yes...
+[19:26] <@karen> Learning to turn down certain clients is a great lesson!!!
+[19:26] <indiracornelio> but aammm why would you that??
+[19:26] <@karen> Mankikk, as we were talking about pricing, customers who are more focused on low price than good service are often potential problems.
+[19:27] <indiracornelio> what kind of clients would you turn down?
+[19:27] <manikk> yes, thats true
+[19:27] <@karen> I try to turn down clients that are not profitable....but it's sometimes hard to know that in advance :)
+[19:27] <sund1ata> clients that don't want the services you offer...
+[19:27] <@karen> Also clients that don't fit your mission
+[19:27] <@karen> No one ends up happy
+[19:27] <sund1ata> but want you to act as a kind of "screwdriver". yes, they do not fit your mission
+[19:28] <@karen> But as an entrepreneur, I find that it is very tempting to take on all customers to get more business
+[19:28] <sund1ata> one client wants me to fix his google spreadsheet. i don't do that!
+[19:28] <manikk> ha ha ........
+[19:28] <@karen> funny
+[19:29] <@karen> Sometimes I get a client who doesn't know what he wants.... hard to satisfy them
+[19:29] <sund1ata> i can point him in the right direction, but it's better to be clear about what you want
+[19:29] <manikk> I have deployed CMS for my client,but they asked me to update the content
+[19:29] <sund1ata> that is a completely separate job
+[19:29] <@karen> It's good to know what you're good at and what you're not good at (or just don't want to do)
+[19:30] <manikk> thats the key
+[19:30] <@karen> One reason it's good to have a mission statement and marketing plan
+[19:30] <sund1ata> is everybody on twitter here?
+[19:30] <@karen> I've had businesses where we ended up doing all kinds of things that we really should have stayed out of
+[19:31] <manikk> I do have
+[19:31] <@karen> I don't think everyone here is on Twitter. A few people in the class followed me but they don't seem to "tweet" much
+[19:31] <@karen> I'm on it all the time (as you've seen :) @kfasimpaur
+[19:31] <sund1ata> okay. eye know ;-)
+[19:31] <sund1ata> me: @nzeribe
+[19:32] <@karen> I'm doing some Twitter marketing for a client now @ncce_edtech
+[19:32] <indiracornelio> yes @IndiraCornelio also have two more from work @Info_activismo and @contactoreddes
+[19:32] <@karen> I feel like I have multiple personalities :)
+[19:32] <sund1ata> excellent
+[19:32] <manikk> mine is @thulir_manikk
+[19:32] <@karen> Indira, is it hard to keep up with all those?
+[19:33] <indiracornelio> hajajajaja yeeesss that happens sometimes i don't tweet much on mine for that reason
+[19:33] <indiracornelio> well I sometimes use Twuffer that lets you program tweets so I put there some news so they are published like every 2 hours
+[19:34] <manikk> people, I am in hurry to go to the office... if possible catch u people in skype
+[19:34] <@karen> I am using different browsers now ... Firefox for all my personal stuff + Chrome for all of one of my client's stuff
+[19:34] <@karen> Indira, that is excellent! I've been looking for something just like this. Thanks.
+[19:34] <indiracornelio> in firefox you can add the yoono tool
+[19:34] <sund1ata> manikk, you didn't update for over a year!!!
+[19:34] <indiracornelio> I use it to keep an eye on the 3 accounts on twitter
+[19:35] <sund1ata> lol
+[19:35] <@karen> What does the yoono tool do?
+[19:35] <indiracornelio> it's really helpful!! Check it Yoo no
+[19:35] <manikk> yes...that account was used whil I have been freelancing
+[19:35] <@karen> Could you use it for multiple accounts on multiple tools (Twitter, FB, YouTube, Flickr, etc.)
+[19:36] <manikk> need to use it from now onwards
+[19:36] <sund1ata> good, i want to keep up with people after this course is over
+[19:36] <indiracornelio> yes, you have them on the left part of Mozilla and you can have there your tw, fb, flkr; or you can have 3 accounts from one
+[19:36] <@karen> Looking at Yoono...
+[19:37] <manikk> Karen I am leaving .... bye
+[19:37] <@karen> Bye Manikk. Hope to see you again next time.
+[19:37] <sund1ata> see ya
+[19:37] <@karen> I need multiple accounts on multiple tools....all signed in at once.
+[19:38] <sund1ata> yeah, that would be handy
+[19:38] <sund1ata> there's hootsuite as well
+[19:39] <@karen> Yes, I've seen that. Also Tweetdeck. I don't use either though.
+[19:39] <@karen> For my personal stuff, I love having everything in iGoogle widgets. It makes it easy to keep up with everything.
+[19:40] <@karen> Indira, on Yoono, do you use the browser app or the desktop one?
+[19:40] <sund1ata> i'm... too connected!
+[19:40] <indiracornelio> the browser app
+[19:40] <@karen> Yes, too connected!
+[19:40] <sund1ata> i left facebook last week, deleted my account: enough
+[19:40] <@karen> I have a big conference in March that I'm doing all the social media for. After that and this class, I'm taking a social media vacation!
+[19:40] <indiracornelio> that is noot soo good in some cases
+[19:40] <@karen> Because of privacy issues?
+[19:41] <sund1ata> yeah. it's just not good.
+[19:41] <@karen> I have their policies but I love their product (or really the network I have there).
+[19:41] <@karen> I am deeply conflicted.
+[19:41] <sund1ata> me too, my friends begged me to stay
+[19:42] <@karen> I use FB mostly for personal use, but I just started doing some marketing on it for a client.
+[19:42] <sund1ata> it is good for that, people are on it
+[19:42] <@karen> It has been challenging. For me, Twitter is easier for marketing (but not as many people on Twitter)
+[19:43] <sund1ata> it's true; more impersonal
+[19:43] <sund1ata> i have high hopes for distributed networks
+[19:43] <sund1ata> https://joindiaspora.com/
+[19:43] <@karen> It's hard for me to figure out why people would want to "like" a company on FB.
+[19:43] <@karen> What is the value add?
+[19:44] <@karen> Diaspora is interesting....but it's all about who's on the network I guess
+[19:44] <sund1ata> like life.
+[19:44] <@karen> true
+[19:44] <indiracornelio> It's not a product but I like a lot Cuentame on Facebook
+[19:44] <sund1ata> people *do* like companies, though...
+[19:45] <sund1ata> beats me
+[19:45] <indiracornelio> i shared the link in the first forum, they always have a great feedback
+[19:45] <@karen> Indira, I remember this from before
+[19:45] <@karen> Do you like their Facebook presence or their ideas or both?
+[19:46] <indiracornelio> I like both
+[19:46] <@karen> I think that the companies I "like" (fan) on FB are groups I already like otherwise....like Creative Commons and P2PU
+[19:46] <@karen> It's like a public way to say "I think these guys are cool"
+[19:47] <indiracornelio> they have a campaign also about workers rights, and they put a case of the beauty salons and they also have a good feedback
+[19:47] <@karen> It helps to have a cool cause
+[19:47] <@karen> Good marketing
+[19:48] <sund1ata> do you have meetings when people on this side of the atlantic may be awake?
+[19:48] <indiracornelio> so i think with them what is working is the way they participate they are always like inviting the people to participate and posting cool thigs like videos they make
+[19:48] <@karen> I am happy to have these whenever you all want. Did you see the chat sign up at http://www.k12opened.com/wiki/index.php/P2pmktgchat ?
+[19:48] <@karen> I invited people to suggest other times, but no one did so far
+[19:49] <@karen> Feel free though!
+[19:49] <@karen> How about you pick the time for next week?
+[19:49] <sund1ata> no, i must confess i have almost given up with all the crazy notices at p2pu
+[19:49] <sund1ata> okay, i will take a look at it
+[19:49] <@karen> I know what you mean. For hte next round, I am going to require emails and send out a small number of msgs that way I think
+[19:50] <@karen> Indira, I like the idea of inviting people to participate.
+[19:50] <@karen> I'm good at creating and posting content, but I have a hard time engaging people in participating sometimes
+[19:51] <indiracornelio> yeees they drive you crazy! My cellphone will be flying away soon if it doesn't stopp!!!
+[19:51] <@karen> :)
+[19:51] <sund1ata> i had to turn them off
+[19:51] <sund1ata> it's why i missed the chat, i didn't look
+[19:51] <@karen> I still get all the messages....I just don't read them
+[19:52] <sund1ata> i only just this minute looked on twitter and saw your notice, @karen
+[19:52] <@karen> Did you see the chat announcement on the forum (admin msgs)
+[19:52] <sund1ata> total fluke
+[19:52] <@karen> ....Oh Twitter! Good.
+[19:52] <sund1ata> no, i didn't
+[19:52] <@karen> Except that I think you're one of the few of us there
+[19:52] <sund1ata> the definition of information overload
+[19:52] <@karen> I put up a forum section just for admin msgs (like chat times) but I don't think that's working either...
+[19:53] <indiracornelio> they use a lot of diferent ways for making them participate. On sundays they ask people what are they going to do? and put a picture with the question
+[19:53] <sund1ata> exacerbated by the fact that i am on 4 courses here
+[19:53] <@karen> Yes, information overload...any other ideas to help with this on the course?
+[19:53] <sund1ata> i shall give it some thought; i am full of bright ideas
+[19:53] <@karen> I think there may be too many people in the course....
+[19:53] <sund1ata> yes, i think it's true
+[19:53] <sund1ata> smaller groups are better
+[19:53] <@karen> Indira, I like that question idea. I'm on a writer's site on FB and they do that.  "What are your writing goals for the week?"
+[19:54] <sund1ata> it would not be so bad if the communications system was properly implemented
+[19:54] <@karen> Thanks for the feedback. A lot of people have encouraged me to have a huge group in the course
+[19:54] <sund1ata> there is no way to break of an form smaller units, which i would like
+[19:54] <@karen> I agree. If you haven't heard, P2PU is going to a new platform but I'm not sure when it will roll out
+[19:55] <sund1ata> i can't follow threads at all
+[19:55] <sund1ata> that will be a godsend
+[19:55] <@karen> Yes, I think some people have gotten so overwhelmed that they've given up
+[19:55] <sund1ata> they have so many smart people i know they can do it
+[19:55] <sund1ata> it's a shame. never mind
+[19:56] <@karen> It's a great group though. I've already learned so much
+[19:56] <@karen> And I really love the peer learning model. I'm starting to use it in my other work
+[19:56] <sund1ata> me too. i will make sure i have a crack at the homework this weekend
+[19:56] <sund1ata> i think this model is the future
+[19:56] <indiracornelio> me too! my little browser is full of pending sites to look at
+[19:56] <@karen> Me too
+[19:57] <@karen> Any other questions or requests related to the course?
+[19:57] <sund1ata> they are rioting against the increase in school fees here
+[19:57] <@karen> Yes, here too. Budgets are in crisis
+[19:57] <sund1ata> no, i am happy. just need to apply myself
+[19:57] <@karen> :)
+[19:58] <sund1ata> ;-)
+[19:58] <@karen> Indira, anything else for you?
+[19:58] <sund1ata> okay, better i sleep now! it's 3 am...
+[19:58] <@karen> Have a good weekend, and don't forget to suggest a chat time!
+[19:58] <sund1ata> okay! will do xxx
+[19:59] <@karen> I'll post the log from this chat on the course site (under course materials)
+[19:59] <sund1ata> cool
+[19:59] <sund1ata> bye x
+[19:59] <indiracornelio> thanks Karen i thinks its good for today also
+[19:59] <@karen> Thanks for the chat! See you next time.

@@ -1,0 +1,141 @@
+
+[21:04] <ndoiron> okay, hi ! let's start then
+[21:05] <ndoiron> DoRight: last week I was traveling, I should've rescheduled
+[21:05] <ndoiron> went to open source conference at State Dept... they are quite interested in mapping
+[21:06] <DoRight> Get more resources for us?
+[21:07] <ndoiron> there were some people making their own map tiles using CloudMade or MapBox, but we're not there yet
+[21:07] <ndoiron> I think I can come back to it in a couple of weeks
+[21:08] <ndoiron> also, got to meet some of the people behind http://grassrootsmapping.org -- they go beyond satellite maps by flying balloons
+[21:09] <introvert> why?
+[21:10] <ndoiron> higher-resolution, more recent, and can be open-sourced
+[21:10] <ndoiron> they took great photos during the BP Oil Spill and now some of those are in Google Maps
+[21:10] <introvert> how old are the satellite images
+[21:11] <rrosso> huh, that's cool. do they use GPS hand-held devices, or rely just on their photographs?
+[21:11] <ndoiron> rrosso: they put thousands of photos online, and people vote on whether they're good quality... I will have to post a link to that
+[21:11] <ndoiron> then they use US gov or Google sat maps to line them up
+[21:11] <ndoiron> and "stitch" them together
+[21:12] <ndoiron> introvert: if you have Google Earth you can find exactly how old their images are... it can be a few years
+[21:13] <ndoiron> website to vote on photos http://mapmill.org/
+[21:14] <DoRight> But if they use google data, does that keep it from being used in opensource?
+[21:14] <rrosso> wow.
+[21:14] <DoRight> You explained some of that the first week, but unsure.  Maybe just my brain cells.
+[21:16] <DoRight> Yeah, gorgeous fotos!
+[21:17] <ndoiron> DoRight: I agree, using Google would make it non-free.  But if they're in the US they can use some USGS satellite maps which are free
+[21:19] <ndoiron> hey I wanted to see how you all were doing with OpenLayers
+[21:21] <seanhorgan> The opengeo.org examples are pretty straight-forward
+[21:23] <ndoiron> I'll post the OpenGeo.org link : http://workshops.opengeo.org/openlayers-intro/index.html
+[21:25] <ndoiron> seanhorgan: what is the next step at the end of the OpenGeo tutorials?  would it be helpful to post something like, how to load geolocated photos from Panoramio ?
+[21:26] <introvert> it's beginning to make sense. I need to learn how to get it to work outside of jsFiddle.
+[21:27] <ndoiron> introvert: you're running it locally, then? do any parts of the map appear?
+[21:28] <introvert> let me check something ...
+[21:30] <DoRight> This isn't exactly along the topic, but I did add a open map of Catacamas to a blog - http://ElCaminoAlHogar.blogspot.com/
+[21:34] <introvert> ndoiron, it depends on the map. the only map I get working locally is the first opengeo example, global imagery.
+[21:35] <ndoiron> DoRight: cool !  I'm glad to see you're using what you're seeing from OpenLayers
+[21:37] <ndoiron> introvert: well that's good, that you have a colorful satellite map working.  What's your web browser?  We can debug it
+[21:37] <introvert> ndoiron, epiphany
+[21:38] <introvert> introvert, I can firefox, if u prefer
+[21:39] <ndoiron> Firefox 4, you can do Ctrl+Shift+J.  Less than that, http://getfirebug.com/
+[21:39] <ndoiron> plugin that throws a red flag if the JavaScript on your page derails
+[21:41] <introvert> firefox, 3.6.13 with firebug
+[21:42] <ndoiron> okay, are you familiar with firebug then?  does it tell you anything that could help us get the map working?
+[21:42] <introvert> no, I am not familiar with it. and I don't see anything useful at all.
+[21:43] <seanhorgan> in the world of javascript programming/debugging, firebug is an essential tool to get very familiar with it
+[21:43] <seanhorgan> Google Chrome has a developer mode (ctrl-shift-j) that is similar
+[21:44] <seanhorgan> if you click on the little bug symbol on the bottom right of your firefox window, it should split the screen with the bottom half showing the firebug console
+[21:45] <ndoiron> click the Script tab, then the down arrow, to set JavaScript to Enabled
+[21:45] <introvert> seanhorgan, I'll move learning firebug up the list.
+[21:46] <introvert> Wow the text of the script is full of "Â  Â  Â  Â Â " on most lines along with the code.
+[21:47] <seanhorgan> could be a cut-n-paste problem from a rich-text editor (MS word, etc)
+[21:47] <introvert> it was cut and paste from jsFiddle to emacs and/or gedit
+[21:48] <introvert> does jsFiddle have a download method I missed?
+[21:48] <ndoiron> it should be cut and paste
+[21:48] <DoRight> I used it fine.
+[21:49] <introvert> trying again...
+[21:49] <DoRight> cut/paste
+[21:50] <DoRight> Yep, never used firebug before.  Looks like a keeper.  Thanx
+[21:50] <ndoiron> DoRight: that's great!  yes it's so good that Firefox has it with Ctrl+Shift+K, and like seanhorgan says, it's Ctrl+Shift+J in Chrome
+[21:51] <ndoiron> * Firefox 4 has something similar built in, I mean
+[21:53] <introvert> cut and pasting into gedit and emacs both give me Âs
+[21:53] <seanhorgan> can you easily strip them out?
+[21:53] <introvert> sure
+[21:54] <seanhorgan> it's been years since I messed with emacs but i'm sure it is just a couple of keystrokes to global remove
+[21:54] <ndoiron> I'm seeing online that it could be a UTF-8 issue
+[21:55] <ndoiron> which I don't really understand, but throwing that out there if it helps
+[21:55] <seanhorgan> that's what I thought too...I've run into problems like that it was usually encoding
+[21:55] <ndoiron> while we work on that...
+[21:55] <ndoiron> any other questions, ideas?
+[21:59] <seanhorgan> I'm trying to host a page with a map that draws icons based on locations from a file
+[21:59] <seanhorgan> is it best to store the data in a json format?  
+[22:00] <ndoiron> here are some formats you can use: http://openlayers.org/dev/examples/vector-formats.html
+[22:00] <seanhorgan> i don't have a concrete example for you (yet), but I'd like to iterate through an array of points and plot them on the map
+[22:00] <ndoiron> wait, the example link uses the formats for output
+[22:01] <ndoiron> it does have GeoJSON for input.  Try that format or KML, which people can view in Google Earth
+[22:02] <seanhorgan> can OSM handle KML?
+[22:03] <ndoiron> OpenLayers yes
+[22:03] <seanhorgan> right...
+[22:04] <seanhorgan> wrong question ;-)
+[22:04] <seanhorgan> cool.  so I can probably use that GeoJSON as input then
+[22:06] <ndoiron> This looks like the example for you to try: http://openlayers.org/dev/examples/geojson.html
+[22:06] <rrosso> ok, here's what I have so far (from your OpenLayers walk-through, Nick): http://www.publicdatapublic.org/openlayers_exercise.html
+[22:07] <seanhorgan> got it, thanks nick
+[22:14] <ndoiron> okay great
+[22:14] <DoRight> I think I just lost the last 20 minutes.  I seemed to be connected, but nothing was coming this way?
+[22:15] <DoRight> ndoiron, you will post the chat?
+[22:15] <introvert> i'm just spinning my wheels here. will someone send a file, the sets coordinates and displays the map, that works locally?  
+[22:15] <ndoiron> DoRight and introvert: I will post the chat and a working HTML / JS file
+[22:15] <seanhorgan> DoRight: it send that you logged off quite some time ago
+[22:16] <introvert> and just to check - I am the only one with strange characters from cut/paste from jsFiddle?
+[22:16] <DoRight> Thanx, my cell modem/provider have issues
+[22:17] <DoRight> @introvert I can cut/paste fine.
+[22:17] <ndoiron> introvert: if others are following the course and running into trouble, it will be good to post that you have the problem too
+[22:18] <ndoiron> I will post a working file, too, so we'll see if that helps you
+[22:18] <introvert> ok, once I see if I can figure out what caused it.
+[22:18] <seanhorgan> one approach is to cut-n-paste through a simple text editor as an intermediary
+[22:19] <introvert> seanhorgan, which one do you suggest?
+[22:20] <DoRight> vi/m [grn]
+[22:21] <DoRight> Seriously, I just used the cut/paste of linux  with no problem.
+[22:22] <rrosso> introvert, there are tons of good text editors. for the moment, you can just use whatever is on your computer - notepad, textpad, etc.
+[22:22] <seanhorgan> +1 on using vi
+[22:22] <DoRight> [grn]
+[22:23] <introvert> thanks all, after a break I will go over what I did and see if I can reproduce it and I'll let you all know.
+[22:24] <seanhorgan> good luck
+[22:25] <DoRight> maybe post the file?
+[22:26] <DoRight> It would be good for me to try and debug it.
+[22:26] <rrosso> is there a way/place for us to post files?
+[22:27] <ndoiron> on http://p2pu.org/webcraft/node/12927/document you can attach files when you post a document
+[22:27] <seanhorgan> pastebin.com
+[22:28] <rrosso> oh! that's handy.
+[22:29] <DoRight_> @rrosso probably stated while I was 'away' virtually, but what about posting in the forum?
+[22:30] <DoRight_> modem died, @rrosso what was handy?
+[22:30] <ndoiron> http://pastebin.com
+[22:31] <rrosso> DoRight: Nick linked to the course material tab on the course home page, where we can add documents. (we can only start discussions on the forum)
+[22:31] <rrosso> Nick and Sean - thanks. is pastebin the same kind of thing as Diigo?
+[22:32] <DoRight_> thanx
+[22:32] <seanhorgan> never used diigo...but I would use whatever Nick recommends for the course
+[22:33] <rrosso> ok, just wondering because someone recommended diigo in my webcraft php intro course. so now i'm signed up for both. :)
+[22:33] <seanhorgan> can't beat the price
+[22:34] <rrosso> is pastebin not account-based -- purely anonymous? that seems like a good feature.
+[22:35] <seanhorgan> yep
+[22:35] <seanhorgan> makes it handy for very quick things you want to post on forums etc that you don't care about saving
+[22:36] <introvert> I have a file clickablemapicons-latest.html that I downloaded and when I cut/paste from that the nasties appear.
+[22:36] <rrosso> cool, thanks.
+[22:38] <seanhorgan> makes sense
+[22:38] <DoRight_> @introvert Whoop!
+[22:39] <rrosso> ok, introvert, I pasted a working local openlayers map into pastebin: http://pastebin.com/aaKUza23
+[22:39] <rrosso> (works in jsfiddle, locally, and on my website)
+[22:42] <ndoiron> okay thanks
+[22:43]  * introvert goes off to find the error
+[22:43] <seanhorgan> lol
+[22:49] <seanhorgan> i need to head off to make some dinner.  goodnight folks!
+[22:50] <DoRight_> ciao
+[22:50] <introvert> Phew, local now works for me!
+[22:51] <rrosso> yay!
+[22:51] <DoRight_> Whoop!
+[22:51] <introvert> All caused because I am a beginner at html as well
+[22:51] <rrosso> goodnight everyone.
+[22:52] <ndoiron> introvert: that's great !
+[22:52] <introvert> I have one last q- how do I get the filename for icons?
+[22:52] <DoRight_> ciao
+[22:53] <ndoiron> I don't know if this works in your browser... right click and you should have 'Copy Image URL' or 'Copy Image Location'
+[22:53] <ndoiron> introvert: can you describe problem + solution and post it to the forums?
+[22:54] <introvert> yes. I thought I had tried that, must have needed more tea!

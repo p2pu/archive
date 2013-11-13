@@ -1,0 +1,1418 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="p2pu" xml:lang="p2pu">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Introduction to Ruby and Rails | P2PU Archive</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<link rel="shortcut icon" href="../sites/archive.p2pu.org/themes/p2pu10/favicon.ico" type="image/x-icon" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/archive.p2pu.org/modules/codefilter/codefilter.css@I.css" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/archive.p2pu.org/files/ctools/css/285c428a76ec8572518f378d6e75c7c3.css@I.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../sites/archive.p2pu.org/modules/popup/popup.css@I.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../sites/archive.p2pu.org/modules/popup/styles/Soft&#32;grey&#32;frame/popup-style.css@I.css" />
+<link type="text/css" rel="stylesheet" media="all" href="../sites/archive.p2pu.org/files/css/css_95f2f0b0d88c9c33dd38d79be896576b.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../sites/archive.p2pu.org/files/css/css_23213a44f12b0d9125523bb3c342e2a6.css" />
+<script type="text/javascript" src="../sites/archive.p2pu.org/files/js/js_f9571e8f689e0561a88ad14078625551.js"></script>
+<script type="text/javascript" src="../sites/archive.p2pu.org/modules/popup/popup.js@1381249693"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "chartbeat": { "uid": 10678, "domain": "p2pu.org" }, "dhtmlMenu": { "slide": "slide", "doubleclick": "doubleclick", "siblings": 0, "relativity": 0, "children": 0, "clone": 0 }, "googleanalytics": { "trackOutgoing": 1, "trackMailto": 1, "trackDownload": 1, "trackDownloadExtensions": "7z|aac|avi|csv|doc|exe|flv|gif|gz|jpe?g|js|mp(3|4|e?g)|mov|pdf|phps|png|ppt|rar|sit|tar|torrent|txt|wma|wmv|xls|xml|zip" }, "extlink": { "extTarget": 0, "extClass": "ext", "extSubdomains": 1, "extExclude": "", "extInclude": "", "extAlert": 0, "extAlertText": "This link will take you to an external web site. We are not responsible for their content.", "mailtoClass": "mailto" }, "popup": { "hoverLinger": "250" }, "views": { "ajax_path": [ "/webcraft/views/ajax", "/webcraft/views/ajax", "/webcraft/views/ajax", "/webcraft/views/ajax" ], "ajaxViews": [ { "view_name": "dashboard_mytracker", "view_display_id": "panel_pane_2", "view_args": "13622", "view_path": "node/13622", "view_base_path": "user/%/dashboard/tracker", "view_dom_id": 1, "pager_element": 4 }, { "view_name": "og_members_faces", "view_display_id": "default", "view_args": "13622", "view_path": "node/13622", "view_base_path": "group-member-faces", "view_dom_id": 2, "pager_element": 0 }, { "view_name": "activity_atrium", "view_display_id": "panel_pane_1", "view_args": "13622", "view_path": "node/13622", "view_base_path": null, "view_dom_id": 3, "pager_element": 0 }, { "view_name": "broadcast_messages", "view_display_id": "block_2", "view_args": "13622", "view_path": "node/13622", "view_base_path": null, "view_dom_id": 4, "pager_element": 0 } ] }, "og": { "group_context": { "nid": "13622", "title": "Introduction to Ruby and Rails", "type": "course" } } });
+//--><!]]>
+</script>
+</head>
+
+<body class="not-front not-logged-in page-node node-type-course no-sidebars p2pu-context-course-section-webcraft og-context og-context-13622  ">
+
+  <div id="page">
+     <!--style = "display:none;"-->
+      <div id="top-notification" class="p2pu-notification">
+        <p>This is the P2PU Archive. If you want the current site, go to <a href="http://www.p2pu.org" rel="nofollow">www.p2pu.org!</a></p>
+      </div>     
+      <div id="page-header" class="float-container">
+
+        <div id="logo"><a title="webcraft Home" href="../webcraft.1.html"><img alt="P2PU Home" src="../sites/archive.p2pu.org/themes/p2pu10/images/logos/logo-section-webcraft.png"></a></div>
+        <div id="slogan"></div>
+        <div id="region-header"></div>
+
+              </div><!-- /page-header -->
+
+      <div id="navigation">
+        <div class="primary">  <div id="block-menu-menu-webcraft" class="block block-menu">
+<!-- wrappers -->
+
+
+  <div class="content"><ul class="menu"><li class="leaf first dhtml-menu "><a href="../index.html" title="P2PU home page" id="dhtml_menu-17129"><span>P2PU Home</span></a></li>
+<li class="leaf last dhtml-menu "><a href="course/list.html" title="Webcraft course listing." id="dhtml_menu-17128"><span>Courses</span></a></li>
+</ul></div>
+  
+<!-- /wrappers -->
+</div></div>        <form action="introduction-ruby-and-rails.html"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-9ab8a8bc158101517fcdcfe2e4c7ad29" value="form-9ab8a8bc158101517fcdcfe2e4c7ad29"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+      </div><!-- /Navigation -->
+
+      <div id="page-sub-header"></div>
+
+      <div id="page-body" class="float-container page-body-top">
+        <div id="page-sub-body">
+  
+          <div id="content-column">
+            <div class="inner">
+                            
+              <h1 class="title">Introduction to Ruby and Rails</h1>                                                        <div class="tabs float-container"><ul class="tabs primary">
+<li class="active" ><a href="introduction-ruby-and-rails.html" class="active"><span>Course Home</span></a></li>
+<li ><a href="node/13622/document.html"><span>Course Material</span></a></li>
+<li ><a href="node/13622/forums.html"><span>Forums</span></a></li>
+</ul>
+</div>                            <div class="panel-flexible panels-flexible-43 clear-block" >
+<div class="panel-flexible-inside panels-flexible-43-inside">
+<div class="panels-flexible-column panels-flexible-column-43-main panels-flexible-column-first">
+  <div class="inside panels-flexible-column-inside panels-flexible-column-43-main-inside panels-flexible-column-inside-first">
+<div class="panels-flexible-region panels-flexible-region-43-center panels-flexible-region-first panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-43-center-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panel-pane pane-block pane-p2pu-7 yellow-panel" >
+  <div class="pane-inner">
+      
+      
+      
+    <div class="pane-content">
+      <div id='course-dates-block'>
+This course is complete. <a href="../get-involved.html">Subscribe to the announcement list</a> for updates.</div>
+    </div>
+  
+      
+      </div>  
+</div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-content-field pane-field-course-photo" >
+  <div class="pane-inner">
+      
+      
+      
+    <div class="pane-content">
+      <div class="field field-type-filefield field-field-course-photo">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <img src="../sites/archive.p2pu.org/files/imagecache/course_photo/rubyfun.png" alt="Introduction to Ruby and Rails course photo" title=""  class="imagecache imagecache-course_photo imagecache-default imagecache-course_photo_default" width="270" height="189" />        </div>
+        </div>
+</div>
+    </div>
+  
+      
+      </div>  
+</div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-panels-mini pane-course-general-info grey-panel" >
+  <div class="pane-inner">
+      
+          <h2 class="pane-title">Introduction to Ruby and Rails</h2>
+      
+      
+    <div class="pane-content">
+      <div class="panel-display panel-1col clear-block" id="mini-panel-course_general_info">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-custom pane-1" >
+  <div class="pane-inner">
+      
+      
+      
+    <div class="pane-content">
+      <div class='meta'>
+<div class="picture">
+  <a href="../users/alindeman.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-6964.jpg" alt="Andy Lindeman&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+<span class='created-date'>Course organiser: <a href="users/alindeman.html" title="View user profile.">Andy Lindeman</a></span>
+</div>
+    </div>
+  
+      
+      </div>  
+</div>
+<div class="panel-region-separator"></div><div class="field field-type-text field-field-course-facilitator-about">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              About the Course Organiser:&nbsp;</div>
+                    <p>I love software and am especially excited about web development. &nbsp;I tweet at <a href="http://twitter.com/alindeman" rel="nofollow">http://twitter.com/alindeman</a> and blog at <a href="http://andylindeman.com/" rel="nofollow">http://andylindeman.com/</a></p>
+<p>I also love teaching.</p>
+        </div>
+        </div>
+</div>
+<div class="panel-region-separator"></div><div class="field field-type-number-integer field-field-course-no-of-seats">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              No of Seats:&nbsp;</div>
+                    50        </div>
+        </div>
+</div>
+<div class="panel-region-separator"></div><div class="field field-type-text field-field-course-status">
+    <div class="field-items">
+            <div class="field-item odd">
+                      <div class="field-label-inline-first">
+              Course Status:&nbsp;</div>
+                    Completed        </div>
+        </div>
+</div>
+</div>
+  </div>
+</div>
+    </div>
+  
+      
+      </div>  
+</div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-views pane-og-members-faces yellow-panel" >
+  <div class="pane-inner">
+      
+          <h2 class="pane-title">Members</h2>
+      
+      
+    <div class="pane-content">
+      <div class="view view-og-members-faces view-id-og_members_faces view-display-id-default view-dom-id-2">
+    
+  
+  
+      <div class="view-content">
+      <table class="views-view-grid">
+  <tbody>
+                <tr class="row-1 row-first">
+                  <td class="col-1">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/alindeman.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/picture-6964.jpg" alt="Andy Lindeman&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content">admin</span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Andy</span>
+  </div>
+          </td>
+                  <td class="col-2">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/adamcollado.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/picture-2709.jpg" alt="Adam Collado&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Adam</span>
+  </div>
+          </td>
+                  <td class="col-3">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/adilmuhammad.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/picture-8743.jpg" alt="Adil Muhammad&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Adil</span>
+  </div>
+          </td>
+                  <td class="col-4">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/aleks.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="Aleks T.&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Aleks</span>
+  </div>
+          </td>
+                  <td class="col-5">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/angstrom.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/picture-6376.jpg" alt="Mislav Paparella&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Misla</span>
+  </div>
+          </td>
+              </tr>
+                <tr class="row-2">
+                  <td class="col-1">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/ashs.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/picture-9465.jpg" alt="Ashley Scott&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Ashle</span>
+  </div>
+          </td>
+                  <td class="col-2">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/askalot.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="Arunan Skanthan&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Aruna</span>
+  </div>
+          </td>
+                  <td class="col-3">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/azazo.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="Anthony Zazo&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Antho</span>
+  </div>
+          </td>
+                  <td class="col-4">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/chloeml.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="Chloe Lerit&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Chloe</span>
+  </div>
+          </td>
+                  <td class="col-5">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/christiekoehler.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/picture-9914.png" alt="Christie Koehler&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Chris</span>
+  </div>
+          </td>
+              </tr>
+                <tr class="row-3">
+                  <td class="col-1">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/christopherwade.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/picture-11473.png" alt="Chris Wade&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Chris</span>
+  </div>
+          </td>
+                  <td class="col-2">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/cloneofsnake.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/picture-426.jpg" alt="Nicholas Wang&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Nicho</span>
+  </div>
+          </td>
+                  <td class="col-3">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/connorn.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="Neil Connor&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Neil</span>
+  </div>
+          </td>
+                  <td class="col-4">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/daniel-k.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/picture-10759.gif" alt="Daniel Kirkdorffer&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Danie</span>
+  </div>
+          </td>
+                  <td class="col-5">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/dcweyh.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/picture-7459.jpg" alt="Darwin Weyh&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Darwi</span>
+  </div>
+          </td>
+              </tr>
+                <tr class="row-4">
+                  <td class="col-1">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/dfnkt.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/picture-2863.jpg" alt="Caley Woods&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Caley</span>
+  </div>
+          </td>
+                  <td class="col-2">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/digitil.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="Calvin McEachron&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Calvi</span>
+  </div>
+          </td>
+                  <td class="col-3">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/donnieconner.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/picture-10632.jpg" alt="Donnie Conner&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Donni</span>
+  </div>
+          </td>
+                  <td class="col-4">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/edgarp313.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/picture-10685.jpg" alt="Edgar Perez&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Edgar</span>
+  </div>
+          </td>
+                  <td class="col-5">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/gvrv.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="Gaurav Dadhania&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Gaura</span>
+  </div>
+          </td>
+              </tr>
+                <tr class="row-5 row-last">
+                  <td class="col-1">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/hanysb.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/picture-12498.png" alt="Hany B&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Hany</span>
+  </div>
+          </td>
+                  <td class="col-2">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/invernomuto.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="Fabio Pozzi&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Fabio</span>
+  </div>
+          </td>
+                  <td class="col-3">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/jeremybrooks.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/picture-10462.jpg" alt="Jeremy Brooks&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Jerem</span>
+  </div>
+          </td>
+                  <td class="col-4">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/jessica.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/picture-4746.jpg" alt="Jessica Ledbetter&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Jessi</span>
+  </div>
+          </td>
+                  <td class="col-5">
+              
+  <div class="views-field-picture">
+                <div class="field-content"><div class="picture">
+  <a href="../users/jimrollenhagen.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_image_default/pictures/default-user.png" alt="Jim Rollenhagen&#039;s picture" title="View user profile."  class="imagecache imagecache-user_image_default" width="30" height="30" /></a></div></div>
+  </div>
+  
+  <span class="views-field-is-admin">
+                <span class="field-content"></span>
+  </span>
+  
+  <div class="views-field-realname">
+                <span class="field-content">Jim R</span>
+  </div>
+          </td>
+              </tr>
+      </tbody>
+</table>
+    </div>
+  
+      <div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a href="introduction-ruby-and-rails@page=1.html" title="Go to page 2" class="active">2</a></li>
+<li class="pager-item"><a href="introduction-ruby-and-rails@page=2.html" title="Go to page 3" class="active">3</a></li>
+<li class="pager-next"><a href="introduction-ruby-and-rails@page=1.html" title="Go to next page" class="active">next ›</a></li>
+<li class="pager-last last"><a href="introduction-ruby-and-rails@page=2.html" title="Go to last page" class="active">last »</a></li>
+</ul></div>  
+  
+  
+  
+  
+</div>     </div>
+  
+      
+      </div>  
+</div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-column panels-flexible-column-43-1 panels-flexible-column-last">
+  <div class="inside panels-flexible-column-inside panels-flexible-column-43-1-inside panels-flexible-column-inside-last">
+<div class="panels-flexible-row panels-flexible-row-43-4 panels-flexible-row-first clear-block">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-43-4-inside panels-flexible-row-inside-first clear-block">
+<div class="panels-flexible-region panels-flexible-region-43-top_region panels-flexible-region-first panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-43-top_region-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+<div class="panel-pane pane-block pane-p2pu-6 orange-panel" >
+  <div class="pane-inner">
+      
+      
+      
+    <div class="pane-content">
+      <div id='tweet-text-and-button'>
+<div class='field-field-course-short-desc'>Looking for a web framework that&#039;s optimized for programmer happiness and sustainable productivity?  Learn Ruby and Rails! #webcraft #p2pu</div>
+<div id="tweet-button"><a href="http://twitter.com/share" class="twitter-share-button" data-related="p2pu:P2P University, learning for everyone, by everyone, about almost anything." data-text="Looking for a web framework that&#039;s optimized for programmer happiness and sustainable productivity?  Learn Ruby and Rails! #webcraft #p2pu" data-count="none">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div></div>
+    </div>
+  
+      
+      </div>  
+</div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-panels-mini pane-course-summary-and-syllabus yellow-panel" >
+  <div class="pane-inner">
+      
+      
+      
+    <div class="pane-content">
+      <div class="panel-display panel-1col clear-block" id="mini-panel-course_summary_and_syllabus">
+  <div class="panel-panel panel-col">
+    <div><h2 class="pane-title">Summary</h2><div class="field field-type-text field-field-course-summary">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <p><em><span class="Apple-style-span">Ruby is a fascinating object-oriented language suited for many purposes.&nbsp; Rails is a popular web framework for Ruby.</span></em></p>
+<p><span class="Apple-style-span">This course will introduce the Ruby programming language, focusing on those features and concepts that will be important when developing web-based, database-backed Rails applications.</span></p>
+<p>Course participants will learn with freely available web resources and by completing small assignments. &nbsp;Participants will also create a simple web application individually or in small groups.</p>
+<p><strong>Because this course will cover a lot of ground, it will be completed over 10 weeks.</strong><br />
+</p>
+        </div>
+        </div>
+</div>
+<div class="panel-region-separator"></div><h2 class="pane-title">Learning objectives</h2><div class="field field-type-text field-field-course-learning-objectives">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <p>Development of syllabus/objectives is ongoing: <a href="http://alindeman.github.com/p2pu-rubyrails" rel="nofollow">http://alindeman.github.com/p2pu-rubyrails</a>&nbsp;(source: <a href="http://github.com/alindeman/p2pu-rubyrails" rel="nofollow">http://github.com/alindeman/p2pu-rubyrails</a>)<a href="http://pad.p2pu.org/intro-to-ruby-and-rails-syllabus" rel="nofollow"></a></p>
+<p>Help and/or tweaks are welcomed!</p>
+        </div>
+        </div>
+</div>
+</div>
+  </div>
+</div>
+    </div>
+  
+      
+      </div>  
+</div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-node-comments" >
+  <div class="pane-inner">
+      
+          <h2 class="pane-title">Comments</h2>
+      
+      
+    <div class="pane-content">
+      <a id="comment-5301"></a>
+<div class="comment comment-5301 comment-published odd first clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-5301" class="active">would love to join this</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/adilmuhammad.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-8743.jpg" alt="Adil Muhammad&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/adilmuhammad.html" title="View user profile.">Adil Muhammad</a><div id='comment-submitted-date'>
+Tue, 2011-01-04 08:13</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>would love to join this course</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-5301" class="active">link to this comment</a></li>
+</ul></div><a id="comment-5347"></a>
+<div class="comment comment-5347 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-5347" class="active">If I were to install ruby on</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/dfelber.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="dfelber&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="http://archive.p2pu.org/webcraft/users/dfelber" title="View user profile.">dfelber</a><div id='comment-submitted-date'>
+Fri, 2011-01-07 10:46</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>If I were to install ruby on Linux would I also have to run a virtual box?</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-5347" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-5351"></a>
+<div class="comment comment-5351 comment-published odd comment-by-author clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-5351" class="active">I would prefer you do because</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/alindeman.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-6964.jpg" alt="Andy Lindeman&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/alindeman.html" title="View user profile.">Andy Lindeman</a><div id='comment-submitted-date'>
+Fri, 2011-01-07 15:19</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I would prefer you do because a virtual machine allows you to return to a known state very quickly and is very isolated; while we are trying new things and messing around in the course, I wouldn't want you to accidentally hose your main system.</p>
+<p>Not to imply that it's easy to hose your system using Ruby and Rails, but there are some nuances.</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-5351" class="active">link to this comment</a></li>
+</ul></div></div><a id="comment-5358"></a>
+<div class="comment comment-5358 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-5358" class="active">I would love to join this</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/indrgun.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Indra Gunawan&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/indrgun.html" title="View user profile.">Indra Gunawan</a><div id='comment-submitted-date'>
+Fri, 2011-01-07 22:45</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I would love to join this course.  If I can finish the sign-up task, how are you going to verify?</p>
+<p>Thanks.<br />
+-Indra</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-5358" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-5359"></a>
+<div class="comment comment-5359 comment-published odd comment-by-author clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-5359" class="active">In the sign-up task itself,</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/alindeman.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-6964.jpg" alt="Andy Lindeman&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/alindeman.html" title="View user profile.">Andy Lindeman</a><div id='comment-submitted-date'>
+Fri, 2011-01-07 22:54</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>In the sign-up task itself, there is a task for you to complete that will verify it for me.</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-5359" class="active">link to this comment</a></li>
+</ul></div></div><a id="comment-5360"></a>
+<div class="comment comment-5360 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-5360" class="active">I would love to join this</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/juanita-vyatri.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Juanita Vyatri&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/juanita-vyatri.html" title="View user profile.">Juanita Vyatri</a><div id='comment-submitted-date'>
+Fri, 2011-01-07 23:55</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I would love to join this course. Would you please give a guide on how to install the environment on a cpanel web hosting ? Or right now i only need the environment installed on my computer (?)</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-5360" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-5361"></a>
+<div class="comment comment-5361 comment-published odd comment-by-author clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-5361" class="active">The environment should go on</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/alindeman.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-6964.jpg" alt="Andy Lindeman&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/alindeman.html" title="View user profile.">Andy Lindeman</a><div id='comment-submitted-date'>
+Sat, 2011-01-08 00:06</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>The environment should go on your local computer.  The course may discuss deployment options, but we'll start developing locally.</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-5361" class="active">link to this comment</a></li>
+</ul></div></div><a id="comment-5427"></a>
+<div class="comment comment-5427 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-5427" class="active">I have a question regarding</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/dfelber.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="dfelber&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="http://archive.p2pu.org/webcraft/users/dfelber" title="View user profile.">dfelber</a><div id='comment-submitted-date'>
+Sat, 2011-01-08 22:16</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I have a question regarding setting up my virtual environment. In order to install the rails environment it says that I have to open my command line. I am on a Windows machine however the commands look a lot like linux commands. What should Windows Users do?</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-5427" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-5437"></a>
+<div class="comment comment-5437 comment-published odd comment-by-author clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-5437" class="active">You can still open a command</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/alindeman.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-6964.jpg" alt="Andy Lindeman&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/alindeman.html" title="View user profile.">Andy Lindeman</a><div id='comment-submitted-date'>
+Sun, 2011-01-09 00:00</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>You can still open a command prompt in Windows.  The easiest way is to navigate to Start -&gt; Run, type "cmd" and hit Enter.</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-5437" class="active">link to this comment</a></li>
+</ul></div></div><a id="comment-5429"></a>
+<div class="comment comment-5429 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-5429" class="active">Hi Andy, I was trying to do</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/webgeezer.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Arnie Nelson&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/webgeezer.html" title="View user profile.">Arnie Nelson</a><div id='comment-submitted-date'>
+Sat, 2011-01-08 22:54</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi Andy, I was trying to do the signup task before applying. I'm working on a Gateway quad-core 8200 system with Windows Vista. I've had plenty of experience with VirtualBox on this computer. The Ruby install went well, but I had to get the DevKit installed to get past the missing dll. After reinstalling both json and vagrant, the vagrant command still cannot find the latest version of Oracle Virtualbox, even after I added the virtualbox.exe binary's location to the system PATH. Any ideas?</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-5429" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-5436"></a>
+<div class="comment comment-5436 comment-published odd comment-by-author clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-5436" class="active">You should not use the latest</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/alindeman.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-6964.jpg" alt="Andy Lindeman&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/alindeman.html" title="View user profile.">Andy Lindeman</a><div id='comment-submitted-date'>
+Sat, 2011-01-08 23:55</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>You should not use the latest VirtualBox.  You need to use the version specifically linked in the sign-up task.  The stable vagrant gem doesn't yet support VirtualBox 4.0.</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-5436" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-5446"></a>
+<div class="comment comment-5446 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-5446" class="active">I was using version 3.2.10</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/webgeezer.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Arnie Nelson&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/webgeezer.html" title="View user profile.">Arnie Nelson</a><div id='comment-submitted-date'>
+Sun, 2011-01-09 04:26</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I was using version 3.2.10 and upgraded to 3.2.12. The results were the same either with either version, vagrant can't find it.</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-5446" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-5463"></a>
+<div class="comment comment-5463 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-5463" class="active">I have the same issue. Need</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/iamvib.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Igor Vorobiov&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/iamvib.html" title="View user profile.">Igor Vorobiov</a><div id='comment-submitted-date'>
+Sun, 2011-01-09 07:18</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I have the same issue. Need help!!!</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-5463" class="active">link to this comment</a></li>
+</ul></div></div></div></div><a id="comment-5442"></a>
+<div class="comment comment-5442 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-5442" class="active">I just signed up and I was</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/iamvib.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Igor Vorobiov&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/iamvib.html" title="View user profile.">Igor Vorobiov</a><div id='comment-submitted-date'>
+Sun, 2011-01-09 02:05</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I just signed up and I was not sure whether I should've written  something in that field. However, I wrote about myself a bit :-)</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-5442" class="active">link to this comment</a></li>
+</ul></div><a id="comment-5456"></a>
+<div class="comment comment-5456 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-5456" class="active">Andy, should I install Linux</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/iamvib.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Igor Vorobiov&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/iamvib.html" title="View user profile.">Igor Vorobiov</a><div id='comment-submitted-date'>
+Sun, 2011-01-09 07:18</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>.</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-5456" class="active">link to this comment</a></li>
+</ul></div><a id="comment-5471"></a>
+<div class="comment comment-5471 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-5471" class="active">For those having the issue</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/justinkorn.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Justin Korn&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/justinkorn.html" title="View user profile.">Justin Korn</a><div id='comment-submitted-date'>
+Sun, 2011-01-09 09:07</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>For those having the issue with Vagrant not finding VirtualBox, if you are running 64bit windows, you must use JRuby.  </p>
+<p>See <a href="http://vagrantup.com/docs/getting-started/setup/windows.html" title="http://vagrantup.com/docs/getting-started/setup/windows.html" rel="nofollow">http://vagrantup.com/docs/getting-started/setup/windows.html</a></p>
+<p>Andy - I submitted my application already before I found this solution.  I'll confirm via email.</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-5471" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-5477"></a>
+<div class="comment comment-5477 comment-published odd comment-by-author clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-5477" class="active">Really appreciate you</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/alindeman.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-6964.jpg" alt="Andy Lindeman&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/alindeman.html" title="View user profile.">Andy Lindeman</a><div id='comment-submitted-date'>
+Sun, 2011-01-09 14:43</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Really appreciate you figuring out this detail, Justin.  I will update the directions in the sign-up task.  I got your email too :)</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-5477" class="active">link to this comment</a></li>
+</ul></div></div><a id="comment-5472"></a>
+<div class="comment comment-5472 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-5472" class="active">Works like a charm! Thanks</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/iamvib.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Igor Vorobiov&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/iamvib.html" title="View user profile.">Igor Vorobiov</a><div id='comment-submitted-date'>
+Sun, 2011-01-09 10:08</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Works like a charm! Thanks Justin!</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-5472" class="active">link to this comment</a></li>
+</ul></div><a id="comment-5522"></a>
+<div class="comment comment-5522 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-5522" class="active">Thanks for the tips on</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/webgeezer.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Arnie Nelson&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/webgeezer.html" title="View user profile.">Arnie Nelson</a><div id='comment-submitted-date'>
+Mon, 2011-01-10 07:24</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Thanks for the tips on installing JRuby on Windows-64 bit systems. That did the trick, and I was able to do the sign-up tasks.</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-5522" class="active">link to this comment</a></li>
+</ul></div><a id="comment-5758"></a>
+<div class="comment comment-5758 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-5758" class="active">Sorry, I did send a direct</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/rasmusj2.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Jenny&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/rasmusj2.html" title="View user profile.">Jenny</a><div id='comment-submitted-date'>
+Wed, 2011-01-12 09:25</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Sorry, I did send a direct message and then found this:</p>
+<p>Please only submit your answers via the sign-up form (not as comments or direct messages to the course organizer).</p>
+<p>How exactly would I do this?</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-5758" class="active">link to this comment</a></li>
+</ul></div><a id="comment-5768"></a>
+<div class="comment comment-5768 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-5768" class="active">hey Jenny, I just followed</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/ashs.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9465.jpg" alt="Ashley Scott&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/ashs.html" title="View user profile.">Ashley Scott</a><div id='comment-submitted-date'>
+Wed, 2011-01-12 12:09</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>hey Jenny, I just followed the instructions on <a href="http://alindeman.github.com/p2pu-rubyrails/signup-task.html" title="http://alindeman.github.com/p2pu-rubyrails/signup-task.html" rel="nofollow">http://alindeman.github.com/p2pu-rubyrails/signup-task.html</a> &amp; emailed the results to Andy's address on that page ( I also signed up via the p2pu page as well). A</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-5768" class="active">link to this comment</a></li>
+</ul></div><a id="comment-5880"></a>
+<div class="comment comment-5880 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-5880" class="active">Downloading 400MB+ Vagrant</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/lightmanx5.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9848.jpg" alt="Josh&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/lightmanx5.html" title="View user profile.">Josh</a><div id='comment-submitted-date'>
+Thu, 2011-01-13 01:53</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Downloading 400MB+ Vagrant file... ripe with anticipation :)</p>
+<p>~JOSh-X</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-5880" class="active">link to this comment</a></li>
+</ul></div><a id="comment-5902"></a>
+<div class="comment comment-5902 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-5902" class="active">Do you have to email the</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/cerventus.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9925.jpg" alt="Daniel Cerventus&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/cerventus.html" title="View user profile.">Daniel Cerventus</a><div id='comment-submitted-date'>
+Thu, 2011-01-13 04:59</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Do you have to email the result? How can I resummit?</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-5902" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-6234"></a>
+<div class="comment comment-6234 comment-published even comment-by-author clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-6234" class="active">The sign up task page has</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/alindeman.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-6964.jpg" alt="Andy Lindeman&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/alindeman.html" title="View user profile.">Andy Lindeman</a><div id='comment-submitted-date'>
+Sat, 2011-01-15 00:34</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>The sign up task page has details.  Yes, please email it :)</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-6234" class="active">link to this comment</a></li>
+</ul></div></div><a id="comment-6232"></a>
+<div class="comment comment-6232 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-6232" class="active">Hi Andy,
+I am trying to</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/adilmuhammad.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-8743.jpg" alt="Adil Muhammad&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/adilmuhammad.html" title="View user profile.">Adil Muhammad</a><div id='comment-submitted-date'>
+Sat, 2011-01-15 00:26</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi Andy,</p>
+<p>I am trying to complete the tasks in tryruby.org but i am stuck..</p>
+<p>&gt;&gt; back<br />
+&gt;&gt; def load_comics( path )<br />
+..   comics = {}<br />
+..     name,url = line.split(': ')<br />
+.. back<br />
+&gt;&gt; File.mtime(/"Home.comics.txt"). hour<br />
+SyntaxError: :172: syntax error, unexpected tGVAR, expecting $end<br />
+    $stdout = StringIO.new<br />
+           ^<br />
+&gt;&gt; File.mtime(/"Home.comics.txt").hour<br />
+SyntaxError: :172: syntax error, unexpected tGVAR, expecting $end<br />
+    $stdout = StringIO.new   </p>
+<p>Kindly help</p>
+<p>Best Regards,<br />
+Adil</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-6232" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-6233"></a>
+<div class="comment comment-6233 comment-published even comment-by-author clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-6233" class="active">Can you join IRC at some</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/alindeman.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-6964.jpg" alt="Andy Lindeman&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/alindeman.html" title="View user profile.">Andy Lindeman</a><div id='comment-submitted-date'>
+Sat, 2011-01-15 00:33</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Can you join IRC at some point?  I think I'll be able to help you better there.</p>
+<p>You can join straight from p2pu.org: <a href="http://p2pu.org/webcraft/node/13622/chat" title="http://p2pu.org/webcraft/node/13622/chat" rel="nofollow">http://p2pu.org/webcraft/node/13622/chat</a></p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-6233" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6235"></a>
+<div class="comment comment-6235 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-6235" class="active">I found the site gets a</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/dcweyh.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-7459.jpg" alt="Darwin Weyh&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/dcweyh.html" title="View user profile.">Darwin Weyh</a><div id='comment-submitted-date'>
+Sat, 2011-01-15 00:41</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I found the site gets a little wanky with mistakes.<br />
+Try a "reset" and then start over I think the "back confused it.<br />
+You should have the .. prompt til you have entered the 'end'</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-6235" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6276"></a>
+<div class="comment comment-6276 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-6276" class="active">That probably should</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/daniel-k.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-10759.gif" alt="Daniel Kirkdorffer&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/daniel-k.html" title="View user profile.">Daniel Kirkdorffer</a><div id='comment-submitted-date'>
+Sat, 2011-01-15 06:06</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>That probably should be<br />
+File.mtime(/"Home/comics.txt").hour</p>
+<p>You can up-arrow to recall past commands, and you can redefine code by re-entering it, with corrections if necessary.</p>
+<p>HTH,</p>
+<p>Dan</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-6276" class="active">link to this comment</a></li>
+</ul></div></div><a id="comment-6297"></a>
+<div class="comment comment-6297 comment-published odd clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-6297" class="active">Hi, I&#039;m trying to do the</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/ehdeelee.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9244.jpg" alt="Eddie Lee&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/ehdeelee.html" title="View user profile.">Eddie Lee</a><div id='comment-submitted-date'>
+Sat, 2011-01-15 11:25</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi, I'm trying to do the sign-up task but when I try to clone the repository in VirtualBox, I get the following error:<br />
+fatal: could not create work tree dir 'coursework' .: Permission denied<br />
+and trying to switch to "su" didn't work - I thought the default vagrant root password was "vagrant"?</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-6297" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-6300"></a>
+<div class="comment comment-6300 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="introduction-ruby-and-rails.html#comment-6300" class="active">I got it working by appending</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../users/ehdeelee.html" title="View user profile."><img src="../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9244.jpg" alt="Eddie Lee&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="users/ehdeelee.html" title="View user profile.">Eddie Lee</a><div id='comment-submitted-date'>
+Sat, 2011-01-15 11:54</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I got it working by appending "sudo" at the beginning of "git clone ..." - is that normal or should I have logged in as root?</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introduction-ruby-and-rails.html#comment-6300" class="active">link to this comment</a></li>
+</ul></div></div><div class="item-list"><ul class="pager"><li class="pager-current first">1</li>
+<li class="pager-item"><a href="introduction-ruby-and-rails@page=1.html" title="Go to page 2" class="active">2</a></li>
+<li class="pager-next"><a href="introduction-ruby-and-rails@page=1.html" title="Go to next page" class="active">next ›</a></li>
+<li class="pager-last last"><a href="introduction-ruby-and-rails@page=1.html" title="Go to last page" class="active">last »</a></li>
+</ul></div>    </div>
+  
+      
+      </div>  
+</div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-row panels-flexible-row-43-3 clear-block">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-43-3-inside clear-block">
+<div class="panels-flexible-column panels-flexible-column-43-5 panels-flexible-column-first">
+  <div class="inside panels-flexible-column-inside panels-flexible-column-43-5-inside panels-flexible-column-inside-first">
+<div class="panels-flexible-region panels-flexible-region-43-middle_left panels-flexible-region-first panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-43-middle_left-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+&nbsp;  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-column panels-flexible-column-43-6 panels-flexible-column-last">
+  <div class="inside panels-flexible-column-inside panels-flexible-column-43-6-inside panels-flexible-column-inside-last">
+<div class="panels-flexible-region panels-flexible-region-43-middle_right panels-flexible-region-first panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-43-middle_right-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+&nbsp;  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+<div class="panels-flexible-row panels-flexible-row-43-2 panels-flexible-row-last clear-block">
+  <div class="inside panels-flexible-row-inside panels-flexible-row-43-2-inside panels-flexible-row-inside-last clear-block">
+<div class="panels-flexible-region panels-flexible-region-43-center_ panels-flexible-region-first panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-43-center_-inside panels-flexible-region-inside-first panels-flexible-region-inside-last">
+&nbsp;  </div>
+</div>
+  </div>
+</div>
+  </div>
+</div>
+</div>
+</div>
+                                        </div>
+          </div><!-- /content-column -->
+  
+                  </div>
+        
+                  
+      </div><!-- /page-body -->
+  
+              <div id="page-footer">
+          <div class="inner">
+            <div class="message">
+                            <div id='creative-commons'>
+                <div class='p2pu-cc-text'>
+                  <a href="../license.html">License Information</a> - <a href="../privacy.html">Privacy Guidelines</a> - <a href="../terms-of-use.html">Terms of Use</a>
+                </div><br>
+<div id='cc-logo'>
+
+<a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license" target="_blank"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
+               <div class="p2pu-cc-text">Except where otherwise noted, all content on <span dct="http://purl.org/dc/terms/" property="title">p2pu.org</span> is
+licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license" target="_blank">Creative Commons Attribution-ShareAlike 3.0 Unported
+License</a>.</div>
+
+                </div>
+              </div>             </div>
+              <div id="block-user_voice-0" class="block block-user_voice">
+<!-- wrappers -->
+
+  <h2 class="title"><none></h2>
+  <div class="content"><script type="text/javascript">
+var uservoiceJsHost = ("https:" == document.location.protocol) ? "https://uservoice.com" : "http://cdn.uservoice.com";
+document.write(unescape("%3Cscript src='" + uservoiceJsHost + "/javascripts/widgets/tab.js' type='text/javascript'%3E%3C/script%3E"))
+</script>
+<script type="text/javascript">
+UserVoice.Tab.show({ 
+  key: 'p2pu',
+  host: 'p2pu.uservoice.com', 
+  forum: '47491', 
+  alignment: 'left',
+  background_color:'#F00', 
+  text_color: 'white',
+  hover_color: '#06C',
+  lang: 'en'
+})
+</script></div>
+  
+<!-- /wrappers -->
+</div>          </div>
+        </div>
+      
+  </div><!-- /page -->
+  
+  <script type="text/javascript">
+  var _sf_async_config=Drupal.settings.chartbeat;
+  (function(){
+    function loadChartbeat() {
+      window._sf_endpt=(new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src',
+         (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+         "static.chartbeat.com/js/chartbeat.js");
+      document.body.appendChild(e);
+    }
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+       loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+</script>
+<!--[if lt IE 8]><style type="text/css">div.popup-element{ display: inline;}</style><![endif]--><script type="text/javascript" src="../sites/archive.p2pu.org/files/js/js_3db59602a76097ac56c4ab27fd2d9f24.js"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+try{var pageTracker = _gat._getTracker("UA-5757664-5");pageTracker._trackPageview();var benchmarkTracker = _gat._getTracker("UA-5033010-1");
+benchmarkTracker._trackPageview();} catch(err) {}
+//--><!]]>
+</script>
+
+</body>
+</html>

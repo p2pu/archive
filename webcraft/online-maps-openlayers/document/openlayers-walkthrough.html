@@ -1,0 +1,535 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="p2pu" xml:lang="p2pu">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Online Maps with OpenLayers | P2PU Archive</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<link rel="shortcut icon" href="../../../sites/archive.p2pu.org/themes/p2pu10/favicon.ico" type="image/x-icon" />
+<link type="text/css" rel="stylesheet" media="all" href="../../../sites/archive.p2pu.org/modules/codefilter/codefilter.css@I.css" />
+<link type="text/css" rel="stylesheet" media="all" href="../../../sites/archive.p2pu.org/files/ctools/css/132cbcbd66da15052e9a590dbb4eca76.css@I.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../../../sites/archive.p2pu.org/modules/popup/popup.css@I.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../../../sites/archive.p2pu.org/modules/popup/styles/Soft&#32;grey&#32;frame/popup-style.css@I.css" />
+<link type="text/css" rel="stylesheet" media="all" href="../../../sites/archive.p2pu.org/files/css/css_53b6992323d5f617d777bef7b197cc5a.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../../../sites/archive.p2pu.org/files/css/css_23213a44f12b0d9125523bb3c342e2a6.css" />
+<script type="text/javascript" src="../../../sites/archive.p2pu.org/files/js/js_f9571e8f689e0561a88ad14078625551.js"></script>
+<script type="text/javascript" src="../../../sites/archive.p2pu.org/modules/popup/popup.js@1381921085"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "chartbeat": { "uid": 10678, "domain": "p2pu.org" }, "dhtmlMenu": { "slide": "slide", "doubleclick": "doubleclick", "siblings": 0, "relativity": 0, "children": 0, "clone": 0 }, "extlink": { "extTarget": 0, "extClass": "ext", "extSubdomains": 1, "extExclude": "", "extInclude": "", "extAlert": 0, "extAlertText": "This link will take you to an external web site. We are not responsible for their content.", "mailtoClass": "mailto" }, "popup": { "hoverLinger": "250" }, "views": { "ajax_path": [ "/webcraft/views/ajax", "/webcraft/views/ajax" ], "ajaxViews": [ { "view_name": "panel_comments", "view_display_id": "default", "view_args": "node/12927/document/26001", "view_path": "node/12927/document/26001", "view_base_path": null, "view_dom_id": 1, "pager_element": 0 }, { "view_name": "course_documents_arg", "view_display_id": "block_2", "view_args": "12927", "view_path": "node/12927/document/26001", "view_base_path": null, "view_dom_id": 2, "pager_element": 0 } ] }, "og": { "group_context": { "nid": "12927", "title": "Online Maps with OpenLayers", "type": "course" } } });
+//--><!]]>
+</script>
+</head>
+
+<body class="not-front not-logged-in page-node no-sidebars p2pu-context-course-section-webcraft og-context og-context-12927  ">
+
+  <div id="page">
+     <!--style = "display:none;"-->
+      <div id="top-notification" class="p2pu-notification">
+        <p>This is the P2PU Archive. If you want the current site, go to <a href="http://www.p2pu.org" rel="nofollow">www.p2pu.org!</a></p>
+      </div>     
+      <div id="page-header" class="float-container">
+
+        <div id="logo"><a title="webcraft Home" href="../../../webcraft.1.html"><img alt="P2PU Home" src="../../../sites/archive.p2pu.org/themes/p2pu10/images/logos/logo-section-webcraft.png"></a></div>
+        <div id="slogan"></div>
+        <div id="region-header"></div>
+
+              </div><!-- /page-header -->
+
+      <div id="navigation">
+        <div class="primary">  <div id="block-menu-menu-webcraft" class="block block-menu">
+<!-- wrappers -->
+
+
+  <div class="content"><ul class="menu"><li class="leaf first dhtml-menu "><a href="../../../index.html" title="P2PU home page" id="dhtml_menu-17129"><span>P2PU Home</span></a></li>
+<li class="leaf last dhtml-menu "><a href="../../course/list.html" title="Webcraft course listing." id="dhtml_menu-17128"><span>Courses</span></a></li>
+</ul></div>
+  
+<!-- /wrappers -->
+</div></div>        <form action="openlayers-walkthrough.html"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-9c24019f898ab9e20ed8887109cadfa5" value="form-9c24019f898ab9e20ed8887109cadfa5"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+      </div><!-- /Navigation -->
+
+      <div id="page-sub-header"></div>
+
+      <div id="page-body" class="float-container page-body-top">
+        <div id="page-sub-body">
+  
+          <div id="content-column">
+            <div class="inner">
+                            
+              <h1 class="title">Online Maps with OpenLayers</h1>                                                        <div class="tabs float-container"><ul class="tabs primary">
+<li ><a href="../../online-maps-openlayers.html"><span>Course Home</span></a></li>
+<li class="active" ><a href="../../node/12927/document.html"><span>Course Material</span></a></li>
+<li ><a href="../../node/12927/forums.html"><span>Forums</span></a></li>
+</ul>
+</div>                            <div class="panel-flexible panels-flexible-17 clear-block" >
+<div class="panel-flexible-inside panels-flexible-17-inside">
+<div class="panels-flexible-region panels-flexible-region-17-left panels-flexible-region-first">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-17-left-inside panels-flexible-region-inside-first">
+<div class="panel-pane pane-views pane-course-documents-arg grey-panel" >
+  <div class="pane-inner">
+      
+          <h2 class="pane-title">Course Material</h2>
+      
+      
+    <div class="pane-content">
+      <div class="view view-course-documents-arg view-id-course_documents_arg view-display-id-block_2 view-dom-id-2">
+    
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../document/syllabus-online-maps-openlayers.html">Syllabus for Online Maps with OpenLayers</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="openstreetmap-how.html">An OpenStreetMap How-To</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="openlayers-topics.html">OpenLayers Topics</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="openlayers-walkthrough.html">OpenLayers Walkthrough</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="clickable-icons-openlayers.html">Clickable Icons in OpenLayers</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-6 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="chat-17-feb-2011-squashing-javascript-bugs-grassroots-mapping-loading-maps-through-json-or-kml.html">Chat 17 Feb 2011: Squashing JavaScript Bugs, Grassroots Mapping, Loading maps through JSON or KML</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="adding-dimension-lines-shapes-video-and-drawing.html">Adding Dimension: Lines, Shapes, Video, and Drawing</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-8 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="maps-coloring-and-highlighting-countries-chat-24-feb.html">Maps for Coloring and Highlighting Countries - Chat 24 Feb</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-9 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="just-time-openlayers-mobile-phone-features.html">Just in time: OpenLayers Mobile Phone Features</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-10 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="tiles-rasters-and-vectors-using-different-types-layers.html">Tiles, rasters, and vectors: Using different types of layers</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-11 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="creating-your-own-tile-and-vector-layers.html">Creating your own tile and vector layers</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-12 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="events-changing-your-map-and-listening-your-users.html">Events: changing your map and listening to your users</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-13 views-row-odd views-row-last">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="making-maps-google-docs-and-fusion-tables.html">Making maps with Google Docs and Fusion Tables</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>     </div>
+  
+      
+      </div>  
+</div>
+  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-17-center panels-flexible-region-last ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-17-center-inside panels-flexible-region-inside-last">
+<div class="panel-pane pane-node" >
+  <div class="pane-inner">
+      
+          <h2 class="pane-title">OpenLayers Walkthrough</h2>
+      
+      
+    <div class="pane-content">
+      <div id="node-26001" class="node node-document clear-block">
+
+  <h2 class="title"><a href="openlayers-walkthrough.html" title=""></a></h2>
+
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/ndoiron.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-7309.jpg" alt="Nick Doiron&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span class="created-date">Mon, 2011-02-07 18:44</span>
+  </div>
+
+  <div class="content">
+    <div class="field field-type-text field-field-document-body">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <div>
+	<br />
+	<span id="internal-source-marker_0.3178193955682218">(visit this page to see images, code highlighting, and formatting)
+<p>	So you want to make a webpage with an OpenLayers map:</p></span>
+<p>	<span>You can use </span><a href="http://jsfiddle.net/" rel="nofollow"><span>http://jsfiddle.net</span></a><span> to set up your page and show the code to us online. &nbsp;We&rsquo;ll explain how to get to this: </span><a href="http://jsfiddle.net/UAxun/45/" rel="nofollow"><span>http://jsfiddle.net/UAxun/45/</span></a><span> &nbsp;and you can send people a direct link to the viewer at </span><a href="http://jsfiddle.net/UAxun/45/show/light/" rel="nofollow"><span>http://jsfiddle.net/UAxun/45/show/light/</span></a></p>
+<p>	<span>1. Add OpenLayers JavaScript file</span></p>
+<p>	<span>Create your own jsFiddle page by going to jsFiddle.net. &nbsp;You can click </span><span>Run </span><span>on the top menu bar to test your code, then click </span><span>Save </span><span>or </span><span>Update </span><span>to get a URL to your work-in-progress.</span></p>
+<p>	<span>First: you need to import the OpenLayers library. &nbsp;In jsFiddle, you can add a script in the left column. Click &ldquo;Manage Resources&rdquo; and paste the URL </span><a href="http://openlayers.org/api/OpenLayers.js" rel="nofollow"><span>http://openlayers.org/api/OpenLayers.js</span></a><span> into the text box which appears. &nbsp;Then click the [+] button to add it.</span></p>
+<p>	<span>If you&rsquo;re making your own webpage, use this HTML: &lt;script type=&rdquo;text/javascript&rdquo; src=&rdquo;http://openlayers.org/api/OpenLayers.js&rdquo;&gt;&lt;/script&gt;</span></p>
+<p>	<span>2. Create the interactive Map object</span></p>
+<p>	<span>Now you&rsquo;re ready to embed an interactive map, using map tiles from OpenStreetMap. First, you need to create a place to put it. &nbsp;HTML forms the structure of the webpage. &nbsp;In jsFiddle, most of the HTML is written for you. &nbsp;Put this code into the top-left HTML box:</span></p>
+<p>	<span>&lt;</span><span>b</span><span>&gt;A Map using OpenLayers&lt;/</span><span>b</span><span>&gt;</span><br />
+	<span>&lt;</span><span>div </span><span>id</span><span>=</span><span>&quot;map-div&quot; </span><span>style</span><span>=</span><span>&quot;width:450px;height:430px;&quot;</span><span>&gt;&lt;/</span><span>div</span><span>&gt;</span></p>
+<p>	<span>The first line is some HTML to describe your page. &nbsp;We put it inside &lt;b&gt; tags so web browsers make it bold.</span></p>
+<p>	<span>The second line is an HTML block, known as a &lt;div&gt;, with dimensions 450 pixels by 430 pixels. &nbsp;This div has its id set to &rdquo;map-div&rdquo;. &nbsp;This becomes useful for our first line of JavaScript (bottom left section).</span></p>
+<p>	<span>map = </span><span>new </span><span>OpenLayers.Map({div:</span><span>&quot;map-div&quot;</span><span>});</span></p>
+<p>	<span>map is a variable, but instead of setting it to a number, we set it to a new OpenLayers.Map object. &nbsp;One of the requirements for creating this object is sending it the ID of the div it should go into. &nbsp;So we send it the word &ldquo;map-div&rdquo; inside quotes. &nbsp;These words-in-quotes are called &ldquo;strings&rdquo; because the computer sees them as a list of letters.</span></p>
+<p>	<span>3. Put OpenStreetMap onto your Map</span></p>
+<p>	<span>You can try Run right now to see your OpenLayers controls, but your map will be empty without any sources. Our first source is going to be tiles from OpenStreetMap. &nbsp;When we stack, mix, and match different sources on top of the map, so we call them layers. &nbsp;Our first layer is the base layer of our map, which we&#39;ll build up from in the future.</span></p>
+<p>	<img height="221px;" src="https://lh6.googleusercontent.com/NS027nd6nTWw-z_a9Kdkc8-OGnYb3dQWG3kyHJ9RtEk-9zMGFrW_7J3ORy_t9x3DrsasVxNfiRVciAE2fnbceiKE7PshiY6FqPIzzopg4KsugacOr6g" width="200px;" /></p>
+<p>
+	<span>Since we&rsquo;ve all used the free editable OpenStreetMap.org (OSM), that&rsquo;s the layer we&rsquo;ll use. &nbsp;The combination of these two maps is very common, so creating it and adding it to our map variable is easy.</span></p>
+<p>	<span>var </span><span>osm = </span><span>new </span><span>OpenLayers.Layer.OSM();</span><br />
+	<span>map.addLayer(osm);</span></p>
+<p>	<span>We&rsquo;re not quite done yet. &nbsp;The map doesn&rsquo;t know where to center and zoom yet. &nbsp;Let&rsquo;s add this line so we tell it to zoom to see everything.</span></p>
+<p>	<span>map.zoomToMaxExtent();</span></p>
+<p>	<span>That&rsquo;s really handy to know, but what other functions can this OpenLayers.Map object do? &nbsp;Every object in the OpenLayers API has a page, documenting how to create it and how to interact with it. &nbsp;Here&rsquo;s the page for OpenLayers.Map objects: </span><a href="http://dev.openlayers.org/docs/files/OpenLayers/Map-js.html" rel="nofollow"><span>dev.openlayers.org/docs/files/OpenLayers/Map-js.html</span></a></p>
+<p>
+	<span>4. Centering the Map</span></p>
+<p>	<span>Suppose we want to center the map on Cowboy Stadium in Dallas. &nbsp;I typed the address into </span><a href="http://geohash.org/" rel="nofollow"><span>http://geohash.org</span></a><span> and got the latitude 32.7478770 and longitude &nbsp;-97.0928440.</span><span>&nbsp;&nbsp;</span><span>How many digits do you need? &nbsp;Using 6 digits after the decimal point gives you around 1 meter accuracy (though this depends on where you are in the world). &nbsp;Most GPS devices are less accurate than that, so you don&#39;t need to add more digits.</span></p>
+<p>	<span>If you look in the OpenLayers.Map reference </span><a href="http://dev.openlayers.org/docs/files/OpenLayers/Map-js.html" rel="nofollow"><span>dev.openlayers.org/docs/files/OpenLayers/Map-js.html</span></a><span> you&rsquo;ll see that there&rsquo;s a setCenter function with this description:</span></p>
+<p>	<span>Set the map center (and optionally, the zoom level).</span></p>
+<h4>
+		<span>Parameters</span></h4>
+<table>
+<colgroup>
+			<col width="210" /><br />
+			<col width="351" /><br />
+		</colgroup>
+<tbody>
+<tr>
+<td>
+<h4>
+						<span>lonlat</span></h4>
+</td>
+<td>
+<h4>
+						<span>{</span><a href="http://dev.openlayers.org/docs/files/OpenLayers/BaseTypes/LonLat-js.html#OpenLayers.LonLat" rel="nofollow"><span>OpenLayers.LonLat</span></a><span>} The new center location.</span></h4>
+</td>
+</tr>
+<tr>
+<td>
+<h4>
+						<span>zoom</span></h4>
+</td>
+<td>
+<h4>
+						<span>{Integer} Optional zoom level.</span></h4>
+</td>
+</tr>
+<tr>
+<td>
+<h4>
+						<span>dragging</span></h4>
+</td>
+<td>
+<h4>
+						<span>{Boolean} Specifies whether or not to trigger movestart/end events</span></h4>
+</td>
+</tr>
+<tr>
+<td>
+<h4>
+						<span>forceZoomChange</span></h4>
+</td>
+<td>
+<h4>
+						<span>{Boolean} Specifies whether or not to trigger zoom change events (needed on baseLayer change)</span></h4>
+</td>
+</tr>
+</tbody>
+</table>
+<p>
+	<span>Only the first variable, lonlat, is required, but we&rsquo;ll also zoom at the same time. &nbsp;That means the line we&rsquo;re writing will be</span></p>
+<p>	<span>map.setCenter(centerlonlat,zoom);</span></p>
+<p>	<span>Let&rsquo;s create the </span><span>centerlonlat </span><span>and </span><span>zoom </span><span>variables. &nbsp;Zoom needs to be an integer, so we&rsquo;ll simply add a line before setMap that says</span></p>
+<p>	<span>var zoom=15;</span></p>
+<p>	<span>The center point has to be an OpenLayers.LonLat object, which can be created with longitude and latitude decimal numbers.</span></p>
+<p>	<span>var longitude = -97.0928440;</span><br />
+	<span>var latitude = 32.7478770;</span><br />
+	<span>var centerlonlat = new OpenLayers.LonLat( longitude , latitude );</span></p>
+<p>	<span>This next step will be explained shortly. &nbsp;For now, just use it to adjust your map. &nbsp;Change the map-creation line of your site to use two new variables:</span></p>
+<p>	<span>map = new OpenLayers.Map({</span><br />
+	<span> &nbsp;&nbsp;&nbsp;div: &quot;map-div&quot;,</span><br />
+	<span> &nbsp;&nbsp;&nbsp;projection: new OpenLayers.Projection(&#39;EPSG:900913&#39;),</span><br />
+	<span> &nbsp;&nbsp;&nbsp;&#39;displayProjection&#39;: new OpenLayers.Projection(&#39;EPSG:4326&#39;)</span><br />
+	<span>});</span></p>
+<p>	<span>And after the line where you created centerlonlat, but before map.setCenter, add this line:</span></p>
+<p>	<span>centerlonlat=centerlonlat.transform(map.displayProjection, map.projection);</span></p>
+<p>	<span>You now should have code looking like this example: </span><a href="http://jsfiddle.net/UAxun/46/" rel="nofollow"><span>http://jsfiddle.net/UAxun/46/</span></a></p>
+<p>	<span>What are those projections and transforms for?</span></p>
+<p>	<span>Whenever you make a flat, 2D map of Earth, you need to choose a projection such as Mercator or Peters to make it fit on one page. &nbsp;The earth is not a perfect sphere, so specialists have chosen different methods to place latitude and longitude lines. &nbsp;For example, &ldquo;local&rdquo; coordinate systems are offset from the Earth&rsquo;s center to make a single part of the map -- such as North America or Europe -- closer to a true sphere (the red coordinate system matching the top left of the circle below), but they are unusually offset in other parts of the world. &nbsp;Other coordinate systems use the true center of the Earth, but are distorted at the equator and the poles.</span></p>
+<p>	<img height="150px;" src="https://lh3.googleusercontent.com/cIiYhoAPmBYkf00cvReN-F7_rP61580ejOM2abAJKU5zo74is4juX3xo3qmrxOf_MkcFEFfOFbR-Cs52JrDukvYWQ0BvTnecIuYk4BU8t03a96WpokM" width="326px;" /></p>
+<p>	<span>If you use two coordinate systems on your map, or use one with meters for units and another with miles, they won&rsquo;t line up properly. &nbsp;To easily use OpenStreetMap and OpenLayers, we&rsquo;re going to use a projection that uses latitude and longitude degrees, then convert them to a more common projection. &nbsp;</span><span>You rarely memorize projections. &nbsp;I used these projections because they are suggested by the example on wiki.OpenStreetMap.org. &nbsp;Whenever you get a new source of geodata, it will give you a projection, or you can search and find its projection, or just check to see if their data lines up with your map.</span></p>
+<p>	<span>The projections that we are using were suggested by OpenStreetMap&rsquo;s article on OpenLayers: </span><a href="http://wiki.openstreetmap.org/wiki/OpenLayers_Simple_Example#A_little_more_extensive_example" rel="nofollow"><span>http://wiki.openstreetmap.org/wiki/OpenLayers_Simple_Example#A_little_more_extensive_example</span></a></p></div>
+        </div>
+        </div>
+</div>
+  </div>
+  
+
+<ul class="links inline"><li class="p2pu_revisions first last"><a href="../../node/26001/revisions@destination=node%252F12927%252Fdocument%252F26001.html">revisions</a></li>
+</ul>
+</div>
+    </div>
+  
+      
+      </div>  
+</div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-views pane-panel-comments" >
+  <div class="pane-inner">
+      
+          <h2 class="pane-title">Comments</h2>
+      
+      
+    <div class="pane-content">
+      <div class="view view-panel-comments view-id-panel_comments view-display-id-default view-dom-id-1">
+    
+  
+  
+      <div class="view-content">
+        <div class="views-row views-row-1 views-row-odd views-row-first">
+    <a id="comment-10408"></a>
+<div class="comment comment-10408 comment-published odd first comment-by-author clear-block">
+  
+      <h3 class="title">
+      <a href="openlayers-walkthrough.html#comment-10408" class="active">To see the OpenLayers</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/ndoiron.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-7309.jpg" alt="Nick Doiron&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/ndoiron.html" title="View user profile.">Nick Doiron</a><div id='comment-submitted-date'>
+Mon, 2011-02-07 18:47</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>To see the OpenLayers Walkthrough with proper formatting, use this link: <a href="https://docs.google.com/document/pub?id=1-T42OaXSCB0nXtC607kE8ecFZrRMJqbr0B_Vq8_ThRY" title="https://docs.google.com/document/pub?id=1-T42OaXSCB0nXtC607kE8ecFZrRMJqbr0B_Vq8_ThRY" rel="nofollow">https://docs.google.com/document/pub?id=1-T42OaXSCB0nXtC607kE8ecFZrRMJqb...</a></p>
+<p>'Adding icons to the map' will be published soon.</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="openlayers-walkthrough.html#comment-10408" class="active">link to this comment</a></li>
+</ul></div>  </div>
+  <div class="views-row views-row-2 views-row-even">
+    <a id="comment-10410"></a>
+<div class="comment comment-10410 comment-published even clear-block">
+  
+      <h3 class="title">
+      <a href="openlayers-walkthrough.html#comment-10410" class="active">nice write-up Nick; thanks</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/seanhorgan.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Sean Horgan&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/seanhorgan.html" title="View user profile.">Sean Horgan</a><div id='comment-submitted-date'>
+Mon, 2011-02-07 19:45</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>nice write-up Nick; thanks for the google docs link as well.</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="openlayers-walkthrough.html#comment-10410" class="active">link to this comment</a></li>
+</ul></div>  </div>
+  <div class="views-row views-row-3 views-row-odd views-row-last">
+    <a id="comment-10968"></a>
+<div class="comment comment-10968 comment-published odd last clear-block">
+  
+      <h3 class="title">
+      <a href="openlayers-walkthrough.html#comment-10968" class="active">Until I went through this</a>          </h3>
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/copystar.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-1681.jpg" alt="Mita Williams&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/copystar.html" title="View user profile.">Mita Williams</a><div id='comment-submitted-date'>
+Tue, 2011-02-15 03:32</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Until I went through this exercise, I couldn't quite wrap my mind on what jsFiddle was. Now, I find I really like this environment to work and play around in. I might be using jsFiddle quite a bit after this course is done!</p>
+  </div>
+
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="openlayers-walkthrough.html#comment-10968" class="active">link to this comment</a></li>
+</ul></div>  </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>     </div>
+  
+      
+      </div>  
+</div>
+  </div>
+</div>
+</div>
+</div>
+                                        </div>
+          </div><!-- /content-column -->
+  
+                  </div>
+        
+                  
+      </div><!-- /page-body -->
+  
+              <div id="page-footer">
+          <div class="inner">
+            <div class="message">
+                            <div id='creative-commons'>
+                <div class='p2pu-cc-text'>
+                  <a href="../../../license.html">License Information</a> - <a href="../../../privacy.html">Privacy Guidelines</a> - <a href="../../../terms-of-use.html">Terms of Use</a>
+                </div><br>
+<div id='cc-logo'>
+
+<a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license" target="_blank"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
+               <div class="p2pu-cc-text">Except where otherwise noted, all content on <span dct="http://purl.org/dc/terms/" property="title">p2pu.org</span> is
+licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license" target="_blank">Creative Commons Attribution-ShareAlike 3.0 Unported
+License</a>.</div>
+
+                </div>
+              </div>             </div>
+              <div id="block-user_voice-0" class="block block-user_voice">
+<!-- wrappers -->
+
+  <h2 class="title"><none></h2>
+  <div class="content"><script type="text/javascript">
+var uservoiceJsHost = ("https:" == document.location.protocol) ? "https://uservoice.com" : "http://cdn.uservoice.com";
+document.write(unescape("%3Cscript src='" + uservoiceJsHost + "/javascripts/widgets/tab.js' type='text/javascript'%3E%3C/script%3E"))
+</script>
+<script type="text/javascript">
+UserVoice.Tab.show({ 
+  key: 'p2pu',
+  host: 'p2pu.uservoice.com', 
+  forum: '47491', 
+  alignment: 'left',
+  background_color:'#F00', 
+  text_color: 'white',
+  hover_color: '#06C',
+  lang: 'en'
+})
+</script></div>
+  
+<!-- /wrappers -->
+</div>          </div>
+        </div>
+      
+  </div><!-- /page -->
+  
+  <script type="text/javascript">
+  var _sf_async_config=Drupal.settings.chartbeat;
+  (function(){
+    function loadChartbeat() {
+      window._sf_endpt=(new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src',
+         (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+         "static.chartbeat.com/js/chartbeat.js");
+      document.body.appendChild(e);
+    }
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+       loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+</script>
+<!--[if lt IE 8]><style type="text/css">div.popup-element{ display: inline;}</style><![endif]-->
+</body>
+</html>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/general/taxonomy/term/311/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Concern over my learning style</title>
+ <link>http://archive.p2pu.org/general/diy-math/discussion/concern-over-my-learning-style</link>
+ <description>&lt;p&gt;I think that I&amp;#39;ve most struggled with math because of the way I learn. If I can use it and play around with it I can learn it for life. I&amp;#39;m not very good at just memorizing stuff and using it later. Which is why I find programming so easy for me, you give me the problem and I can do some research and then build it myself with every tool known at my disposal. I think that is what sets it apart from arithmetic is that there&amp;#39;s little fog of war, no curtain blocking half of the building blocks I could use to reach an answer.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/diy-math&quot;&gt;DIY Math&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/general/diy-math/discussion/concern-over-my-learning-style&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/general/diy-math/discussion/concern-over-my-learning-style#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/311">General discussion</category>
+ <group domain="http://archive.p2pu.org/general/diy-math" xmlns="http://drupal.org/project/og">DIY Math</group>
+ <pubDate>Wed, 15 Sep 2010 23:45:57 +0000</pubDate>
+ <dc:creator>Isaiah Gilliland</dc:creator>
+ <guid isPermaLink="false">9183 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

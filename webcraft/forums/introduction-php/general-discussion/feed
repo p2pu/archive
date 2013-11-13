@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/webcraft/taxonomy/term/463/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Week 2 assignment</title>
+ <link>http://archive.p2pu.org/webcraft/introduction-php/discussion/week-2-assignment</link>
+ <description>&lt;p&gt;Here&amp;#39;s my codepad of the last question.&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://codepad.org/TygoR2G5&quot; rel=&quot;nofollow&quot;&gt;http://codepad.org/TygoR2G5&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;How do we get apostrophes in variable names?&lt;/p&gt;
+&lt;p&gt;For the creation of the last portion...the url, I put the &amp;#39;dot&amp;#39; of the dot org and of the &amp;nbsp;&amp;#39;www.&amp;#39; &amp;nbsp;inside the variables. Would like to see how others are handling the url creation.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/introduction-php&quot;&gt;Introduction to PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/introduction-php/discussion/week-2-assignment#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/463">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/introduction-php" xmlns="http://drupal.org/project/og">Introduction to PHP</group>
+ <pubDate>Mon, 31 Jan 2011 00:33:38 +0000</pubDate>
+ <dc:creator>Son Tran</dc:creator>
+ <guid isPermaLink="false">25521 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Important: New Forum</title>
+ <link>http://archive.p2pu.org/webcraft/introduction-php/discussion/important-new-forum</link>
+ <description>&lt;p&gt;&lt;a&gt;http://bit.ly/intro2php&lt;/a&gt; (opens in separate window)&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/introduction-php&quot;&gt;Introduction to PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/introduction-php/discussion/important-new-forum&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/introduction-php/discussion/important-new-forum#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/463">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/introduction-php" xmlns="http://drupal.org/project/og">Introduction to PHP</group>
+ <pubDate>Fri, 28 Jan 2011 17:57:45 +0000</pubDate>
+ <dc:creator>Fergus Gibson</dc:creator>
+ <guid isPermaLink="false">25348 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>[Tousif&#039;s Section] New forum</title>
+ <link>http://archive.p2pu.org/webcraft/introduction-php/discussion/tousifs-section-new-forum</link>
+ <description>&lt;p&gt;Hi&lt;/p&gt;
+&lt;p&gt;Well, we have got a new forum for our section. Its gonna be our long-time discussions part &lt;img alt=&quot;smiley&quot; height=&quot;20&quot; src=&quot;http://p2pu.org/sites/p2pu.org/modules/ckeditor/ckeditor/plugins/smiley/images/regular_smile.gif&quot; title=&quot;smiley&quot; width=&quot;20&quot; /&gt; . I first thought of going for Google Groups but it didn&amp;#39;t really made me comfortable so I am gonna go with this.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/introduction-php&quot;&gt;Introduction to PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/introduction-php/discussion/tousifs-section-new-forum&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/introduction-php/discussion/tousifs-section-new-forum#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/463">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/introduction-php" xmlns="http://drupal.org/project/og">Introduction to PHP</group>
+ <pubDate>Wed, 26 Jan 2011 21:11:58 +0000</pubDate>
+ <dc:creator>tousif baig</dc:creator>
+ <guid isPermaLink="false">25081 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>(Matt&#039;s Section) Google Group</title>
+ <link>http://archive.p2pu.org/webcraft/introduction-php/discussion/matts-section-google-group</link>
+ <description>&lt;p&gt;Hi everyone,&lt;/p&gt;
+&lt;p&gt;If you&amp;#39;re a member of my section, please sign up for the Google Group for our section --&amp;nbsp;&lt;a href=&quot;http://groups.google.com/group/intro2php-matt-2011-01&quot; rel=&quot;nofollow&quot;&gt;http://groups.google.com/group/intro2php-matt-2011-01&lt;/a&gt;. &amp;nbsp;This forum is going to get really crowded really fast if all five sections post everything here. &amp;nbsp;This will also provide an easy way for me to broadcast a message to our section specifically without spamming the whole course.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/introduction-php&quot;&gt;Introduction to PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/introduction-php/discussion/matts-section-google-group&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/introduction-php/discussion/matts-section-google-group#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/463">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/introduction-php" xmlns="http://drupal.org/project/og">Introduction to PHP</group>
+ <pubDate>Tue, 25 Jan 2011 18:14:51 +0000</pubDate>
+ <dc:creator>Matthew Buscemi</dc:creator>
+ <guid isPermaLink="false">24851 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>&lt;&lt;Fergus&#039;s Section&gt;&gt; Week 1 Meeting</title>
+ <link>http://archive.p2pu.org/webcraft/introduction-php/discussion/ferguss-section-week-1-meeting</link>
+ <description>&lt;p&gt;Please head over to this link, and indicate when you&amp;#39;d like to meet. In order to maximize our opportunities for Jan 26 - Feb 2, &lt;em&gt;please do this as soon as possible.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://whenisgood.net/ferg-intro-php&quot; rel=&quot;nofollow&quot;&gt;http://whenisgood.net/ferg-intro-php&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I&amp;#39;ll post in this thread when a date and time have been chosen.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I recommend you subscribe to email updates from this forum.&lt;/p&gt;
+&lt;p&gt;I&amp;#39;m looking forward to meeting all of you. Thanks.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/introduction-php&quot;&gt;Introduction to PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/introduction-php/discussion/ferguss-section-week-1-meeting#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/463">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/introduction-php" xmlns="http://drupal.org/project/og">Introduction to PHP</group>
+ <pubDate>Mon, 24 Jan 2011 18:48:00 +0000</pubDate>
+ <dc:creator>Fergus Gibson</dc:creator>
+ <guid isPermaLink="false">24550 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>[Tousif&#039;s Section] Weekend&#039;s Fun</title>
+ <link>http://archive.p2pu.org/webcraft/introduction-php/discussion/tousifs-section-weekends-fun</link>
+ <description>&lt;p&gt;
+	Hey guys,&lt;/p&gt;
+&lt;p&gt;	I guess everybody is as excited as me to get started on this. &lt;img alt=&quot;cheeky&quot; height=&quot;20&quot; src=&quot;http://p2pu.org/sites/p2pu.org/modules/ckeditor/ckeditor/plugins/smiley/images/tounge_smile.gif&quot; title=&quot;cheeky&quot; width=&quot;20&quot; /&gt; A little more patience and we will get started on this soon.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/introduction-php&quot;&gt;Introduction to PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/introduction-php/discussion/tousifs-section-weekends-fun&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/introduction-php/discussion/tousifs-section-weekends-fun#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/463">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/introduction-php" xmlns="http://drupal.org/project/og">Introduction to PHP</group>
+ <pubDate>Mon, 24 Jan 2011 13:48:00 +0000</pubDate>
+ <dc:creator>tousif baig</dc:creator>
+ <guid isPermaLink="false">24481 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>{Amy&#039;s Section} Intro to PHP Weekly Meeting</title>
+ <link>http://archive.p2pu.org/webcraft/introduction-php/discussion/amys-section-intro-php-weekly-meeting</link>
+ <description>&lt;p&gt;Hey all! &amp;nbsp;Welcome to our little section of the great Intro to PHP course!&lt;/p&gt;
+&lt;p&gt;Here&amp;#39;s some steps:&lt;/p&gt;
+&lt;p&gt;1. Make sure you&amp;#39;re in my section by checking your username against this list:&lt;br /&gt;
+&lt;a href=&quot;http://p2pu.org/webcraft/node/13221/document/24157&quot; rel=&quot;nofollow&quot;&gt;http://p2pu.org/webcraft/node/13221/document/24157&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/introduction-php&quot;&gt;Introduction to PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/introduction-php/discussion/amys-section-intro-php-weekly-meeting&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/introduction-php/discussion/amys-section-intro-php-weekly-meeting#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/463">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/introduction-php" xmlns="http://drupal.org/project/og">Introduction to PHP</group>
+ <pubDate>Mon, 24 Jan 2011 04:10:16 +0000</pubDate>
+ <dc:creator>Amy Donahue</dc:creator>
+ <guid isPermaLink="false">24404 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>{ Saulo&#039;s SECTION } First Meeting Intro PHP course with Saulo</title>
+ <link>http://archive.p2pu.org/webcraft/introduction-php/discussion/saulos-section-first-meeting-intro-php-course-saulo</link>
+ <description>&lt;div&gt;
+	&lt;br /&gt;
+	Hi dears,&amp;nbsp;
+&lt;p&gt;	First I would like to greet you all in the PHP course.&amp;nbsp;&lt;br /&gt;
+	For organizing reasons, I need you to check if you are really in my class in the below and if so:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+			then go to this link:&amp;nbsp;http://whenisgood.net/intro-php-saulo&lt;/li&gt;
+&lt;li&gt;
+			and select the time you can have a meeting...&amp;nbsp;&amp;nbsp;This link will show you my
+&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/introduction-php&quot;&gt;Introduction to PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/introduction-php/discussion/saulos-section-first-meeting-intro-php-course-saulo&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/introduction-php/discussion/saulos-section-first-meeting-intro-php-course-saulo#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/463">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/introduction-php" xmlns="http://drupal.org/project/og">Introduction to PHP</group>
+ <pubDate>Sun, 23 Jan 2011 22:58:24 +0000</pubDate>
+ <dc:creator>saulo venancio</dc:creator>
+ <guid isPermaLink="false">24322 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Profile Pictures!</title>
+ <link>http://archive.p2pu.org/webcraft/introduction-php/discussion/profile-pictures</link>
+ <description>&lt;p&gt;Once again, welcome to Introduction to PHP!&lt;/p&gt;
+&lt;p&gt;If you haven&amp;#39;t done so already, please update your P2PU profile to include a profile picture and a few sentences about yourself. &amp;nbsp;A big part of P2PU and this course is community, and as community members, we want to know a little bit about you and who you are.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/introduction-php&quot;&gt;Introduction to PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/introduction-php/discussion/profile-pictures#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/463">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/introduction-php" xmlns="http://drupal.org/project/og">Introduction to PHP</group>
+ <pubDate>Sun, 23 Jan 2011 19:32:20 +0000</pubDate>
+ <dc:creator>Matthew Buscemi</dc:creator>
+ <guid isPermaLink="false">24292 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>(Matt&#039;s Section) Week 1 Meeting Time</title>
+ <link>http://archive.p2pu.org/webcraft/introduction-php/discussion/matts-section-week-1-meeting-time</link>
+ <description>&lt;p&gt;Hi everyone. &amp;nbsp;We need to come up with a time for our course to meet on a weekly basis for about one hour. &amp;nbsp;Unfortunately, I live in one of the strangest timezones in the world. &amp;nbsp;I also have a full time job. &amp;nbsp;Put those together, and we&amp;#39;ll have an interesting time coming up with a time we can all meet. &amp;nbsp;Please highlight all the times you could possibly meet here:&amp;nbsp;&lt;a href=&quot;http://whenisgood.net/4ap4ab7&quot; rel=&quot;nofollow&quot;&gt;http://whenisgood.net/4ap4ab7&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/introduction-php&quot;&gt;Introduction to PHP&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/introduction-php/discussion/matts-section-week-1-meeting-time&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/introduction-php/discussion/matts-section-week-1-meeting-time#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/463">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/introduction-php" xmlns="http://drupal.org/project/og">Introduction to PHP</group>
+ <pubDate>Sun, 23 Jan 2011 18:40:00 +0000</pubDate>
+ <dc:creator>Matthew Buscemi</dc:creator>
+ <guid isPermaLink="false">24283 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

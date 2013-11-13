@@ -1,0 +1,1993 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="p2pu" xml:lang="p2pu">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Introduction to Ruby and Rails | P2PU Archive</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<link rel="shortcut icon" href="../../../sites/archive.p2pu.org/themes/p2pu10/favicon.ico" type="image/x-icon" />
+<link type="text/css" rel="stylesheet" media="all" href="../../../sites/archive.p2pu.org/modules/codefilter/codefilter.css@I.css" />
+<link type="text/css" rel="stylesheet" media="all" href="../../../sites/archive.p2pu.org/files/ctools/css/f9c0525ea96024cc465a6c7e4de5095d.css@I.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../../../sites/archive.p2pu.org/modules/popup/popup.css@I.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../../../sites/archive.p2pu.org/modules/popup/styles/Soft&#32;grey&#32;frame/popup-style.css@I.css" />
+<link type="text/css" rel="stylesheet" media="all" href="../../../sites/archive.p2pu.org/files/css/css_017e23d6be4eafdc5e3ce1c28c87f43c.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../../../sites/archive.p2pu.org/files/css/css_23213a44f12b0d9125523bb3c342e2a6.css" />
+<script type="text/javascript" src="../../../sites/archive.p2pu.org/files/js/js_f9571e8f689e0561a88ad14078625551.js"></script>
+<script type="text/javascript" src="../../../sites/archive.p2pu.org/modules/popup/popup.js@1381229813"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "chartbeat": { "uid": 10678, "domain": "p2pu.org" }, "dhtmlMenu": { "slide": "slide", "doubleclick": "doubleclick", "siblings": 0, "relativity": 0, "children": 0, "clone": 0 }, "extlink": { "extTarget": 0, "extClass": "ext", "extSubdomains": 1, "extExclude": "", "extInclude": "", "extAlert": 0, "extAlertText": "This link will take you to an external web site. We are not responsible for their content.", "mailtoClass": "mailto" }, "views": { "ajax_path": [ "/webcraft/views/ajax", "/webcraft/views/ajax" ], "ajaxViews": [ { "view_name": "course_forum_posts", "view_display_id": "panel_pane_2", "view_args": "13622", "view_path": "node/13622/forums/22883", "view_base_path": null, "view_dom_id": 1, "pager_element": 0 }, { "view_name": "course_forum_posts", "view_display_id": "panel_pane_1", "view_args": "13622", "view_path": "node/13622/forums/22883", "view_base_path": null, "view_dom_id": 2, "pager_element": 0 } ] }, "popup": { "hoverLinger": "250" }, "og": { "group_context": { "nid": "13622", "title": "Introduction to Ruby and Rails", "type": "course" } } });
+//--><!]]>
+</script>
+</head>
+
+<body class="not-front not-logged-in page-node no-sidebars p2pu-context-course-section-webcraft og-context og-context-13622  ">
+
+  <div id="page">
+     <!--style = "display:none;"-->
+      <div id="top-notification" class="p2pu-notification">
+        <p>This is the P2PU Archive. If you want the current site, go to <a href="http://www.p2pu.org" rel="nofollow">www.p2pu.org!</a></p>
+      </div>     
+      <div id="page-header" class="float-container">
+
+        <div id="logo"><a title="webcraft Home" href="../../../webcraft.1.html"><img alt="P2PU Home" src="../../../sites/archive.p2pu.org/themes/p2pu10/images/logos/logo-section-webcraft.png"></a></div>
+        <div id="slogan"></div>
+        <div id="region-header"></div>
+
+              </div><!-- /page-header -->
+
+      <div id="navigation">
+        <div class="primary">  <div id="block-menu-menu-webcraft" class="block block-menu">
+<!-- wrappers -->
+
+
+  <div class="content"><ul class="menu"><li class="leaf first dhtml-menu "><a href="../../../index.html" title="P2PU home page" id="dhtml_menu-17129"><span>P2PU Home</span></a></li>
+<li class="leaf last dhtml-menu "><a href="../../course/list.html" title="Webcraft course listing." id="dhtml_menu-17128"><span>Courses</span></a></li>
+</ul></div>
+  
+<!-- /wrappers -->
+</div></div>        <form action="introductions.html"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-4cc5d7840ec21a05c5b28854a2de9320" value="form-4cc5d7840ec21a05c5b28854a2de9320"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+      </div><!-- /Navigation -->
+
+      <div id="page-sub-header"></div>
+
+      <div id="page-body" class="float-container page-body-top">
+        <div id="page-sub-body">
+  
+          <div id="content-column">
+            <div class="inner">
+                            
+              <h1 class="title">Introduction to Ruby and Rails</h1>                                                        <div class="tabs float-container"><ul class="tabs primary">
+<li ><a href="../../introduction-ruby-and-rails.html"><span>Course Home</span></a></li>
+<li ><a href="../../node/13622/document.html"><span>Course Material</span></a></li>
+<li class="active" ><a href="../../node/13622/forums.html"><span>Forums</span></a></li>
+</ul>
+</div>                            <div class="panel-flexible panels-flexible-40 clear-block" >
+<div class="panel-flexible-inside panels-flexible-40-inside">
+<div class="panels-flexible-region panels-flexible-region-40-left_ panels-flexible-region-first">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-40-left_-inside panels-flexible-region-inside-first">
+<div class="panel-pane pane-views-panes pane-course-forum-posts-panel-pane-2 grey-panel" >
+  <div class="pane-inner">
+      
+          <h2 class="pane-title">My recent threads</h2>
+      
+      
+    <div class="pane-content">
+      <div class="view view-course-forum-posts view-id-course_forum_posts view-display-id-panel_pane_2 view-dom-id-1">
+    
+  
+  
+      <div class="view-empty">
+      <p>You haven't posted any discussions yet.</p>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>     </div>
+  
+      
+      </div>  
+</div>
+<div class="panel-region-separator"></div><div class="panel-pane pane-views-panes pane-course-forum-posts-panel-pane-1 grey-panel" >
+  <div class="pane-inner">
+      
+          <h2 class="pane-title">Recently updated threads</h2>
+      
+      
+    <div class="pane-content">
+      <div class="view view-course-forum-posts view-id-course_forum_posts view-display-id-panel_pane_1 view-dom-id-2">
+    
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="introductions.html">Introductions</a></span>
+  </span>
+  
+  <span class="views-field-last-updated">
+                <span class="field-content">Thu, 2011-02-03 13:39</span>
+  </span>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="intro-git.html">Intro to Git</a></span>
+  </span>
+  
+  <span class="views-field-last-updated">
+                <span class="field-content">Thu, 2011-01-20 06:34</span>
+  </span>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="fonts.html">Fonts.</a></span>
+  </span>
+  
+  <span class="views-field-last-updated">
+                <span class="field-content">Thu, 2011-01-20 06:33</span>
+  </span>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="regarding-jruby.html">Regarding JRuby</a></span>
+  </span>
+  
+  <span class="views-field-last-updated">
+                <span class="field-content">Wed, 2011-01-19 16:28</span>
+  </span>
+</li>
+          <li class="views-row views-row-5 views-row-odd views-row-last">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="changes-sign-task.html">Changes to Sign Up Task</a></span>
+  </span>
+  
+  <span class="views-field-last-updated">
+                <span class="field-content">Wed, 2011-01-19 02:17</span>
+  </span>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>     </div>
+  
+      
+      </div>  
+</div>
+  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-40-right panels-flexible-region-last">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-40-right-inside panels-flexible-region-inside-last">
+<div class="panel-pane pane-panels-mini pane-forum-post-and-comments orange-panel"  id="forum-post-and-comments-mini-panel">
+  <div class="pane-inner">
+      
+      
+      
+    <div class="pane-content">
+      <div class="panel-display panel-1col clear-block" id="mini-panel-forum_post_and_comments">
+  <div class="panel-panel panel-col">
+    <div><div class="panel-pane pane-block pane-p2pu-2 white-on-orange-panel" >
+  <div class="pane-inner">
+      
+          <h2 class="pane-title">Introductions</h2>
+      
+      
+    <div class="pane-content">
+      <div id="node-22883" class="node node-forum clear-block">
+
+
+  <div class="meta">
+          <span class="submitted"><div class="picture">
+  <a href="../../../users/alindeman.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-6964.jpg" alt="Andy Lindeman&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+ <a href="../../users/alindeman.html" title="View user profile.">Andy Lindeman</a> on Wed, 2011-01-19 20:24</span>
+    </div>
+
+  <div class="content">
+    <!-- Removed the terms - just display the link to the forum -->
+    <span class="terms"><a href="../../node/13622/forums.html">Go back to: General discussion</a></span>
+
+    <p>Hi all. &nbsp;We&#39;ll mostly use the <a href="http://groups.google.com/group/p2pu-rubyrails-jan2011" rel="nofollow">Google Group</a>&nbsp;for discussions, but because this kind of message where I want everyone to respond would generate a lot of noise, I&#39;m going to use the P2PU forums.</p>
+<p>I think it&#39;d be great for everyone to give a short introduction of himself or herself to the group.</p>
+<p>This is a public forum, so only disclose as much information as you feel comfortable with.</p>
+<p>Feel free to structure it like this, or go free form:<br />
+---------------------------------------------------------------<br />
+<strong>Personal Background:</strong></p>
+<p>Technical Background/Experience Level:</p>
+<p>Blog/Website URLs:</p>
+<p>Purpose For Taking This Course:</p>
+  <div class="forum-topic-navigation clear-block">
+              <a href="intro-git.html" class="topic-next" title="Go to next forum topic">Intro to Git ›</a>
+      </div>
+  </div>
+  <div class="node-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+
+</div>
+
+
+</div>
+
+<div id="comments">
+  <a id="comment-6896"></a>
+<div class="comment comment-6896 comment-published odd first clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/jeremybrooks.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-10462.jpg" alt="Jeremy Brooks&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/jeremybrooks.html" title="View user profile.">Jeremy Brooks</a><div id='comment-submitted-date'>
+Wed, 2011-01-19 20:46</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi,</p>
+<p>I'm a senior software engineer working in San Francisco. The majority of my work involves server-side Java programs (J2SE) that process and deliver time-sensitive news releases, and I have done a little work with Struts. In my spare time I develop desktop apps in Java, iPhone apps, and obsessively photograph everything I see.</p>
+<p>You can find links to my flickr/twitter/etc here:<br />
+<a href="http://about.me/jeremybrooks" title="http://about.me/jeremybrooks" rel="nofollow">http://about.me/jeremybrooks</a></p>
+<p>Web development is definitely a weak spot in my software engineering skill set. The P2PU format is a method of learning that appeals to me, and will be exactly the thing I need to jump into the Ruby/Rails world.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6896" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6898"></a>
+<div class="comment comment-6898 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/lightmanx5.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9848.jpg" alt="Josh&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/lightmanx5.html" title="View user profile.">Josh</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 01:08</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p><strong>Personal background:</strong> Hi, I'm Josh! I'm 27 years old, married to Serena and we have a son Levi who lights up our life and wears us out, haha!  I love playing guitar, listening to music, and PROGRAMMING :)  I've spent some time in Taiwan, and I want to be fluent in Chinese (Mandarin) someday.</p>
+<p><strong>Technical Background/Experience Level:</strong>
+<ul>
+<li>I've been programming since I was about 8.  I started writing <strong>batch files in DOS</strong> which were just basic menus for my family <small>(<em>since they didn't know how to navigate the command line</em>)</small>. Then I moved on to learning <strong>QBASIC</strong> and even programming simple songs with it.</li>
+<p></p>
+<li>I started learning <strong>HTML</strong> around the age of 13.  I was my high school's webmaster my senior year 2000-2001.  In my sophomore year I took AP Computer Science A, which taught a lot about programming ideas and we used <strong>C++</strong> to practice those ideas.  <small>(<em>I scored a 4 out of 5 on the AP exam. In fact, our teacher was so good, everyone in my class but one guy got a 4.  The other guy got a 5 and went on to MIT!</em>)</small>  I also programmed a bunch of stuff in <strong>Ti-BASIC</strong>, most notably a Kroz/PacMan-esque game/maze.  <small>(<em>I wonder if I could find that source code, haha!</em>)</small></li>
+<p></p>
+<li>In college, I took a <strong>Visual Basic</strong> course and aced it.  It wasn't challenging, but I believe Ruby will be!</li>
+<p></p>
+<li>From 2000-2005, I worked at my church programming websites in <strong>ColdFusion</strong>. Later, from 2007-2009 I was webmaster of 3 websites at my church.</li>
+<p></p>
+<li>In 2010 I started working for a local company programming websites.  That's where I started to teach myself <strong>PHP</strong>.  But I know PHP is already old and Ruby is the future, so I hope to learn Ruby and maybe some day work for the software company Ministry Centered Technologies on their website PlanningCenterOnline.com!</li>
+<p></p>
+<li>I also know my way around <strong>JavaScript/jQuery and CSS</strong>, but I don't remember how it all fits in with the above.  I've been learning as much as I can through the years!</li>
+<p></p>
+<li>Oh, and I'm in the beginning stages of learning how to program <strong>Android</strong> apps.</li>
+</ul>
+</p><p><strong>Blog/Website URLs:</strong><br />
+<a href="http://twitter.com/lightmanx5" title="http://twitter.com/lightmanx5" rel="nofollow">http://twitter.com/lightmanx5</a><br />
+<a href="http://mystartpage.tk" title="http://mystartpage.tk" rel="nofollow">http://mystartpage.tk</a> <small>(<em>I don't have a cool about.me page :( But I did make this mobile phone friendly site for getting to my favorite sites, quickly :) Feel free to use it, or let me know if you want the source code!</em>)</small><br />
+<a href="http://www.OperationWebTools.com" title="http://www.OperationWebTools.com" rel="nofollow">http://www.OperationWebTools.com</a> <small>(<em>my "work" blog, but it's nothing special.  I only have a few good blog posts.</em>)</small></p>
+<p><strong>Purpose For Taking This Course:</strong> I'd like to further my programming education and experience and someday work for a company where I can put that to good use!</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6898" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6901"></a>
+<div class="comment comment-6901 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/randimiller.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-10672.jpg" alt="Randi Miller&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/randimiller.html" title="View user profile.">Randi Miller</a><div id='comment-submitted-date'>
+Wed, 2011-01-19 21:16</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Personal Background:</p>
+<p>My name is Randi. I am currently a student in college. I think programming just came a lot more natural to me than most people. Funny story, my family constantly reminds me that while growing up I would tell them that I was going to be the next Bill Gates. My plan was to buy them out, completely redo Windows (the right way), and rename it to Doors just out of spite. I love learning. My goal is to be "fluent" in 10 programming languages by the time I finish school in 2 years. I think that I can make this goal if I stay on track. Biggest problem is just thinking of ways to use what I have learned. I am not that creative when it comes to finding/creating good projects to practice with right now.</p>
+<p>Technical Background/Experience Level:</p>
+<p>I have been working on ThinkUp for the past few months, writing in PHP. C++ is probably my most used language since most of my classes have been in that language so far.</p>
+<p>Blog/Website URLs:</p>
+<p><a href="http://about.me/randimiller" title="http://about.me/randimiller" rel="nofollow">http://about.me/randimiller</a> will get you everything.</p>
+<p>Purpose For Taking This Course:</p>
+<p>My school does not teach Ruby on Rails. I want to learn it, and feel in this environment there will be a good backbone of help, unlike learning on your own.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6901" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-6933"></a>
+<div class="comment comment-6933 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/iamvib.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Igor Vorobiov&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/iamvib.html" title="View user profile.">Igor Vorobiov</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 00:14</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>"Doors" :-) it's a good idea :-)</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6933" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-6939"></a>
+<div class="comment comment-6939 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/lightmanx5.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9848.jpg" alt="Josh&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/lightmanx5.html" title="View user profile.">Josh</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 00:38</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I remember doors!</p>
+<p><a href="http://en.wikipedia.org/wiki/BBS_door" title="http://en.wikipedia.org/wiki/BBS_door" rel="nofollow">http://en.wikipedia.org/wiki/BBS_door</a></p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6939" class="active">link to this comment</a></li>
+</ul></div></div></div><a id="comment-6902"></a>
+<div class="comment comment-6902 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/aleks.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Aleks T.&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/aleks.html" title="View user profile.">Aleks T.</a><div id='comment-submitted-date'>
+Wed, 2011-01-19 21:18</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hello. I'm Aleks. I'm 34. I've been drawn to programming since high school, when we were learning BASIC, although I never seriously pursued it. </p>
+<p>Right now, I'm considering a career change to programming, but I feel like I need to hone my skills before I do that. </p>
+<p>Technical background: </p>
+<p>I have been coding in HTML and later CSS off and on since about 2000 as a hobby. I'm familiar with PHP, but we're not on the first name basis. I did a lot of work with CMS, like WordPress, Joomla, Moveable Type, etc. </p>
+<p>I've started a blog devoted to this class at <a href="http://chebureki76.tumblr.com" title="http://chebureki76.tumblr.com" rel="nofollow">http://chebureki76.tumblr.com</a>. </p>
+<p>What I hope to get out of this course: I want to meet new people who are passionate about programming. Hone my own skills. Have fun.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6902" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6908"></a>
+<div class="comment comment-6908 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/kaichanvong.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-11865.jpg" alt="Kai Vong&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/kaichanvong.html" title="View user profile.">Kai Vong</a><div id='comment-submitted-date'>
+Wed, 2011-01-19 21:40</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi!  I'm Kai, you can find me most places under my full name, kaichanvong.  </p>
+<p>I work primarily as a front-end developer for a large website in London, England called JustGiving and have done a fair bit of freelance work. Lately I've been spending time creating a modular library for SASS &amp; using Git with GitHub a lot.</p>
+<p>My background is as a designer, however I picked up HTML/CSS as a novice from the age of 15. I'm very familiar with the command line and have for the past few years been doing lots of JavaScript.  Over the past year I've spent a lot of time doing a mix of RoR/Ruby through Sinatra/C# through MVC and just pushing myself as much as possible.</p>
+<p>I've love Peepcode screencasts and read lots of books on programming - (my favourite thus far has been Why's guide to chunky bacon), but am really excited to have the chance to learn with this group.</p>
+<p>My site is: <a href="http://www.kaichanvong.com" title="http://www.kaichanvong.com" rel="nofollow">http://www.kaichanvong.com</a> </p>
+<p>I'm on this course because I love the syntax of SASS and HAML, and want to build some fun apps in my spare time and work on some great RoR projects.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6908" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6909"></a>
+<div class="comment comment-6909 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/thcipriani.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Tyler Cipriani&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/thcipriani.html" title="View user profile.">Tyler Cipriani</a><div id='comment-submitted-date'>
+Wed, 2011-01-19 21:44</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I'm Tyler Cipriani, I'm currently the Director of Technology at Custom Channels and SBR Creative Media (<a href="http://www.customchannels.net" title="http://www.customchannels.net" rel="nofollow">http://www.customchannels.net</a> &amp; <a href="http://www.sbrcreative.com" title="http://www.sbrcreative.com" rel="nofollow">http://www.sbrcreative.com</a> - I relaunched both of those sites this past year). </p>
+<p>Having my job at a smaller company means that I'm not only responsible for server monitoring and upgrades, but also 100% of the web development which means fluency in HTML, Javascript, CSS, PHP and actionscript 2&amp;3 and various frameworks that use those technologies. </p>
+<p>My web design and dev is about the extent of my professional "programming" experience. I've used Visual Basic, a little delphi, a little python and a wee bit o' Perl but I probably wouldn't list those on my resume since I don't know those in any depth. </p>
+<p>My goal in this course is to become comfortable enough with Ruby and the Rails framework to learn to implement a support ticketing system for the Custom Channels site - we'll see! </p>
+<p>Who's got two thumbs and is excited to learn ruby? This guy! (That joke works better if you can see it, FYI)</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6909" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6913"></a>
+<div class="comment comment-6913 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/donnieconner.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-10632.jpg" alt="Donnie Conner&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/donnieconner.html" title="View user profile.">Donnie Conner</a><div id='comment-submitted-date'>
+Wed, 2011-01-19 22:05</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi everyone! I'm Donnie.  I've been working as a Internet Marketing Manager/Graphic Designer for a hockey team for about 3 years now.  I really would like to be more comfortable with the programming aspect of the web and this Ruby course seems perfect for me.</p>
+<p>You can view some of my stuff and more info at <a href="http://about.me/Donnie_Conner" title="http://about.me/Donnie_Conner" rel="nofollow">http://about.me/Donnie_Conner</a>.  I'll probably start a blog devoted to this class as well. It's nice to meet everyone!</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6913" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6914"></a>
+<div class="comment comment-6914 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/vintharas.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-10165.png" alt="Jaime González&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/vintharas.html" title="View user profile.">Jaime González</a><div id='comment-submitted-date'>
+Wed, 2011-01-19 22:08</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi Hi, I'm Jaime, nice to meet you all :)</p>
+<p>I'm a Spanish Telecom engineer and I'm currently living in Sweden with my gf. I love sci-fi, fantasy literature, games and programming (nerd!).</p>
+<p>During my university years I coded mainly in C++ and Java, and then I worked for almost a year as a VB.NET developer programming database-driven desktop applications (it was then when I discovered my real passion for programming). I moved to Sweden and I am currently unemployed. It sucks 'cause I don't have a dime but it rocks 'cause I have plenty of time to read and study programming (I think I still have a lot of gaps in my education to fill because my specialization was Signals and Systems). The last 6 months I have been very interested in web development (I made a CMS on ASP.NET MVC and C# that is the engine of my website) and android mobile development.</p>
+<p>Reading a lot of blogs, watching webcasts and listening to podcasts in the web development sphere I have been hearing great things about Ruby and Ruby on Rails, so I would very much like to check it by myself, learn a new language and framework and broaden (is that a real verb?) my horizons.</p>
+<p>You can get more info about me at my website: <a href="http://www.barbarianmeetscoding.com" title="http://www.barbarianmeetscoding.com" rel="nofollow">http://www.barbarianmeetscoding.com</a></p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6914" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6916"></a>
+<div class="comment comment-6916 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/lotia.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Ali Asad Lotia&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/lotia.html" title="View user profile.">Ali Asad Lotia</a><div id='comment-submitted-date'>
+Wed, 2011-01-19 22:42</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi, I'm Ali Asad Lotia. Pleased to be in this class and amongst you folks.</p>
+<p>I'm a software developer who has recently moved to London, England. I currently work remotely for the University of Michigan Medical School.</p>
+<p>I've done both server side and web stuff in Perl; a small amount of JSP; some command line Java; a bit of C++ and C; more PHP than I'd like; and a touch of Python and some Ruby (for Rails).</p>
+<p>In the past I've also done a fair but of UNIX (Linux, FreeBSD, OpenBSD) system administration as well, but now write code most of the time.</p>
+<p>I'm keen to participate with peers who are interested in improving their ruby and rails skills.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6916" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6917"></a>
+<div class="comment comment-6917 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/dcweyh.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-7459.jpg" alt="Darwin Weyh&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/dcweyh.html" title="View user profile.">Darwin Weyh</a><div id='comment-submitted-date'>
+Wed, 2011-01-19 22:43</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I'm probably the fossil of the group.  I'll be 56 by the time the course is done.  I live near Detroit, MI.</p>
+<p>Personal Background:<br />
+I grew up in Wisconsin and got my degrees from the University of Wisconsin-Madison.  After graduation I moved to the Los Angeles area for about 15 years.  When I moved back to the midwest, I met my lady on IRC and located permanently to the Detroit area.  I have been running Linux as my personal workstation since 1998 and served my own site since then.</p>
+<p>Technical Background/Experience Level:<br />
+I have a BA in Comp Sci and one in Mathematics.  When I got my degree only the Grad Students for to use interactive terminals so I used punchcards for my under grad work.  My early work was on the VAX using VMS and System 7 Unix. My programming language of choice was C and C++ when it became available.  I worked doing shell programming with korn shell and fell into the Microsoft Developement trap using Visual Studio.  I have worked as a consultant for most of my career.  </p>
+<p>Blog/Website URLs:<br />
+My personal site is <a href="http://www.weyh.net" title="www.weyh.net" rel="nofollow">www.weyh.net</a> which will be converted to ROR as I work thru this course.  I also started a site using PHP along with Twitter,  but I gave it to my son, who promptly broke it.  I hope to convert it to Ruby on Rails as I learn here so keep a lookout for <a href="http://www.skillzdesk.com" title="www.skillzdesk.com" rel="nofollow">www.skillzdesk.com</a> in the future.</p>
+<p>Purpose For Taking This Course:<br />
+Having been a dormant solo programmer for the last 13 years, I've decided to get active and start applying myself and do some networking. I see web apps as the future of computing and love to learn new things.</p>
+<p>I hope to be an asset to this group and use my experience to help others.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6917" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6925"></a>
+<div class="comment comment-6925 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/dfnkt.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-2863.jpg" alt="Caley Woods&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/dfnkt.html" title="View user profile.">Caley Woods</a><div id='comment-submitted-date'>
+Wed, 2011-01-19 23:28</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Personal Background: I'm Caley, i'm turning the ripe old age of 26 next month. I currently live in Missouri in the US and work for an SMB doing IT Service Management.</p>
+<p>Technical Background/Experience Level: I got a little different start with computers/technology than those who have posted already. Around 1996 my parents bought the first computer, I diddled on it for a few years, meddling with DOS commands. Fast forward to 1999 I started playing Counter-Strike and realized I needed to upgrade my graphics card, it took off from there. I learned HTML/CSS in the early 2000's in my spare time and i've just kept adding on.</p>
+<p>Blog/Website URLs: <a href="http://altiris.caleynmegan.com" title="http://altiris.caleynmegan.com" rel="nofollow">http://altiris.caleynmegan.com</a> -- I will be starting a posterious or tumblr blog to share my experiences in this course.</p>
+<p>Purpose For Taking This Course: I have some experience with a few languages and frameworks but not enough that i'd call myself a master at either of them. I know some python (django) and c# (asp.net mvc). I want to add RoR to this list and become proficient at building with rails.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6925" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-6938"></a>
+<div class="comment comment-6938 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/lightmanx5.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9848.jpg" alt="Josh&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/lightmanx5.html" title="View user profile.">Josh</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 00:38</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Sounds like me!  I love DOS and pretty much all command line environments.  I played text adventure games, and DOS games, and BBS "door" games and on in to graphical games, of course!  I played tons, Wolf3D, Doom, Quake, and all the sequels!  I LOVE the original CS, but haven't busted it or CS: Source out in a while.  I EAGERLY await the arrival of Portal 2, though :)</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6938" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7001"></a>
+<div class="comment comment-7001 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/dfnkt.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-2863.jpg" alt="Caley Woods&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/dfnkt.html" title="View user profile.">Caley Woods</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 08:19</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>My posterous blog link is <a href="http://caleywoods.posterous.com" title="http://caleywoods.posterous.com" rel="nofollow">http://caleywoods.posterous.com</a> -- you can find the RSS there.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7001" class="active">link to this comment</a></li>
+</ul></div></div><a id="comment-6930"></a>
+<div class="comment comment-6930 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/marioduck.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9096.jpg" alt="Mario Duck&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/marioduck.html" title="View user profile.">Mario Duck</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 00:04</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hello, I'm Mario Duck (yes, that is my real last name :P), I'm a computer systems engineering student in Tijuana, Mexico, I'm 22 and hopefully I'll be graduating from college this year. I like listening to music and playing videogames (no surprise there).</p>
+<p>I don't really have much job experience in the IT area, besides a few jobs in some call centers and a movie theater I've never had a real job. I have a couple projects concerning the local goverment and the local healthcare system, but we'll see how they go.</p>
+<p>I have a blog on tumblr (yeah, I know) <a href="http://ductape.tumblr.com" title="http://ductape.tumblr.com" rel="nofollow">http://ductape.tumblr.com</a> which I abandoned a few months ago, I'll probably use it to share my progress in this course.</p>
+<p>Purpose For Taking This Course: I'm really interested in web development. I've learned some c# asp.net in the past but didn't really like it. Last year I started studying python and the django framework and thought it was awesome, so I'm really interested in learning what the differences between django an rails are, and if there's any benefit of using one over the other.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6930" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6931"></a>
+<div class="comment comment-6931 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/jtatum.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-11548.jpg" alt="James Tatum&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/jtatum.html" title="View user profile.">James Tatum</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 00:10</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hey! I'm James. I'm a QA Automation Engineer working and living in the silicon valley. It's nice here but I occasionally miss Florida. I'm a classic nerd type. My free time is split between FOSS projects, watching TV, and my sweetheart.</p>
+<p>Professionally I mostly test desktop applications at large software companies. I've coded at various jobs in Python, C, C#, and Objective-C, Perl, PHP, and various other scripting languages. Python is by far my favorite but I confess to being jealous of Ruby's more flexible closures. Otherwise they seem very similar to me so far. I've done some coding in Django, a Python web framework which compares in some ways to Rails so if anyone is interested I might contrast them out loud a little bit.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6931" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6935"></a>
+<div class="comment comment-6935 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/iamvib.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Igor Vorobiov&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/iamvib.html" title="View user profile.">Igor Vorobiov</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 00:25</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi everybody,</p>
+<p>I am student and after finding P2PU to learn new things I released that was something great. I am from Moldova and I have Russian nationality. I've been leaving in San Francisco for 3 years. I've been programming since I was 13-14yo. However, I started programming for a web a year ago. So far, I feel pretty comfortable with PHP and also I'm not bad at ASP NET. Of course I am also good at JavaScript, HTML, CSS and other Front-end stuff. I've created a website for myself <a href="http://www.speakabout.org" title="www.speakabout.org" rel="nofollow">www.speakabout.org</a> . It's kind of social bookmark service. </p>
+<p>That's all for now</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6935" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6942"></a>
+<div class="comment comment-6942 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/edgarp313.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-10685.jpg" alt="Edgar Perez&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/edgarp313.html" title="View user profile.">Edgar Perez</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 00:54</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi, my name is Edgar, and I'm just a regular 21 year old nerd who loves programming. When not coding I'm usually listening music, playing videogames, practicing kendo and just days ago I started studying piano.</p>
+<p>I'll graduate from the university this year, and in my little experience I've worked with PHP, ASP.NET, Flash and jQuery for my web apps. I also know my way around Java, C#, and a bit of C, C++ and Objective-C for iOS applications. My real pasion is game development, but I've only played a little with XNA and cocos2d frameworks in my spare time :(</p>
+<p>The main reason I'm taking this course is because Ruby became my favorite language only after writing a couple of programs, I think it combines power and beauty like no other language does. Besides that, knowing Rails will be definitely a plus so I can get a good job when I finish school =)</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6942" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6945"></a>
+<div class="comment comment-6945 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/chloeml.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Chloe Lerit&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/chloeml.html" title="View user profile.">Chloe Lerit</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 01:13</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hello!</p>
+<p>My name is Chloe.  I am a programmer analyst in Irvine, CA.  I graduated from UC Irvine recently, and am trying to immerse myself with different programming languages and general technologies.  Unlike many users here, programming did not come as naturally to me.  I have a lot to learn still and I am looking forward to those challenges!  The web world seems to constantly be changing and it is definitely worthwhile to take advantage of opportunities like this class to understand the trends and complexities of the web. </p>
+<p>I currently program for a library website.  I mostly work with PHP, Javascript, HTML, and some XSLT.  During college, I learned Java and some C#.</p>
+<p>I started a blog at <a href="http://chloeml.wordpress.com" title="http://chloeml.wordpress.com" rel="nofollow">http://chloeml.wordpress.com</a>.</p>
+<p>I am interested to learn about Ruby mostly due to curiousity.  I've heard about ruby on rails from friends and became intrigued to learn about this language since it seems to be pretty popular and powerful.  I want to learn as many languages as I can.  I want to see what possibilities I have to make our website easier to use for our patrons.  The library world seems to be shifting heavily to digital means of providing information to students and patrons.  I want to be sure I am armed with the tools needed to make the flow of information possible in our website in this quickly changing world.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6945" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6947"></a>
+<div class="comment comment-6947 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/utjacob.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Jacob Evans&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/utjacob.html" title="View user profile.">Jacob Evans</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 01:25</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi, My name is Jacob, I am 22 just got engaged and live in North Alabama I am more a hardware guy and have a small business Evans TechSupport. Which is mainly a computer and network support company and a little web development. I am currently enrolled at Athens State and Calhoun Community College working towards a CS degree. I have dabbled in RoR 3 or 4 times before but never had any project or real determination. Now that I am engaged I am trying to get a career path(lol).</p>
+<p>The biggest reason I am taking this course is to learn somehting I have been trying to learn for over 2 years now. I attended what i believe was the First RailsConf in Portland and ever since I have been going in and out of it all. And of course a job plus if you know Ruby and Rails.</p>
+<p>That's all I got but feel free to comment with any questions. One of my favorite things to do is meet new people.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6947" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6952"></a>
+<div class="comment comment-6952 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/hanysb.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-12498.png" alt="Hany B&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/hanysb.html" title="View user profile.">Hany B</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 02:04</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi everyone, name's Hany, pleased to meet you all and very pleased to have been accepted on to the course!</p>
+<p>I'm 27, from London and have been living in Japan for about 5 years. I work in online marketing (mainly SEO) and have always been a keen programmer. I study Japanese, so I look forward to share many great learning techniques here, especially how to review learned material so you never forget!</p>
+<p>I love making stuff, and cooking, especially sweets! I have a very logical way of thinking so sometimes the cake doesn't work out too well, I guess you need a fine balance between logic and creativity :)</p>
+<p>My background in programming is mostly web related. My first ever book was Sam's teach yourself HTML 4 in 24 hours which I got as a present in 1996! Ever since, I've been fascinated with the web and how it's changed over the years, especially the rate at which it has changed. When it comes to programming, PHP has been my choice of languages - especially as now the frameworks make life a whole lot easier, and it's free. Free stuff is good. Open source is like the best idea ever and P2PU is amazing, what an awesome idea.</p>
+<p>Looking forward to getting to know you all better!</p>
+<p><a href="http://twitter.com/hanysb" title="http://twitter.com/hanysb" rel="nofollow">http://twitter.com/hanysb</a></p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6952" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-6959"></a>
+<div class="comment comment-6959 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/lightmanx5.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9848.jpg" alt="Josh&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/lightmanx5.html" title="View user profile.">Josh</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 02:46</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Japan? That's awesome! I want to live in Taiwan someday :)</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6959" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-6984"></a>
+<div class="comment comment-6984 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/hanysb.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-12498.png" alt="Hany B&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/hanysb.html" title="View user profile.">Hany B</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 05:49</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Yeah, it's a beautiful place. So many places to escape to and reflect on life!</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6984" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-6988"></a>
+<div class="comment comment-6988 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/cloneofsnake.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-426.jpg" alt="Nicholas Wang&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/cloneofsnake.html" title="View user profile.">Nicholas Wang</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 06:01</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Where in Japan r u based?</p>
+<p>Great to have a classmate in my timezone, this is a 1st time for me! :)</p>
+<p>BTW, I was trying to organize an offline meetup in Tokyo to get more people to sign up for this course locally.  Although the course is officially closed, I believe we can still extend P2PU into the offline world.  If you're in Tokyo, I'd love to try again to get a weekly meetup going, get others to join us, we'll sort of bridge the offline classmates with the online class.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6988" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-7186"></a>
+<div class="comment comment-7186 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/hanysb.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-12498.png" alt="Hany B&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/hanysb.html" title="View user profile.">Hany B</a><div id='comment-submitted-date'>
+Fri, 2011-01-21 06:45</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Would love to but I'm actually in Iwate. I do come to Tokyo every now and then and wouldn't mind coming down if we were to organise something, but due to work commitments etc it would have to be planned quite in advance. This time next year I do hope to be living in the Tokyo area if it's any consolation!</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7186" class="active">link to this comment</a></li>
+</ul></div></div></div></div></div><a id="comment-6962"></a>
+<div class="comment comment-6962 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/adamcollado.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-2709.jpg" alt="Adam Collado&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/adamcollado.html" title="View user profile.">Adam Collado</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 03:08</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hey there everybody!</p>
+<p>My name is Adam Collado, and I lay may head to rest in the city of Brooklyn, New York. Like all of you, I'm a big tech geek, and kinda try to immerse myself in everything. I went to school for Economics, and studied Computer Science as a minor. I currently work as a Computer Tech in a small art school. I'm in charge of handling the technological needs of the school, as well as some network and server administration (the network is largely controlled by the Department of Education, I have no say in terms of network policies and equipment). I like to think of myself as a swiss army knife: I'm not an expert on any particular subject in the realm of IT and Development, but I know enough to be dangerous in any of the predominant tech categories.</p>
+<p>When I'm not working, I'm either learning the ways of the sword in my sword fighting classes, playing games, working on building my programming/IT skill set, or some other thing that grabs my interest for the time. Currently, I've become an avid player of Starcraft 2. If anybody else is also a player, feel free to hit me up so we can play together! :D</p>
+<p>As far as what I want to get out of this course, currently my school is trying to build it's web presence, and I've been taking a lot of steps towards that. I've already signed up for 3 other classes in P2PU, specifically, Web Design and Usability, Using Gimp to Layout a Page, and Javascript 101. By taking this Ruby class, and the other classes, I'm hoping to build my self a pretty good core in the knowledge of Web Development and Design. Hopefully by the end of this semester of P2PU, I can have the knowledge to be able to properly start building a web site and web applications, and to know where to look to continue building that knowledge.</p>
+<p>My blog can be located at:<br />
+blog.whatthenull.com</p>
+<p>I can't wait to get started in the discussions and assignments for this class! :D</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6962" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6966"></a>
+<div class="comment comment-6966 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/neutrino.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9129.png" alt="ranendra adhikari&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/neutrino.html" title="View user profile.">ranendra adhikari</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 03:43</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hello Everybody,<br />
+I am Ranendra Adhikari from Kathmandu, Nepal. I like to watch and play football, and yes its the one where only goalies are allowed to use their hands. I love to walk in the woods and listen music in my spare time.<br />
+I am a computer science student and recently joined a local company as a web developer. I have some experience with PHP, jQuery and a few bits of Java. I have looked at ruby some time ago but didn't took it seriously until rails 3 was released. The flexibility of ruby and the emphasis on 'test' is what i find different in ruby community than other programming community. And I believe, learning ruby will make me a better programmer.</p>
+<p>Fell free to poke me with your questions and comment.  Looking forward to learn with you all.</p>
+<p><a href="http://twitter.com/ardnenar" title="http://twitter.com/ardnenar" rel="nofollow">http://twitter.com/ardnenar</a></p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6966" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6967"></a>
+<div class="comment comment-6967 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/neutrino.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9129.png" alt="ranendra adhikari&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/neutrino.html" title="View user profile.">ranendra adhikari</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 03:43</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hello Everybody,<br />
+I am Ranendra Adhikari from Kathmandu, Nepal. I like to watch and play football, and yes its the one where only goalies are allowed to use their hands. I love to walk in the woods and listen music in my spare time.<br />
+I am a computer science student and recently joined a local company as a web developer. I have some experience with PHP, jQuery and a few bits of Java. I have looked at ruby some time ago but didn't took it seriously until rails 3 was released. The flexibility of ruby and the emphasis on 'test' is what i find different in ruby community than other programming community. And I believe, learning ruby will make me a better programmer.</p>
+<p>Fell free to poke me with your questions and comment.  Looking forward to learn with you all.</p>
+<p><a href="http://twitter.com/ardnenar" title="http://twitter.com/ardnenar" rel="nofollow">http://twitter.com/ardnenar</a></p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6967" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6978"></a>
+<div class="comment comment-6978 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/stand.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Stan Dragnev&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/stand.html" title="View user profile.">Stan Dragnev</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 04:49</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi all!</p>
+<p>A lot of very interesting posts here already.</p>
+<p>My name is Stan, I'm 26 (recently made it!) and living in Toronto, Canada.</p>
+<p>Unlike most computer science people I know, I didn't start very early.<br />
+Computers (not the mention the internet!) weren't very accessible while I was in elementary school (I'm originally from Bulgaria) and although I was very much into computers in high school, I didn't do any serious programming until my university years.<br />
+I don't know why exactly. It could have been a language barrier thing or just interest in other things.</p>
+<p>I do think that this puts me in somewhat of a disadvantage, but I don't dwell on it too much!</p>
+<p>Graduated from university with computer science a couple of summers ago.<br />
+In terms of practical knowledge gained, I did some Java, C and bash. Nothing else really stuck.</p>
+<p>At my current job (one year now) I have to mainly use PHP and write lots of db queries (mysql, access, some mssql). There's a pinch of Java in there as well, but that's almost too rare to earn the mention (I'm desparate).</p>
+<p>I'm not going to diss PHP - it's made web development so easy and it's given us a lot of great CMSs that have made web publishing super accessible even if you are not awfully tech savvy.<br />
+I'm certainly hoping it will stay strong for a while yet!</p>
+<p>However, after an year of it, I felt a sudden urge to take on something new and exciting.<br />
+Recently I even considered taking a few courses at university (gasp!) again just for the sake of learning something new and challenge the (now) old brain cells again with scenarios different from every-day coding and troubleshooting.<br />
+Don't get me wrong, those can be very challenging as well, but can become monotonous and made me feel like I'm not making much of a progress on a more personal level.</p>
+<p>I came upon this course on the p2pu website and it all made perfect sense (believe me, that was an exciting evening!).<br />
+I've been hearing and hearing about ruby (our sys admin is raving about it everytime he comes in the office) and I'm sometimes a little exasperated with php's clumsiness, so this is a great opportunity for me to finally get going with ruby while enjoying myself 1000 times more than I would by just reading a book about it.</p>
+<p>What else...<br />
+I love Linux and used to try all possible distros a few years ago, but can't claim a great deal of knowledge there.<br />
+I mainly use Windows nowadays but when I do get back to Linux (using it on a netbook), it just feels good.</p>
+<p>As for myself on the web, I'm a very irregular poster so no links to advertise.</p>
+<p>That covers it!</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6978" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6979"></a>
+<div class="comment comment-6979 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/cloneofsnake.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-426.jpg" alt="Nicholas Wang&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/cloneofsnake.html" title="View user profile.">Nicholas Wang</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 04:49</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi everyone,</p>
+<p>My name is Nick, born in Hong Kong in the 70's, spent half of life there and half my life in the States. Moved to Tokyo last year to follow an innovative vision.</p>
+<p>Technical Background/Experience Level:</p>
+<p>I'm a relatively late starter compare to my computer geek friends. (And when I say geek, I mean awesome wizards!) I took C, VB and Java classes in college, worked as system engineer and then later on concentrate solely on databases and became a DB analyst. After my last corporate job in the States, I wanted to change direction and do something meaningful with my life. I started dabbling in the open source communities, mainly Drupal's, through it I met many good friends!!</p>
+<p>3 things I'm passionate about are Open Information, Biodiversity and Environmental Sustainability. I wanted to learn the whole web stack through FOSS so that I can create a business directory for everyone to rate their environmental friendliness. Along the way I followed a visionary idea and moved to Tokyo, gathered some comrades who share my interests, created a project to create an open source User Collaborative Innovation tool, now we're working together to build this thing and trying to set up a NPO.</p>
+<p>Blog/Website URLs:</p>
+<p><a href="http://about.me/nicholaswang" title="http://about.me/nicholaswang" rel="nofollow">http://about.me/nicholaswang</a></p>
+<p>Andy, I'll write course related blog posts with a "Ruby" tag, RSS here:<br />
+<a href="http://cloneofsnake.posterous.com/rss.xml?tag=Ruby" title="http://cloneofsnake.posterous.com/rss.xml?tag=Ruby" rel="nofollow">http://cloneofsnake.posterous.com/rss.xml?tag=Ruby</a></p>
+<p>Purpose For Taking This Course:</p>
+<p>Not sure if anyone else have this problem, but I never quite got programming. I took classes, did pretty well in them... but never understood "What can I do with this knowledge in the real world?" And after becoming a gear in big corporate America, I felt safe staying within the database world. (If u work in a big company &amp; u're one of few who knows where all the data are, u're pretty hard to get rid of! ;) However, I really envy my friends who truly love programming and spend their free time hanging out together, hacking things! So, through this course, I hope I can be inspired by my classmates - YOU! I'm an early adopter of P2PU, I heard one of the guys speak about this idea at BarCamp HK in 2008 and I love the idea! I think this social, peer-to-peer learning will enable us to learn together muuuuuch deeper than traditional 1-to-many lectures!</p>
+<p>Let's do this together!!</p>
+<p>Cheers</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6979" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6990"></a>
+<div class="comment comment-6990 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/daniel-k.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-10759.gif" alt="Daniel Kirkdorffer&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/daniel-k.html" title="View user profile.">Daniel Kirkdorffer</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 06:16</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi, I'm Dan.</p>
+<p>Born in London, now living near Seattle, I've been programming since I got my first computer back in the early 1980s, an Apple IIe.  I have a CS/Math degree and for the past 23 years I've been working as a business application developer.  Up until the mid-90's I was a mainframe guy, working primarily with SAS.  I then started playing around with VB and PowerBuilder, before getting hooked on the WWW.  I've primarily been a Java/Web developer since then, at first working on business applets and Perl based systems, and then moving to server-side Java development, with a significant focus on databases, but never leaving the client side and working a lot with JSPs and JavaScript.  I've been in a variety of consulting positions which have given me a chance to dabble in a wide range of programming environments within the Java eco-system, and I'm currently working an assignment at AT&amp;T.</p>
+<p>My personal website is at <a href="http://www.kirkdorffer.com/" title="http://www.kirkdorffer.com/" rel="nofollow">http://www.kirkdorffer.com/</a>.  I don't plan to maintain a blog during this class (after blogging on politics for 4 years, I need a break from that), but I do maintain a personal wiki at <a href="http://www.kirkdorffer.com/wiki/" title="http://www.kirkdorffer.com/wiki/" rel="nofollow">http://www.kirkdorffer.com/wiki/</a> for my technical notes, and I'll likely throw stuff up there related to this course from time to time.  I hope I can keep up with the online class chatter during the day, but I suspect my work responsibilities will mean I'll have to mostly interact at night.  Having said that I realize we're from all over the world, so I'm expecting this will be a class that's active 24 hours a day.</p>
+<p>Programming is a field you have to stay current in or you risk becoming a dinosaur.  My answer to the stereotypical interview question about what I'd like to be doing five years from now is that I hope to be working on something that hasn't yet been invented!  So I regularly attend local user and study groups, read books and tutorials, and play around with stuff on the side all the time to stay abreast of new technologies - and to keep my resume fresh.  As a Web developer I see that there is a lot going on out there using Ruby and Rails, and this course will give me a great opportunity, and excuse, to really sink my teeth into them and learn them - at least that's my hope.  As an added bonus it looks like I going to learn Git, and perhaps a few other technologies and tools I'm not familiar with but that all the cool kids are using these days.</p>
+<p>I'm looking forward to it!</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6990" class="active">link to this comment</a></li>
+</ul></div><a id="comment-6998"></a>
+<div class="comment comment-6998 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/gramercy.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Edward Chin&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/gramercy.html" title="View user profile.">Edward Chin</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 07:20</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hello Everyone,<br />
+My name is Edward Chin and I am a part of a startup called Chatfe.com - I'd love to contribute more to our tech team and think that Ruby is a great way to start. I'm based out of New York's Chinatown.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-6998" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7003"></a>
+<div class="comment comment-7003 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/azazo.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Anthony Zazo&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/azazo.html" title="View user profile.">Anthony Zazo</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 08:41</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hello all, great to see that this is a diverse group with people from all around the world.  </p>
+<p>I currently work in Content Management for a small technology company which primarily develops golf GPS software, but I am really interested in starting my own company. After living in Philadelphia for most of my life I finally made it out to San Diego about three years ago and I don't plan on moving anytime soon. I have a BA in Philosophy and Political Science, an MBA, and I have been taking classes in Computer and Information Science through the local community college system for the past year.  I have taken classes in Java, C++, Networking and Systems Analysis and Design.  I also know some HTML/CSS and a little PHP and MySQL. </p>
+<p>I love the challenge of learning how to program (most of the time), and I also hope that being able to do a little coding myself will help me with my startup (even though I'll probably handle everything but coding to start).  I spend a good portion of my day reading technology and business blogs and I have read a lot about how fun Ruby is to use.  I recently went through most of Why’s (Poignant) Guide to Ruby and also checked out Rails for Zombies.  I think it was the novel approach to learning I saw in these that made me really interested in Ruby and Rails.  </p>
+<p>site: <a href="http://www.anthonyzazo.com" title="http://www.anthonyzazo.com" rel="nofollow">http://www.anthonyzazo.com</a> (I will probably put a feed together over the next week for this class)<br />
+twitter: @azazo</p>
+<p>I can't wait to get started!</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7003" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7008"></a>
+<div class="comment comment-7008 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/markvanharmelen.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9390.jpg" alt="Mark van Harmelen&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/markvanharmelen.html" title="View user profile.">Mark van Harmelen</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 10:39</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi all,</p>
+<p>I'm a techie person who lives in Manchester UK, where I sometimes work in the Computer Science department at the local Uni, and otherwise for our company ( <a href="http://hedtek.com" title="http://hedtek.com" rel="nofollow">http://hedtek.com</a> ). Generally I work on systems to support learning, library use (search and user interface design for users), and recently in linked data. I mostly act as the glue in projects, atm we are working on three or four projects in the areas of 1)  secondary school/high school students write their own projects, 2) library users' user experience / UX of library systems, 3) open linked data species catalogues. </p>
+<p>I used to be a big proponent of participatory interactive systems design using paper prototypes, but these days I've moved on to a different kind of participatory design as practised in Scrum; an agile development method. </p>
+<p>I teach sometimes, and try to encourage self-directed and peer-assisted learning. </p>
+<p>I'm interested in RoR because the guy I work with is heavily into it, and I want the framework offered by this course to help and encourage me learn with others in a p2p way.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7008" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7009"></a>
+<div class="comment comment-7009 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/osmose.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Michael Kelly&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/osmose.html" title="View user profile.">Michael Kelly</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 10:46</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Wow, a lot of really cool people in the course, it seems. I doubt anyone will even make it through this thread of doom to my little profile. :P</p>
+<p>My name is Michael Kelly. I'm a senior in Computer Science at Florida Tech; I graduate in May. I do web development for my CS department at school, working primarily on frontend HTML, CSS, and Javascript, and backend PHP. </p>
+<p>In June I will start working full time with Mozilla as a web developer, and have to learn Python before then. I've also interned at Electronic Arts for two summers as a web developer.</p>
+<p>The best place to count as a website for me would be my github, which has a few interesting projects: <a href="https://github.com/Osmose" title="https://github.com/Osmose" rel="nofollow">https://github.com/Osmose</a></p>
+<p>I won't be blogging, but you can find me on the class IRC channel #p2pu-rubyrails on freenode as Osmose1000. I'm happy to help others who don't have a lot of programming experience!</p>
+<p>I wanted to take this course to learn the Ruby/Rails way of designing web apps. Learning the language and syntax is one thing, but my real focus is to grok some of the deeper design philosophies that people who use Ruby on a day-to-day basis know and love. Plus, all the hip kids know Ruby already. :P</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7009" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-7105"></a>
+<div class="comment comment-7105 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/lightmanx5.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9848.jpg" alt="Josh&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/lightmanx5.html" title="View user profile.">Josh</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 21:35</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I made it through the thread of doom! (And all I got was this little profile.) ;-)</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7105" class="active">link to this comment</a></li>
+</ul></div></div><a id="comment-7019"></a>
+<div class="comment comment-7019 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/rodrimix.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-8773.jpg" alt="Pablo Rodríguez&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/rodrimix.html" title="View user profile.">Pablo Rodríguez</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 12:41</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi! everybody,</p>
+<p>My name is Pablo Rodriguez and I'm from Pamplona (Spain). I just finished my degree in Telecommunications Engineering and (like everyone in Spain) seeking for job with no success... Then, I do have time for increasing my programming knowledge (poor so far :) ). As I read, there are real experts here and I hope I'll learn a lot from all of you.</p>
+<p>Technical Background/ Experience level:<br />
+During my college period I came across  with many languages but I never got deep in any them. This is my general feeling about my degree: I know a little about a lot things but not enough of any of them. Then I have used Pascal, C, HTML+CSS, PHP... Besides, I did my Master Thesis in antennas field writing a lot of Matlab code.<br />
+I do not have any website...yet!</p>
+<p>Purpose for taking this course:<br />
+I would like to learn a new and trendy language for web apps as well as meeting new people from all over the world</p>
+<p>Greetings!!</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7019" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7022"></a>
+<div class="comment comment-7022 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/angstrom.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-6376.jpg" alt="Mislav Paparella&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/angstrom.html" title="View user profile.">Mislav Paparella</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 13:40</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hello! </p>
+<p>I'm Mislav, an eternal (biology and recently IT) student from Split, Croatia. I went to high school which had emphasis on mathematics and computer science which translates to four years of solving mostly useless but nontrivial problems in Pascal :) and C. </p>
+<p>I have decent experience with HTML, CSS and JavaScript. Know some bits of PHP. Also, I use Git but till now only for local versioning. I'm enthusiastic about learning Rails and especially Ruby because it seems such a concise and flexible language.</p>
+<p>I hope to learn enough to be able to follow more advanced (intermediate?) Rails resources and to eventually fork some Rails projects and extend them with functionality that I miss and think others might find useful.</p>
+<p>I read some of the introductions and I'm eager to start learning with y'all.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7022" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7023"></a>
+<div class="comment comment-7023 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/psi.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="saikrishna poddutur&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/psi.html" title="View user profile.">saikrishna poddutur</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 13:51</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>hey everyone,</p>
+<p>I'm Saikrishna Poddutur from India. I am pursing my bachelors degree in Information Technology from IIIT-A, presently in senior year. I just started my intern at a start-up called positive solutions and in coming months would be working around web technologies for the company. In 6 moths i would complete my graduation and would be looking for a job.</p>
+<p>i know html,css,javascript,mysql. I am a decent java programmer and worked with j2me. Recently learned  opencl and plan to contribute to the community.  I am quite familiar  parallel computing,  image processing. Interested in mobile technologies (OS and applications).  Like solving puzzles using code.</p>
+<p>As i hope to become a web application developer this is quite a essential course for me. I consider this a really a great opportunity to  share and learn with all you guys. It is a  real privilege to learn with people coming from various background</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7023" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7062"></a>
+<div class="comment comment-7062 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/johnannes.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-8748.jpg" alt="Johannes Weissensel&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/johnannes.html" title="View user profile.">Johannes Weissensel</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 18:34</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hey Everybody,</p>
+<p>i'm Johannes from germany. I'M 25 years old and live in beautifull berlin. I made my bachelors degree in Business Informations Systems last summer. Currently i work for an online marketing company. I love music and concerts. And i'm working together with a friend of mine on our own t-shirt brand, just for fun.</p>
+<p>Technical background:<br />
+I learned java during my studies, i like it and it helped me to understand how objects and classes work. Years ago I teached myself html/css and php. I guess I'm not really good at it but thats enough for me. I worked for an web analytics company during my study and was able to see some new technologies. There i took a look into perl (eww ;)). At that time i tested a bunch of databases, especially nosql databases.  </p>
+<p>Purpose for taking this course:<br />
+I heard a lot about ruby and of course ruby on rails. Many friends of me work with this language every day and all ruby code i saw looked awesome and very easy to understand. So i want to learn it, but i am not that kind of guy who buys a book and after 2 weeks reading is a pro. The concept of learning together with a bunch of nice motivated people from all around the world sounds simply awesome.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7062" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7065"></a>
+<div class="comment comment-7065 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/invernomuto.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Fabio Pozzi&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/invernomuto.html" title="View user profile.">Fabio Pozzi</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 18:46</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi everybody,<br />
+my name is Fabio Pozzi, and I live in Seveso, a little town near Milan, Italy.<br />
+I'm giving my last exams to finally take my Master of Science @ Politecnico di Milano.<br />
+I started enjoying programming when I started playing with python and ruby some time ago.</p>
+<p>While studying I work as web developer in a little startup here in Milan.<br />
+I know python, ruby, and c even if I use ruby or python most of the time.<br />
+I'm getting passionate about web development, especially since I've heard about rails and started playing a little with it.<br />
+Apart from the web-applications field, I have a little bit of experience with linux system administration, embedded system and computer security.</p>
+<p>I'm here to learn as much as I can and most of all, I'm happy to meet new people and share experience.</p>
+<p>I'm trying to develop a little blog in rails but it's not finished yet, so I will not disclose the url yet, even if it's easy to guess :)</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7065" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7103"></a>
+<div class="comment comment-7103 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/livejake.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="livejake&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/livejake.html" title="View user profile.">livejake</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 21:25</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hey, I'm Jake Bialer. I'm a 22 yr old living in Brooklyn.<br />
+My programming background is an Intro to Computer Science course where I learned Java, some assembly language, and automata theory. I've also taught myself some basic javascript.<br />
+I work for the Huffington Post and on various entrepreneurial side projects.<br />
+I want to rapidly prototype interesting ideas and think Ruby is a useful language to learn.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7103" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7110"></a>
+<div class="comment comment-7110 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/daniel-k.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-10759.gif" alt="Daniel Kirkdorffer&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/daniel-k.html" title="View user profile.">Daniel Kirkdorffer</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 21:42</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>With so many people all over the world it would be cool if we had a map to track where we all are, maybe something like this:</p>
+<p><a href="http://www.mapservices.org/myguestmap" title="http://www.mapservices.org/myguestmap" rel="nofollow">http://www.mapservices.org/myguestmap</a></p>
+<p>Is that something we could add to the course site?</p>
+<p>Dan</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7110" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-7121"></a>
+<div class="comment comment-7121 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/lightmanx5.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9848.jpg" alt="Josh&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/lightmanx5.html" title="View user profile.">Josh</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 21:57</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>We could also just make a collaborative map on <a href="http://maps.google.com" title="http://maps.google.com" rel="nofollow">http://maps.google.com</a> - although that would require the owner of the map to invite everyone by email address... so I don't know if that's something everyone would want to do...</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7121" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-7143"></a>
+<div class="comment comment-7143 comment-published even comment-by-author clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/alindeman.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-6964.jpg" alt="Andy Lindeman&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/alindeman.html" title="View user profile.">Andy Lindeman</a><div id='comment-submitted-date'>
+Thu, 2011-01-20 23:37</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>If you want to make it happen, do some research on the best option and share it with the group :)  I'm open to suggestions on how/where to post it.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7143" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-7151"></a>
+<div class="comment comment-7151 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/jessica.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-4746.jpg" alt="Jessica Ledbetter&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/jessica.html" title="View user profile.">Jessica Ledbetter</a><div id='comment-submitted-date'>
+Fri, 2011-01-21 00:41</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Yes, I'm a programmer (read: lazy?) so want the software to do it for me and reuse data I already entered in or ask for what it needs:<br />
+<a href="http://p2pu.uservoice.com/forums/47491-website-feedback/suggestions/1397217-map-of-participants" title="http://p2pu.uservoice.com/forums/47491-website-feedback/suggestions/1397217-map-of-participants" rel="nofollow">http://p2pu.uservoice.com/forums/47491-website-feedback/suggestions/1397...</a></p>
+<p>Everyone, feel free to vote/comment :) One the new code out, maybe we can even write it -- if it's not already.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7151" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-7184"></a>
+<div class="comment comment-7184 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/daniel-k.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-10759.gif" alt="Daniel Kirkdorffer&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/daniel-k.html" title="View user profile.">Daniel Kirkdorffer</a><div id='comment-submitted-date'>
+Fri, 2011-01-21 06:35</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I've added my vote.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7184" class="active">link to this comment</a></li>
+</ul></div></div></div></div></div><a id="comment-7148"></a>
+<div class="comment comment-7148 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/markvanharmelen.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9390.jpg" alt="Mark van Harmelen&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/markvanharmelen.html" title="View user profile.">Mark van Harmelen</a><div id='comment-submitted-date'>
+Fri, 2011-01-21 00:02</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi mapservices looks a bit basic but nice in that anyone can use.<br />
+I made a map for people to try at google maps and see if they like it, made a specific course account to for it pass on username and pswd for that via some way, hardly high security needed, info later - soz, I gotta run to the station now, back in an hour or so</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7148" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7156"></a>
+<div class="comment comment-7156 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/jessica.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-4746.jpg" alt="Jessica Ledbetter&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/jessica.html" title="View user profile.">Jessica Ledbetter</a><div id='comment-submitted-date'>
+Fri, 2011-01-21 01:14</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I've been a web application developer in Virginia (USA) for a few years. I'm an advocate for libraries, animal rescue, education, and open source. You can probably find me on IRC (freenode) as jledbetter.</p>
+<p><a href="http://www.jessicaledbetter.com" title="http://www.jessicaledbetter.com" rel="nofollow">http://www.jessicaledbetter.com</a></p>
+<p><b>Purpose For Taking This Course:</b><br />
+I love languages and know enough in a few to be dangerous. Java is fine and all but it's time to get to know Ruby. I hear great things about it with Rails as its framework and can't wait to compare it to Java and JSF/Seam. Plus, my partner is in this course so it will be even more fun :)</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7156" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7165"></a>
+<div class="comment comment-7165 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/markvanharmelen.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9390.jpg" alt="Mark van Harmelen&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/markvanharmelen.html" title="View user profile.">Mark van Harmelen</a><div id='comment-submitted-date'>
+Fri, 2011-01-21 02:12</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>here's what I tried for a map<br />
+---------------------<br />
+made a gmail account for<br />
+<a href="mailto:p2puror@gmail.com" rel="nofollow">p2puror@gmail.com</a> r0rr0cks<br />
+those are zeros above.<br />
+I logged into google maps with it (as you can) and posted a placemark in the UK as a trial.<br />
+It is possible to put links and images in the comment associated with a placemark.</p>
+<p>This gives us the same level of security as mapservices, ie nil for new placemarks, but hey its only a map. </p>
+<p>However its also an email accnt combo and we should tighten this up in some way -- I don't know how to email a new password to all of us. Andy might you be able to do so please?</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7165" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7167"></a>
+<div class="comment comment-7167 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/jimrollenhagen.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Jim Rollenhagen&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/jimrollenhagen.html" title="View user profile.">Jim Rollenhagen</a><div id='comment-submitted-date'>
+Fri, 2011-01-21 02:45</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi! I'm Jim, I'm a recent college grad from the metro Detroit area. I work in a hybrid vehicle battery test lab as a  programmer. I work on tests and test automation in a proprietary language, and have written other apps for the lab in Python, as well as worked on a Blackberry app there. Outside of work, I've done a couple of projects for a private music community I belong to.</p>
+<p>I'm taking this class for a few reasons:<br />
+- I'm getting more into web development lately, and have really noticed the awesomeness that is the Ruby community.<br />
+- I'd like to get more insight on MVC design.<br />
+- I have some Redmine plugins I would love to write for work.<br />
+- I've never taken any sort of class like this!</p>
+<p>I'm excited for the experience, should be quite fun.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7167" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7254"></a>
+<div class="comment comment-7254 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/vikram-reddy.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Vikram Reddy&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/vikram-reddy.html" title="View user profile.">Vikram Reddy</a><div id='comment-submitted-date'>
+Fri, 2011-01-21 17:10</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Personal Background -<br />
+Hi, I am Vikram. I am from India doing my MS in Computer Science at University of Minnesota, Twin Cities. I love to code. My hobbies are reading novels, listening to songs and watching movies. </p>
+<p>Technical background -<br />
+I am comfortable in C, C++, C#, Java, HTML and Javascript. I had created a few web and desktop applications. For the past few months, I have been dabbling in Python and started to like scripting language a lot. Then I heard about Ruby and Rails and was just about to start learning it when I heard about this course. This certainly has come at the right time.</p>
+<p>Blog -<br />
+I don't have a blog right now. When I do create one, I will inform you guys. My IRC name is "vikram".</p>
+<p>Purpose for taking this course -<br />
+Scripting languages are in demand and popular right now. By taking this course, I wish to utilize this opportunity and familiarize myself with Ruby and learn its cool tricks. Hope to have a great time with you guys!!</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7254" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7280"></a>
+<div class="comment comment-7280 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/new2.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="New Naz&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/new2.html" title="View user profile.">New Naz</a><div id='comment-submitted-date'>
+Fri, 2011-01-21 18:56</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hello, I am Developer and worked mostly on scripting with Perl and XML. Starting using Ruby at work a couple months and was really intrigued and would like to learn Rails to bring ideas to the Web.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7280" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7328"></a>
+<div class="comment comment-7328 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/mkascel.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Mike Kascel&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/mkascel.html" title="View user profile.">Mike Kascel</a><div id='comment-submitted-date'>
+Sat, 2011-01-22 00:02</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi all, I'm Mike and am a senior software engineer for a semantic web start-up in San Francisco, CA.  As far as education, my BS is in Genetics from the University of Wisconsin-Madison, but I chose to follow the technology track instead of research.  Self-taught as far as programming goes; right now I mostly develop in Python, PHP and Javascript, but my first language was Perl.  I like working with semantic web technologies, but eventually I'd like to work for a molecular biology/genetics/scientific software company.  Or ideally, start up a company here in the bay area.</p>
+<p>In my spare time I'm a musician, play mostly guitar and bass in the rock/indie/shoegaze genre. Look forward to working with everyone!</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7328" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7459"></a>
+<div class="comment comment-7459 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/christopherwade.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-11473.png" alt="Chris Wade&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/christopherwade.html" title="View user profile.">Chris Wade</a><div id='comment-submitted-date'>
+Sun, 2011-01-23 02:10</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hey everyone!</p>
+<p>My name is Chris Wade. I do not work professionally in the tech world, but would like that to change asap!<br />
+I've been in love with music and technology most of my life. I have a degree in Percussion Performance and since I graduated some time ago, managed to play around the world--super awsome experiences, but it's still not enough to pay the bills, yet.</p>
+<p>My programming background includes Perl, HTML, CSS a little PHP, and dabbling in Python, Javascript and Ruby. I am pretty familiar with Catalyst, which is Perl's MVC web framework and enjoy working in an MVC environment.</p>
+<p>I've taken some other OpenSource classes here in Minneapolis offered by EXCO, an experimental College and it was a really great experience. I'm now super excited to get started at P2PU-- so many cool people to interact and learn with!</p>
+<p>My blog is at <a href="http://christopherwade.net" rel="nofollow">christopherwade.net</a> and I will be updating periodically.<br />
+Also, I tweet at <a>@cwademusic</a></p>
+<p>My main goal is to continue self-teaching and try to wrap my head around this awesome 'new' language, ultimately to help me get a job that gives me more satisfaction.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7459" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7490"></a>
+<div class="comment comment-7490 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/ashs.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-9465.jpg" alt="Ashley Scott&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/ashs.html" title="View user profile.">Ashley Scott</a><div id='comment-submitted-date'>
+Sun, 2011-01-23 07:28</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>hey, I'm Ash. I'm interested in Ruby for doing both paid &amp; art work. Aside from the obvious usefulness for webdev &amp; scripting, I'm thinking of it as something that can hook into some of the apps I use for art computing: Processing &amp; Max/MSP.</p>
+<p>The aim being to be able to use a single language to do some work in several apps &amp; replace the variety of scripts (Perl, JavaScript, etc) I find myself using.</p>
+<p>an early impressions of Ruby:</p>
+<p>The first language I learned was Tcl/Tk &amp; there appear to be some similarities in Ruby with in being able to string methods together &amp; crazy stuff you can do with 'eval'.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7490" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7659"></a>
+<div class="comment comment-7659 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/okiwan.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-10410.png" alt="Sergio Ocaña Gálvez&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/okiwan.html" title="View user profile.">Sergio Ocaña Gálvez</a><div id='comment-submitted-date'>
+Mon, 2011-01-24 14:23</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Wow, time to catch up...missed this, my apologies :P</p>
+<p>After my CS degree I started working as an application developer (junior, then senior, then…); so far, it's been nine years and now I'm starting web development…so it's a good reason to enroll here!</p>
+<p>I have used many different languages: ASM, C, C++, Pascal, Modula, Eiffel…basically at the university.  Mainly at work we used VB legacy and VB.NET (hopefully we migrated everything to the .NET platform) and scripting languages (bash comes first to my mind, on unix system, but also DOS batch, PerlScript…).</p>
+<p>I'm starting from scratch with Ruby/RoR but I'm very excited since it's my intention to stick to it for a long, long time using it to implement solutions on an small startup I created with a friend, here in Barcelona.</p>
+<p>You'll probably find me on IRC (okiwan) or you can use the standard methods to contact me. Delighted to share and learn with you!</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7659" class="active">link to this comment</a></li>
+</ul></div><a id="comment-7703"></a>
+<div class="comment comment-7703 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/nealg223.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-10508.jpg" alt="Neal Sales-Griffin&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/nealg223.html" title="View user profile.">Neal Sales-Griffin</a><div id='comment-submitted-date'>
+Mon, 2011-01-24 18:07</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi Everyone, I'm Neal. 23 years old from the South side of Chicago and graduate of Northwestern University where I studied organizational psychology and entrepreneurship. I wrote a blog post for the Obie Fernandez contest Andy posted about a few days ago, it essentially describes who I am if you're interested! <a href="http://howilearnedeverything.com/2011/01/23/the-rails-up-and-comers-contest/" title="http://howilearnedeverything.com/2011/01/23/the-rails-up-and-comers-contest/" rel="nofollow">http://howilearnedeverything.com/2011/01/23/the-rails-up-and-comers-cont...</a></p>
+<p>Technical Background/Experience Level:</p>
+<p>I have no prior programming experience. It may be safe to say I'm the noobiest noob on here? Needless to say, I would really appreciate any and all help and support willing classmates would be able to provide. I work hard and I am taking this very seriously, I only hope that's enough to make it through!</p>
+<p>Blog/Website URLs:</p>
+<p><a href="http://www.howilearnedeverything.com" title="www.howilearnedeverything.com" rel="nofollow">www.howilearnedeverything.com</a><br />
+twitter: @nealsales<br />
+facebook: facebook.com/nealsg</p>
+<p>Purpose For Taking This Course:</p>
+<p>I quit my job working for my third venture capital firm in order to learn how to build web applications. I have been slowly learning Ruby on Rails along with HTML, CSS, and graphic design. I think this class is a structured way to accelerate my learning, and in addition I would love to form some new substantive friendships with people doing awesome things with themselves - perhaps some of us could even work together on something someday...</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-7703" class="active">link to this comment</a></li>
+</ul></div><a id="comment-8126"></a>
+<div class="comment comment-8126 comment-published even clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/sudeep-padalkar.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Sudeep Padalkar&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/sudeep-padalkar.html" title="View user profile.">Sudeep Padalkar</a><div id='comment-submitted-date'>
+Wed, 2011-01-26 08:48</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Personal Background: Hi, I am Sudeep Padalkar, 26yrs old, getting married shortly(on 9th march 2011). Love to learn anything and everything, especially related to technology. I love the concept of alternate thinking. Would love to setup a tech portal some time down the line. (So people interested please get in touch)</p>
+<p>Technical Background/Experience Level:I am a php Programmer working on a site related to movies, I am responsible for the social networking integration for this site and other 3rd party implementations across the site. I have worked on the configuration and setup of the site on the amazon cloud. Love to dabble around in different aspects of the site like SEO implementation, performance and much more... Worked on the UI for site using DHTML, CSS, JQUERY, XSL transformation....</p>
+<p>Blog/Website URLs: twitter handle:- /holysatan</p>
+<p>Purpose For Taking This Course: I want to be able enough to work and create a single implementation using different languages. And want to dive into the world of ROR. Desperately waiting for the course to get started.. Till then would get acquainted with the people around here...</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-8126" class="active">link to this comment</a></li>
+</ul></div><a id="comment-8888"></a>
+<div class="comment comment-8888 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/rasmusj2.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Jenny&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/rasmusj2.html" title="View user profile.">Jenny</a><div id='comment-submitted-date'>
+Fri, 2011-01-28 18:27</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi, my name is Jenny (rasmusj2)<br />
+IRC: jrasmussen</p>
+<p>Personal Background:</p>
+<p>I am the owner of a small business near Portland, Oregon; and I live on a little farm in the coast range even further out in the middle of nowhere!   After years working in the IT corporate world, I decided that the corporate world wasn't for me. </p>
+<p>I enjoy knitting, reading, caring for my llamas, chickens and kitties – and writing code that makes my work easier!</p>
+<p>Technical Background/Experience Level:</p>
+<p>As a computer consultant with an AS in Computer Science and 10+ years experience in the IT field, I love programming (and miss the collaboration/teamwork I had while working as a system administrator/database programmer).  I am looking forward to collaborating in an online community with others!</p>
+<p>Purpose for Taking This Course:</p>
+<p>As a business owner with a website to create and maintain, I want to build new skills towards creating my own ‘custom’ website.  I do not want to continue to rely on other open source programs such as osCommerce or Joomla! that don’t work the way I think!</p>
+<p>Ruby and Rails caught my attention because it is ‘english-like’ (like Pascal, hate those semicolons!) but also complex and powerful (like C, powerful but so cryptic!).  I think I will really ‘enjoy’ programming in Ruby!</p>
+<p>Also, I love learning new things -- and enjoy teaching others about what I have learned.  I have discovered that teaching IS learning.  What you teach, you end up learning more about in the process of passing on the knowledge.  I love to teach -- to see those ‘lights’ come on -- when they finally say “OH, THAT IS SO EASY”!</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-8888" class="active">link to this comment</a></li>
+</ul></div><div class="indented"><a id="comment-8892"></a>
+<div class="comment comment-8892 comment-published even comment-by-author clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/alindeman.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-6964.jpg" alt="Andy Lindeman&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/alindeman.html" title="View user profile.">Andy Lindeman</a><div id='comment-submitted-date'>
+Fri, 2011-01-28 18:32</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>I love seeing the lights come on too! :)</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-8892" class="active">link to this comment</a></li>
+</ul></div></div><a id="comment-9009"></a>
+<div class="comment comment-9009 comment-published odd clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/sivasubramanianm.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-3802.jpg" alt="Sivasubramanian Muthusamy&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/sivasubramanianm.html" title="View user profile.">Sivasubramanian M...</a><div id='comment-submitted-date'>
+Sat, 2011-01-29 10:12</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hello</p>
+<p>I am from India, graduate in Business Management, have been in business, Textile Exports until 2007, have had no technical background until then, and from 2008 started exploring open source with the idea of taking an open source network operating system to the Desktop computer, worked on that with ample guidance, learnt a bit of 'usage' of the open source O/S, at about the same time initiated the formation of an Internet Society chapter, <a href="http://isocmadras.blogspot.com" title="http://isocmadras.blogspot.com" rel="nofollow">http://isocmadras.blogspot.com</a>, serving as President, took part in the Internet Governance Forums at Hyderabad, Egypt, organized workshops, attended ICANN meetings, took part in at-Large without spending any time on my business venture during 2008 -  2010, have started working again on the Desktop and Mobile PC project <a href="http://turiya.co.in" title="http://turiya.co.in" rel="nofollow">http://turiya.co.in</a> and also began working on Web Development Services <a href="http://isolatednetwork.com" title="http://isolatednetwork.com" rel="nofollow">http://isolatednetwork.com</a>  I have signed up for the Ruby on Rails course, as my first programming course, to at least broadly understand Ruby on Rails to be in a position to direct and oversee a small Ruby on Rails team. This learning environment is fascinating, and hope to get deeper into Ruby on Rails.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-9009" class="active">link to this comment</a></li>
+</ul></div><a id="comment-10077"></a>
+<div class="comment comment-10077 comment-published even last clear-block">
+  
+  
+    
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/pleathem.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/default-user.png" alt="Paul Leathem&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span><a href="../../users/pleathem.html" title="View user profile.">Paul Leathem</a><div id='comment-submitted-date'>
+Thu, 2011-02-03 13:39</div>
+</span>
+  </div>
+
+  <div class="content">
+    <p>Hi Folks, sorry it's taken me so long to submit my introduction but life/work has been hectic lately to say the least!<br />
+Anyway here I go...</p>
+<p>Personal Background:<br />
+Let’s see, well I'm 37 years old and hail from a little town called Lurgan in Northern Ireland (about 25 miles south of Belfast). I'm a graduate in Computer Science from the University of Ulster in 2006. I'm married with one child and another on the way next month (a big part of the hectic bit I mentioned earlier!!). Outside of work I'm interested in the usual...movies, books, music, etc.</p>
+<p>Technical Background/Experience Level:<br />
+I'm currently a senior web developer with a company in Belfast (<a href="http://www.biznetiis.com/" title="http://www.biznetiis.com/" rel="nofollow">http://www.biznetiis.com/</a>). We're mainly a .NET house although we've dabbled in ColdFusion in the past. I've been here 4 years and have been lead on most of our larger projects so I'm not coming into this course completely blind to the concepts of web development, just with a Microsoft perspective unfortunately :)</p>
+<p>Blog/Website URLs:<br />
+twitter: hillbillydlx<br />
+facebook: facebook.com/pleathem</p>
+<p>Purpose For Taking This Course:<br />
+Like I've said above I've mainly been working in ASP.NET, C#, etc and just feel the time is right to broaden my knowledge a bit. I'd also like to start doing some freelance web work so hoping having this extra skill set will help.</p>
+  </div>
+  
+  <div class="comment-flags">
+        <span class="flagged-by-indication"></span>
+  </div>
+  
+  <ul class="links"><li class="p2pu_comment_link first last active"><a href="introductions.html#comment-10077" class="active">link to this comment</a></li>
+</ul></div></div>
+    </div>
+  
+      
+      </div>  
+</div>
+</div>
+  </div>
+</div>
+    </div>
+  
+      
+      </div>  
+</div>
+  </div>
+</div>
+</div>
+</div>
+                                        </div>
+          </div><!-- /content-column -->
+  
+                  </div>
+        
+                  
+      </div><!-- /page-body -->
+  
+              <div id="page-footer">
+          <div class="inner">
+            <div class="message">
+                            <div id='creative-commons'>
+                <div class='p2pu-cc-text'>
+                  <a href="../../../license.html">License Information</a> - <a href="../../../privacy.html">Privacy Guidelines</a> - <a href="../../../terms-of-use.html">Terms of Use</a>
+                </div><br>
+<div id='cc-logo'>
+
+<a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license" target="_blank"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
+               <div class="p2pu-cc-text">Except where otherwise noted, all content on <span dct="http://purl.org/dc/terms/" property="title">p2pu.org</span> is
+licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license" target="_blank">Creative Commons Attribution-ShareAlike 3.0 Unported
+License</a>.</div>
+
+                </div>
+              </div>             </div>
+              <div id="block-user_voice-0" class="block block-user_voice">
+<!-- wrappers -->
+
+  <h2 class="title"><none></h2>
+  <div class="content"><script type="text/javascript">
+var uservoiceJsHost = ("https:" == document.location.protocol) ? "https://uservoice.com" : "http://cdn.uservoice.com";
+document.write(unescape("%3Cscript src='" + uservoiceJsHost + "/javascripts/widgets/tab.js' type='text/javascript'%3E%3C/script%3E"))
+</script>
+<script type="text/javascript">
+UserVoice.Tab.show({ 
+  key: 'p2pu',
+  host: 'p2pu.uservoice.com', 
+  forum: '47491', 
+  alignment: 'left',
+  background_color:'#F00', 
+  text_color: 'white',
+  hover_color: '#06C',
+  lang: 'en'
+})
+</script></div>
+  
+<!-- /wrappers -->
+</div>          </div>
+        </div>
+      
+  </div><!-- /page -->
+  
+  <script type="text/javascript">
+  var _sf_async_config=Drupal.settings.chartbeat;
+  (function(){
+    function loadChartbeat() {
+      window._sf_endpt=(new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src',
+         (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+         "static.chartbeat.com/js/chartbeat.js");
+      document.body.appendChild(e);
+    }
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+       loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+</script>
+<!--[if lt IE 8]><style type="text/css">div.popup-element{ display: inline;}</style><![endif]-->
+</body>
+</html>

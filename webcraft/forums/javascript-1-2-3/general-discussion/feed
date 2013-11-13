@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/webcraft/taxonomy/term/481/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Medallas y reconocimiento al aprendizaje</title>
+ <link>http://archive.p2pu.org/webcraft/javascript-1-2-3/discussion/medallas-y-reconocimiento-al-aprendizaje</link>
+ <description>&lt;p&gt;Como algunos habr&amp;aacute;n quiz&amp;aacute;s le&amp;iacute;do, la gente de la P2PU est&amp;aacute; organizando una prueba piloto de las medallas (&amp;quot;badges&amp;quot;) para reconocer el trabajo y el aprendizaje de quienes est&amp;aacute;n participando en los cursos.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/javascript-1-2-3&quot;&gt;Javascript 1-2-3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/javascript-1-2-3/discussion/medallas-y-reconocimiento-al-aprendizaje&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/javascript-1-2-3/discussion/medallas-y-reconocimiento-al-aprendizaje#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/481">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/javascript-1-2-3" xmlns="http://drupal.org/project/og">Javascript 1-2-3</group>
+ <pubDate>Mon, 28 Feb 2011 02:52:45 +0000</pubDate>
+ <dc:creator>David Suárez</dc:creator>
+ <guid isPermaLink="false">26892 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Dudas de programación</title>
+ <link>http://archive.p2pu.org/webcraft/javascript-1-2-3/discussion/dudas-de-programacion</link>
+ <description>&lt;p&gt;Aqu&amp;iacute; pueden poner cualquier duda que tengan sobre los temas que vayamos viendo cada semana de programaci&amp;oacute;n. Les pido que nos limitemos a los temas que corresponden para que todos vayamos avanzando a la par.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/javascript-1-2-3&quot;&gt;Javascript 1-2-3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/javascript-1-2-3/discussion/dudas-de-programacion#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/481">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/javascript-1-2-3" xmlns="http://drupal.org/project/og">Javascript 1-2-3</group>
+ <pubDate>Tue, 08 Feb 2011 06:29:22 +0000</pubDate>
+ <dc:creator>David Suárez</dc:creator>
+ <guid isPermaLink="false">26051 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Efectos de texto</title>
+ <link>http://archive.p2pu.org/webcraft/javascript-1-2-3/discussion/efectos-de-texto</link>
+ <description>&lt;p&gt;Hola David,&lt;/p&gt;
+&lt;p&gt;Me podr&amp;iacute;as echar una mano con una duda que tengo o darme alguna sugerencia sobre d&amp;oacute;nde puedo buscar informaci&amp;oacute;n?&lt;br /&gt;
+&amp;nbsp;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/javascript-1-2-3&quot;&gt;Javascript 1-2-3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/javascript-1-2-3/discussion/efectos-de-texto&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/javascript-1-2-3/discussion/efectos-de-texto#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/481">General discussion</category>
+ <enclosure url="http://archive.p2pu.org/sites/archive.p2pu.org/files/aboutus_screenshot.jpg" length="424912" type="image/jpeg" />
+ <group domain="http://archive.p2pu.org/webcraft/javascript-1-2-3" xmlns="http://drupal.org/project/og">Javascript 1-2-3</group>
+ <pubDate>Mon, 07 Feb 2011 16:31:40 +0000</pubDate>
+ <dc:creator>Aurora Perez</dc:creator>
+ <guid isPermaLink="false">25999 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Problemas subir ñlos archivos</title>
+ <link>http://archive.p2pu.org/webcraft/javascript-1-2-3/discussion/problemas-subir-nlos-archivos</link>
+ <description>&lt;p&gt;Buenos d&amp;iacute;as.&lt;/p&gt;
+&lt;p&gt;Tengo muchas en la cabeza, que no es excusa, pero he perdido y/o no me acuerdo de c&amp;oacute;mo se accede a la plataforma para subir archivos:&lt;br /&gt;
+Con:&lt;br /&gt;
+Host: &lt;strong&gt;js123.dreamhosters.com&lt;/strong&gt;&lt;br /&gt;
+Usuario: &lt;strong&gt;p2puniversity&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Cual es la contrase&amp;ntilde;a????????&lt;/p&gt;
+&lt;p&gt;Introduzco mi email para&lt;span&gt; recordar la contrase&amp;ntilde;a pero no funciona, no se si me hice cuenta....&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&amp;iquest;Ser&amp;iacute;a posible publicar la contrase&amp;ntilde;a?&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/javascript-1-2-3&quot;&gt;Javascript 1-2-3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/javascript-1-2-3/discussion/problemas-subir-nlos-archivos&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/javascript-1-2-3/discussion/problemas-subir-nlos-archivos#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/481">General discussion</category>
+ <enclosure url="http://archive.p2pu.org/sites/archive.p2pu.org/files/SergioVergara1.zip" length="732" type="application/zip" />
+ <group domain="http://archive.p2pu.org/webcraft/javascript-1-2-3" xmlns="http://drupal.org/project/og">Javascript 1-2-3</group>
+ <pubDate>Sat, 05 Feb 2011 10:29:30 +0000</pubDate>
+ <dc:creator>Serg Vergara</dc:creator>
+ <guid isPermaLink="false">25887 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Reuniones semanales</title>
+ <link>http://archive.p2pu.org/webcraft/javascript-1-2-3/discussion/reuniones-semanales</link>
+ <description>&lt;p&gt;
+	Ser&amp;iacute;a una excelente oportunidad para este curso el que nos pudi&amp;eacute;ramos encontrar todos o al menos la mayor parte de los participantes 1 o dos veces a la semana, a trav&amp;eacute;s de alguna herramienta en l&amp;iacute;nea, para resolver dudas, discutir objetivos, etc. Yo intentar&amp;eacute; hacer una presentaci&amp;oacute;n o algo que nos sirva para mejorar nuestro aprendizaje de Javascript, aunque si alguien desea presentar algo, no tiene m&amp;aacute;s que sugerirlo en este mismo espacio.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/javascript-1-2-3&quot;&gt;Javascript 1-2-3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/javascript-1-2-3/discussion/reuniones-semanales&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/javascript-1-2-3/discussion/reuniones-semanales#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/481">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/javascript-1-2-3" xmlns="http://drupal.org/project/og">Javascript 1-2-3</group>
+ <pubDate>Mon, 31 Jan 2011 15:12:21 +0000</pubDate>
+ <dc:creator>David Suárez</dc:creator>
+ <guid isPermaLink="false">25558 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Presentaciones</title>
+ <link>http://archive.p2pu.org/webcraft/javascript-1-2-3/discussion/presentaciones</link>
+ <description>&lt;p&gt;Hola,&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; mi nombre es Sergio Vergara, soy inform&amp;aacute;tico y vivo en Espa&amp;ntilde;a&lt;/p&gt;
+&lt;p&gt;&amp;iquest;alguna referencia a c&amp;oacute;mo enviar los ejercicios del curso?&lt;/p&gt;
+&lt;p&gt;Saludos a todos, Serg&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/javascript-1-2-3&quot;&gt;Javascript 1-2-3&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/javascript-1-2-3/discussion/presentaciones#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/481">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/javascript-1-2-3" xmlns="http://drupal.org/project/og">Javascript 1-2-3</group>
+ <pubDate>Mon, 31 Jan 2011 12:59:32 +0000</pubDate>
+ <dc:creator>Serg Vergara</dc:creator>
+ <guid isPermaLink="false">25549 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

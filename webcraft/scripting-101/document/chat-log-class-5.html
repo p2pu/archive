@@ -1,0 +1,710 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="p2pu" xml:lang="p2pu">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Scripting 101 | P2PU Archive</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<link rel="shortcut icon" href="../../../sites/archive.p2pu.org/themes/p2pu10/favicon.ico" type="image/x-icon" />
+<link type="text/css" rel="stylesheet" media="all" href="../../../sites/archive.p2pu.org/modules/codefilter/codefilter.css@I.css" />
+<link type="text/css" rel="stylesheet" media="all" href="../../../sites/archive.p2pu.org/files/ctools/css/132cbcbd66da15052e9a590dbb4eca76.css@I.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../../../sites/archive.p2pu.org/modules/popup/popup.css@I.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../../../sites/archive.p2pu.org/modules/popup/styles/Soft&#32;grey&#32;frame/popup-style.css@I.css" />
+<link type="text/css" rel="stylesheet" media="all" href="../../../sites/archive.p2pu.org/files/css/css_53b6992323d5f617d777bef7b197cc5a.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../../../sites/archive.p2pu.org/files/css/css_23213a44f12b0d9125523bb3c342e2a6.css" />
+<script type="text/javascript" src="../../../sites/archive.p2pu.org/files/js/js_f9571e8f689e0561a88ad14078625551.js"></script>
+<script type="text/javascript" src="../../../sites/archive.p2pu.org/modules/popup/popup.js@1381714819"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "chartbeat": { "uid": 10678, "domain": "p2pu.org" }, "dhtmlMenu": { "slide": "slide", "doubleclick": "doubleclick", "siblings": 0, "relativity": 0, "children": 0, "clone": 0 }, "extlink": { "extTarget": 0, "extClass": "ext", "extSubdomains": 1, "extExclude": "", "extInclude": "", "extAlert": 0, "extAlertText": "This link will take you to an external web site. We are not responsible for their content.", "mailtoClass": "mailto" }, "popup": { "hoverLinger": "250" }, "views": { "ajax_path": [ "/webcraft/views/ajax", "/webcraft/views/ajax" ], "ajaxViews": [ { "view_name": "panel_comments", "view_display_id": "default", "view_args": "node/5686/document/9987", "view_path": "node/5686/document/9987", "view_base_path": null, "view_dom_id": 1, "pager_element": 0 }, { "view_name": "course_documents_arg", "view_display_id": "block_2", "view_args": "5686", "view_path": "node/5686/document/9987", "view_base_path": null, "view_dom_id": 2, "pager_element": 0 } ] }, "og": { "group_context": { "nid": "5686", "title": "Scripting 101", "type": "course" } } });
+//--><!]]>
+</script>
+</head>
+
+<body class="not-front not-logged-in page-node no-sidebars p2pu-context-course-section-webcraft og-context og-context-5686  ">
+
+  <div id="page">
+     <!--style = "display:none;"-->
+      <div id="top-notification" class="p2pu-notification">
+        <p>This is the P2PU Archive. If you want the current site, go to <a href="http://www.p2pu.org" rel="nofollow">www.p2pu.org!</a></p>
+      </div>     
+      <div id="page-header" class="float-container">
+
+        <div id="logo"><a title="webcraft Home" href="../../../webcraft.1.html"><img alt="P2PU Home" src="../../../sites/archive.p2pu.org/themes/p2pu10/images/logos/logo-section-webcraft.png"></a></div>
+        <div id="slogan"></div>
+        <div id="region-header"></div>
+
+              </div><!-- /page-header -->
+
+      <div id="navigation">
+        <div class="primary">  <div id="block-menu-menu-webcraft" class="block block-menu">
+<!-- wrappers -->
+
+
+  <div class="content"><ul class="menu"><li class="leaf first dhtml-menu "><a href="../../../index.html" title="P2PU home page" id="dhtml_menu-17129"><span>P2PU Home</span></a></li>
+<li class="leaf last dhtml-menu "><a href="../../course/list.html" title="Webcraft course listing." id="dhtml_menu-17128"><span>Courses</span></a></li>
+</ul></div>
+  
+<!-- /wrappers -->
+</div></div>        <form action="chat-log-class-5.html"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-5791322444bf324210f3decc025c94a0" value="form-5791322444bf324210f3decc025c94a0"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+      </div><!-- /Navigation -->
+
+      <div id="page-sub-header"></div>
+
+      <div id="page-body" class="float-container page-body-top">
+        <div id="page-sub-body">
+  
+          <div id="content-column">
+            <div class="inner">
+                            
+              <h1 class="title">Scripting 101</h1>                                                        <div class="tabs float-container"><ul class="tabs primary">
+<li ><a href="../../scripting-101.html"><span>Course Home</span></a></li>
+<li class="active" ><a href="../../node/5686/document.html"><span>Course Material</span></a></li>
+<li ><a href="../../node/5686/forums.html"><span>Forums</span></a></li>
+</ul>
+</div>                            <div class="panel-flexible panels-flexible-17 clear-block" >
+<div class="panel-flexible-inside panels-flexible-17-inside">
+<div class="panels-flexible-region panels-flexible-region-17-left panels-flexible-region-first">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-17-left-inside panels-flexible-region-inside-first">
+<div class="panel-pane pane-views pane-course-documents-arg grey-panel" >
+  <div class="pane-inner">
+      
+          <h2 class="pane-title">Course Material</h2>
+      
+      
+    <div class="pane-content">
+      <div class="view view-course-documents-arg view-id-course_documents_arg view-display-id-block_2 view-dom-id-2">
+    
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../document/syllabus-scripting-101.html">Syllabus for Scripting 101</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="chat-log-class-14.html">Chat log Class 14</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="class-log-class-13.html">Class log Class 13</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="class-log-class-12.html">Class log Class 12</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="chat-log-class-11.html">Chat log Class 11</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-6 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="chat-log-class-10.html">Chat log Class 10</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="chat-log-class-9.html">Chat log Class 9</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-8 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="chat-log-class-8.html">Chat log Class 8</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-9 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="chat-log-class-7.html">Chat log Class 7</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-10 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="chat-log-class-6.html">Chat log Class 6</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-11 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="chat-log-class-5.html">Chat log Class 5</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-12 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="chat-log-class-4.html">Chat log Class 4</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-13 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="chat-log-class-3.html">Chat log Class 3</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-14 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="chat-log-class-2.html">Chat log Class 2</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-15 views-row-odd views-row-last">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="chat-log-class-1.html">Chat log Class 1</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>     </div>
+  
+      
+      </div>  
+</div>
+  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-17-center panels-flexible-region-last ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-17-center-inside panels-flexible-region-inside-last">
+<div class="panel-pane pane-node" >
+  <div class="pane-inner">
+      
+          <h2 class="pane-title">Chat log Class 5</h2>
+      
+      
+    <div class="pane-content">
+      <div id="node-9987" class="node node-document clear-block">
+
+  <h2 class="title"><a href="chat-log-class-5.html" title=""></a></h2>
+
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/hemanth.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-723.jpg" alt="hemanth hm&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span class="created-date">Sat, 2010-10-02 18:30</span>
+  </div>
+
+  <div class="content">
+    <div class="field field-type-text field-field-document-body">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <p>
+* hemanth has changed the topic to: LOOPS<br />
+&lt;hemanth&gt; hey hobs&nbsp; Laks<br />
+&lt;Laks&gt; hello<br />
+&lt;hemanth&gt; hobs, anything special out there in US? Seeing very less guys today<br />
+&lt;hemanth&gt; Laks, hey wasup in UK?<br />
+* hemanth wonders if its a long weekend or something<br />
+&lt;Laks&gt; gloomy weather<br />
+&lt;Laks&gt; its&nbsp; raining<br />
+&lt;hemanth&gt; ha, ok<br />
+&lt;hemanth&gt; not seeing anyone, are they thinking to read from the logs ;)<br />
+&lt;hemanth&gt; lets wait for few mins?<br />
+&lt;Laks&gt; yes<br />
+* SourRust (473b12d5@gateway/web/freenode/ip.71.59.18.213) has joined #p2pu-webcraft/scripting-101<br />
+* Laks has quit (Quit: Page closed)<br />
+&lt;hemanth&gt; SourRust, hey<br />
+&lt;SourRust&gt; hey]<br />
+* Lakshmi (516258e7@gateway/web/freenode/ip.81.98.88.231) has joined #p2pu-webcraft/scripting-101<br />
+&lt;hemanth&gt; there was a mass disconnection<br />
+&lt;hemanth&gt; so waiting for people to join in<br />
+&lt;SourRust&gt; o ok<br />
+&lt;hemanth&gt; there is a very interesting thing, i&#39;m waiting to share<br />
+&lt;hemanth&gt; Okies lets start<br />
+* hemanth has changed the topic to: LOOPS<br />
+&lt;hemanth&gt; Hello hackers<br />
+&lt;SourRust&gt; hey<br />
+&lt;Lakshmi&gt; hi<br />
+&lt;hemanth&gt; in past few days, i meet with my old bash hackers and with there help i have set a bash bot for this channel, working on it to make it work for pl,rb and py; its a very tough nut to crack<br />
+&lt;hemanth&gt; let me demonstrate, how it works<br />
+&lt;hemanth&gt; # echo Hello All :)<br />
+&lt;bashboy&gt; hemanth: bash: syntax error near unexpected token `)&#39;<br />
+&lt;hemanth&gt; # echo &quot;Hello All :)&quot;<br />
+&lt;bashboy&gt; hemanth: Hello All :)<br />
+&lt;hemanth&gt; saw that?<br />
+&lt;hemanth&gt; bashboy is our helper<br />
+&lt;hemanth&gt; is does everything that bash does for us ;)<br />
+&lt;hemanth&gt; # uname -a<br />
+&lt;SourRust&gt; lulz awsome<br />
+&lt;bashboy&gt; hemanth: Linux bunnies 2.6.27.6 #9 Sat Nov 15 16:44:53 CET 2008 i686 Pentium II (Klamath) GenuineIntel GNU/Linux<br />
+&lt;Lakshmi&gt; wow&nbsp; cool<br />
+&lt;hemanth&gt; Lakshmi, SourRust, hobs&nbsp; you guys try few commands :)<br />
+&lt;hemanth&gt; # echo try it<br />
+&lt;bashboy&gt; hemanth: try it<br />
+&lt;SourRust&gt; # echo *<br />
+&lt;bashboy&gt; SourRust: *<br />
+&lt;Lakshmi&gt; # echo&nbsp;&nbsp; &quot;Bash Boy&quot;<br />
+&lt;bashboy&gt; Lakshmi: Bash Boy<br />
+&lt;Lakshmi&gt; lol&nbsp; its&nbsp; super&nbsp; cool<br />
+&lt;hemanth&gt; SourRust, that was a nice try :)<br />
+&lt;SourRust&gt; xD<br />
+&lt;hemanth&gt; Lakshmi, want to try more ;)<br />
+&lt;Lakshmi&gt; initially i thought bashboy is a new student to this class<br />
+&lt;Lakshmi&gt; :)<br />
+* hemanth would have tried some system commands :D<br />
+&lt;hemanth&gt; ya bashboy is a good boy :)<br />
+&lt;hemanth&gt; # shutdown now<br />
+&lt;bashboy&gt; hemanth: shutdown: warning: cannot open /var/run/shutdown.pid<br />
+&lt;bashboy&gt; hemanth: shutdown: /dev/initctl: No such file or directory<br />
+&lt;bashboy&gt; hemanth: etc... ( <a href="http://pastebin.com/3HCKqpjC" title="http://pastebin.com/3HCKqpjC" rel="nofollow">http://pastebin.com/3HCKqpjC</a> )<br />
+&lt;hemanth&gt; :D<br />
+&lt;SourRust&gt; pretty sweet<br />
+&lt;Lakshmi&gt; cal<br />
+&lt;Lakshmi&gt; #cal<br />
+&lt;hemanth&gt; so hopefully by next week bashboy would be all by :)<br />
+&lt;hemanth&gt; Lakshmi, there must be a space<br />
+&lt;Lakshmi&gt; # cal<br />
+&lt;bashboy&gt; Lakshmi: bash: cal: command not found<br />
+&lt;hemanth&gt; i have not added to binary of cal<br />
+&lt;Lakshmi&gt; # date<br />
+&lt;bashboy&gt; Lakshmi: Sat Oct&nbsp; 2 15:41:04 UTC 2010<br />
+&lt;hemanth&gt; # date -u<br />
+&lt;bashboy&gt; hemanth: Sat Oct&nbsp; 2 15:41:10 UTC 2010<br />
+&lt;Lakshmi&gt; oh ok<br />
+&lt;hemanth&gt; # who<br />
+&lt;bashboy&gt; hemanth: no output<br />
+&lt;Lakshmi&gt; # mkdir script<br />
+&lt;bashboy&gt; Lakshmi: no output<br />
+&lt;hemanth&gt; # whoami<br />
+&lt;bashboy&gt; hemanth: root<br />
+&lt;Lakshmi&gt; #&nbsp; whoami<br />
+&lt;hemanth&gt; # cd script<br />
+&lt;bashboy&gt; Lakshmi: root<br />
+&lt;bashboy&gt; hemanth: bash: cd: script: No such file or directory<br />
+&lt;Lakshmi&gt; # whereis<br />
+&lt;bashboy&gt; Lakshmi: bash: whereis: command not found<br />
+&lt;hemanth&gt; ok!<br />
+&lt;Lakshmi&gt; #&nbsp; vmstat<br />
+&lt;bashboy&gt; Lakshmi: bash: vmstat: command not found<br />
+&lt;hemanth&gt; enuf of games<br />
+&lt;hemanth&gt; <a href="http://pastebin.com/fvv0pYtW" title="http://pastebin.com/fvv0pYtW" rel="nofollow">http://pastebin.com/fvv0pYtW</a> is the list<br />
+&lt;hemanth&gt; is the list of commands you can run as of now<br />
+&lt;hemanth&gt; fine?<br />
+&lt;Lakshmi&gt; ok<br />
+&lt;hemanth&gt; to make things faster and easier in class<br />
+&lt;hemanth&gt; i&#39;m gona give general syntax of each language now<br />
+&lt;hemanth&gt; LOOPS<br />
+&lt;Lakshmi&gt; ok<br />
+&lt;hemanth&gt; The while loop<br />
+&lt;hemanth&gt; while c; do ...; done -&gt; BASH<br />
+&lt;hemanth&gt; while (c) -&gt; Perl and Ruby<br />
+&lt;hemanth&gt; while c: -&gt; python<br />
+&lt;Lakshmi&gt; ok<br />
+&lt;hemanth&gt; The FOR loop<br />
+&lt;hemanth&gt; for i in `seq 10 -1 1`; do ...; done -&gt; BASH<br />
+&lt;hemanth&gt; # Not it works with GNU machines, as some wont have &quot;seq&quot; in them<br />
+&lt;bashboy&gt; hemanth: bash: Not: command not found<br />
+&lt;hemanth&gt; ha bashboy&nbsp; keep quit<br />
+&lt;Lakshmi&gt; :)<br />
+&lt;hemanth&gt; for (my $i = 10; $i &gt;= 1; $i--) { ... } -&gt; Perl<br />
+* bashboy has quit (Remote host closed the connection)<br />
+&lt;hemanth&gt; for i in xrange(10, 0, -1) -&gt; Python<br />
+&lt;hemanth&gt; 10.downto(1) {|i| ... } -&gt; Ruby<br />
+* hemanth we will also see examples :) don worry<br />
+&lt;Lakshmi&gt; ok<br />
+&lt;Lakshmi&gt; like the&nbsp; syntax in ruby<br />
+&lt;Lakshmi&gt; downto<br />
+&lt;hemanth&gt; :) yes ruby has such kool syntax<br />
+&lt;hemanth&gt; So lets see examples<br />
+&lt;Lakshmi&gt; ok<br />
+&lt;hemanth&gt; $ while true<br />
+&lt;hemanth&gt;&nbsp;&nbsp; do echo &quot;Infinite loop&quot;<br />
+&lt;hemanth&gt; done<br />
+&lt;hemanth&gt; that is a infinite loop in BASH<br />
+&lt;hemanth&gt;&nbsp; /is/in<br />
+&lt;hemanth&gt; so to break the loop you need to hit ctrl^c<br />
+&lt;hemanth&gt; $ (( i=10 )); while (( i &gt; 0 ))<br />
+&lt;hemanth&gt;&nbsp;&nbsp;&nbsp; &gt; do echo &quot;$i empty cans of beer.&quot;&nbsp;&nbsp;&nbsp; &gt; (( i-- ))&nbsp;&nbsp;&nbsp; &gt; done<br />
+&lt;hemanth&gt; is the text clear?<br />
+&lt;hemanth&gt; $(( i=10 )); while (( i &gt; 0 ))<br />
+&lt;hemanth&gt; do echo &quot;$i empty cans of beer.&quot;<br />
+&lt;hemanth&gt; (( i-- )<br />
+&lt;hemanth&gt; done<br />
+&lt;hemanth&gt; hope that is clear now?<br />
+&lt;hemanth&gt; for (( i=10; i &gt; 0; i-- ))<br />
+&lt;hemanth&gt; do echo &quot;$i empty cans of beer.&quot;<br />
+&lt;hemanth&gt; done<br />
+&lt;Lakshmi&gt; yes<br />
+&lt;hemanth&gt; for i in {10..1}<br />
+&lt;hemanth&gt;&nbsp;&nbsp;&nbsp; do echo &quot;$i empty cans of beer.&quot;<br />
+&lt;hemanth&gt; done<br />
+&lt;hemanth&gt; so if there is no seq command, for i in {10..1} syntax is better for BASH<br />
+&lt;hemanth&gt; there is another useful loop construct<br />
+&lt;hemanth&gt; until<br />
+&lt;hemanth&gt; The syntax of the until command is: until test-commands; do consequent-commands; done<br />
+&lt;hemanth&gt; COUNTER=20<br />
+&lt;hemanth&gt; until [&nbsp; $COUNTER -lt 10 ]; do&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<br />
+&lt;hemanth&gt; echo COUNTER $COUNTER&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<br />
+&lt;hemanth&gt; let COUNTER-=1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;<br />
+&lt;hemanth&gt; done<br />
+* bashboy (~hemanth@122.167.94.232) has joined #p2pu-webcraft/scripting-101<br />
+&lt;hemanth&gt; x=1<br />
+&lt;hemanth&gt; while [ $x -le 5 ]<br />
+&lt;hemanth&gt; do<br />
+&lt;hemanth&gt; echo &quot;Welcome $x times&quot;<br />
+&lt;hemanth&gt; x=$(( $x + 1 ))<br />
+&lt;hemanth&gt; done<br />
+&lt;hemanth&gt; So, it can be derived that any loop can be used, for any kina purpose<br />
+&lt;Lakshmi&gt; ok<br />
+&lt;hemanth&gt; but sometimes we need to do something first<br />
+&lt;hemanth&gt; and then loop<br />
+&lt;hemanth&gt; some times just loop<br />
+&lt;hemanth&gt; its left to the hackers choice to play with them<br />
+&lt;hemanth&gt; all clear?<br />
+&lt;Lakshmi&gt; hmmm<br />
+&lt;hemanth&gt; LOOPS PYTHON<br />
+&lt;hemanth&gt; &gt;&gt;<br />
+&lt;hemanth&gt; for a in range(10):<br />
+&lt;hemanth&gt;&nbsp;&nbsp;&nbsp; print a,<br />
+* hemanth BEWARE of the indentation<br />
+&lt;hemanth&gt; demolist = [&#39;life&#39;,42, &#39;the universe&#39;, 6,&#39;and&#39;,7,&#39;everything&#39;]<br />
+&lt;hemanth&gt; for item in demolist:<br />
+&lt;hemanth&gt;&nbsp;&nbsp;&nbsp; print (&quot;The Current item is: %s&quot; % item)<br />
+&lt;hemanth&gt; a = [&#39;cat&#39;, &#39;window&#39;, &#39;defenestrate&#39;]<br />
+&lt;hemanth&gt; for x in a:<br />
+&lt;hemanth&gt; ...&nbsp;&nbsp;&nbsp; print x, len(x)<br />
+&lt;hemanth&gt; a, b = 0, 1<br />
+&lt;hemanth&gt; ...&nbsp;&nbsp;&nbsp; while a &lt; n:...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print a,...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a, b = b, a+b<br />
+&lt;hemanth&gt; a, b = 0, 1<br />
+&lt;hemanth&gt; while a &lt; n:<br />
+&lt;hemanth&gt; ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; print a<br />
+&lt;hemanth&gt; ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a<br />
+&lt;hemanth&gt; ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; b = b, a+b<br />
+&lt;hemanth&gt; ...&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; a, b = 0, 1<br />
+&lt;hemanth&gt; sorry about the not so clear text<br />
+&lt;hemanth&gt; its the issue with the irc client, me on my vps, could get into my other machine, dude to some issues<br />
+&lt;hemanth&gt; can anyone let me what that previous loop does?<br />
+&lt;hemanth&gt; a, b = 0, 1<br />
+&lt;hemanth&gt;&nbsp; b = b, a+b<br />
+&lt;hemanth&gt; a, b = 0, 1<br />
+&lt;SourRust&gt; prints everything inside the list<br />
+&lt;SourRust&gt; for the previous one<br />
+&lt;hemanth&gt;&nbsp; b = b, a+b and a, b = 0, 1 in loop printing a<br />
+&lt;Lakshmi&gt; b=b,a+b<br />
+&lt;Lakshmi&gt; I didn&#39;t get this<br />
+&lt;hemanth&gt; you gotcha try this!<br />
+&lt;hemanth&gt; &gt;&gt;&gt; a=10<br />
+&lt;hemanth&gt; &gt;&gt;&gt; b=20<br />
+&lt;hemanth&gt; &gt;&gt;&gt; b=b,a+b<br />
+&lt;hemanth&gt; &gt;&gt;&gt; a<br />
+&lt;hemanth&gt; 10<br />
+&lt;hemanth&gt; &gt;&gt;&gt; b<br />
+&lt;hemanth&gt; (20, 30)<br />
+&lt;hemanth&gt; &gt;&gt;&gt; a=10<br />
+&lt;hemanth&gt; &gt;&gt;&gt; b=20<br />
+&lt;hemanth&gt; &gt;&gt;&gt; a,b=b,a<br />
+&lt;hemanth&gt; &gt;&gt;&gt; a<br />
+&lt;hemanth&gt; 20<br />
+&lt;hemanth&gt; &gt;&gt;&gt; b<br />
+&lt;hemanth&gt; 10<br />
+&lt;hemanth&gt; get the magic ;)<br />
+&lt;hemanth&gt; a,b=b,a is swapping a and b in python<br />
+&lt;SourRust&gt; it puts b and a+b into b as a tuple<br />
+&lt;Lakshmi&gt; yes got it<br />
+&lt;SourRust&gt; mkay cool<br />
+&lt;hemanth&gt; SourRust, yes correct :) its a &#39;tuple&#39;<br />
+&lt;hemanth&gt; now, the&nbsp; b = b, a+b and a, b = 0, 1<br />
+&lt;hemanth&gt; prints a series can you tell me what series :)?<br />
+&lt;hemanth&gt; that&#39;s what i was expecting, when i asked the o/p<br />
+&lt;hemanth&gt; the sequence, starts with 0,1 thats the clue ;)<br />
+&lt;hemanth&gt; ....<br />
+&lt;hemanth&gt; another clue required?<br />
+&lt;Lakshmi&gt; 0,1<br />
+&lt;hemanth&gt; yup, then<br />
+&lt;hemanth&gt; its in a loop<br />
+&lt;hemanth&gt;&nbsp; b = b, a+b<br />
+&lt;hemanth&gt; what you b be now?<br />
+&lt;Lakshmi&gt; 1,2<br />
+&lt;hemanth&gt;&nbsp; b = b, a+b<br />
+&lt;hemanth&gt; again<br />
+&lt;SourRust&gt; (1,1)<br />
+&lt;hemanth&gt; the biggest clue F_{n-2} = F_n - F_{n-1}<br />
+&lt;SourRust&gt; oh<br />
+&lt;SourRust&gt; fibonacci<br />
+&lt;hemanth&gt; :)<br />
+&lt;hemanth&gt; yup good you both nailed it<br />
+&lt;hemanth&gt; Now, RUBY LOOPS<br />
+&lt;hemanth&gt; 3.times do<br />
+&lt;hemanth&gt;&nbsp; puts &quot;This will be printed 3 times&quot;<br />
+&lt;hemanth&gt; end<br />
+&lt;hemanth&gt; names = [ &quot;SourRust&quot;, &quot;Lakshmi&quot;, &quot;Hobs&quot; ]<br />
+&lt;Lakshmi&gt; one second pls<br />
+&lt;hemanth&gt; yes<br />
+&lt;hemanth&gt; query?<br />
+&lt;Lakshmi&gt; no was trying the python one<br />
+&lt;Lakshmi&gt; fine now<br />
+&lt;Lakshmi&gt; continue<br />
+&lt;Lakshmi&gt; thanks<br />
+&lt;hemanth&gt; &gt;&gt;&gt; a, b = 0, 1<br />
+&lt;hemanth&gt; &gt;&gt;&gt; n=10<br />
+&lt;hemanth&gt; &gt;&gt;&gt; while a &lt; n:<br />
+&lt;hemanth&gt; ...&nbsp;&nbsp;&nbsp;&nbsp; print a,<br />
+&lt;hemanth&gt; ...&nbsp;&nbsp;&nbsp;&nbsp; a, b = b, a+b<br />
+&lt;hemanth&gt; ...<br />
+&lt;hemanth&gt; 0 1 1 2 3 5 8<br />
+&lt;hemanth&gt; okies fine?<br />
+&lt;Lakshmi&gt; yep got it<br />
+&lt;hemanth&gt; back again to ruby<br />
+&lt;hemanth&gt; names = [ &quot;SourRust&quot;, &quot;Lakshmi&quot;, &quot;Hobs&quot; ]<br />
+&lt;hemanth&gt; names.each do|n|<br />
+&lt;hemanth&gt;&nbsp; puts &quot;Hello #{n}&quot;<br />
+&lt;hemanth&gt; end<br />
+&lt;hemanth&gt; each of the name is selected as n<br />
+&lt;hemanth&gt; and is printed to the console<br />
+&lt;hemanth&gt; i = 0<br />
+&lt;hemanth&gt; while i &lt; 10<br />
+&lt;hemanth&gt;&nbsp; i += 1<br />
+&lt;hemanth&gt; end<br />
+&lt;Lakshmi&gt; yes<br />
+&lt;hemanth&gt; puts i<br />
+&lt;hemanth&gt; i = 0<br />
+&lt;hemanth&gt; until i == 10<br />
+&lt;hemanth&gt;&nbsp; i += 1<br />
+&lt;hemanth&gt; end<br />
+&lt;hemanth&gt; puts i<br />
+&lt;hemanth&gt; so ^^ were until and while loops<br />
+&lt;hemanth&gt; 3.times is the uber syntax of ruby<br />
+&lt;hemanth&gt; fine?<br />
+&lt;SourRust&gt; yup<br />
+&lt;hemanth&gt; nice<br />
+&lt;hemanth&gt; LOOPS in PERL<br />
+&lt;hemanth&gt; for ($count=1; $count&lt;11; $count++){<br />
+&lt;hemanth&gt; print &quot;cool\n&quot;;<br />
+&lt;hemanth&gt; }<br />
+&lt;hemanth&gt; print cool 10 times<br />
+&lt;hemanth&gt; $count=1;<br />
+&lt;hemanth&gt; reseting count ^<br />
+&lt;hemanth&gt; while ($count&lt;11){<br />
+&lt;hemanth&gt; print &quot;$count\n&quot;;<br />
+&lt;hemanth&gt; $count++;<br />
+&lt;hemanth&gt; }<br />
+&lt;hemanth&gt;&nbsp; @Names = (&#39;SourRust&#39;, &#39;Laks&#39;, &#39;Hobs&#39;);<br />
+&lt;hemanth&gt;&nbsp; foreach (@Names) {<br />
+&lt;hemanth&gt;&nbsp;&nbsp; print $_;<br />
+&lt;hemanth&gt;&nbsp; }<br />
+&lt;hemanth&gt; sounds good?<br />
+&lt;Lakshmi&gt; yes<br />
+&lt;SourRust&gt; yyup<br />
+* hemanth got to know that class gets boring if its like a recital, so made it crisp and bit fast, so that it would cover whats required in faster time<br />
+&lt;hemanth&gt; and people you will have 7 more days left to experiment<br />
+&lt;hemanth&gt; do feel free to create threads<br />
+&lt;Lakshmi&gt; :)<br />
+&lt;hemanth&gt; as most of them have done it already to share there ideas<br />
+&lt;Lakshmi&gt; ok<br />
+&lt;hemanth&gt; you also make thread<br />
+&lt;hemanth&gt; try them<br />
+&lt;hemanth&gt; i wont call the git stuff as home work from now...hmm home work duh...<br />
+&lt;hemanth&gt; its for the fun of it<br />
+&lt;hemanth&gt; small project like this will help you to understand how the free and open source world works<br />
+* PaBLoX (c8686260@gateway/web/freenode/ip.200.104.98.96) has joined #p2pu-webcraft/scripting-101<br />
+&lt;PaBLoX&gt; Sorry!<br />
+&lt;PaBLoX&gt; The class already ended?<br />
+&lt;PaBLoX&gt; D:<br />
+&lt;hemanth&gt; # Hi PaBLoX<br />
+&lt;bashboy&gt; hemanth: bash: Hi: command not found<br />
+&lt;hemanth&gt; # echo Hi PaBLoX<br />
+&lt;bashboy&gt; hemanth: Hi PaBLoX<br />
+&lt;Lakshmi&gt; :)<br />
+&lt;hemanth&gt; :D<br />
+&lt;PaBLoX&gt; Sorry :(<br />
+&lt;hemanth&gt; PaBLoX, no problem, there is bashboy now<br />
+&lt;Lakshmi&gt; pablox try #&nbsp; bash command<br />
+&lt;hemanth&gt; class is almost ending<br />
+&lt;SourRust&gt; # echo bashboy<br />
+&lt;bashboy&gt; SourRust: bashboy<br />
+&lt;PaBLoX&gt; # echo cool :)<br />
+&lt;bashboy&gt; PaBLoX: bash: syntax error near unexpected token `)&#39;<br />
+&lt;PaBLoX&gt; hahaha<br />
+&lt;hemanth&gt; # echo &quot;cool :)&quot;<br />
+&lt;bashboy&gt; hemanth: cool :)<br />
+&lt;Lakshmi&gt; :)<br />
+&lt;PaBLoX&gt; ahaha<br />
+&lt;hemanth&gt; quoting is very very important in bash<br />
+&lt;PaBLoX&gt; really fun :D<br />
+&lt;PaBLoX&gt; Yep<br />
+&lt;hemanth&gt; hopefully he will learn other languages soon :)<br />
+&lt;hemanth&gt; he =&gt; &lt;bashboy&gt;<br />
+&lt;hemanth&gt; with all of you contributing we can bring in a bashgal soon ;)<br />
+&lt;Lakshmi&gt; he=&gt; superboy after he learns all languages<br />
+&lt;hemanth&gt; Lakshmi, :D<br />
+&lt;PaBLoX&gt; # echo &quot;So I said: \&quot;Bashboy is the coolest bot ever\&quot;&quot;<br />
+&lt;bashboy&gt; PaBLoX: So I said: &quot;Bashboy is the coolest bot ever&quot;<br />
+&lt;hemanth&gt; I&#39;m happy to mention that i got credits from the NY nerds <a href="http://is.gd/fwIXy" title="http://is.gd/fwIXy" rel="nofollow">http://is.gd/fwIXy</a><br />
+&lt;hemanth&gt; :)<br />
+&lt;Lakshmi&gt; Diaspora cool:) Congrats!<br />
+&lt;hemanth&gt; in the &quot;Special thanks goes out to&quot; section<br />
+&lt;hemanth&gt; i&#39;m just a speck out there<br />
+&lt;PaBLoX&gt; Hey! Congrats<br />
+&lt;Lakshmi&gt; hemanth , maco , and drt24 who wrote the epic Ubuntu setup script.<br />
+&lt;hemanth&gt; Lakshmi, PaBLoX thanks :)<br />
+&lt;hemanth&gt; PaBLoX, i will share the logs in few mins<br />
+&lt;hemanth&gt; Lakhemanth&gt; So...EOC for today<br />
+&lt;hemanth&gt; please do try them all<br />
+&lt;hemanth&gt; cya tomo hackers</p>
+<p></p>
+        </div>
+        </div>
+</div>
+  </div>
+  
+
+
+</div>
+    </div>
+  
+      
+      </div>  
+</div>
+  </div>
+</div>
+</div>
+</div>
+                                        </div>
+          </div><!-- /content-column -->
+  
+                  </div>
+        
+                  
+      </div><!-- /page-body -->
+  
+              <div id="page-footer">
+          <div class="inner">
+            <div class="message">
+                            <div id='creative-commons'>
+                <div class='p2pu-cc-text'>
+                  <a href="../../../license.html">License Information</a> - <a href="../../../privacy.html">Privacy Guidelines</a> - <a href="../../../terms-of-use.html">Terms of Use</a>
+                </div><br>
+<div id='cc-logo'>
+
+<a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license" target="_blank"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
+               <div class="p2pu-cc-text">Except where otherwise noted, all content on <span dct="http://purl.org/dc/terms/" property="title">p2pu.org</span> is
+licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license" target="_blank">Creative Commons Attribution-ShareAlike 3.0 Unported
+License</a>.</div>
+
+                </div>
+              </div>             </div>
+              <div id="block-user_voice-0" class="block block-user_voice">
+<!-- wrappers -->
+
+  <h2 class="title"><none></h2>
+  <div class="content"><script type="text/javascript">
+var uservoiceJsHost = ("https:" == document.location.protocol) ? "https://uservoice.com" : "http://cdn.uservoice.com";
+document.write(unescape("%3Cscript src='" + uservoiceJsHost + "/javascripts/widgets/tab.js' type='text/javascript'%3E%3C/script%3E"))
+</script>
+<script type="text/javascript">
+UserVoice.Tab.show({ 
+  key: 'p2pu',
+  host: 'p2pu.uservoice.com', 
+  forum: '47491', 
+  alignment: 'left',
+  background_color:'#F00', 
+  text_color: 'white',
+  hover_color: '#06C',
+  lang: 'en'
+})
+</script></div>
+  
+<!-- /wrappers -->
+</div>          </div>
+        </div>
+      
+  </div><!-- /page -->
+  
+  <script type="text/javascript">
+  var _sf_async_config=Drupal.settings.chartbeat;
+  (function(){
+    function loadChartbeat() {
+      window._sf_endpt=(new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src',
+         (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+         "static.chartbeat.com/js/chartbeat.js");
+      document.body.appendChild(e);
+    }
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+       loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+</script>
+<!--[if lt IE 8]><style type="text/css">div.popup-element{ display: inline;}</style><![endif]-->
+</body>
+</html>

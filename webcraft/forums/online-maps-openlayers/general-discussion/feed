@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/webcraft/taxonomy/term/457/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>OSM API mapping</title>
+ <link>http://archive.p2pu.org/webcraft/online-maps-openlayers/discussion/osm-api-mapping</link>
+ <description>&lt;p&gt;Hi class members,&lt;/p&gt;
+&lt;p&gt;I would appreciate your help in the following:&lt;/p&gt;
+&lt;p&gt;Say, I have data of some youth resources that I want to put in OSM. What would be the simplest way (by using API 0.6) to map this data (data means: name of resource, latitutde and longitude).&lt;/p&gt;
+&lt;p&gt;Thanks in advance and thank you also for all the good materials, guides and answers in this class&lt;/p&gt;
+&lt;p&gt;nori&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/online-maps-openlayers&quot;&gt;Online Maps with OpenLayers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/online-maps-openlayers/discussion/osm-api-mapping#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/457">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/online-maps-openlayers" xmlns="http://drupal.org/project/og">Online Maps with OpenLayers</group>
+ <pubDate>Wed, 06 Apr 2011 11:54:31 +0000</pubDate>
+ <dc:creator>nori nh</dc:creator>
+ <guid isPermaLink="false">28607 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Interesting Earthqauke Map</title>
+ <link>http://archive.p2pu.org/webcraft/online-maps-openlayers/discussion/interesting-earthqauke-map</link>
+ <description>&lt;p&gt;I caught the end of a news piece last night about a virtual 3D earthquake map, it looked really interesting and allowed the views to see the depth and intensity. Sadly, I can&amp;#39;t find a link to it. But I did find this &lt;a href=&quot;http://news.gislounge.com/2011/03/unique-new-map-shows-earthquake-risks-on-humanity/&quot; rel=&quot;nofollow&quot;&gt;http://news.gislounge.com/2011/03/unique-new-map-shows-earthquake-risks-on-humanity/&amp;nbsp; &lt;/a&gt;, which maps earthquakes from 2150BC and adjusts for population.&lt;br /&gt;
+-introvert&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/online-maps-openlayers&quot;&gt;Online Maps with OpenLayers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/online-maps-openlayers/discussion/interesting-earthqauke-map#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/457">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/online-maps-openlayers" xmlns="http://drupal.org/project/og">Online Maps with OpenLayers</group>
+ <pubDate>Wed, 30 Mar 2011 21:40:39 +0000</pubDate>
+ <dc:creator>intro vert</dc:creator>
+ <guid isPermaLink="false">28278 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Data Science Toolkit</title>
+ <link>http://archive.p2pu.org/webcraft/online-maps-openlayers/discussion/data-science-toolkit</link>
+ <description>&lt;p&gt;Hey,&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/online-maps-openlayers&quot;&gt;Online Maps with OpenLayers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/online-maps-openlayers/discussion/data-science-toolkit&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/online-maps-openlayers/discussion/data-science-toolkit#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/457">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/online-maps-openlayers" xmlns="http://drupal.org/project/og">Online Maps with OpenLayers</group>
+ <pubDate>Wed, 30 Mar 2011 01:04:43 +0000</pubDate>
+ <dc:creator>Randy Rosso</dc:creator>
+ <guid isPermaLink="false">28214 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Cellphone tracking: creepy but neat info</title>
+ <link>http://archive.p2pu.org/webcraft/online-maps-openlayers/discussion/cellphone-tracking-creepy-neat-info</link>
+ <description>&lt;p&gt;
+Great articles in the New York Times and around the internet today on mobile phone privacy.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/online-maps-openlayers&quot;&gt;Online Maps with OpenLayers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/online-maps-openlayers/discussion/cellphone-tracking-creepy-neat-info&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/online-maps-openlayers/discussion/cellphone-tracking-creepy-neat-info#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/457">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/online-maps-openlayers" xmlns="http://drupal.org/project/og">Online Maps with OpenLayers</group>
+ <pubDate>Sun, 27 Mar 2011 00:04:05 +0000</pubDate>
+ <dc:creator>Nick Doiron</dc:creator>
+ <guid isPermaLink="false">28099 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Apologies for missing last chat</title>
+ <link>http://archive.p2pu.org/webcraft/online-maps-openlayers/discussion/apologies-missing-last-chat</link>
+ <description>&lt;p&gt;Apologies everyone, I&amp;#39;ve been unwell and disorganized lately and thus missed the &amp;quot;Last Discussion and Chat&amp;#39;.&lt;/p&gt;
+&lt;p&gt;Nick, thanks for offering your time and support to this course. And especially for being patient with my newbie questions and difficulties. Because of you, I intend to continue adding to openstreetmaps and experimenting with OpenLayers. Thank you.&lt;/p&gt;
+&lt;p&gt;Aroha,&lt;br /&gt;
+-introvert&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/online-maps-openlayers&quot;&gt;Online Maps with OpenLayers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/online-maps-openlayers/discussion/apologies-missing-last-chat#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/457">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/online-maps-openlayers" xmlns="http://drupal.org/project/og">Online Maps with OpenLayers</group>
+ <pubDate>Sat, 26 Mar 2011 07:12:51 +0000</pubDate>
+ <dc:creator>intro vert</dc:creator>
+ <guid isPermaLink="false">28077 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Making a better mapper</title>
+ <link>http://archive.p2pu.org/webcraft/online-maps-openlayers/discussion/making-better-mapper</link>
+ <description>&lt;p&gt;We have only four days left of the course, and I&amp;#39;d like to end it with an open discussion to help ourselves and future visitors to the course page to become better mappers. &amp;nbsp;That includes acknowledging the power of non-open systems like Google Maps, and sharing links about HTML or Firebug.&lt;/p&gt;
+&lt;p&gt;A couple of things which really impress me about non-open maps are&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+		&lt;a href=&quot;http://bit.ly/eDcS1T&quot; rel=&quot;nofollow&quot;&gt;The Birdseye view in Bing Maps&lt;/a&gt;. The detail and perspective from their photos are amazing.&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/online-maps-openlayers&quot;&gt;Online Maps with OpenLayers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/online-maps-openlayers/discussion/making-better-mapper&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/online-maps-openlayers/discussion/making-better-mapper#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/457">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/online-maps-openlayers" xmlns="http://drupal.org/project/og">Online Maps with OpenLayers</group>
+ <pubDate>Tue, 22 Mar 2011 20:24:07 +0000</pubDate>
+ <dc:creator>Nick Doiron</dc:creator>
+ <guid isPermaLink="false">27896 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Dateline and style rules questions</title>
+ <link>http://archive.p2pu.org/webcraft/online-maps-openlayers/discussion/dateline-and-style-rules-questions</link>
+ <description>&lt;p&gt;I can&amp;#39;t seem to centre my map the way I want and I can&amp;#39;t go east. Then I saw the example about wrapping the dateline. But I am not sure how to apply that my layers. Can someone please give me a hint?&lt;/p&gt;
+&lt;p&gt;And do the style rules seem to be designed for a min/max number value. Does it also work with text? As in if &amp;quot;data text string&amp;quot; = &amp;quot;value a&amp;quot; set some marker attribute to &amp;quot;the desired color&amp;quot;.&lt;/p&gt;
+&lt;p&gt;Thanks&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/online-maps-openlayers&quot;&gt;Online Maps with OpenLayers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/online-maps-openlayers/discussion/dateline-and-style-rules-questions#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/457">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/online-maps-openlayers" xmlns="http://drupal.org/project/og">Online Maps with OpenLayers</group>
+ <pubDate>Thu, 17 Mar 2011 01:38:56 +0000</pubDate>
+ <dc:creator>intro vert</dc:creator>
+ <guid isPermaLink="false">27700 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Interest Topic : MI5 Training</title>
+ <link>http://archive.p2pu.org/webcraft/online-maps-openlayers/discussion/interest-topic-mi5-training</link>
+ <description>&lt;p&gt;
+This is interesting: check out this page on the MI5 Security Service&amp;#39;s website, for potential Mobile Surveillance Officers:&lt;br /&gt;
+&lt;a href=&quot;https://www.mi5.gov.uk/careers/map-reading-questions.aspx&quot; rel=&quot;nofollow&quot;&gt;https://www.mi5.gov.uk/careers/map-reading-questions.aspx&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Since MI5 is using OpenLayers and OpenStreetMap on this practice site, I imagine that they may also use it for the real test.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Note: the site warns you not to discuss whether you apply to MI5&lt;/strong&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/online-maps-openlayers&quot;&gt;Online Maps with OpenLayers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/online-maps-openlayers/discussion/interest-topic-mi5-training#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/457">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/online-maps-openlayers" xmlns="http://drupal.org/project/og">Online Maps with OpenLayers</group>
+ <pubDate>Wed, 16 Mar 2011 20:56:57 +0000</pubDate>
+ <dc:creator>Nick Doiron</dc:creator>
+ <guid isPermaLink="false">27692 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>openlayers vector-format example shows two maps </title>
+ <link>http://archive.p2pu.org/webcraft/online-maps-openlayers/discussion/openlayers-vector-format-example-shows-two-maps</link>
+ <description>&lt;p&gt;I&amp;#39;m baffled. I was planning on using &lt;a href=&quot;http://openlayers.org/dev/examples/vector-formats.html&quot; rel=&quot;nofollow&quot;&gt;http://openlayers.org/dev/examples/vector-formats.html&lt;/a&gt; to help create the 33 Playcentre regions. I wanted to download it, enlarge the map and centre it on NZ. When I download it and run it locally I get two maps, a second one appears directly underneath the first, although the navigation icons have lost the images. I took a chance and changed the long/lat in the only map.center I could find to Wgtn and that didn&amp;#39;t get me to NZ either.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/online-maps-openlayers&quot;&gt;Online Maps with OpenLayers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/online-maps-openlayers/discussion/openlayers-vector-format-example-shows-two-maps&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/online-maps-openlayers/discussion/openlayers-vector-format-example-shows-two-maps#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/457">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/online-maps-openlayers" xmlns="http://drupal.org/project/og">Online Maps with OpenLayers</group>
+ <pubDate>Tue, 15 Mar 2011 05:45:15 +0000</pubDate>
+ <dc:creator>intro vert</dc:creator>
+ <guid isPermaLink="false">27610 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Project idea: 2010 U.S. Census data for a town</title>
+ <link>http://archive.p2pu.org/webcraft/online-maps-openlayers/discussion/project-idea-2010-us-census-data-town</link>
+ <description>&lt;p&gt;Still waiting patiently for the U.S. Census Bureau to release data for Massachusetts (info will be out for more than 40 states by next week, still no Mass.) But when they do, I&amp;#39;d like to do some mapping of the data to the town.&lt;/p&gt;
+&lt;p&gt;Seems like that would be easier in QGIS than OpenStreetMap and OpenLayers (I have to admit that I&amp;#39;ve been spending most of my time lately learning QGIS because I&amp;#39;m most interested in geodata analysis and that&amp;#39;s a great tool), but it would be cool to have the underlying street/building information available.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/online-maps-openlayers&quot;&gt;Online Maps with OpenLayers&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/online-maps-openlayers/discussion/project-idea-2010-us-census-data-town&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/online-maps-openlayers/discussion/project-idea-2010-us-census-data-town#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/457">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/online-maps-openlayers" xmlns="http://drupal.org/project/og">Online Maps with OpenLayers</group>
+ <pubDate>Fri, 11 Mar 2011 14:12:55 +0000</pubDate>
+ <dc:creator>Sharon Machlis</dc:creator>
+ <guid isPermaLink="false">27454 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

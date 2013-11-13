@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/webcraft/taxonomy/term/524/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Hello?</title>
+ <link>http://archive.p2pu.org/webcraft/wordpress-website-101/discussion/hello</link>
+ <description>&lt;p&gt;So is it me or did this course completely go off the rails?&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/wordpress-website-101&quot;&gt;Wordpress Website 101    &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/wordpress-website-101/discussion/hello#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/524">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/wordpress-website-101" xmlns="http://drupal.org/project/og">Wordpress Website 101    </group>
+ <pubDate>Tue, 15 Mar 2011 02:54:15 +0000</pubDate>
+ <dc:creator>Victor Ramirez</dc:creator>
+ <guid isPermaLink="false">27602 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>password protected sections</title>
+ <link>http://archive.p2pu.org/webcraft/wordpress-website-101/discussion/password-protected-sections</link>
+ <description>&lt;p&gt;Hi again everyone,&lt;/p&gt;
+&lt;p&gt;I know how to password protect a single page or post. How do you password protect a section of pages under a menu heading, that is all the pages in a dropdown within that directory?&lt;/p&gt;
+&lt;p&gt;Any ideas? I haven&amp;#39;t found anything on the WordPress site, but know of school websites that do this.&lt;/p&gt;
+&lt;p&gt;Carmella&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/wordpress-website-101&quot;&gt;Wordpress Website 101    &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/wordpress-website-101/discussion/password-protected-sections#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/524">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/wordpress-website-101" xmlns="http://drupal.org/project/og">Wordpress Website 101    </group>
+ <pubDate>Sun, 06 Mar 2011 01:11:35 +0000</pubDate>
+ <dc:creator>Carmella</dc:creator>
+ <guid isPermaLink="false">27165 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>custom post types</title>
+ <link>http://archive.p2pu.org/webcraft/wordpress-website-101/discussion/custom-post-types</link>
+ <description>&lt;p&gt;Hi Tomato and classmates,&lt;/p&gt;
+&lt;p&gt;I figured out how to make a custom post type and how to get it to display on my blog page along with my other posts. I added the recommended code in the functions.php. However, I would rather display it alone on a different page. Is there a way to alter the code on my functions.php to do that? This is the code I used:&lt;/p&gt;
+&lt;p&gt;add_filter( &amp;#39;pre_get_posts&amp;#39;, &amp;#39;my_get_posts&amp;#39; );&lt;br /&gt;
+function my_get_posts( $query ) {&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/wordpress-website-101&quot;&gt;Wordpress Website 101    &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/wordpress-website-101/discussion/custom-post-types&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/wordpress-website-101/discussion/custom-post-types#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/524">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/wordpress-website-101" xmlns="http://drupal.org/project/og">Wordpress Website 101    </group>
+ <pubDate>Fri, 04 Mar 2011 01:07:56 +0000</pubDate>
+ <dc:creator>Carmella</dc:creator>
+ <guid isPermaLink="false">27086 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>my status</title>
+ <link>http://archive.p2pu.org/webcraft/wordpress-website-101/discussion/my-status</link>
+ <description>&lt;p&gt;Hi Tomato! Thanks for all your time tonight. I think I need lots more of it so maybe this is not for me. I am going to go with a simple wordpress.com blog. This course is too hard for me and I am not that interested in getting this technical. I would rather hire someone. But it was good to find out. I learned a lot and I am very grateful for your patience with me!!!&lt;br /&gt;
+Susanne&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/wordpress-website-101&quot;&gt;Wordpress Website 101    &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/wordpress-website-101/discussion/my-status#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/524">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/wordpress-website-101" xmlns="http://drupal.org/project/og">Wordpress Website 101    </group>
+ <pubDate>Tue, 22 Feb 2011 04:14:55 +0000</pubDate>
+ <dc:creator>susanne flynn</dc:creator>
+ <guid isPermaLink="false">26652 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Outlook email</title>
+ <link>http://archive.p2pu.org/webcraft/wordpress-website-101/discussion/outlook-email</link>
+ <description>&lt;p&gt;Has anyone else had this problem and solved it?&lt;/p&gt;
+&lt;p&gt;I moved my old web site from GoDaddy to Siteground as I thought it would be easier to set up the Wordpress blog. I set up an email address supposedly successfully. Since then my outlook does not work right. It just seems to die and I have to reboot.&amp;nbsp;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/wordpress-website-101&quot;&gt;Wordpress Website 101    &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/wordpress-website-101/discussion/outlook-email&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/wordpress-website-101/discussion/outlook-email#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/524">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/wordpress-website-101" xmlns="http://drupal.org/project/og">Wordpress Website 101    </group>
+ <pubDate>Tue, 15 Feb 2011 22:42:05 +0000</pubDate>
+ <dc:creator>susanne flynn</dc:creator>
+ <guid isPermaLink="false">26384 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>password protected pages</title>
+ <link>http://archive.p2pu.org/webcraft/wordpress-website-101/discussion/password-protected-pages</link>
+ <description>&lt;p&gt;Has anyone discovered how to make an entire section of pages password protected? That&amp;#39;s my next topic to research.&lt;/p&gt;
+&lt;p&gt;Thanks.&lt;/p&gt;
+&lt;p&gt;Carmella&lt;/p&gt;
+&lt;p&gt;P.S. Happy Valentine&amp;#39;s Day! &lt;img alt=&quot;heart&quot; height=&quot;20&quot; src=&quot;http://www.p2pu.org/sites/p2pu.org/modules/ckeditor/ckeditor/plugins/smiley/images/heart.gif&quot; title=&quot;heart&quot; width=&quot;20&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/wordpress-website-101&quot;&gt;Wordpress Website 101    &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/wordpress-website-101/discussion/password-protected-pages#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/524">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/wordpress-website-101" xmlns="http://drupal.org/project/og">Wordpress Website 101    </group>
+ <pubDate>Mon, 14 Feb 2011 17:53:25 +0000</pubDate>
+ <dc:creator>Carmella</dc:creator>
+ <guid isPermaLink="false">26332 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Learning WordPress help</title>
+ <link>http://archive.p2pu.org/webcraft/wordpress-website-101/discussion/learning-wordpress-help</link>
+ <description>&lt;p&gt;Hi classmates,&lt;img alt=&quot;smiley&quot; height=&quot;20&quot; src=&quot;http://www.p2pu.org/sites/p2pu.org/modules/ckeditor/ckeditor/plugins/smiley/images/regular_smile.gif&quot; title=&quot;smiley&quot; width=&quot;20&quot; /&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/wordpress-website-101&quot;&gt;Wordpress Website 101    &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/wordpress-website-101/discussion/learning-wordpress-help&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/wordpress-website-101/discussion/learning-wordpress-help#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/524">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/wordpress-website-101" xmlns="http://drupal.org/project/og">Wordpress Website 101    </group>
+ <pubDate>Mon, 14 Feb 2011 17:48:28 +0000</pubDate>
+ <dc:creator>Carmella</dc:creator>
+ <guid isPermaLink="false">26331 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Weekly Wordpress Q&amp;A</title>
+ <link>http://archive.p2pu.org/webcraft/wordpress-website-101/discussion/weekly-wordpress-qa</link>
+ <description>&lt;p&gt;Please feel free to post your question regarding weekly task here.&lt;br /&gt;
+Everybody is welcome to post and answer questions.&lt;/p&gt;
+&lt;p&gt;Thanks!&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/wordpress-website-101&quot;&gt;Wordpress Website 101    &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/wordpress-website-101/discussion/weekly-wordpress-qa#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/524">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/wordpress-website-101" xmlns="http://drupal.org/project/og">Wordpress Website 101    </group>
+ <pubDate>Thu, 27 Jan 2011 20:14:26 +0000</pubDate>
+ <dc:creator>Tomato Sea</dc:creator>
+ <guid isPermaLink="false">25255 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Introduce ourselves :)</title>
+ <link>http://archive.p2pu.org/webcraft/wordpress-website-101/discussion/introduce-ourselves</link>
+ <description>&lt;p&gt;Hello, course members -&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;Let&amp;#39;s do a petit self-introduction here.&lt;/p&gt;
+&lt;p&gt;p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px AppleGothic}&lt;/p&gt;
+&lt;p class=&quot;p1&quot;&gt;
+	- A short self-introduction&amp;nbsp;&lt;/p&gt;
+&lt;p class=&quot;p1&quot;&gt;
+	- Project Site (if exists)&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/wordpress-website-101&quot;&gt;Wordpress Website 101    &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/wordpress-website-101/discussion/introduce-ourselves#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/524">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/wordpress-website-101" xmlns="http://drupal.org/project/og">Wordpress Website 101    </group>
+ <pubDate>Wed, 26 Jan 2011 22:54:43 +0000</pubDate>
+ <dc:creator>Tomato Sea</dc:creator>
+ <guid isPermaLink="false">25098 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Is there anything specific you wanted to know about wordpress?</title>
+ <link>http://archive.p2pu.org/webcraft/wordpress-website-101/discussion/there-anything-specific-you-wanted-know-about-wordpress</link>
+ <description>&lt;p&gt;Is there anything specific you wanted to know about wordpress?&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/wordpress-website-101&quot;&gt;Wordpress Website 101    &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/wordpress-website-101/discussion/there-anything-specific-you-wanted-know-about-wordpress#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/524">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/wordpress-website-101" xmlns="http://drupal.org/project/og">Wordpress Website 101    </group>
+ <pubDate>Sun, 09 Jan 2011 17:21:55 +0000</pubDate>
+ <dc:creator>Tomato Sea</dc:creator>
+ <guid isPermaLink="false">15483 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

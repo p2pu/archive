@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/webcraft/taxonomy/term/489/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Material y Recursos HTML5</title>
+ <link>http://archive.p2pu.org/webcraft/experiencias-web-con-html5/discussion/material-y-recursos-html5</link>
+ <description>&lt;p&gt;&lt;img alt=&quot;smiley&quot; height=&quot;20&quot; src=&quot;http://p2pu.org/sites/p2pu.org/modules/ckeditor/ckeditor/plugins/smiley/images/regular_smile.gif&quot; title=&quot;smiley&quot; width=&quot;20&quot; /&gt;&lt;br /&gt;
+NOTA : Por favor mantener este topic solo con links a Material y Recursos HTML5.&amp;nbsp; Los comentarios y discusiones iniciarlos en otros topics.&lt;br /&gt;
+Gracias&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://html5doctor.com/&quot; title=&quot;http://html5doctor.com/&quot; rel=&quot;nofollow&quot;&gt;http://html5doctor.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://diveintohtml5.org/&quot; title=&quot;http://diveintohtml5.org/&quot; rel=&quot;nofollow&quot;&gt;http://diveintohtml5.org/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://html5test.com/&quot; title=&quot;http://html5test.com/&quot; rel=&quot;nofollow&quot;&gt;http://html5test.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://html5gallery.com/&quot; title=&quot;http://html5gallery.com/&quot; rel=&quot;nofollow&quot;&gt;http://html5gallery.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://initializr.com/&quot; title=&quot;http://initializr.com/&quot; rel=&quot;nofollow&quot;&gt;http://initializr.com/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://html5demos.com/&quot; title=&quot;http://html5demos.com/&quot; rel=&quot;nofollow&quot;&gt;http://html5demos.com/&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/experiencias-web-con-html5&quot;&gt;Experiencias web con html5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/experiencias-web-con-html5/discussion/material-y-recursos-html5&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/experiencias-web-con-html5/discussion/material-y-recursos-html5#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/489">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/experiencias-web-con-html5" xmlns="http://drupal.org/project/og">Experiencias web con html5</group>
+ <pubDate>Sat, 12 Feb 2011 07:24:16 +0000</pubDate>
+ <dc:creator>Miguel David</dc:creator>
+ <guid isPermaLink="false">26245 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Estimados Compañeros</title>
+ <link>http://archive.p2pu.org/webcraft/experiencias-web-con-html5/discussion/estimados-companeros</link>
+ <description>&lt;p&gt;Por favor LEAN BIEN las instrucciones del curso, me llegan casi 10 correos diarios pregutando cosas que ya est&amp;aacute;n dichas, no es que sea yo un intolerante, pero si lo revisan bien, ver&amp;aacute;n que ya est&amp;aacute;n explicados esos puntos, de antemano gracias. :)&lt;/p&gt;
+&lt;p&gt;un saludo a todos.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/experiencias-web-con-html5&quot;&gt;Experiencias web con html5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/experiencias-web-con-html5/discussion/estimados-companeros#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/489">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/experiencias-web-con-html5" xmlns="http://drupal.org/project/og">Experiencias web con html5</group>
+ <pubDate>Wed, 26 Jan 2011 18:27:38 +0000</pubDate>
+ <dc:creator>Carlos Gámez</dc:creator>
+ <guid isPermaLink="false">25052 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Instalando OpenSuse en Mac Os X</title>
+ <link>http://archive.p2pu.org/webcraft/experiencias-web-con-html5/discussion/instalando-opensuse-en-mac-os-x</link>
+ <description>&lt;hr /&gt;
+Hola a todos espero que est&amp;eacute;n muy bien. Buscando en la red encontr&amp;eacute; el modo para instalar open suse en Mac, el link es directo de Open Suse les dejo el link de las instrucciones por si lo quieren instalar. Espero que haya sido de su ayuda este post.&amp;nbsp;&lt;a href=&quot;http://es.opensuse.org/Particionamiento_en_PPC#Creando_particiones_con_MacOS_X:&quot; rel=&quot;nofollow&quot;&gt;http://es.opensuse.org/Particionamiento_en_PPC#Creando_particiones_con_MacOS_X:&lt;/a&gt;&amp;nbsp;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/experiencias-web-con-html5&quot;&gt;Experiencias web con html5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/experiencias-web-con-html5/discussion/instalando-opensuse-en-mac-os-x#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/489">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/experiencias-web-con-html5" xmlns="http://drupal.org/project/og">Experiencias web con html5</group>
+ <pubDate>Tue, 25 Jan 2011 14:15:51 +0000</pubDate>
+ <dc:creator>Carlos Martínez</dc:creator>
+ <guid isPermaLink="false">24810 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>1a sesión</title>
+ <link>http://archive.p2pu.org/webcraft/experiencias-web-con-html5/discussion/1a-sesion</link>
+ <description>&lt;p&gt;En Espa&amp;ntilde;a, si no lo he calculado mal, el 1r dia la sesi&amp;oacute;n empeiza a las 2h de la madrugada. Y he visto que es asistencia obligatoria? Supongo que es co&amp;ntilde;a.. ;-)&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/experiencias-web-con-html5&quot;&gt;Experiencias web con html5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/experiencias-web-con-html5/discussion/1a-sesion#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/489">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/experiencias-web-con-html5" xmlns="http://drupal.org/project/og">Experiencias web con html5</group>
+ <pubDate>Mon, 24 Jan 2011 17:26:53 +0000</pubDate>
+ <dc:creator>Dimas</dc:creator>
+ <guid isPermaLink="false">24531 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Pequeño problema</title>
+ <link>http://archive.p2pu.org/webcraft/experiencias-web-con-html5/discussion/pequeno-problema</link>
+ <description>&lt;p&gt;
+&amp;iexcl;Hola!.&lt;br /&gt;
+Reci&amp;eacute;n me lleg&amp;oacute; el email para ya registrarse en la plataforma moodle donde vamos a trabajar.&lt;br /&gt;
+Entr&amp;eacute; y me registr&amp;eacute; (con el nick que tengo). Hasta ah&amp;iacute; todo bien.. El problema, es que cuando pincho en:&lt;/p&gt;
+&lt;p&gt;&amp;gt; Navegaci&amp;oacute;n&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;gt; Cursos&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;gt; Webhtml5&lt;/p&gt;
+&lt;p&gt;Me sale que no puedo matricularme en ese curso.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/experiencias-web-con-html5&quot;&gt;Experiencias web con html5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/experiencias-web-con-html5/discussion/pequeno-problema&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/experiencias-web-con-html5/discussion/pequeno-problema#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/489">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/experiencias-web-con-html5" xmlns="http://drupal.org/project/og">Experiencias web con html5</group>
+ <pubDate>Wed, 19 Jan 2011 06:53:16 +0000</pubDate>
+ <dc:creator>Juan Francisco Cruz</dc:creator>
+ <guid isPermaLink="false">22670 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>presente!</title>
+ <link>http://archive.p2pu.org/webcraft/experiencias-web-con-html5/discussion/presente-0</link>
+ <description>&lt;p&gt;
+me alegra hacer parte d e este curso&lt;br /&gt;
+vivo en Italia , 47 anos --- lurea en comunicacion -- en lo ultimos tiempos me apasiona la creacion de siti web, el saper colectivo la inteligencia comun-&lt;/p&gt;
+&lt;p&gt;manejo html -css -&amp;nbsp; un poco de java script , jquery -&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/experiencias-web-con-html5&quot;&gt;Experiencias web con html5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/experiencias-web-con-html5/discussion/presente-0&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/experiencias-web-con-html5/discussion/presente-0#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/489">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/experiencias-web-con-html5" xmlns="http://drupal.org/project/og">Experiencias web con html5</group>
+ <pubDate>Tue, 18 Jan 2011 10:50:18 +0000</pubDate>
+ <dc:creator>gnieppo</dc:creator>
+ <guid isPermaLink="false">22039 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>presente!</title>
+ <link>http://archive.p2pu.org/webcraft/experiencias-web-con-html5/discussion/presente</link>
+ <description>&lt;p&gt;
+me alegra hacer parte d e este curso&lt;br /&gt;
+vivo en Italia , 47 anos --- lurea en comunicacion -- en lo ultimos tiempos me apasiona la creacion de siti web, el saper colectivo la inteligencia comun-&lt;/p&gt;
+&lt;p&gt;manejo html -css -&amp;nbsp; un poco de java script , jquery -&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/experiencias-web-con-html5&quot;&gt;Experiencias web con html5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/experiencias-web-con-html5/discussion/presente&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/experiencias-web-con-html5/discussion/presente#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/489">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/experiencias-web-con-html5" xmlns="http://drupal.org/project/og">Experiencias web con html5</group>
+ <pubDate>Tue, 18 Jan 2011 10:50:12 +0000</pubDate>
+ <dc:creator>gnieppo</dc:creator>
+ <guid isPermaLink="false">22038 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Presentación</title>
+ <link>http://archive.p2pu.org/webcraft/experiencias-web-con-html5/discussion/presentacion-0</link>
+ <description>&lt;p&gt;Hola mi Nombre es Eduardo Bernal, Natural de Per&amp;uacute; egresado de la Universidad Nacional del Altiplano en su Especialidad de ing. de Sistemas, tengo 29 a&amp;ntilde;os, lo que me gusta es siempre estar en constante actualizaci&amp;oacute;n es la raz&amp;oacute;n por la que decid&amp;iacute; tomar el curso de HTML5 combino mis labores del trabajo con el deporte(Me encanta la Nataci&amp;oacute;n).&lt;/p&gt;
+&lt;p&gt;Desde esta Linda Tierra un saludo Fraterno al Teacher (en Quechua es Amauta) y a todos nuestros compa&amp;ntilde;eros, Nos vemos Pronto.&lt;/p&gt;
+&lt;p&gt;Att. Shabe&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/experiencias-web-con-html5&quot;&gt;Experiencias web con html5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/experiencias-web-con-html5/discussion/presentacion-0#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/489">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/experiencias-web-con-html5" xmlns="http://drupal.org/project/og">Experiencias web con html5</group>
+ <pubDate>Mon, 17 Jan 2011 13:43:29 +0000</pubDate>
+ <dc:creator>Eduardo Bernal Mamani</dc:creator>
+ <guid isPermaLink="false">21540 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Presentacion</title>
+ <link>http://archive.p2pu.org/webcraft/experiencias-web-con-html5/discussion/presentacion</link>
+ <description>&lt;p&gt;
+	Hola respetados estudiantes, me enorgullese ser el tutor de tantas personas de distintas nacionalidades, y me alegra poder brindarle mis conocimientos en este tema.&lt;br /&gt;
+	Este para algunos es el principio de una carrera , para otros una actualizacion, pero de seguro sera una gran experiencia.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/experiencias-web-con-html5&quot;&gt;Experiencias web con html5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/experiencias-web-con-html5/discussion/presentacion&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/experiencias-web-con-html5/discussion/presentacion#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/489">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/experiencias-web-con-html5" xmlns="http://drupal.org/project/og">Experiencias web con html5</group>
+ <pubDate>Mon, 17 Jan 2011 04:10:44 +0000</pubDate>
+ <dc:creator>dany bautista</dc:creator>
+ <guid isPermaLink="false">21382 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Nueva plataforma &quot;wiziq&quot;</title>
+ <link>http://archive.p2pu.org/webcraft/experiencias-web-con-html5/discussion/nueva-plataforma-wiziq</link>
+ <description>&lt;p&gt;
+Hola a todos,&lt;br /&gt;
+&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; Abro este post, para consultarles acerca de la plataforma &amp;quot;wiziq&amp;quot;, si alguien ya la uso, cuales fueron sus experiencias, y si nos (a los que nunca la usamos) podrian guiar a como manejarnos dentro de la misma.&lt;/p&gt;
+&lt;p&gt;Saludos&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/experiencias-web-con-html5&quot;&gt;Experiencias web con html5&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/experiencias-web-con-html5/discussion/nueva-plataforma-wiziq#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/489">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/experiencias-web-con-html5" xmlns="http://drupal.org/project/og">Experiencias web con html5</group>
+ <pubDate>Mon, 17 Jan 2011 00:10:58 +0000</pubDate>
+ <dc:creator>Ezequiel Tejada</dc:creator>
+ <guid isPermaLink="false">21331 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

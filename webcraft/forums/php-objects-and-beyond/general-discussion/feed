@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/webcraft/taxonomy/term/485/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Week 2</title>
+ <link>http://archive.p2pu.org/webcraft/php-objects-and-beyond/discussion/week-2</link>
+ <description>&lt;p&gt;Topic for week 2 assignments, questions and answers. Please post only pastie links if you have a lot of code. It is easier to read and to refer to exact line.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/php-objects-and-beyond&quot;&gt;PHP to objects and beyond&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/php-objects-and-beyond/discussion/week-2#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/485">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/php-objects-and-beyond" xmlns="http://drupal.org/project/og">PHP to objects and beyond</group>
+ <pubDate>Tue, 01 Mar 2011 23:16:46 +0000</pubDate>
+ <dc:creator>Luka Muzinic</dc:creator>
+ <guid isPermaLink="false">26969 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Week 1</title>
+ <link>http://archive.p2pu.org/webcraft/php-objects-and-beyond/discussion/week-1</link>
+ <description>&lt;p&gt;Topic for week 1 assignments, questions and answers. Please post only pastie links if you have a lot of code. It is easier to read and to refer to exact line.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/php-objects-and-beyond&quot;&gt;PHP to objects and beyond&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/php-objects-and-beyond/discussion/week-1#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/485">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/php-objects-and-beyond" xmlns="http://drupal.org/project/og">PHP to objects and beyond</group>
+ <pubDate>Mon, 21 Feb 2011 21:55:55 +0000</pubDate>
+ <dc:creator>Luka Muzinic</dc:creator>
+ <guid isPermaLink="false">26642 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Introduce yourself</title>
+ <link>http://archive.p2pu.org/webcraft/php-objects-and-beyond/discussion/introduce-yourself</link>
+ <description>&lt;p&gt;Cheers people!&lt;/p&gt;
+&lt;p&gt;Please write a few short lines about yourself, tell us what you do, where you work, how you spend your weekends...&lt;/p&gt;
+&lt;p&gt;I like to call myself jack-of-all-trades in the web industry. As a web developer I code a lot, and as PHP instructor I teach others to code also. When I manage to squeeze out some free time I usually end up playing softball or paragliding. Currently, not that much, because of awful cold weather we have in Zagreb, Croatia. Can&amp;#39;t wait for spring to come ;-)&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/php-objects-and-beyond&quot;&gt;PHP to objects and beyond&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/php-objects-and-beyond/discussion/introduce-yourself#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/485">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/php-objects-and-beyond" xmlns="http://drupal.org/project/og">PHP to objects and beyond</group>
+ <pubDate>Wed, 16 Feb 2011 23:00:19 +0000</pubDate>
+ <dc:creator>Luka Muzinic</dc:creator>
+ <guid isPermaLink="false">26422 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Kickoff meeting</title>
+ <link>http://archive.p2pu.org/webcraft/php-objects-and-beyond/discussion/kickoff-meeting</link>
+ <description>&lt;p&gt;Cheers people,&lt;/p&gt;
+&lt;p&gt;Kickoff meeting &lt;a href=&quot;http://p2pu.org/webcraft/node/14024/chat&quot; rel=&quot;nofollow&quot;&gt;will be held on P2PU chat&lt;/a&gt;, tommorrow, Feb 17, 2011 at 9 PM GMT+1 (&lt;a href=&quot;http://whenisgood.net/WhenIsGood.ics?event=p2pu-objects-and-beyond&amp;amp;code=w3nh4s&amp;amp;slot=1297972800000&quot; rel=&quot;nofollow&quot;&gt;iCal export&lt;/a&gt;)&lt;/p&gt;
+&lt;p&gt;
+	This was the best slot available, since we have peers from all over the world. Please try to make it. We will take good notes and probably save&lt;br /&gt;
+	the whole session, so don&amp;#39;t be sad if you can&amp;#39;t make it ;-)&lt;/p&gt;
+&lt;p&gt;	Hope to hear from you soon!&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/php-objects-and-beyond&quot;&gt;PHP to objects and beyond&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/php-objects-and-beyond/discussion/kickoff-meeting#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/485">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/php-objects-and-beyond" xmlns="http://drupal.org/project/og">PHP to objects and beyond</group>
+ <pubDate>Wed, 16 Feb 2011 22:41:03 +0000</pubDate>
+ <dc:creator>Luka Muzinic</dc:creator>
+ <guid isPermaLink="false">26420 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>How are we going to meet up during the course?</title>
+ <link>http://archive.p2pu.org/webcraft/php-objects-and-beyond/discussion/how-are-we-going-meet-during-course</link>
+ <description>&lt;p&gt;
+	Dear Luka Muzinic,&lt;/p&gt;
+&lt;p&gt;
+	Could you please tell us how are we going to meet during the course?&lt;/p&gt;
+&lt;p&gt;
+	Thanks in advance,&lt;br /&gt;
+	Aram&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/php-objects-and-beyond&quot;&gt;PHP to objects and beyond&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/php-objects-and-beyond/discussion/how-are-we-going-meet-during-course#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/485">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/php-objects-and-beyond" xmlns="http://drupal.org/project/og">PHP to objects and beyond</group>
+ <pubDate>Wed, 09 Feb 2011 04:26:48 +0000</pubDate>
+ <dc:creator>Alberto Rascon</dc:creator>
+ <guid isPermaLink="false">26111 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

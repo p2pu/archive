@@ -1,0 +1,495 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="p2pu" xml:lang="p2pu">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Getting Started with Scilab | P2PU Archive</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<link rel="shortcut icon" href="../../../sites/archive.p2pu.org/themes/p2pu10/favicon.ico" type="image/x-icon" />
+<link type="text/css" rel="stylesheet" media="all" href="../../../sites/archive.p2pu.org/modules/codefilter/codefilter.css@I.css" />
+<link type="text/css" rel="stylesheet" media="all" href="../../../sites/archive.p2pu.org/files/ctools/css/132cbcbd66da15052e9a590dbb4eca76.css@I.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../../../sites/archive.p2pu.org/modules/popup/popup.css@I.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../../../sites/archive.p2pu.org/modules/popup/styles/Soft&#32;grey&#32;frame/popup-style.css@I.css" />
+<link type="text/css" rel="stylesheet" media="all" href="../../../sites/archive.p2pu.org/files/css/css_53b6992323d5f617d777bef7b197cc5a.css" />
+<link type="text/css" rel="stylesheet" media="screen" href="../../../sites/archive.p2pu.org/files/css/css_23213a44f12b0d9125523bb3c342e2a6.css" />
+<script type="text/javascript" src="../../../sites/archive.p2pu.org/files/js/js_f9571e8f689e0561a88ad14078625551.js"></script>
+<script type="text/javascript" src="../../../sites/archive.p2pu.org/modules/popup/popup.js@1381249109"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, { "basePath": "/", "chartbeat": { "uid": 10678, "domain": "p2pu.org" }, "dhtmlMenu": { "slide": "slide", "doubleclick": "doubleclick", "siblings": 0, "relativity": 0, "children": 0, "clone": 0 }, "extlink": { "extTarget": 0, "extClass": "ext", "extSubdomains": 1, "extExclude": "", "extInclude": "", "extAlert": 0, "extAlertText": "This link will take you to an external web site. We are not responsible for their content.", "mailtoClass": "mailto" }, "popup": { "hoverLinger": "250" }, "views": { "ajax_path": [ "/math-future/views/ajax", "/math-future/views/ajax" ], "ajaxViews": [ { "view_name": "panel_comments", "view_display_id": "default", "view_args": "node/29940/document/31357", "view_path": "node/29940/document/31357", "view_base_path": null, "view_dom_id": 1, "pager_element": 0 }, { "view_name": "course_documents_arg", "view_display_id": "block_2", "view_args": "29940", "view_path": "node/29940/document/31357", "view_base_path": null, "view_dom_id": 2, "pager_element": 0 } ] }, "og": { "group_context": { "nid": "29940", "title": "Getting Started with Scilab", "type": "course" } } });
+//--><!]]>
+</script>
+</head>
+
+<body class="not-front not-logged-in page-node no-sidebars p2pu-context-course-section-math-future og-context og-context-29940  ">
+
+  <div id="page">
+     <!--style = "display:none;"-->
+      <div id="top-notification" class="p2pu-notification">
+        <p>This is the P2PU Archive. If you want the current site, go to <a href="http://www.p2pu.org" rel="nofollow">www.p2pu.org!</a></p>
+      </div>     
+      <div id="page-header" class="float-container">
+
+        <div id="logo"><a title="math-future Home" href="../../../math-future.1.html"><img alt="P2PU Home" src="../../../sites/archive.p2pu.org/themes/p2pu10/images/logos/logo-section-math-future.png"></a></div>
+        <div id="slogan"></div>
+        <div id="region-header"></div>
+
+              </div><!-- /page-header -->
+
+      <div id="navigation">
+        <div class="primary">  <div id="block-menu-menu-math-future" class="block block-menu">
+<!-- wrappers -->
+
+
+  <div class="content"><ul class="menu"><li class="leaf first dhtml-menu "><a href="../../../index.html" title="P2PU home page" id="dhtml_menu-18771"><span>P2PU Home</span></a></li>
+<li class="leaf last dhtml-menu "><a href="../../course/list.html" title="Math Future courses" id="dhtml_menu-18772"><span>Courses</span></a></li>
+</ul></div>
+  
+<!-- /wrappers -->
+</div></div>        <form action="session-3-workspace-and-current-working-directory.html"  accept-charset="UTF-8" method="post" id="search-theme-form">
+<div><div id="search" class="container-inline">
+  <div class="form-item" id="edit-search-theme-form-1-wrapper">
+ <label for="edit-search-theme-form-1">Search this site: </label>
+ <input type="text" maxlength="128" name="search_theme_form" id="edit-search-theme-form-1" size="15" value="" title="Enter the terms you wish to search for." class="form-text" />
+</div>
+<input type="submit" name="op" id="edit-submit" value="Search"  class="form-submit" />
+<input type="hidden" name="form_build_id" id="form-c950c17c5c0ce1faf28426810470b4d7" value="form-c950c17c5c0ce1faf28426810470b4d7"  />
+<input type="hidden" name="form_id" id="edit-search-theme-form" value="search_theme_form"  />
+</div>
+
+</div></form>
+      </div><!-- /Navigation -->
+
+      <div id="page-sub-header"></div>
+
+      <div id="page-body" class="float-container page-body-top">
+        <div id="page-sub-body">
+  
+          <div id="content-column">
+            <div class="inner">
+                            
+              <h1 class="title">Getting Started with Scilab</h1>                                                        <div class="tabs float-container"><ul class="tabs primary">
+<li ><a href="../../getting-started-scilab.html"><span>Course Home</span></a></li>
+<li class="active" ><a href="../../node/29940/document.html"><span>Course Material</span></a></li>
+<li ><a href="../../node/29940/forums.html"><span>Forums</span></a></li>
+</ul>
+</div>                            <div class="panel-flexible panels-flexible-17 clear-block" >
+<div class="panel-flexible-inside panels-flexible-17-inside">
+<div class="panels-flexible-region panels-flexible-region-17-left panels-flexible-region-first">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-17-left-inside panels-flexible-region-inside-first">
+<div class="panel-pane pane-views pane-course-documents-arg grey-panel" >
+  <div class="pane-inner">
+      
+          <h2 class="pane-title">Course Material</h2>
+      
+      
+    <div class="pane-content">
+      <div class="view view-course-documents-arg view-id-course_documents_arg view-display-id-block_2 view-dom-id-2">
+    
+  
+  
+      <div class="view-content">
+      <div class="item-list">
+    <ul>
+          <li class="views-row views-row-1 views-row-odd views-row-first">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="../../document/syllabus-getting-started-scilab.html">Syllabus for Getting Started with Scilab</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-2 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="participation-engagement-and-tentative-schedule.html">Participation, Engagement and Tentative Schedule</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-3 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="task-1-downloading-and-installing-scilab.html">Task 1: Downloading and installing Scilab</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-4 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="task-2-join-equalis-community.html">Task 2: Join Equalis community</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-5 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="session-0-scilab-history-features-and-applications.html">Session 0: Scilab - History, Features and Applications</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-6 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="session-1-scilab-environment.html">Session 1: Scilab Environment</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-7 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="session-2-scilab-interactive-calculator.html">Session 2: Scilab as an interactive calculator</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-8 views-row-even">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="session-3-workspace-and-current-working-directory.html">Session 3: Workspace and Current Working Directory</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-9 views-row-odd">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="session-4-creating-matrices-and-some-simple-matrix-operations.html">Session 4: Creating Matrices and Some Simple Matrix Operations</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+          <li class="views-row views-row-10 views-row-even views-row-last">  
+  <span class="views-field-title">
+                <span class="field-content"><a href="session-5-ranges-sub-matrix-extraction-and-replacement.html">Session 5: Ranges, Sub-matrix Extraction and Replacement</a></span>
+  </span>
+  
+  <span class="views-field-edit-node">
+                <span class="field-content"></span>
+  </span>
+</li>
+      </ul>
+</div>    </div>
+  
+  
+  
+  
+  
+  
+</div>     </div>
+  
+      
+      </div>  
+</div>
+  </div>
+</div>
+<div class="panels-flexible-region panels-flexible-region-17-center panels-flexible-region-last ">
+  <div class="inside panels-flexible-region-inside panels-flexible-region-17-center-inside panels-flexible-region-inside-last">
+<div class="panel-pane pane-node" >
+  <div class="pane-inner">
+      
+          <h2 class="pane-title">Session 3: Workspace and Current Working Directory</h2>
+      
+      
+    <div class="pane-content">
+      <div id="node-31357" class="node node-document clear-block">
+
+  <h2 class="title"><a href="session-3-workspace-and-current-working-directory.html" title=""></a></h2>
+
+  <div class="meta">
+    <div class="picture">
+  <a href="../../../users/satishannigeri.html" title="View user profile."><img src="../../../sites/archive.p2pu.org/files/imagecache/user_default_image/pictures/picture-16876.jpg" alt="Satish Annigeri&#039;s picture" title="View user profile."  class="imagecache imagecache-user_default_image" width="30" height="30" /></a></div>
+    <span class="created-date">Sat, 2011-05-21 09:36</span>
+  </div>
+
+  <div class="content">
+    <div class="field field-type-text field-field-document-body">
+    <div class="field-items">
+            <div class="field-item odd">
+                    <h1>
+	Objectives</h1>
+<p>
+	Once you have done a few calculations in the Scilab console, you are now ready to explore the invisible environment of Scilab, its Workspace. Learning to explore and manipulate the Workspace is necessary as it gives you an insight into how Scilab works on the inside.</p>
+<p>	In this session you will learn the following:</p>
+<ol>
+<li>
+		Commands to explore the Workspace</li>
+<li>
+		Commands to manipulate the Workspace - save, clar and load variables</li>
+<li>
+		Current Working Directory, its importance, querying its current setting, changing it to another directory</li>
+</ol>
+<h1>
+	Commands to Work with the Scilab Workspace</h1>
+<p>Before Scilab introduced the Variable Browser environment (Scilab versions up to 4), the only way to inspect and manipulate the Scilab Workspace was through the set of commands dedicated for that purpose. However, starting with Scilab version 5, Variable Browser provides a visual interface to examine and change Scilab Workspace and manipulate the values of the variables stored in the Workspace. Currently, the Variable Browser only shows Scilab Environment Variables, constants and variables. Functions and libraries loaded in the Workspace are not displayed. Further, while it is possible to change the values of the variables, it is not possible to clear the variables from the Workspace. Thus, knowing Scilab commands continues to be an advantage since the Variable Browser still lacks some features.</p>
+<p>The commands that we will study in this session are:</p>
+<ol>
+<li>
+		<strong>who</strong>:&nbsp;Displays the names of items in the Workspace</li>
+<li>
+		<strong>whos</strong>:&nbsp;Displays a detailed list of items in the Workspace, including their name, type, size (rows and columns) and memory used (in bytes)</li>
+<li>
+		<strong>whos -name <em>pattern</em></strong>: Same as <strong>whos</strong>, but filters the names of objects according to the specified <em><strong>pattern</strong></em></li>
+<li>
+		w<strong>hos -type <em>objtype</em></strong>: Same as <strong>whos</strong>, but filters the names of objects based on the specified <em><strong>objtype</strong></em>.</li>
+<li>
+		<strong>save</strong>:&nbsp;Save variables in the Workspace to a file on disk. Usage <strong>--&gt;save(<em>filename</em>)</strong> saves all user define variables in the workspace to the file specified by the string <em><strong>filename</strong></em>. For further explanation about the file, see the next discussion in this session.</li>
+<li>
+		<strong>load</strong>:&nbsp;Load variables from a file on disk to Workspace</li>
+<li>
+		<strong>clear</strong>: Erase variables from the Workspace</li>
+</ol>
+<h2>
+	Important Note</h2>
+<p>
+	Comments in Scilab console or Scilab script files are initiated with two forwards slashes. Comments last up to the end of the line where they begin. Therefore, if you see a comment in the commands described below, they need not be typed. They are only to explain the purpose of the command, or what to expect from the output. While you need not type them, reading and understanding them is very helpful in learning.</p>
+<p>	Here is an example:</p>
+<pre>
+<strong>--&gt;SCIHOME // Displays Scilab Home Directory</strong></pre><h2>
+	Examples</h2>
+<p><strong>Display the entire content of the Workspace</strong></p>
+<pre>
+<strong>--&gt;who</strong></pre><p>The above command lists only names of objects in the Workspace. Their type, siz and memory used are not listed. Filtering the output based on name is not possible.</p>
+<p><strong>Display detailed information about the contents of the Workspace</strong></p>
+<pre>
+<strong>--&gt;whos</strong></pre><p>The above command&nbsp;lists all the objects in the Workspace and displays the name, type, size and memory used by each object.</p>
+<p><strong>Filter the detailed list based on names of objects</strong></p>
+<pre>
+<strong>--&gt;whos -name a</strong></pre><p>The above command displays a detailed lists of only those objects in the Workspace whose name begins with the letter <strong>a</strong>.</p>
+<p><strong>Filter the detailed list based on type of objects</strong></p>
+<pre>
+<strong>--&gt;whos -type constant</strong></pre><p>The above command displays a detailed list of only those objects whose type is <strong>constant</strong>. To find the other types available in Scilab, search Scilab Help for <strong>typeof</strong>. Some other types available in Scilab are polynomial, function, handle, string, boolean, list, rational, library etc.</p>
+<p><strong>Important Notes:</strong></p>
+<ol>
+<li>
+		You can only filter based on one of the above criteria. It is an error to specify both criteria simultaneously.</li>
+<li>
+		Filter pattern for object names mathches only the beginning of the name. Wildcard patterns are not possible (for example * or ? used in matching filenames in bash shell)</li>
+</ol>
+<h1>
+	Current Working Directory</h1>
+<p>When Scilab starts, it sets your Current Working Directory. The directory set as your working directory may depend on your operating system. But you can always enquire and find what your Current Working Directory is. Not just that, you can change your Current Working Directory to any directory you want. The importance of the Current Working Directory is that it is the default location from where Scilab will read files from (or write files to) when the filename you specify during readin (or writing) is not an absolute path.</p>
+<h2>
+	What is an Absolute Path?</h2>
+<p>On Windows operating system, a path starting with the drive letter is an absolute path. Thus <strong>C:\Users\Satish\My Documents\Scilab\test.sce</strong> is an absolute path specification because it begins with the drive letter <strong>C:</strong>. <strong>test.sce</strong> is the file name and&nbsp;<strong>C:\Users\Satish\My Documents\Scilab\</strong>&nbsp;is the path. This path specification is an absolute path specification. On the otherhand, <strong>test.sce</strong>, <strong>../examples/test.sce</strong> are relative path specifications.</p>
+<p>On *nix operating systems, an absolute path specification begins with the root of the file system, namely the forward slash (<strong>/</strong>). Thus, <strong>/home/satish/Documents/Scilab/test.sce</strong> is an absolute path specifications whereas <strong>test.sce</strong> or <strong>../examples/test.sce</strong> are relative path specifications.</p>
+<p>Relative path specifications specify the location of a file relative to the Current Working Directory.</p>
+<h2>
+	Displaying the Current Working Directory</h2>
+<pre>
+<strong>--&gt;pwd
+--&gt;pwd()</strong></pre><p>Both the above commands display the Current Working Directory being used by Scilab at that instant of time. The first is a function pointer and the second is a function. Both display the Current Working Directory, but the type of the return values are different. You can test it with the following commands:</p>
+<pre>
+<strong>--&gt;typeof(pwd)
+ ans  =
+ fptr
+--&gt;typeof(pwd())
+ ans  =
+ string
+--&gt;WSCI == pwd()
+ ans  =
+  T
+--&gt;WSCI == pwd
+           !--error 144</strong></pre><p><strong>WSCI</strong> is a constant of type string whose value is the directory where Scilab is installed. <strong>pwd()</strong> returns a string and hence the boolean comparison is possible. The result may be either <strong>T</strong> or <strong>F</strong> depending on the values of <strong>WSCI </strong>and <strong>pwd()</strong>. But <strong>pwd</strong> is of fptr and therefore the boolean comparison results in an error.</p>
+<h1>
+	Changing the Current Working Directory</h1>
+<p>You can change the Current Working Directory used by the Scilab session with the commands <strong>cd </strong>or <strong>chdir</strong>. Alternately, you can use the Main <strong>Menu File --&gt; Change current directory</strong> visually using a dialog box.</p>
+<p>On Windows operating System use:</p>
+<pre>
+<strong>--&gt;cd(&#39;C:\Users\Satish\My Documents\Scilab&#39;)
+</strong></pre><pre>
+<strong>--&gt;chdir(&#39;C:\Users\Satish\My Documents\Scilab&#39;)</strong></pre><p>On *nix operating systems use:</p>
+<pre>
+<strong>--&gt;cd(&#39;/home/satish/Documents/scilab&#39;)</strong></pre><pre>
+<strong>--&gt;chdir(</strong><strong>&#39;/home/satish/Documents/scilab&#39;</strong><strong>)</strong></pre><p>Changing the Current Working Directory is much easier, especially for a beginner and when the directory path is very long if you use the dialog box available in the Main Menu <strong>File --&gt; Change current directory</strong>.</p>
+<h2>
+	Where Does Scilab Save My Files?</h2>
+<p>If you specify the absolute path to the file, it will be saved indicated by your path specification. If you specify the relative path to the file, it will be saved to the current working directory.</p>
+<h2>
+	From Where Does Scilab Read My Files?</h2>
+<p>If you specify the absolute path to your file, it will be read from the location indicated by your path specification. If you specify the relative path to the file, it will be read from the Current Working Directory.</p>
+<h1>
+	Saving Contents of the Workspace</h1>
+<h2>
+	Saving all variables to a file in the Current Working Directory</h2>
+<pre>
+<strong>--&gt;save(&#39;test.dat&#39;)</strong></pre><h2>
+	Saving all variables to a file in a directory of your choice</h2>
+<pre>
+<strong>--&gt;save(&#39;D:\Scilab\Project\test.dat&#39;) // These are comments. No need to type them. Windows operating system</strong></pre><pre>
+<strong>--&gt;save(&#39;~/prj/test.dat&#39;) // *nix operating systems</strong> </pre><h2>
+	Saving selected variables to a file in the Current Working Directory</h2>
+<pre>
+<strong>--&gt;save(&#39;test.dat&#39;, x, y, z) // x, y and z are the variables you wish to save to the file</strong></pre><h2>
+	Saving selected variables to a file in a directory of your choice</h2>
+<pre>
+<strong>--&gt;save(&#39;D:\Scilab\Project\test.dat&#39;, x, y, z)
+</strong></pre><pre>
+<strong>--&gt;save(&#39;~/prj/test.dat&#39;, x, y, z)</strong></pre><h2>
+	Loading variables from a file into the Workspace</h2>
+<pre>
+<strong>--&gt;load(&#39;test.dat&#39;) // Be sure to set Current Working Directory before using this command
+--&gt;load(&#39;C:\Users\Satish\My Documents\Scilab\test.dat&#39;) // Windows. Long path spec!
+--&gt;load(&#39;~/Scilab/test.dat&#39;) // *nix</strong></pre><h1>
+	Clearing Variables from the Workspace</h1>
+<h2>
+	Clearing selected variables from the Workspace</h2>
+<pre>
+<strong>--&gt;clear x, y, z</strong></pre><h2>
+	Clearing all variables from the Workspace</h2>
+<pre>
+<strong>--&gt;clear // Dangerous! Be sure you want to do this</strong></pre><h2>
+	Demonstrate save(), clear and load() work</h2>
+<pre>
+<strong>--&gt;a = 10; b = rand(3,4) * 100; c = sin(b); // Create some variables and initialize them
+--&gt;a, b, c // Verify the variables exist in your Workspace. Output not shown here
+--&gt;pwd // Make a note of your Current Working Directory. Change it now, if you wish
+--&gt;save(&#39;test.dat&#39;, a, b, c) // Make a note of the file in which yu saved the variables, and its directory
+--&gt;clear a b // NOTE: NO COMMA between a and b. Kill variables a and b from the Workspace
+--&gt;a // You will see error 4 Undefined variable
+--&gt;b // Same as above
+--&gt;c // Value of variable c is displayed
+--&gt;clear c // Kill variable c
+--&gt;c // Error
+--&gt;load(&#39;test.dat&#39;) // Read variables from file test.dat in your Current Working Directory
+--&gt;a, b, c // Everything is alright again
+</strong></pre><p><strong>Important Notes</strong></p>
+<ol>
+<li>
+		In the clear command, do not use comma to separate names of variables to be killed, separate them by whitespace. Comma is interpreted as end of statement, not as a separator.</li>
+<li>
+		It is a good habit to always note the Current Working Directory as soon as you start a Scilab session, and change it to whatever you want right in the beginning.</li>
+<li>
+		You can customize the Current Working Directory. See the section below.</li>
+</ol>
+<h1>
+	Customizing Scilab using Startup File</h1>
+<p>Scilab searches for a startup file when it starts, and executes the commands in that file. So customize this startup file to your requirements (create it if does not exist). The things you should know to do this successfully are:</p>
+<ol>
+<li>
+		Location of the startup file and its name</li>
+<li>
+		The commands you wish to put in this startup file</li>
+</ol>
+<h2>
+	Location and name of startup file</h2>
+<ol>
+<li>
+		The location of the startup file is defined in the Scilab Environment Variable SCIHOME. Display its value in the Scilab console and note it down. On Windows 7, it is usually <strong>C:\Users\&lt;Username&gt;\AppData\Roaming\Scilab\scilab-&lt;version&gt;</strong>. It will be different on Windows XP, but SCIHOME will correctly tell you what this directory is. On *nix it is usually <strong>/home/&lt;user&gt;</strong></li>
+<li>
+		Name of the startup file is .scilab.ini (Windows) or scilab (*nix, don&#39;t forget the . at the start)</li>
+</ol>
+<h2>
+	Commands to put in the startup file</h2>
+<ol>
+<li>
+		Your Current Working Directory. For example <strong>cd(&#39;C:\Users\Satish\Scilab&#39;);</strong></li>
+<li>
+		Any constants or variables you want to use in every Scilab session</li>
+<li>
+		Anything else you wish to customze</li>
+</ol>
+        </div>
+        </div>
+</div>
+  </div>
+  
+
+<ul class="links inline"><li class="p2pu_revisions first last"><a href="../../node/31357/revisions@destination=node%252F29940%252Fdocument%252F31357.html">revisions</a></li>
+</ul>
+</div>
+    </div>
+  
+      
+      </div>  
+</div>
+  </div>
+</div>
+</div>
+</div>
+                                        </div>
+          </div><!-- /content-column -->
+  
+                  </div>
+        
+                  
+      </div><!-- /page-body -->
+  
+              <div id="page-footer">
+          <div class="inner">
+            <div class="message">
+                            <div id='creative-commons'>
+                <div class='p2pu-cc-text'>
+                  <a href="../../../license.html">License Information</a> - <a href="../../../privacy.html">Privacy Guidelines</a> - <a href="../../../terms-of-use.html">Terms of Use</a>
+                </div><br>
+<div id='cc-logo'>
+
+<a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license" target="_blank"><img alt="Creative Commons License" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a>
+               <div class="p2pu-cc-text">Except where otherwise noted, all content on <span dct="http://purl.org/dc/terms/" property="title">p2pu.org</span> is
+licensed under a <a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license" target="_blank">Creative Commons Attribution-ShareAlike 3.0 Unported
+License</a>.</div>
+
+                </div>
+              </div>             </div>
+              <div id="block-user_voice-0" class="block block-user_voice">
+<!-- wrappers -->
+
+  <h2 class="title"><none></h2>
+  <div class="content"><script type="text/javascript">
+var uservoiceJsHost = ("https:" == document.location.protocol) ? "https://uservoice.com" : "http://cdn.uservoice.com";
+document.write(unescape("%3Cscript src='" + uservoiceJsHost + "/javascripts/widgets/tab.js' type='text/javascript'%3E%3C/script%3E"))
+</script>
+<script type="text/javascript">
+UserVoice.Tab.show({ 
+  key: 'p2pu',
+  host: 'p2pu.uservoice.com', 
+  forum: '47491', 
+  alignment: 'left',
+  background_color:'#F00', 
+  text_color: 'white',
+  hover_color: '#06C',
+  lang: 'en'
+})
+</script></div>
+  
+<!-- /wrappers -->
+</div>          </div>
+        </div>
+      
+  </div><!-- /page -->
+  
+  <script type="text/javascript">
+  var _sf_async_config=Drupal.settings.chartbeat;
+  (function(){
+    function loadChartbeat() {
+      window._sf_endpt=(new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src',
+         (("https:" == document.location.protocol) ? "https://s3.amazonaws.com/" : "http://") +
+         "static.chartbeat.com/js/chartbeat.js");
+      document.body.appendChild(e);
+    }
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+       loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+</script>
+<!--[if lt IE 8]><style type="text/css">div.popup-element{ display: inline;}</style><![endif]-->
+</body>
+</html>

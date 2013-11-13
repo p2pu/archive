@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/general/taxonomy/term/377/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Questions regarding week-01 assignment (n00b)</title>
+ <link>http://archive.p2pu.org/general/music-theory-introduction/discussion/questions-regarding-week-01-assignment-n00b</link>
+ <description>&lt;p&gt;Hi Mike&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;I did the reading assignment and just started the writing assignment. Below is a screenshot (also attached the file) from the musescore application. (I added the last c).&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&quot;musescore screenshot&quot; src=&quot;http://dl.dropbox.com/u/1606083/musictheory/a01.png&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;A couple questions regarding the assignment.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+		After the second clef (g), uses the 4th line while the last clef (which is also g) uses the above one. Is there any reason for the g above to be placed there?&lt;/li&gt;
+&lt;li&gt;
+&lt;/li&gt;&lt;/ul&gt;&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/general/music-theory-introduction&quot;&gt;Music Theory Introduction&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/general/music-theory-introduction/discussion/questions-regarding-week-01-assignment-n00b&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/general/music-theory-introduction/discussion/questions-regarding-week-01-assignment-n00b#comments</comments>
+ <category domain="http://archive.p2pu.org/general/taxonomy/term/377">General discussion</category>
+ <enclosure url="http://archive.p2pu.org/sites/archive.p2pu.org/files/a01.png" length="54170" type="image/png" />
+ <group domain="http://archive.p2pu.org/general/music-theory-introduction" xmlns="http://drupal.org/project/og">Music Theory Introduction</group>
+ <pubDate>Thu, 16 Sep 2010 14:33:30 +0000</pubDate>
+ <dc:creator>Akash Manohar J</dc:creator>
+ <guid isPermaLink="false">9240 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/webcraft/taxonomy/term/343/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Last class!  Thanks for participating!</title>
+ <link>http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/last-class-thanks-participating</link>
+ <description>&lt;p&gt;Greetings web-crafters!&lt;/p&gt;
+&lt;p&gt;The last class for Basic Python Web Services will be tonight at the&lt;br /&gt;
+usual time (21:00 PST).&amp;nbsp; Today, we&amp;#39;ll go over people&amp;#39;s projects.&amp;nbsp; Even&lt;br /&gt;
+if you&amp;#39;re not finished, I&amp;#39;m more curious about how far you got, what&lt;br /&gt;
+difficulties you had along the way, and what you&amp;#39;d like to do for the&lt;br /&gt;
+project in that mystical universe where everyone had time to work on&lt;br /&gt;
+it.&amp;nbsp; I also think it would be helpful (maybe even fun) to share with&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/beginning-python-webservices&quot;&gt;Beginning Python Webservices &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/last-class-thanks-participating&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/last-class-thanks-participating#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/343">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/beginning-python-webservices" xmlns="http://drupal.org/project/og">Beginning Python Webservices </group>
+ <pubDate>Thu, 21 Oct 2010 17:09:56 +0000</pubDate>
+ <dc:creator>Jeff Hammel</dc:creator>
+ <guid isPermaLink="false">11047 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>project idea and assignment: DUE TODAY!</title>
+ <link>http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/project-idea-and-assignment-due-today</link>
+ <description>&lt;p&gt;
+Please get to me your ideas for your project today.&amp;nbsp; It should be a webservice and follow the guidelines given in &lt;a href=&quot;http://k0s.org/mozilla/craft/project.html&quot; title=&quot;http://k0s.org/mozilla/craft/project.html&quot; rel=&quot;nofollow&quot;&gt;http://k0s.org/mozilla/craft/project.html&lt;/a&gt; . Also, the project is *DUE* on the 21st of this month, so only nine days away, so you should start working on it.&amp;nbsp; Feel free to send me interim copies or ping me in the IRC channel if you have any questions.Th&lt;/p&gt;
+&lt;p&gt;There&amp;#39;s also the second homework due tonight:&amp;nbsp; &lt;a href=&quot;http://k0s.org/mozilla/craft/questions.html&quot; title=&quot;http://k0s.org/mozilla/craft/questions.html&quot; rel=&quot;nofollow&quot;&gt;http://k0s.org/mozilla/craft/questions.html&lt;/a&gt; , questions 4-8&lt;/p&gt;
+&lt;p&gt;Let me know if you have any questions.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/beginning-python-webservices&quot;&gt;Beginning Python Webservices &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/project-idea-and-assignment-due-today#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/343">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/beginning-python-webservices" xmlns="http://drupal.org/project/og">Beginning Python Webservices </group>
+ <pubDate>Tue, 12 Oct 2010 15:16:12 +0000</pubDate>
+ <dc:creator>Jeff Hammel</dc:creator>
+ <guid isPermaLink="false">10396 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Templates class</title>
+ <link>http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/templates-class</link>
+ <description>&lt;p&gt;Last night, we went through&lt;br /&gt;
+&lt;a href=&quot;http://k0s.org/mozilla/craft/templates.html&quot; title=&quot;http://k0s.org/mozilla/craft/templates.html&quot; rel=&quot;nofollow&quot;&gt;http://k0s.org/mozilla/craft/templates.html&lt;/a&gt; . After this class, you&lt;br /&gt;
+should be able to:&lt;/p&gt;
+&lt;p&gt;&amp;nbsp;- make python packages&lt;br /&gt;
+&amp;nbsp;- use the webob_view template and look at how it works&lt;br /&gt;
+&amp;nbsp;- create JSON responses with python&lt;br /&gt;
+&amp;nbsp;- use Genshi HTML templates&lt;/p&gt;
+&lt;p&gt;I&amp;#39;ve assigned questions 4-8 from&lt;br /&gt;
+&lt;a href=&quot;http://k0s.org/mozilla/craft/questions.html&quot; title=&quot;http://k0s.org/mozilla/craft/questions.html&quot; rel=&quot;nofollow&quot;&gt;http://k0s.org/mozilla/craft/questions.html&lt;/a&gt; to test and reinforce this&lt;br /&gt;
+learning.&amp;nbsp; They will be due Tuesday, October 12.&amp;nbsp;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/beginning-python-webservices&quot;&gt;Beginning Python Webservices &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/templates-class&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/templates-class#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/343">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/beginning-python-webservices" xmlns="http://drupal.org/project/og">Beginning Python Webservices </group>
+ <pubDate>Wed, 06 Oct 2010 15:19:28 +0000</pubDate>
+ <dc:creator>Jeff Hammel</dc:creator>
+ <guid isPermaLink="false">10148 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Nullege - The Search Engine</title>
+ <link>http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/nullege-search-engine</link>
+ <description>&lt;p&gt;I found a search engine that is centered around python source code. Feel free to check it out!&amp;nbsp;&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&quot;http://nullege.com/&quot; rel=&quot;nofollow&quot;&gt;http://nullege.com/&lt;/a&gt;&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/beginning-python-webservices&quot;&gt;Beginning Python Webservices &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/nullege-search-engine#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/343">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/beginning-python-webservices" xmlns="http://drupal.org/project/og">Beginning Python Webservices </group>
+ <pubDate>Tue, 05 Oct 2010 20:43:33 +0000</pubDate>
+ <dc:creator>Caley Woods</dc:creator>
+ <guid isPermaLink="false">10118 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>web 200: anatomy of a request</title>
+ <link>http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/web-200-anatomy-request</link>
+ <description>&lt;p&gt;
+Parallel to what we&amp;#39;re doing (hence the post), &lt;a href=&quot;http://p2pu.org/webcraft/web-200-anatomy-request&quot; title=&quot;http://p2pu.org/webcraft/web-200-anatomy-request&quot; rel=&quot;nofollow&quot;&gt;http://p2pu.org/webcraft/web-200-anatomy-request&lt;/a&gt; had an assignment where they draw how the internet works.&amp;nbsp; The results are pretty interesting:&amp;nbsp; &lt;a href=&quot;http://www.flickr.com/photos/johndbritton/sets/72157624932677905/&quot; title=&quot;http://www.flickr.com/photos/johndbritton/sets/72157624932677905/&quot; rel=&quot;nofollow&quot;&gt;http://www.flickr.com/photos/johndbritton/sets/72157624932677905/&lt;/a&gt; . I&amp;#39;d encourage a quick browse for those that aren&amp;#39;t taking Web 200&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/beginning-python-webservices&quot;&gt;Beginning Python Webservices &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/web-200-anatomy-request#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/343">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/beginning-python-webservices" xmlns="http://drupal.org/project/og">Beginning Python Webservices </group>
+ <pubDate>Mon, 04 Oct 2010 22:12:09 +0000</pubDate>
+ <dc:creator>Jeff Hammel</dc:creator>
+ <guid isPermaLink="false">10081 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Class cancelled, September 30</title>
+ <link>http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/class-cancelled-september-30</link>
+ <description>&lt;p&gt;
+I don&amp;#39;t feel well so there will be no class tonight.&amp;nbsp; I&amp;#39;m sorry about that.&amp;nbsp; We&amp;#39;ll resume Tuesday&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/beginning-python-webservices&quot;&gt;Beginning Python Webservices &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/class-cancelled-september-30#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/343">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/beginning-python-webservices" xmlns="http://drupal.org/project/og">Beginning Python Webservices </group>
+ <pubDate>Thu, 30 Sep 2010 15:19:02 +0000</pubDate>
+ <dc:creator>Jeff Hammel</dc:creator>
+ <guid isPermaLink="false">9909 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Learning Python Resources</title>
+ <link>http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/learning-python-resources</link>
+ <description>&lt;p&gt;I didn&amp;#39;t know where to post this, so I imagined that create a new thread were a better idea =P, I thought about post them in &lt;a href=&quot;http://p2pu.org/node/5635/forums/9838&quot; rel=&quot;nofollow&quot;&gt;Coding Helpers&lt;/a&gt;, but I thought that this points somewhere different.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/beginning-python-webservices&quot;&gt;Beginning Python Webservices &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/learning-python-resources&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/learning-python-resources#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/343">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/beginning-python-webservices" xmlns="http://drupal.org/project/og">Beginning Python Webservices </group>
+ <pubDate>Wed, 29 Sep 2010 20:39:00 +0000</pubDate>
+ <dc:creator>Pablo Olmos de Aguilera C.</dc:creator>
+ <guid isPermaLink="false">9875 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Class 4: Python part 2 and where we are now</title>
+ <link>http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/class-4-python-part-2-and-where-we-are-now</link>
+ <description>&lt;p&gt;Last night I finished up the basic Python + the Web lesson:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://k0s.org/mozilla/craft/python.html&quot; title=&quot;http://k0s.org/mozilla/craft/python.html&quot; rel=&quot;nofollow&quot;&gt;http://k0s.org/mozilla/craft/python.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;So at this point, you&amp;#39;ve seen several examples of web services&lt;br /&gt;
+(albeit, primative ones) and have seen how WebOb makes web programming&lt;br /&gt;
+easy.&amp;nbsp; As an important self-check, I would advise you to go through&lt;br /&gt;
+the examples in this lesson and make sure you can run the code and&lt;br /&gt;
+understand it.&amp;nbsp; Try poking at it, making it do different things.&amp;nbsp; Hit&lt;br /&gt;
+it with your web browser.&amp;nbsp; Put a pdb in and look at the request&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/beginning-python-webservices&quot;&gt;Beginning Python Webservices &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/class-4-python-part-2-and-where-we-are-now&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/class-4-python-part-2-and-where-we-are-now#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/343">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/beginning-python-webservices" xmlns="http://drupal.org/project/og">Beginning Python Webservices </group>
+ <pubDate>Wed, 29 Sep 2010 16:21:46 +0000</pubDate>
+ <dc:creator>Jeff Hammel</dc:creator>
+ <guid isPermaLink="false">9865 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Coding Helpers</title>
+ <link>http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/coding-helpers</link>
+ <description>&lt;p&gt;
+	I&amp;#39;ve found the following 2 resources to be great at helping me with Python:&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/beginning-python-webservices&quot;&gt;Beginning Python Webservices &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/coding-helpers&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/coding-helpers#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/343">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/beginning-python-webservices" xmlns="http://drupal.org/project/og">Beginning Python Webservices </group>
+ <pubDate>Wed, 29 Sep 2010 04:04:54 +0000</pubDate>
+ <dc:creator>Caley Woods</dc:creator>
+ <guid isPermaLink="false">9838 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Class 3: Python, part I</title>
+ <link>http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/class-3-python-part-i</link>
+ <description>&lt;p&gt;Hi class,&lt;/p&gt;
+&lt;p&gt;I hope people are learning :)&lt;/p&gt;
+&lt;p&gt;Last night, we started covering python basics:&lt;br /&gt;
+&lt;a href=&quot;http://k0s.org/mozilla/craft/python.html&quot; title=&quot;http://k0s.org/mozilla/craft/python.html&quot; rel=&quot;nofollow&quot;&gt;http://k0s.org/mozilla/craft/python.html&lt;/a&gt; . We got up to (but not&lt;br /&gt;
+including) virtualenv&lt;br /&gt;
+(&lt;a href=&quot;http://k0s.org/mozilla/craft/python.html#virtualenv&quot; title=&quot;http://k0s.org/mozilla/craft/python.html#virtualenv&quot; rel=&quot;nofollow&quot;&gt;http://k0s.org/mozilla/craft/python.html#virtualenv&lt;/a&gt;), so we&amp;#39;ll start with&lt;br /&gt;
+this next time.&lt;/p&gt;
+&lt;p&gt;At this point in the course:&lt;br /&gt;
+&amp;nbsp;* be sure you have a computer with python installed&lt;br /&gt;
+&amp;nbsp;* make sure you can run the interactive shell and can follow along&lt;br /&gt;
+&amp;nbsp;&amp;nbsp; with the a8e.py program&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/beginning-python-webservices&quot;&gt;Beginning Python Webservices &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/class-3-python-part-i&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/beginning-python-webservices/discussion/class-3-python-part-i#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/343">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/beginning-python-webservices" xmlns="http://drupal.org/project/og">Beginning Python Webservices </group>
+ <pubDate>Fri, 24 Sep 2010 16:03:13 +0000</pubDate>
+ <dc:creator>Jeff Hammel</dc:creator>
+ <guid isPermaLink="false">9642 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>

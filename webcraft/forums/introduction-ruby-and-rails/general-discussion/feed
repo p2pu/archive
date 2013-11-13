@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xml:base="http://archive.p2pu.org"  xmlns:dc="http://purl.org/dc/elements/1.1/">
+<channel>
+ <title>P2PU Archive - General discussion</title>
+ <link>http://archive.p2pu.org/webcraft/taxonomy/term/467/0</link>
+ <description></description>
+ <language>p2pu</language>
+<item>
+ <title>Introductions</title>
+ <link>http://archive.p2pu.org/webcraft/introduction-ruby-and-rails/discussion/introductions</link>
+ <description>&lt;p&gt;Hi all. &amp;nbsp;We&amp;#39;ll mostly use the &lt;a href=&quot;http://groups.google.com/group/p2pu-rubyrails-jan2011&quot; rel=&quot;nofollow&quot;&gt;Google Group&lt;/a&gt;&amp;nbsp;for discussions, but because this kind of message where I want everyone to respond would generate a lot of noise, I&amp;#39;m going to use the P2PU forums.&lt;/p&gt;
+&lt;p&gt;I think it&amp;#39;d be great for everyone to give a short introduction of himself or herself to the group.&lt;/p&gt;
+&lt;p&gt;This is a public forum, so only disclose as much information as you feel comfortable with.&lt;/p&gt;
+&lt;p&gt;Feel free to structure it like this, or go free form:&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/introduction-ruby-and-rails&quot;&gt;Introduction to Ruby and Rails&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/introduction-ruby-and-rails/discussion/introductions&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/introduction-ruby-and-rails/discussion/introductions#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/467">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/introduction-ruby-and-rails" xmlns="http://drupal.org/project/og">Introduction to Ruby and Rails</group>
+ <pubDate>Wed, 19 Jan 2011 18:24:55 +0000</pubDate>
+ <dc:creator>Andy Lindeman</dc:creator>
+ <guid isPermaLink="false">22883 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Regarding JRuby</title>
+ <link>http://archive.p2pu.org/webcraft/introduction-ruby-and-rails/discussion/regarding-jruby</link>
+ <description>&lt;p&gt;Just curious, as I&amp;#39;m new to Ruby in general, but what is the difference between JRuby and the standard Ruby interpreter? I know the primary difference is that JRuby runs inside the Java Virtual Machinem while standard Ruby is written in C. I&amp;#39;m just wondering whether there&amp;#39;s a specific difference that made it required for the course over the standard Ruby distribution.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/introduction-ruby-and-rails&quot;&gt;Introduction to Ruby and Rails&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/introduction-ruby-and-rails/discussion/regarding-jruby#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/467">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/introduction-ruby-and-rails" xmlns="http://drupal.org/project/og">Introduction to Ruby and Rails</group>
+ <pubDate>Wed, 19 Jan 2011 00:17:29 +0000</pubDate>
+ <dc:creator>Adam Collado</dc:creator>
+ <guid isPermaLink="false">22528 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Intro to Git</title>
+ <link>http://archive.p2pu.org/webcraft/introduction-ruby-and-rails/discussion/intro-git</link>
+ <description>&lt;p&gt;Hey guys,&lt;/p&gt;
+&lt;p&gt;I noticed a bunch of questions about using git over on the signup thread, so I thought I&amp;#39;d share something that was really helpful to me in getting up and running with git and github.&lt;br /&gt;
+&lt;a href=&quot;http://gitimmersion.com/&quot; rel=&quot;nofollow&quot;&gt;&lt;br /&gt;
+Git Immersion&lt;/a&gt;&amp;nbsp;is a great visual walkthrough for setting up and using Git, and I strongly recommend that you guys take a look at it. Playing around with commits, branching, etc. was invaluable, and knowing git is definitely a necessity for coding with Ruby/RoR&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/introduction-ruby-and-rails&quot;&gt;Introduction to Ruby and Rails&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/introduction-ruby-and-rails/discussion/intro-git#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/467">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/introduction-ruby-and-rails" xmlns="http://drupal.org/project/og">Introduction to Ruby and Rails</group>
+ <pubDate>Sat, 15 Jan 2011 21:55:51 +0000</pubDate>
+ <dc:creator>Henry Liu</dc:creator>
+ <guid isPermaLink="false">20869 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Changes to Sign Up Task</title>
+ <link>http://archive.p2pu.org/webcraft/introduction-ruby-and-rails/discussion/changes-sign-task</link>
+ <description>&lt;p&gt;&lt;span class=&quot;Apple-style-span&quot;&gt;All--&amp;nbsp;&lt;br /&gt;
+&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;&lt;/p&gt;&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/introduction-ruby-and-rails&quot;&gt;Introduction to Ruby and Rails&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/introduction-ruby-and-rails/discussion/changes-sign-task&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/introduction-ruby-and-rails/discussion/changes-sign-task#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/467">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/introduction-ruby-and-rails" xmlns="http://drupal.org/project/og">Introduction to Ruby and Rails</group>
+ <pubDate>Thu, 13 Jan 2011 22:42:42 +0000</pubDate>
+ <dc:creator>Andy Lindeman</dc:creator>
+ <guid isPermaLink="false">19584 at http://archive.p2pu.org</guid>
+</item>
+<item>
+ <title>Fonts.</title>
+ <link>http://archive.p2pu.org/webcraft/introduction-ruby-and-rails/discussion/fonts</link>
+ <description>&lt;p&gt;
+	I know we haven&amp;#39;t started learning yet and this topic doesn&amp;#39;t really apply directly to Ruby on Rails but more to programming / development in general. I look at quite a bit of code on a day to day basis whether it&amp;#39;s something i&amp;#39;m messing with at work trying to write a utility to help me be more productive or something i&amp;#39;m hacking together (literally, i&amp;#39;m just learning) at home I think the font that you pick is important.&lt;/p&gt;
+&lt;div class=&quot;og_rss_groups&quot;&gt;&lt;ul class=&quot;links&quot;&gt;&lt;li class=&quot;og_links first last&quot;&gt;&lt;a href=&quot;/webcraft/introduction-ruby-and-rails&quot;&gt;Introduction to Ruby and Rails&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;&lt;/div&gt;&lt;p&gt;&lt;a href=&quot;http://archive.p2pu.org/webcraft/introduction-ruby-and-rails/discussion/fonts&quot; target=&quot;_blank&quot;&gt;read more&lt;/a&gt;&lt;/p&gt;</description>
+ <comments>http://archive.p2pu.org/webcraft/introduction-ruby-and-rails/discussion/fonts#comments</comments>
+ <category domain="http://archive.p2pu.org/webcraft/taxonomy/term/467">General discussion</category>
+ <group domain="http://archive.p2pu.org/webcraft/introduction-ruby-and-rails" xmlns="http://drupal.org/project/og">Introduction to Ruby and Rails</group>
+ <pubDate>Wed, 12 Jan 2011 15:28:29 +0000</pubDate>
+ <dc:creator>Caley Woods</dc:creator>
+ <guid isPermaLink="false">17274 at http://archive.p2pu.org</guid>
+</item>
+</channel>
+</rss>
